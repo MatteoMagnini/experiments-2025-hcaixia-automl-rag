@@ -1,3 +1,10 @@
+documents/*.txt
+chroma/faq
+data/*.csv
+data/*.tsv
+
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

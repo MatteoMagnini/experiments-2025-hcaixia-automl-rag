@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "experiments"
+version = "0.1.0"
+description = "Experiments for the paper \"Enhancing Trustworthy Text Generation in Digital Health\" for AIME 2025"
+authors = ["Matteo Magnini <matteo.magnini@unibo.it>"]
+license = "Apache-2.0"
+readme = "README.md"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+smac = "^2.3.0"
+configspace = "^1.2.1"
+fire = "^0.7.0"
+chromadb = "^0.6.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
