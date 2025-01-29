@@ -2,6 +2,7 @@ documents/*.txt
 chroma/faq
 data/*.csv
 data/*.tsv
+**/smac3_output
 
 .idea
 

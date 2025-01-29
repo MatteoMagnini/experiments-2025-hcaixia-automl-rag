@@ -21,6 +21,10 @@ def main(chunk_length: int, overlap_percentage: float, embedder: str):
     # Create the subfolder for the embeddings
     faq_embedder_folder = FAQ_DATABASE / embedder
     faq_embedder_folder.mkdir(exist_ok=True)  # noqa
+    faq_embedder_folder /= str(chunk_length)
+    faq_embedder_folder.mkdir(exist_ok=True)  # noqa
+    faq_embedder_folder /= str(overlap)
+    faq_embedder_folder.mkdir(exist_ok=True)  # noqa
     # Embed every .txt file in the documents folder
     # Create a lookup table for the chunks to speed up operations
     # Create a lookup table for the chunks-documents to speed up operations

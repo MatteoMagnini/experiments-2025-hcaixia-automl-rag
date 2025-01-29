@@ -16,7 +16,7 @@ def incumbents_to_dataframe(incumbents: list) -> pd.DataFrame:
 
 def save_incumbents(smac: HPOFacade, incumbents: list, filename: str):
     df = []
-    costs_names = ["1 - accuracy", "demographic_parity"]
+    costs_names = ["1 - accuracy", "number of documents"]
     for incumbent in incumbents:
         config = incumbent.get_dictionary()
         costs = {k: v for k, v in zip(costs_names, smac.runhistory.average_cost(incumbent))}

@@ -1,4 +1,7 @@
+from random import seed
+from time import time
 import fire
+import pandas as pd
 from smac import Scenario
 from ConfigSpace import (
     Configuration,
@@ -6,22 +9,87 @@ from ConfigSpace import (
     Float,
     Integer, Categorical
 )
+from langchain_ollama import OllamaEmbeddings
 from smac.multi_objective.parego import ParEGO
 from smac import HyperparameterOptimizationFacade as HPOFacade
+from data import PATH as DATA_PATH, TRAINING_FILE_NAME
 from results import save_incumbents
-from utils import ResultSingleton, plot_pareto
+from utils import ResultSingleton, plot_pareto, OLLAMA_URL, OLLAMA_PORT
+from langchain_chroma import Chroma
+from chroma import PATH as CHROMA_PATH
+from chroma.__main__ import main as create_embeddings
+from langchain_community.retrievers import BM25Retriever
+
+
+TRAINING_FILE = DATA_PATH / TRAINING_FILE_NAME
 
 
 def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> dict[str, float]:
-    pass
+    # Check if the embeddings are already available
+    print(f"Running experiment with config: {config}")
+    overlap = config["chunk_length"] / config["overlap_percentage"]
+    embeddings_path = CHROMA_PATH / config["embedder"]
+    embeddings_path /= str(config["chunk_length"])
+    embeddings_path /= str(overlap)
+    if embeddings_path.exists():
+        print(f"Skipping embeddings creation for {config['embedder']} with chunk length {config['chunk_length']} and overlap {overlap}")
+    else:
+        create_embeddings(config["chunk_length"], config["overlap_percentage"], config["embedder"])
+
+    # Retrieve the embeddings for the training set
+    training_questions = pd.read_csv(TRAINING_FILE)
+    embeddings = OllamaEmbeddings(model=config["embedder"], base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
+    vectorstore = Chroma(persist_directory=str(embeddings_path), embedding_function=embeddings)
+
+    ## Retriever part
+    number_of_docs = config["num_docs"]
+    retriever_type = config["retriever"]
+    match retriever_type:
+        case "base":
+            retriever = vectorstore.as_retriever(search_kwargs={'k': number_of_docs})
+        case "BM25":
+            retriever = BM25Retriever(vectorstore, search_kwargs={'k': number_of_docs})
+        case _:
+            raise ValueError(f"Unknown retriever type {retriever_type}")
+
+    ## Retrieve
+    results = []
+    print("Retrieving...")
+    start_time = time()
+    for i, question in training_questions.iterrows():
+        results.append(retriever.retrieve(question["question"]))
+    end_time = time()
+    retrieval_time = end_time - start_time
+    print(f"Retrieval time: {retrieval_time}")
+
+    ## Evaluate
+    ## Each question has been generated from a document (see the id column)
+    ## Each chunk comes from a document (see the document_id column in the lookup table)
+    ## If at least one chunk from the retrieved documents is from the same document as the question, the retrieval is considered correct
+    correct_retrievals = 0
+    chunk_lookup = pd.read_csv(embeddings_path / "chunk_lookup.csv")
+    chunk_document_lookup = pd.read_csv(embeddings_path / "chunk_documents_lookup.csv")
+    for i, question in training_questions.iterrows():
+        question_document_id = question["id"]
+        retrieved_documents = [chunk_document_lookup.loc[chunk_lookup[chunk_lookup["chunk"] == result["chunk"]].index[0]]["document_id"] for result in results[i]]
+        if question_document_id in retrieved_documents:
+            correct_retrievals += 1
+    accuracy = correct_retrievals / len(training_questions)
+    print(f"Accuracy: {accuracy}")
+    return {
+        "1 - accuracy": 1 - accuracy,
+        "number of documents": number_of_docs
+    }
+
 
 
 def main():
+    seed(0)
     cs = ConfigurationSpace()
-    chunk_length = Integer("chunk_length", (200, 1000), default=200)
+    chunk_length = Integer("chunk_length", (100, 500), default=100)
     overlap_percentage = Float("overlap_percentage", (0.1, 0.5), default=0.1)
     retriever = Categorical("retriever", ["base", "BM25"], default="base")
-    embedder = Categorical("embedder", ["mxbai-embed-large", "nomic-embed-text"], default="base")
+    embedder = Categorical("embedder", ["mxbai-embed-large", "nomic-embed-text"], default="nomic-embed-text")
     num_docs = Integer("num_docs", (1, 20), default=1)
     cs.add([chunk_length, overlap_percentage, retriever, embedder, num_docs])
     objectives = ["1 - accuracy", "number of documents"]
