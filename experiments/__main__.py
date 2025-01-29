@@ -1,5 +1,6 @@
 from random import seed
 from time import time
+from langchain_core.documents import Document
 import fire
 import pandas as pd
 from smac import Scenario
@@ -16,7 +17,7 @@ from data import PATH as DATA_PATH, TRAINING_FILE_NAME
 from results import save_incumbents
 from utils import ResultSingleton, plot_pareto, OLLAMA_URL, OLLAMA_PORT
 from langchain_chroma import Chroma
-from chroma import PATH as CHROMA_PATH
+from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ
 from chroma.__main__ import main as create_embeddings
 from langchain_community.retrievers import BM25Retriever
 
@@ -27,8 +28,9 @@ TRAINING_FILE = DATA_PATH / TRAINING_FILE_NAME
 def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> dict[str, float]:
     # Check if the embeddings are already available
     print(f"Running experiment with config: {config}")
-    overlap = config["chunk_length"] / config["overlap_percentage"]
-    embeddings_path = CHROMA_PATH / config["embedder"]
+    overlap = int(config["chunk_length"] * config["overlap_percentage"])
+    embeddings_path = CHROMA_PATH / DATABASE_NAME_FAQ
+    embeddings_path /= config["embedder"]
     embeddings_path /= str(config["chunk_length"])
     embeddings_path /= str(overlap)
     if embeddings_path.exists():
@@ -48,7 +50,10 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
         case "base":
             retriever = vectorstore.as_retriever(search_kwargs={'k': number_of_docs})
         case "BM25":
-            retriever = BM25Retriever(vectorstore, search_kwargs={'k': number_of_docs})
+            chunks = pd.read_csv(embeddings_path / "chunk_lookup.csv")
+            chunks = [Document(chunk) for chunk in chunks["chunk"]]
+            retriever = BM25Retriever.from_documents(chunks)
+            retriever.k = number_of_docs
         case _:
             raise ValueError(f"Unknown retriever type {retriever_type}")
 
@@ -57,7 +62,8 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
     print("Retrieving...")
     start_time = time()
     for i, question in training_questions.iterrows():
-        results.append(retriever.retrieve(question["question"]))
+        print(f"Retrieving question {i}")
+        results.append(retriever.invoke(question["question"]))
     end_time = time()
     retrieval_time = end_time - start_time
     print(f"Retrieval time: {retrieval_time}")
@@ -71,6 +77,7 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
     chunk_document_lookup = pd.read_csv(embeddings_path / "chunk_documents_lookup.csv")
     for i, question in training_questions.iterrows():
         question_document_id = question["id"]
+        # TODO: check this!
         retrieved_documents = [chunk_document_lookup.loc[chunk_lookup[chunk_lookup["chunk"] == result["chunk"]].index[0]]["document_id"] for result in results[i]]
         if question_document_id in retrieved_documents:
             correct_retrievals += 1

@@ -3,6 +3,7 @@ import pandas as pd
 from pathlib import Path
 from results import PATH as RESULT_PATH
 from smac import HyperparameterOptimizationFacade as HPOFacade
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from ConfigSpace import Configuration
 import matplotlib.pyplot as plt
 
@@ -10,6 +11,18 @@ import matplotlib.pyplot as plt
 PATH = Path(__file__).parents[0]
 OLLAMA_URL = "clusters.almaai.unibo.it"
 OLLAMA_PORT = 11434
+HUGGINGFACE_NAME_MAP = {
+    "nomic-embed-text": "nomic-ai/nomic-embed-text-v1",
+    "mxbai-embed-large": "mixedbread-ai/mxbai-embed-large-v1",
+}
+
+
+class HuggingFaceEmbeddingAdapter:
+    def __init__(self, model_name: str, trust_remote_code: bool = False):
+        self.embedding_model = HuggingFaceEmbedding(model_name=model_name, trust_remote_code=trust_remote_code, embed_batch_size=1024)
+
+    def embed_documents(self, documents: list) -> list:
+        return self.embedding_model.get_text_embedding_batch(documents)
 
 
 class ResultSingleton:

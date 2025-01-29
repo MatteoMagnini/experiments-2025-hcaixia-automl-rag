@@ -7,14 +7,13 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ, CHUNK_LOOKUP_FILE_NAME, CHUNK_DOCUMENTS_LOOKUP_FILE_NAME
 from documents import PATH as DOCUMENT_PATH, LOOKUP_FILE_NAME
-from utils import OLLAMA_URL, OLLAMA_PORT
-
+from utils import OLLAMA_URL, OLLAMA_PORT, HUGGINGFACE_NAME_MAP, HuggingFaceEmbeddingAdapter
 
 LOOKUP_FILE = DOCUMENT_PATH / LOOKUP_FILE_NAME
 FAQ_DATABASE = CHROMA_PATH / DATABASE_NAME_FAQ
 
 
-def main(chunk_length: int, overlap_percentage: float, embedder: str):
+def main(chunk_length: int, overlap_percentage: float, embedder: str, provider: str = "huggingface"):
     overlap = int(chunk_length * overlap_percentage)
     # Create the folder for the FAQ database if it does not exist
     FAQ_DATABASE.mkdir(exist_ok=True)
@@ -46,20 +45,18 @@ def main(chunk_length: int, overlap_percentage: float, embedder: str):
     chunk_lookup.columns = ["chunk"]
     chunk_lookup.to_csv(faq_embedder_folder / CHUNK_LOOKUP_FILE_NAME, index=True, index_label="id")
     # Embed the chunks
-    embeddings = OllamaEmbeddings(model=embedder, base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
+    match provider:
+        case "huggingface":
+            embeddings = HuggingFaceEmbeddingAdapter(model_name=HUGGINGFACE_NAME_MAP[embedder], trust_remote_code=True)
+        case "ollama":
+            embeddings = OllamaEmbeddings(model=embedder, base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
+        case _:
+            raise ValueError(f"Unknown provider {provider}")
     vectorstore = Chroma(persist_directory=str(faq_embedder_folder), embedding_function=embeddings)
-
-    def batch_data(data, bs):
-        for j in range(0, len(data), bs):
-            yield data[j:j + bs]
 
     print(f'Starting to embed {len(chunks)} chunks with {embedder}')
     start_time = time()
-
-    batch_size = 100
-    for i, batch in enumerate(batch_data(chunks, batch_size)):
-        print(f"Processing batch {i}/{len(chunks) // batch_size}")
-        vectorstore.add_documents(batch)
+    vectorstore.add_documents(chunks)
     end_time = time()
     execution_time = end_time - start_time
     print(f"Execution time: {execution_time}")
