@@ -8,6 +8,14 @@ from langchain_chroma import Chroma
 from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ, CHUNK_LOOKUP_FILE_NAME, CHUNK_DOCUMENTS_LOOKUP_FILE_NAME
 from documents import PATH as DOCUMENT_PATH, LOOKUP_FILE_NAME
 from utils import OLLAMA_URL, OLLAMA_PORT, HUGGINGFACE_NAME_MAP, HuggingFaceEmbeddingAdapter
+import os
+import unicodedata
+from pathlib import Path
+
+
+def normalize_path(path: str) -> Path:
+    return Path(unicodedata.normalize("NFD", str(path)))
+
 
 LOOKUP_FILE = DOCUMENT_PATH / LOOKUP_FILE_NAME
 FAQ_DATABASE = CHROMA_PATH / DATABASE_NAME_FAQ
@@ -31,7 +39,7 @@ def main(chunk_length: int, overlap_percentage: float, embedder: str, provider: 
     document_lookup = pd.read_csv(LOOKUP_FILE, index_col="id")
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_length, chunk_overlap=overlap)
     documents = [
-        Document(page_content=open(DOCUMENT_PATH / file_name[0], "r").read(), metadata={"document_id": id})
+        Document(page_content=open(normalize_path(DOCUMENT_PATH / file_name[0]), "r").read(), metadata={"document_id": id})
         for id, file_name in document_lookup.iterrows()
     ]
     chunks = text_splitter.split_documents(documents)
@@ -56,7 +64,11 @@ def main(chunk_length: int, overlap_percentage: float, embedder: str, provider: 
 
     print(f'Starting to embed {len(chunks)} chunks with {embedder}')
     start_time = time()
-    vectorstore.add_documents(chunks)
+
+    batch_size = 1024
+    for i in range(0, len(chunks), batch_size):
+        batch = chunks[i:i + batch_size]
+        vectorstore.add_documents(batch)
     end_time = time()
     execution_time = end_time - start_time
     print(f"Execution time: {execution_time}")
