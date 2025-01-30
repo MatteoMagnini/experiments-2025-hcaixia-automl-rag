@@ -60,13 +60,10 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
     ## Retrieve
     results = []
     print("Retrieving...")
-    batch_size = 1024
-    questions = training_questions["question"]
     start_time = time()
-    for j in range(0, len(questions), batch_size):
-        print(f"Retrieving batch {j}/{len(questions)//batch_size}")
-        batch_results = retriever.batch(list(questions[j:j + batch_size]))
-        results.extend(batch_results)
+    for i, question in training_questions.iterrows():
+        print(f"Retrieving question {i}")
+        results.append(retriever.batch(question["question"]))
     end_time = time()
     retrieval_time = end_time - start_time
     print(f"Retrieval time: {retrieval_time}")
