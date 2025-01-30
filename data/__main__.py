@@ -26,8 +26,8 @@ def main():
     df = chunk_df[["Domanda_1", "File"]].copy()
     df.rename(columns={"Domanda_1": "question", "File": "file_name"}, inplace=True)
     df = df.merge(lookup_df, left_on="file_name", right_on="file_name")
-    train_df = df.sample(n=5000, random_state=0)
-    test_df = df.drop(train_df.index).sample(n=1000, random_state=0)
+    train_df = df.sample(n=200, random_state=0)
+    test_df = df.drop(train_df.index).sample(n=50, random_state=0)
     train_df.to_csv(TRAIN_FILE, index=False)
     test_df.to_csv(TEST_FILE_NAME, index=False)
 

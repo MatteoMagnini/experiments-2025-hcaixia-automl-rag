@@ -15,17 +15,20 @@ from smac.multi_objective.parego import ParEGO
 from smac import HyperparameterOptimizationFacade as HPOFacade
 from data import PATH as DATA_PATH, TRAINING_FILE_NAME
 from results import save_incumbents
-from utils import ResultSingleton, plot_pareto, OLLAMA_URL, OLLAMA_PORT
+from utils import ResultSingleton, plot_pareto, OLLAMA_URL, OLLAMA_PORT, HuggingFaceEmbeddingAdapter, \
+    HUGGINGFACE_NAME_MAP
 from langchain_chroma import Chroma
 from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ
 from chroma.__main__ import main as create_embeddings
 from langchain_community.retrievers import BM25Retriever
+from results.cache import PATH as CACHE_PATH
 
 
 TRAINING_FILE = DATA_PATH / TRAINING_FILE_NAME
 
 
-def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> dict[str, float]:
+def run_experiment(config: Configuration, seed: int = 0, budget: int = 100, provider: str = "huggingface") -> dict[str, float]:
+    singleton = ResultSingleton()
     # Check if the embeddings are already available
     print(f"Running experiment with config: {config}")
     overlap = int(config["chunk_length"] * config["overlap_percentage"])
@@ -40,7 +43,14 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
 
     # Retrieve the embeddings for the training set
     training_questions = pd.read_csv(TRAINING_FILE)
-    embeddings = OllamaEmbeddings(model=config["embedder"], base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
+    match provider:
+        case "huggingface":
+            embeddings = HuggingFaceEmbeddingAdapter(model_name=HUGGINGFACE_NAME_MAP[config["embedder"]], trust_remote_code=True)
+        case "ollama":
+            embeddings = OllamaEmbeddings(model=config["embedder"], base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
+        case _:
+            raise ValueError(f"Unknown provider {provider}")
+
     vectorstore = Chroma(persist_directory=str(embeddings_path), embedding_function=embeddings)
 
     ## Retriever part
@@ -58,14 +68,15 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
             raise ValueError(f"Unknown retriever type {retriever_type}")
 
     ## Retrieve
-    results = []
+    results: list[list] = []
     print("Retrieving...")
     batch_size = 128
     questions = training_questions["question"]
     start_time = time()
     for j in range(0, len(questions), batch_size):
         print(f"Retrieving batch {j} to {j + batch_size}")
-        batch_results = retriever.batch(list(questions[j:j + batch_size]))
+        batch_questions = list(questions[j:j + batch_size])
+        batch_results = retriever.batch(batch_questions)
         results.extend(batch_results)
     end_time = time()
     retrieval_time = end_time - start_time
@@ -78,14 +89,31 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100) -> d
     correct_retrievals = 0
     chunk_lookup = pd.read_csv(embeddings_path / "chunk_lookup.csv")
     chunk_document_lookup = pd.read_csv(embeddings_path / "chunk_documents_lookup.csv")
+    # Lookup to dictionary
+    chunk_lookup = {row["chunk"]: row["id"] for i, row in chunk_lookup.iterrows()}
+    chunk_document_lookup = {row["chunk_id"]: row["document_id"] for i, row in chunk_document_lookup.iterrows()}
     for i, question in training_questions.iterrows():
         question_document_id = question["id"]
-        # TODO: check this!
-        retrieved_documents = [chunk_document_lookup.loc[chunk_lookup[chunk_lookup["chunk"] == result["chunk"]].index[0]]["document_id"] for result in results[i]]
+        retrieved_documents = [chunk_document_lookup[chunk_lookup[result.page_content]] for result in results[i]]
         if question_document_id in retrieved_documents:
             correct_retrievals += 1
     accuracy = correct_retrievals / len(training_questions)
     print(f"Accuracy: {accuracy}")
+    # Save to the result cache
+    result = {
+        "1 - accuracy": 1 - accuracy,
+        "number of documents": number_of_docs
+    }
+    configuration = {
+        "chunk_length": config["chunk_length"],
+        "overlap_percentage": config["overlap_percentage"],
+        "retriever": retriever_type,
+        "embedder": config["embedder"],
+    }
+    conf_and_result = configuration | result
+    singleton.append(conf_and_result)
+    df_result = pd.DataFrame([conf_and_result])
+    df_result.to_csv(CACHE_PATH / "results.csv", mode="a", header=False, index=False)
     return {
         "1 - accuracy": 1 - accuracy,
         "number of documents": number_of_docs
@@ -103,6 +131,8 @@ def main():
     num_docs = Integer("num_docs", (1, 20), default=1)
     cs.add([chunk_length, overlap_percentage, retriever, embedder, num_docs])
     objectives = ["1 - accuracy", "number of documents"]
+    # Clear the cache
+    open(CACHE_PATH / "results.csv", "w").close()
 
     scenario = Scenario(
         cs,

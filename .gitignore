@@ -3,6 +3,7 @@ chroma/faq
 data/*.csv
 data/*.tsv
 **/smac3_output
+results/cache/*.csv
 
 .idea
 

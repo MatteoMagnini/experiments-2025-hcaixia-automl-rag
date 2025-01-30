@@ -38,11 +38,11 @@ class ResultSingleton:
     def append(self, result: dict[int: dict[str: float]]) -> None:
         self.results.append(result)
 
-    def save_results(self, name: str) -> None:
+    def save_results(self, name: str, path: PATH = RESULT_PATH) -> None:
         # Convert to DataFrame
         # Every dictionary has the same keys
         df = pd.DataFrame(self.results)
-        df.to_csv(RESULT_PATH / f"{name}_results.csv", index=False)
+        df.to_csv(path / f"{name}_results.csv", index=False)
 
     def check_if_results_exist(self, name: str) -> bool:
         return (RESULT_PATH / f"{name}_results.csv").exists()
