@@ -24,6 +24,9 @@ class HuggingFaceEmbeddingAdapter:
     def embed_documents(self, documents: list) -> list:
         return self.embedding_model.get_text_embedding_batch(documents)
 
+    def embed_query(self, query: str) -> list:
+        return self.embedding_model.get_text_embedding_batch([query])[0]
+
 
 class ResultSingleton:
     _instance = None
