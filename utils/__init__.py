@@ -15,6 +15,9 @@ OLLAMA_PORT = 11434
 HUGGINGFACE_NAME_MAP = {
     "nomic-embed-text": "nomic-ai/nomic-embed-text-v1",
     "mxbai-embed-large": "mixedbread-ai/mxbai-embed-large-v1",
+    "bert-base-cased": "google-bert/bert-base-cased",
+    "bert-base-italian-xxl-cased": "dbmdz/bert-base-italian-xxl-cased",
+    "biobert-base-cased": "dmis-lab/biobert-base-cased-v1.1"
 }
 
 

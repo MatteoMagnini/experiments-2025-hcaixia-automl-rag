@@ -14,13 +14,15 @@ from langchain_ollama import OllamaEmbeddings
 from smac.multi_objective.parego import ParEGO
 from smac import HyperparameterOptimizationFacade as HPOFacade
 from data import PATH as DATA_PATH, TRAINING_FILE_NAME
+from experiments import EMBEDDERS
 from results import save_incumbents
-from utils import ResultSingleton, plot_pareto, OLLAMA_URL, OLLAMA_PORT, HuggingFaceEmbeddingAdapter, \
+from utils import ResultSingleton, OLLAMA_URL, OLLAMA_PORT, HuggingFaceEmbeddingAdapter, \
     HUGGINGFACE_NAME_MAP
 from langchain_chroma import Chroma
 from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ
 from chroma.__main__ import main as create_embeddings
 from langchain_community.retrievers import BM25Retriever
+from langchain.retrievers import EnsembleRetriever
 from results.cache import PATH as CACHE_PATH
 
 
@@ -38,6 +40,8 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100, prov
     embeddings_path /= str(overlap)
     if embeddings_path.exists():
         print(f"Skipping embeddings creation for {config['embedder']} with chunk length {config['chunk_length']} and overlap {overlap}")
+    elif config["retriever"] == "BM25":
+        print(f"Skipping embeddings creation because BM25 is used")
     else:
         create_embeddings(config["chunk_length"], config["overlap_percentage"], config["embedder"])
 
@@ -50,20 +54,26 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100, prov
             embeddings = OllamaEmbeddings(model=config["embedder"], base_url=f"http://{OLLAMA_URL}:{str(OLLAMA_PORT)}")
         case _:
             raise ValueError(f"Unknown provider {provider}")
-
     vectorstore = Chroma(persist_directory=str(embeddings_path), embedding_function=embeddings)
 
     ## Retriever part
     number_of_docs = config["num_docs"]
     retriever_type = config["retriever"]
+
+    def get_bm25():
+        chunks = pd.read_csv(embeddings_path / "chunk_lookup.csv")
+        chunks = [Document(chunk) for chunk in chunks["chunk"]]
+        r = BM25Retriever.from_documents(chunks)
+        r.k = number_of_docs
+        return r
+
     match retriever_type:
         case "base":
             retriever = vectorstore.as_retriever(search_kwargs={'k': number_of_docs})
-        case "BM25":
-            chunks = pd.read_csv(embeddings_path / "chunk_lookup.csv")
-            chunks = [Document(chunk) for chunk in chunks["chunk"]]
-            retriever = BM25Retriever.from_documents(chunks)
-            retriever.k = number_of_docs
+        case "ensemble":
+            base = vectorstore.as_retriever(search_kwargs={'k': number_of_docs})
+            bm25 = get_bm25()
+            retriever = EnsembleRetriever(retrievers=[base, bm25], weights=[0.5, 0.5])
         case _:
             raise ValueError(f"Unknown retriever type {retriever_type}")
 
@@ -127,7 +137,7 @@ def main():
     chunk_length = Integer("chunk_length", (100, 500), default=100)
     overlap_percentage = Float("overlap_percentage", (0.1, 0.5), default=0.1)
     retriever = Categorical("retriever", ["base", "BM25"], default="base")
-    embedder = Categorical("embedder", ["mxbai-embed-large", "nomic-embed-text"], default="nomic-embed-text")
+    embedder = Categorical("embedder", EMBEDDERS, default="nomic-embed-text")
     num_docs = Integer("num_docs", (1, 20), default=1)
     cs.add([chunk_length, overlap_percentage, retriever, embedder, num_docs])
     objectives = ["1 - accuracy", "number of documents"]
@@ -137,7 +147,7 @@ def main():
     scenario = Scenario(
         cs,
         objectives=objectives,
-        walltime_limit=12 * 60 * 60,  # After 12 hour, we stop the hyperparameter optimization
+        walltime_limit=24 * 60 * 60,  # After 24 hours, we stop the hyperparameter optimization
         n_trials=10000,  # Evaluate max 10^4 different trials
         n_workers=1  # multiprocessing.cpu_count()
     )
@@ -170,9 +180,6 @@ def main():
         print("---", cost)
     save_incumbents(smac, incumbents, "incumbents.csv")
     ResultSingleton().save_results("incumbents.csv")
-
-    # Let's plot a pareto front
-    plot_pareto(smac, incumbents)
 
 
 if __name__ == "__main__":
