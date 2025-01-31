@@ -136,7 +136,7 @@ def main():
     cs = ConfigurationSpace()
     chunk_length = Integer("chunk_length", (100, 500), default=100)
     overlap_percentage = Float("overlap_percentage", (0.1, 0.5), default=0.1)
-    retriever = Categorical("retriever", ["base", "BM25"], default="base")
+    retriever = Categorical("retriever", ["base", "ensemble"], default="base")
     embedder = Categorical("embedder", EMBEDDERS, default="nomic-embed-text")
     num_docs = Integer("num_docs", (1, 20), default=1)
     cs.add([chunk_length, overlap_percentage, retriever, embedder, num_docs])
