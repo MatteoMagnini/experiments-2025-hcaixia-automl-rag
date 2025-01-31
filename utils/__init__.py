@@ -1,11 +1,12 @@
+import os
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
 from results import PATH as RESULT_PATH
-from smac import HyperparameterOptimizationFacade as HPOFacade
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from ConfigSpace import Configuration
-import matplotlib.pyplot as plt
+from smac.facade.abstract_facade import AbstractFacade
 
 
 PATH = Path(__file__).parents[0]
@@ -51,41 +52,47 @@ class ResultSingleton:
         return (RESULT_PATH / f"{name}_results.csv").exists()
 
 
-def plot_pareto(smac: HPOFacade, incumbents: list[Configuration]) -> None:
-    """Plots configurations from SMAC and highlights the best configurations in a Pareto front."""
-    average_costs = []
-    average_pareto_costs = []
-    for config in smac.runhistory.get_configs():
-        # Since we use multiple seeds, we have to average them to get only one cost value pair for each configuration
-        average_cost = smac.runhistory.average_cost(config)
-
-        if config in incumbents:
-            average_pareto_costs += [average_cost]
-        else:
-            average_costs += [average_cost]
-
-    # Let's work with a numpy array
-    if len(average_costs) == 1:
-        costs = np.array(average_costs)
-    else:
-        costs = np.vstack(average_costs)
-    pareto_costs = np.vstack(average_pareto_costs)
-    pareto_costs = pareto_costs[pareto_costs[:, 0].argsort()]  # Sort them
-
-    costs_x, costs_y = costs[:, 0], costs[:, 1]
-    pareto_costs_x, pareto_costs_y = pareto_costs[:, 0], pareto_costs[:, 1]
-
-    plt.scatter(costs_x, costs_y, marker="x", label="Configuration")
-    plt.scatter(pareto_costs_x, pareto_costs_y, marker="x", c="r", label="Incumbent")
-    plt.step(
-        [pareto_costs_x[0]] + pareto_costs_x.tolist() + [np.max(costs_x)],  # We add bounds
-        [np.max(costs_y)] + pareto_costs_y.tolist() + [np.min(pareto_costs_y)],  # We add bounds
-        where="post",
-        linestyle=":",
+def read_results_and_incumbents(columns: list[str]) -> (pd.DataFrame, pd.DataFrame):
+    return (
+        pd.read_csv(RESULT_PATH / "results.csv", usecols=columns, index_col=False),
+        pd.read_csv(RESULT_PATH / "incumbents.csv", usecols=columns, index_col=False),
     )
 
-    plt.title("Pareto-Front")
-    plt.xlabel(smac.scenario.objectives[0])
-    plt.ylabel(smac.scenario.objectives[1])
-    plt.legend()
-    plt.show()
+
+def get_pareto_front(smac: AbstractFacade) -> tuple[list[Configuration], list[list[float]]]:
+    """Returns the Pareto front of the runhistory.
+
+    Returns
+    -------
+    configs : list[Configuration]
+        The configs of the Pareto front.
+    costs : list[list[float]]
+        The costs from the configs of the Pareto front.
+    """
+
+    # Get costs from runhistory first
+    average_costs = []
+    configs = smac.runhistory.get_configs()
+    for config in configs:
+        # Since we use multiple seeds, we have to average them to get only one cost value pair for each
+        # configuration
+        # Luckily, SMAC already does this for us
+        average_cost = smac.runhistory.average_cost(config)
+        average_costs += [average_cost]
+
+    # Let's work with a numpy array
+    costs = np.vstack(average_costs)
+
+    is_efficient = np.arange(costs.shape[0])
+    next_point_index = 0  # Next index in the is_efficient array to search for
+    while next_point_index < len(costs):
+        nondominated_point_mask = np.any(
+            costs < costs[next_point_index], axis=1)
+        nondominated_point_mask[next_point_index] = True
+        # Remove dominated points
+        is_efficient = is_efficient[nondominated_point_mask]
+        costs = costs[nondominated_point_mask]
+        next_point_index = np.sum(
+            nondominated_point_mask[:next_point_index]) + 1
+
+    return [configs[i] for i in is_efficient], [average_costs[i] for i in is_efficient]

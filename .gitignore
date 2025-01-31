@@ -4,6 +4,10 @@ data/*.csv
 data/*.tsv
 **/smac3_output
 results/cache/*.csv
+figures/*.png
+figures/*.eps
+results/incumbents.csv
+results/results.csv
 
 .idea
 
