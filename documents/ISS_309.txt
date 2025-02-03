@@ -1,0 +1,86 @@
+Farmaci inibitori della pompa acida o protonica: cosa sono e a cosa servono - ISSalute
+
+Introduzione
+
+
+Gli inibitori della pompa acida o protonica (IPP) sono una classe di farmaci appartenente al gruppo dei gastroprotettori, il cui scopo è quello di proteggere le pareti dello stomaco e dell'esofago (nel caso di reflusso gastroesofageo) contrastando la produzione di acido cloridrico da parte delle cellule che si trovano nella parete dello stomaco.
+Gli IPP sono una nuova classe di molecole la cui azione antisecretoria risulta essere notevolmente efficace e prolungata nel tempo.
+Questi farmaci, contrastando l’eccessiva secrezione di acido da parte dello stomaco, hanno permesso di trasformare le ulcere gastriche e i sanguinamenti gastrointestinali in malattie curabili senza l’obbligo di ricorrere all’intervento chirurgico.
+
+Indicazioni terapeutiche
+
+Gli inibitori della pompa acida o protonica (IPP) sono indicati nel trattamento di:
+
+ulcera gastrica
+ulcera duodenale
+ulcera esofagea 
+
+Gli IPP sono impiegati nelle ulcere associate a:
+
+farmaci antinfiammatori non steroidei (cosiddetti FANS), per prevenire e gestire gli effetti dovuti all'uso dei farmaci
+malattia da reflusso gastroesofageo
+sindrome di Zollinger-Ellison, malattia che genera una ipersecrezione acida gastrica a seguito di ipergastrinemia
+helicobacter pylori, gli IPP in combinazione con antibiotici sono utilizzati per l'eradicazione dell'helicobacter pylori, un batterio che in associazione alle secrezioni acide dello stomaco provoca ulcere gastriche e del duodeno
+
+Farmaci
+
+Gli inibitori della pompa acida o protonica comprendono cinque principi attivi caratterizzati dal suffisso “-prazolo”:
+
+omeprazolo
+lansoprazolo
+esomeprazolo
+pantoprazolo
+rabeprazolo
+
+Si tratta di principi attivi con azione ed efficacia molto simile e le differenze tra le varie molecole riguardano:
+
+modo con cui vengono metabolizzati dal fegato
+interazione con altri farmaci
+durata dei loro effetti, e, quindi, frequenza della loro somministrazione
+
+Meccanismo di azione
+
+Una volta assunti per bocca, gli inibitori della pompa acida o protonica (IPP) vengono assorbiti attraverso l'intestino e metabolizzati dal fegato. Dal fegato, gli IPP arrivano allo stomaco dove agiscono inibendo irreversibilmente l'azione dell'enzima che determina la produzione di acido cloridrico (l'enzima H+/K+ ATPasi) da parte delle cellule situate nella parete dello stomaco.
+Sebbene la permanenza degli IPP nell'organismo umano (cosiddetta emivita plasmatica) sia solo di un'ora, il loro effetto sulla secrezione di acido è tale che la loro azione prosegue per quasi 24 ore, ossia per il tempo necessario alla produzione di un nuovo enzima. Per questo motivo, gli IPP vanno somministrati generalmente una volta al giorno, o al mattino o alla sera, a seconda dell'indicazione del medico. In alcuni casi, comunque, in presenza di specifiche situazioni, il medico potrebbe prescriverne l’assunzione sia alla mattina sia alla sera.
+
+Interazioni, effetti collaterali e precauzioni d’uso
+
+Gli inibitori della pompa acida o protonica (IPP) interagiscono con pochi farmaci e, poiché riducono la secrezione di acido nello stomaco, possono diminuire o aumentare la disponibilità di quei farmaci che hanno bisogno di un ambiente acido per essere assorbiti. Pertanto, è sempre opportuno elencare al proprio medico curante tutti i farmaci e gli integratori che si stanno assumendo al fine di consentirgli di verificare le possibili interazioni con le altre medicine. Inoltre, vanno sempre riferiti al medico un’eventuale gravidanza o allattamento per la valutazione dei possibili rischi connessi.
+Gli IPP sono generalmente molto ben tollerati. Gli effetti indesiderati (effetti collaterali) più comuni che possono insorgere sono:
+
+mal di testa
+diarrea
+stitichezza
+dolore addominale
+flatulenza 
+febbre
+vomito
+nausea 
+eruzione cutanea
+
+Altri effetti collaterali associati, più raramente, agli IPP, sono:
+
+gravi reazioni allergiche
+sindrome di Stevens-Johnson
+necrolisi epidermica tossica 
+ridotto funzionamento dei reni 
+pancreatite
+ridotto funzionamento del fegato 
+eritema multiforme
+confusione mentale 
+anomalie del sangue 
+
+In particolare, se presi per lunghi periodi di tempo si è visto che gli IPP possono portare a una riduzione dell'assorbimento della vitamina B12, del ferro, del magnesio e del calcio. Inoltre, la diminuzione del livello di acidità dello stomaco potrebbe favorire la crescita di alcuni batteri, nel lungo periodo.
+In ogni caso, se si assumono IPP è sempre consigliabile riferire al proprio medico curante eventuali sensazioni anomale che dovessero comparire, al fine di consentirgli di valutare l'opportunità, o meno, di modificare la terapia.
+Sebbene la loro efficacia terapeutica non sia posta in discussione, il loro utilizzo si è diffuso sproporzionatamente. Negli anni si è diffusa l’abitudine a prescrivere gli IPP anche in presenza di disturbi vaghi nel tratto superiore dell’apparato digerente. Il termine “gastroprotettore” ha assunto un significato improprio nel pensiero comune, quasi fosse possibile una loro assunzione indiscriminata senza una effettiva valutazione degli effetti collaterali associati, anche a lungo termine.
+L’Associazione Italiana dei Gastroenterologi Ospedalieri (AIGO) ha evidenziato che in Italia ben la metà delle persone curate con IPP non ne avrebbe effettivamente bisogno. Proprio per questo la AIGO ha redatto un documento ufficiale che indica i casi in cui la prescrizione è opportuna. In particolare, l'AIGO mette in dubbio l'opportunità di prescrivere IPP alle persone che seguono una terapia con FANS o a base di cortisonici e ai malati di cirrosi epatica per prevenire il sanguinamento delle varici esofagee.
+
+Link approfondimento
+
+Agenzia Italiana del Farmaco (AIFA). Nota 48
+Agenzia Italiana del Farmaco (AIFA). Nota 01
+Agenzia Italiana del Farmaco (AIFA). Utilizzo di inibitori della pompa protonica e rischio di infarto miocardico nella popolazione generale
+Fondazione Umberto Veronesi. Magazine. Assumo inibitori di pompa protonica: quali rischi per la mia salute?
+Fondazione Umberto Veronesi. Magazine. Quando è il caso di usare gli inibitori di pompa protonica?
+Agenzia Nazionale per i Servizi Sanitari Regionali (Agenas). Horizon Scanning report n.9. Dispositivo impiantabile per il trattamento del reflusso gastro-esofageo (aprile 2011)
+https://www.aifa.gov.it/nota-48https://www.aifa.gov.it/nota-01https://www.aifa.gov.it/-/utilizzo-di-inibitori-della-pompa-protonica-e-rischio-di-infarto-miocardico-nella-popolazione-generalehttps://www.fondazioneveronesi.it/magazine/articoli/lesperto-risponde/assumo-inibitori-di-pompa-protonica-quali-rischi-per-la-mia-salutehttps://www.fondazioneveronesi.it/magazine/tutti-i-video/quando-e-il-caso-di-usare-gli-inibitori-di-pompa-protonicahttps://www.salute.gov.it/portale/temi/documenti/dispositiviMedici/C_17_pagineAree_1394_listaFile_itemName_14_file.pdf

@@ -1,0 +1,55 @@
+Tetano: cos'è, come si manifesta, come si può prevenire - ISSalute
+
+Introduzione
+
+
+Il tetano è una malattia neurologica grave, caratterizzata da spasmi e contrazioni muscolari diffuse e dolorose che possono compromettere anche la capacità respiratoria e, quindi, mettere in pericolo la vita.
+La malattia è causata dal batterio Clostridium tetani, che può infettare l'uomo in seguito a ferite profonde. Nel punto di ingresso il batterio si moltiplica e rilascia una potente sostanza tossica per il sistema nervoso (neurotossina) che provoca la paralisi spastica della muscolatura.
+Non si tratta di una malattia contagiosa, non può trasmettersi da persona a persona. Per prevenirla è disponibile un vaccino efficace.
+
+Sintomi
+
+Il tetano inizia spesso con un sintomo caratteristico, la contrattura spastica dei muscoli della mandibola (detta trisma), che provoca difficoltà o impossibilità ad aprire la bocca. Seguono rigidità del collo, difficoltà a deglutire, spasmi dei muscoli addominali e contrazioni muscolari diffuse, della durata di alcuni minuti, scatenate da stimoli sensoriali anche minimi come correnti d'aria, forti rumori, contatto fisico o fonti di luce.
+Altri possibili sintomi sono febbre, sudorazione, pressione arteriosa alta (ipertensione arteriosa), battiti del cuore elevati (tachicardia).
+I sintomi causati dal tetano si manifestano, generalmente, da 4 fino a 50 giorni dopo l'infezione (con un periodo di incubazione medio di 10 giorni).
+
+Cause
+
+Il batterio Clostridium tetani si trova sotto forma di spore (forme di resistenza del batterio nell'ambiente) nel terreno, nella polvere e nelle feci animali (soprattutto di equini e bovini). Le vie di ingresso più comuni delle spore batteriche nel nostro organismo sono le ferite sporche di terra o feci e quelle profonde provocate da chiodi od oggetti appuntiti contaminati dalle spore (leggi la Bufala o guarda il Video). Altre porte di ingresso, meno comuni, possono essere bruciature, morsi di animali, piercing, tatuaggi, uso iniettivo di droghe.
+Una volta penetrate nei tessuti, e in presenza di condizioni favorevoli quali presenza di tessuto necrotico e assenza di ossigeno, le spore batteriche possono germinare. In altre parole, i batteri riattivano il loro metabolismo (detta forma vegetativa) si moltiplicano senza invadere i tessuti ma producendo la tossina tetanica che, nelle persone non vaccinate, può raggiungere il sistema nervoso centrale attraverso il sangue e il sistema linfatico, interferendo con i neurotrasmettitori che regolano la contrazione muscolare (motoneuroni).
+
+Diagnosi
+
+La diagnosi del tetano si basa sull'osservazione dei sintomi. Non esistono, infatti, esami di laboratorio per confermarne la presenza.
+
+Terapia
+
+Per il tetano non esiste una cura specifica in grado di rimuovere la tossina già legata alle terminazioni nervose. La somministrazione di immunoglobuline umane antitetaniche mira a bloccare la tossina eventualmente ancora in circolo impedendo che si leghi alle terminazioni neuromuscolari. L'accurata pulizia della ferita infetta con l'eliminazione dell'eventuale tessuto necrotico, l'uso di disinfettanti come l'acqua ossigenata, la somministrazione orale o endovenosa di antibiotici sono interventi che rimuovono le spore ed eliminano le forme vegetative del batterio per impedire che venga prodotta altra tossina.
+L'utilizzo di sedativi, anestetici e betabloccanti serve da terapia di supporto per alleviare il dolore provocato dagli spasmi muscolari e regolare l'attività cardiaca e respiratoria.
+Nelle forme più gravi, quando la persona ha serie difficoltà di respirazione, si ricorre alla respirazione assistita.
+
+Complicazioni
+
+A causa della gravità, anche in caso di cure adeguate, la mortalità tra i casi è elevata, fino al 50% negli adulti e oltre l'80% nei neonati.
+Il completo recupero da una infezione tetanica richiede la crescita di nuove terminazioni nervose che avviene in tempi lunghi (molti mesi). Le complicazioni dell'infezione da tetano possono essere la rottura delle ossa a causa della violenza degli spasmi muscolari, l'embolia polmonare a causa della migrazione di un eventuale trombo all'arteria polmonare, il blocco respiratorio. L'infezione tetanica richiede un ricovero in terapia intensiva, anche per un lungo periodo.
+
+Prevenzione
+
+L'unica forma di prevenzione è la vaccinazione antitetanica. Gli anticorpi prodotti a seguito della vaccinazione sono, infatti, capaci di neutralizzare la tossina in circolo, prima che raggiunga le terminazioni nervose.
+Il Piano Nazionale Prevenzione Vaccinale prevede la somministrazione di tre dosi di vaccino esavalente (contro difterite, tetano, pertosse, poliomielite, Haemophilus influenzae di tipo b e epatite B) entro il primo anno di vita (leggi la Bufala). Una dose di richiamo con il vaccino trivalente dTpa (anti difterite, tetano, pertosse) è raccomandata a 5-6 anni e poi ogni dieci anni.
+La vaccinazione con il vaccino dTpa è raccomandata anche alle donne incinte dietro indicazione del proprio ginecologo e deve essere ripetuto ad ogni gravidanza anche se la donna sia già stata vaccinata o sia in regola con i richiami decennali. 
+La malattia non conferisce un'immunità permanente, quindi anche le persone che hanno avuto il tetano devono attenersi al calendario vaccinale.
+Nel caso di una ferita sporca o profonda e di una copertura vaccinale incerta (richiamo anti-tetanico effettuato da più di dieci anni) o assente (vaccinazione antitetanica mai effettuata) bisogna rivolgersi al proprio medico di base, oppure al pronto soccorso, per la pulizia della ferita e per ricevere istruzioni su come continuare a medicarla. Il medico deciderà anche sull'eventuale somministrazione di una dose di vaccino.
+Il Rapporto epidemiologico annuale sulla sorveglianza dei casi di tetano redatto dall'ECDC (Centro Eeuropeo per il Ccontrollo delle Malattie) riporta circa un centinaio di casi di tetano all’anno in tutta Europa, di cui oltre un terzo avvengono in Italia.
+
+Bibliografia
+
+European Centre for Disease Prevention and Control. Tetanus. In: ECDC. Annual epidemiological report for 2018. Stockholm: ECDC; 2020
+
+Link approfondimento
+
+Mayo Clinic. Tetanus (Inglese) 
+NHS. Tetanus (Inglese) 
+EpiCentro (ISS). Tetano
+Ministero della Salute. Vaccinazioni per età, categoria e condizione
+https://www.mayoclinic.org/diseases-conditions/tetanus/symptoms-causes/syc-20351625https://www.nhs.uk/conditions/tetanus/https://www.salute.gov.it/portale/vaccinazioni/menuContenutoVaccinazioni.jsp?lingua=italiano&area=vaccinazioni&menu=fasce

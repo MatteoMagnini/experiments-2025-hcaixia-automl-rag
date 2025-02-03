@@ -1,0 +1,31 @@
+Scintigrafia: a cosa serve e come si fa l'esame - ISSalute
+
+Introduzione
+
+
+La scintigrafia è un esame che consente di ottenere informazioni sul funzionamento di alcuni organi, per esempio cuore, polmone, tiroide, circolazione sanguigna, oppure di individuare la presenza di cellule tumorali in tessuti e organi distanti dal luogo in cui si è sviluppato il tumore (metastasi). La sua esecuzione richiede l'iniezione di una sostanza radioattiva. Le immagini prodotte durante l'esame appaiono direttamente sul monitor dell'operatore ma, quasi sempre, devono essere analizzate e studiate prima di essere consegnate (referto).
+L'indagine fornisce informazioni importanti per accertare (diagnosticare) e per valutare l'evoluzione nel tempo di molte malattie.
+La scintigrafia ossea, ad esempio, permette di studiare il processo di trasformazione dell'osso (metabolismo) e, quindi, il modo in cui le ossa si rigenerano. Per effettuare l'esame, il medico specialista in medicina nucleare inietta in una vena del braccio un particolare farmaco (radiofarmaco o tracciante radioattivo) che si deposita sulle ossa e si concentra in modo particolare dove c'è una maggiore attività metabolica, come avviene, per esempio, in caso di fratture, traumi, o di metastasi tumorali (che derivano dalla crescita di cellule tumorali in aree diverse dal tessuto originario incluso l'osso). La rilevazione delle radiazioni emesse consente di evidenziare l'attività metabolica dell’osso e la presenza, o meno, di una malattia o di una lesione e, eventualmente, le sue caratteristiche di malignità.
+Poiché il radiofarmaco si concentra dove c'è maggiore attività metabolica le immagini scintigrafiche forniscono una indicazione delle zone dove potrebbe esserci una malattia. L'esame scintigrafico di altri organi, ad esempio la tiroide, permette di avere informazioni sulle loro struttura e sulla funzionalità.
+Le immagini scintigrafiche sono acquisite tramite una speciale strumentazione denominata Gamma Camera.
+
+Il test
+
+La scintigrafia si articola in diverse fasi:
+
+domande alla persona che deve sottoporsi all'esame, da parte del medico nucleare, sui cambiamenti dello stato di salute nel tempo (storia clinica) e sul motivo per cui è stato richiesto l'esame
+somministrazione del radiofarmaco, nella maggior parte dei casi tramite una iniezione nella vena dell'avambraccio (via endovenosa) ma, talvolta, anche per bocca o per inalazione. Il periodo di attesa tra la somministrazione del radiofarmaco e l'esame scintigrafico varia moltissimo. In alcuni casi non è richiesta attesa; in altri, a seconda del tipo di esame da eseguire, sono necessari da alcuni minuti a qualche ora o, addirittura, qualche giorno, in base al differente meccanismo di accumulo della sostanza radioattiva utilizzata nell'organo da indagare; in altri ancora (scintigrafia miocardica) il radiofarmaco è iniettato al termine di una prova da sforzo (in genere, effettuata sulla cyclette o sul tapis roulant) o dopo la somministrazione di uno specifico farmaco (test farmacologico)
+esecuzione della scintigrafia, avviene facendo distendere la persona su un lettino e posizionando il rilevatore della Gamma Camera vicino alla parte del corpo da esaminare. La Gamma Camera non produce radiazioni, ma registra quelle emesse dell'organo in esame per effetto dell'accumulo del tracciante radioattivo
+
+Durante l'esame è necessario togliere gli oggetti metallici (catene, spille) dal campo di rilevazione, in quanto potrebbero interferire nella qualità dell'immagine risultante.
+
+Durante l'esecuzione della scintigrafia (ad esempio, scintigrafia ossea o della tiroide), nella persona che si sottopone all'esame viene iniettata una piccola quantità di farmaco radioattivo che non crea alcun rischio per i familiari conviventi. Immediatamente dopo il termine dell'esame si può tornare a casa.
+Tutti possono essere sottoposti a una scintigrafia, su indicazione del medico curante, tranne le donne in gravidanza per evitare eventuali conseguenze al feto. Nel caso in cui l'indagine non possa essere assolutamente rimandata, il medico specialista in medicina nucleare informa la donna dei possibili rischi per il nascituro e utilizza tutte le precauzioni per proteggere sia la madre che il feto.
+
+Link approfondimento
+
+National Cancer Institute (NCI). NCI Dictionary of Cancer Terms. Scintigraphy (Inglese)
+World Health Organization (WHO). Diagnostic imaging. Nuclear medicine (Inglese)  
+Associazione Italiana per la Ricerca sul Cancro (AIRC). Scintigrafia ossea  
+Associazione Italiana di Fisica Medica (AIFM). La medicina nucleare e il fisico medico
+https://www.cancer.gov/publications/dictionaries/cancer-terms/def/scintigraphyhttps://www.airc.it/cancro/affronta-la-malattia/guida-agli-esami/scintigrafia-osseahttps://www.fisicamedica.it/fisico-medico-risponde/medicina-nucleare/la-medicina-nucleare-e-il-fisico-medico

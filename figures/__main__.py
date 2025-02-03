@@ -5,7 +5,7 @@ from utils import read_results_and_incumbents
 
 if __name__ == "__main__":
     results, incumbents = read_results_and_incumbents(columns=["1 - accuracy", "number of documents"])
-    results = results.sort_values(by="1 - accuracy")
+    # results = results.sort_values(by="1 - accuracy")
     incumbents = incumbents.sort_values(by="1 - accuracy")
     plot_pareto_raw(
         costs=results,

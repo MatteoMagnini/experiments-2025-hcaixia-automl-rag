@@ -1,0 +1,26 @@
+Plasma Iperimmune: cos'è, funzione e utilizzo - ISSalute
+
+Introduzione
+
+
+Il plasma iperimmune è il plasma ottenuto da persone con una elevata quantità di anticorpi  (immunoglobuline iperimmuni) contro uno specifico microrganismo o antigene (sostanza riconosciuta dal sistema immunitario che provoca la formazione di anticorpi). È presente in persone sottoposte a vaccinazione nei confronti dello specifico microrganismo o convalescenti dalla malattia che esso determina.
+Tipiche immunoglobuline iperimmuni sono quelle verso il tetano, verso alcuni virus o verso gli antigeni presenti sulla membrana dei globuli rossi (fattore Rh). In quest'ultimo caso esse determinano l'incompatibilità materno-fetale, una complicazione della gravidanza che si verifica quando il gruppo sanguigno del feto non è compatibile con quello della madre.
+Le immunoglobuline iperimmuni esplicano la loro azione protettiva mediante effetti che neutralizzano o rendono visibili al sistema immunitario eventuali tossine, virus o batteri.
+L'immunità antivirale è legata principalmente all'azione di anticorpi che neutralizzano la  capacità infettante del virus impedendone l'ingresso nella cellula bersaglio.
+La terapia con plasma iperimmune è stata ampiamente utilizzata in passato per il trattamento di numerose malattie infettive. Nel 1890, Emil Adolf von Behring e Shibasaburo Kitasato per curare la difterite e il tetano sfruttarono l'immunità passiva, ottenuta con siero di animali sani esposti al contagio. Da allora il trattamento con siero iperimmune è stato utilizzato con successo per la cura di una serie di malattie, inclusa la febbre reumatica, la scarlattina, la parotite, il morbillo, la varicella e le infezioni da pneumococco e da meningococco.
+Negli anni è stato notevolmente aumentato l'impiego del plasma proveniente da persone convalescenti soprattutto in corso di epidemie causate da virus emergenti.
+La prima applicazione della terapia con plasma iperimmune è avvenuta tra il 1918 e il 1920 nel corso della pandemia causata dal virus dell'influenza spagnola (H1N1). Tale utilizzo è stato rinnovato, nel 1976, durante l'epidemia da virus Ebola nella Repubblica Democratica del Congo e, nel 1979, in persone con il virus della febbre emorragica argentina. Nei decenni successivi, la terapia con plasma iperimmune è stata impiegata con successo durante la pandemia da influenza suina (H1N1) nel 2009, durante l'epidemia di influenza aviaria (H5N1) nel 2003 e durante l'epidemia di Ebola in Africa occidentale nel 2013.
+Il plasma prelevato da persone convalescenti è stato utilizzato anche nelle due precedenti epidemie da SARS-CoV, nel 2003, e MERS, nel 2012, per curare le persone colpite dai due virus ottenendo buoni risultati clinici.
+Alla luce delle precedenti esperienze, è stato sperimentato l'utilizzo del plasma proveniente da persone convalescenti anche nel corso dell'attuale epidemia di SARS-CoV-2. Gli studi clinici ad oggi condotti, tuttavia, non riportano chiare prove sulla sua efficacia terapeutica.
+
+Bibliografia
+
+Montelongo-Jauregui D, Vila T, Sultan A, Jabra-Rizk M. Convalescent serum therapy for COVID-19: A 19th century remedy for a 21st century disease. PLoS Pathogens. 2020; 16(8): e1008735
+Al-Omari A. MERS coronavirus outbreak: Implications for emerging viral infections. Diagnostic microbiology and infectious disease. 2019; 93(3): 265–285
+
+Link approfondimento
+
+Ordine Nazionale Biologi. Delegazione Puglia e Basilicata. Immunoprofilassi e plasma iperimmune: lo stato dell'arte ai tempi del Covid 
+Centro Nazionale Sangue. Plasma iperimmune: a cosa serve e come donarlo
+Ministero della Salute. Dona il sangue. Domande e risposte - FAQ
+https://www.centronazionalesangue.it/plasma-iperimmune-a-cosa-serve-e-come-donarlo/

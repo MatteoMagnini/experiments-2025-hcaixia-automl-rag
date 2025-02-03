@@ -1,0 +1,38 @@
+Transferrina, TIBC, UIBC: di cosa si tratta - ISSalute
+
+Introduzione
+
+
+La transferrina è una glicoproteina prodotta dal fegato e rappresenta la più importante proteina per il legame e il trasporto del ferro nell’organismo. Il ferro assunto con l’alimentazione è assorbito a livello intestinale, si lega alla transferrina e a seconda delle necessità viene trasportato dal sangue a vari organi e principalmente al midollo osseo, dove circa il 70% del ferro assunto con l’alimentazione viene incorporato all'interno del gruppo “eme” dell’emoglobina, una proteina presente nei globuli rossi, che ha la funzione di distribuire l'ossigeno dai polmoni all’intero organismo. Il restante 30% viene immagazzinato nei tessuti sotto forma di ferritina o emosiderina.
+Attraverso i test per il dosaggio della transferrina (transferrinemia), TIBC, UIBC e della saturazione della transferrina è possibile valutare la capacità del circolo sanguigno di trasportare e legare il ferro:
+
+transferrinemia: misura il dosaggio diretto di transferrina nel sangue
+TIBC (Total Iron Binding Capacity): valuta la capacità totale delle proteine del circolo ematico di legare il ferro. Poiché la transferrina è la proteina principale per capacità ferro-legante, questo test fornisce una buona approssimazione della quantità di transferrina disponibile
+UIBC (Unsatured Iron Binding Capacity): misura il livello di transferrina ancora non saturata dal ferro (la transferrina di riserva)
+saturazione della transferrina: è un calcolo che, utilizzando i valori di sideremia, TIBC e UIBC, consente di valutare la percentuale di transferrina saturata dal ferro (quanto ne ha legato)
+
+Il test del dosaggio della transferrina (transferrinemia) può essere prescritto dal medico nel caso in cui si sospetti la presenza di anomalie del metabolismo del ferro, per la valutazione dello stato nutrizionale e delle funzionalità epatiche. I livelli di questa proteina diminuiscono in caso di malattie del fegato e, anche, in relazione ad un regime alimentare caratterizzato da un basso apporto proteico.
+Generalmente gli esami TIBC o UIBC vengono richiesti dal medico insieme al test della sideremia qualora vi sia il sospetto di uno stato di carenza o eccesso di ferro.
+Il test TIBC può essere prescritto con l’esame della ferritina in caso di sospetto accumulo di ferro o di familiarità con una malattia genetica (emocromatosi), a causa della quale la capacità del corpo di assorbire il ferro viene alterata provocando l’accumulo di questo elemento nei tessuti che, lentamente, vengono danneggiati.
+
+Il test
+
+Gli esami si effettuano attraverso un semplice prelievo di sangue dalla vena di un braccio. È richiesto un digiuno di almeno dodici ore prima di sottoporsi ai test. Dopo il prelievo si può immediatamente tornare a svolgere le normali attività.
+Di norma i farmaci non influiscono sull'esito dell’esame tranne nel caso in cui si stia seguendo una terapia a base di ferro o in seguito all'uso di contraccettivi orali, per questo è importante che il medico ne sia a conoscenza.
+È bene sapere, inoltre, che lo stato di gravidanza incide sui risultati dei test.
+
+Risultati
+
+Livelli elevati di TIBC, UIBC o transferrina possono essere dovuti a carenza di ferro.
+Livelli bassi di TIBC, UIBC o transferrina nel sangue possono essere associati a:
+
+malattie del fegato
+emocromatosi, una patologia genetica
+infezioni acute o persistenti nel tempo (croniche)
+stati infiammatori
+malnutrizione
+alcuni tipi di anemia
+sindrome nefrosica, patologia dei reni caratterizzata dalla perdita di proteine nelle urine
+
+La saturazione della transferrina aumenta in presenza di quantità elevate di ferro nel sangue (ad esempio nel caso di avvelenamento da ferro), diminuisce in seguito alla sua carenza.
+La lettura e l’interpretazione dei risultati degli esami deve sempre essere eseguita dal medico curante che conosce la storia dello stato di salute dei suoi assistiti.

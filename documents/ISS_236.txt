@@ -1,0 +1,73 @@
+Retinoblastoma: cos'è, come si manifesta e cosa sapere - ISSalute
+
+Introduzione
+
+
+Il retinoblastoma è un tumore maligno dell’occhio che si sviluppa nei primi anni di vita. Colpisce in particolare la retina, la parte di tessuto nervoso che svolge un ruolo fondamentale nella visione. Le cellule nervose presenti al suo interno, infatti, sono specializzate nella percezione dei segnali visivi che vengono inviati al cervello e poi rielaborati come immagini.
+Il retinoblastoma si manifesta quasi esclusivamente nei bambini di età inferiore ai 4-5 anni (1 caso ogni 18.000-20.000 nuovi nati). Nella maggior parte dei casi compare nel corso del primo anno di vita, dopo i 3 anni si sviluppa raramente. Solo nel 2% delle persone si manifesta dopo i 5 anni e molto raramente nell'adulto. Non ci sono differenze tra maschi e femmine. Se viene accertato (diagnosticato) nelle fasi iniziali, il retinoblastoma può essere curato con successo e oltre il 90% dei bambini guarisce.
+
+Sintomi
+
+I segnali principali della presenza del retinoblastoma sono:
+
+riflesso bianco all’interno della pupilla (leucocoria), che può essere evidenziato nelle foto con il flash. Generalmente la pupilla (parte centrale dell’occhio) quando viene colpita dalla luce del flash appare rossa a causa dei vasi sanguigni presenti, mentre in caso di retinoblastoma risulta bianca. A volte accade che siano i genitori a notare questo riflesso, ma il medico può accorgersene con un semplice esame dell'occhio
+strabismo, è il secondo disturbo (sintomo) più frequente in caso di retinoblastoma
+
+Altri sintomi, potenzialmente legati a questo tipo di tumore e tipici della malattia in fase avanzata, sono:
+
+problemi di vista
+dolore
+arrossamento della parte bianca dell’occhio
+differenze nelle dimensioni dei due globi oculari 
+pupilla che non si restringe, se esposta ad una luce forte
+
+Cause
+
+Le cause alla base dell’insorgenza del retinoblastoma sono attualmente sconosciute, ma sembrano abbastanza chiari i meccanismi: è stato uno dei primi tumori a essere associato a una anomalia genetica (mutazione). L'insorgenza del retinoblastoma è determinata da un gene difettoso che induce le cellule della retina a moltiplicarsi rapidamente e senza controllo. In particolare, è presente l'inattivazione del gene RB1, il cui prodotto, la proteina RB1, svolge una funzione di controllo sulla crescita delle cellule. In caso di mutazione del gene RB1 la proteina non funziona più e le cellule sono libere di crescere in maniera incontrollata.
+Ogni cellula ha normalmente due geni RB1. Finché in una cellula della retina è presente almeno un gene RB1 funzionante, il retinoblastoma non si svilupperà. Solo quando entrambi i geni RB1 sono difettosi (mutati o mancanti), la cellula che li contiene potrà crescere senza controllo.
+Si distinguono due forme di retinoblastoma:
+
+ereditaria (15% dei casi), il gene RB1 difettoso (mutato) viene ereditato da uno dei genitori. L'anomalia in uno dei due geni RB1 è quindi già presente alla nascita (congenita) e interessa tutte le cellule del corpo. Solo in seguito ad anomalia anche del secondo gene si sviluppa la malattia, in genere rapidamente e spesso in entrambi gli occhi (bilaterale). Nelle forme ereditarie si ha anche un aumentato rischio che si sviluppino tumori in altre zone del corpo dato che il gene RB1 mutato è associato anche ad altre forme tumorali come, ad esempio, carcinomi del polmone e della mammella
+sporadica (85% dei casi), la mutazione del gene RB1 compare nel corso dello sviluppo del feto e viene rilevata solo a livello delle cellule della retina
+
+Diagnosi
+
+L'accertamento (diagnosi) del retinoblastoma avviene con un semplice esame esterno dell'occhio e, in genere, viene confermato in un centro di riferimento specializzato. Dopo un'accurata visita in cui, oltre a eventuali altri casi presenti in famiglia (storia familiare), vengono valutati anche potenziali segni e disturbi (sintomi) associati alla malattia, lo specialista può decidere di eseguire esami di approfondimento per confermare o escludere il retinoblastoma e, eventualmente, definirne il grado di diffusione (stadiazione).
+I principali esami che vengono effettuati sono:
+
+retcam, sistema computerizzato di acquisizione di immagini ad altissima definizione che permette di valutare il fondo dell’occhio e di identificare le dimensioni di eventuali masse tumorali. Non è un esame invasivo e non utilizza mezzi di contrasto; si avvale di una lente che viene messa a contatto con la cornea attraverso il forame pupillare. Generalmente, considerando l'età (in genere, come abbiamo detto bimbi piccoli) e la necessità che la persona stia ferma, l'esame viene eseguito in anestesia
+tomografia computerizzata (TC) e risonanza magnetica (MRI), possono essere utili per determinare la presenza di un tumore a livello delle orbite oculari, dei nervi ottici o di altre strutture del cervello
+esame citologico del midollo osseo e del liquido cefalo-rachidiano e scintigrafia ossea, indagini che vengono effettuate se si sospetta la diffusione della malattia al di fuori dell’occhio
+diagnosi genetica-molecolare, permette di identificare eventuali mutazioni del gene RB1. L'analisi citogenetica (vale a dire dei cromosomi) può essere effettuata sui linfociti del sangue periferico ed è utilizzata per rilevare perdita di parti (delezione) o riarrangiamenti che coinvolgano il cromosoma 13 (la zona 13q14.1-q14.2)
+
+l risultati degli esami effettuati per confermare la presenza del retinoblastoma permettono di assegnare uno stadio alla malattia (stadiazione). In base all’International Retinoblastoma Staging System si possono distinguere 5 stadi (da zero a IV). I primi tre indicano che la malattia è confinata all'interno dell’occhio (intraoculare), gli ultimi due (IVa e IVb) segnalano la diffusione al di fuori dell’occhio. Un'altra classificazione, detta di Murphree, suddivide i tumori intraoculari in base a localizzazione e diffusione, suddividendoli in gruppi che vanno dal gruppo “A” (malattia poco estesa) al gruppo “E” (malattia molto estesa).
+
+Terapia
+
+Il retinoblastoma rappresenta il tumore intraoculare più frequente in età pediatrica, è un tumore raro, per cui è importante rivolgersi a un centro specializzato che abbia una buona casistica. L’accertamento (diagnosi) precoce garantisce una probabilità di guarigione superiore al 95%, con possibilità di mantenere le strutture dell’occhio e la vista (leggi la Bufala).
+Esistono vari trattamenti, la scelta della cura (terapia) più adatta dipende dall'estensione della malattia, ossia se è circoscritta a uno o a entrambi gli occhi, o se è diffusa ad altri organi. Attualmente, esistono dei protocolli di cura concordati dalla comunità scientifica che stabiliscono determinati trattamenti a seconda dello stadio della malattia; mirano all'eliminazione del tumore salvaguardando sia l'occhio, sia la vista.
+Se il tumore non è molto esteso di solito si elimina con la terapia laser, la termoterapia (calore usato come strumento terapeutico) oppure con la crioterapia (congelamento del tumore). Quando la malattia è più diffusa il medico può decidere di intervenire con chemioterapia (Video) e/o brachiterapia.
+La chemioterapia è un’arma molto importante contro il retinoblastoma. Generalmente è somministrata per via endovenosa in modo che il farmaco raggiunga tutte le zone del corpo (somministrazione sistemica). Recentemente è stata introdotta la possibilità di somministrare la chemioterapia direttamente nell'occhio; ciò consente di utilizzare dosi più basse, riducendo gli effetti indesiderati (effetti collaterali).
+Infine, nel caso in cui il tumore sia troppo esteso e non si possano impiegare altre cure, il medico può decidere di asportare chirurgicamente l'occhio malato, posizionando successivamente una protesi nella cavità oculare.
+
+Prevenzione
+
+È possibile, e in caso di familiarità molto importante, effettuare uno studio genetico sui membri della famiglia, inclusa la possibilità di diagnosi prenatale. Infatti, la prevenzione passa attraverso la consulenza genetica che dovrebbe essere effettuata dalle persone con casi di retinoblastoma tra i familiari. Le indagini genetiche e gli esami molecolari, effettuati durante la gravidanza (prenatali), permettono di sapere se i familiari o il nascituro presentano il rischio di sviluppare un retinoblastoma. In caso di positività al test è importante programmare visite fin dalla nascita per scoprire prima possibile eventuali cellule tumorali. Infatti se il retinoblastoma viene accertato (diagnosticato) molto presto, quando è ancora poco esteso, la possibilità di cura e conservazione della vista sono buone.
+Per le forme sporadiche invece non è al momento possibile definire strategie efficaci per la prevenzione, dal momento che ad oggi non sono stati identificati fattori di rischio sui quali poter intervenire.
+
+Complicazioni
+
+Le persone curate per il retinoblastoma corrono il rischio che il tumore possa ripresentarsi all'interno dell'occhio o nelle aree vicine. Per questo motivo, dopo le terapie, il medico programma frequenti esami di controllo (follow-up).
+I bambini colpiti dalla forma ereditaria hanno un alto rischio di sviluppare, negli anni, altri tipi di tumore in qualsiasi parte del corpo, anche dopo le cure. Per questo motivo, devono essere sottoposti a controlli regolari in modo da scoprire prima possibile la comparsa di altre neoplasie.
+
+Vivere con
+
+Essere il genitore di un bambino con retinoblastoma o vivere con gli effetti di questo cancro ogni giorno, è un’esperienza difficile.
+I genitori devono prendere decisioni sulle cure molto velocemente ed è quindi importante che si fidino della squadra di medici che ha in cura il proprio figlio.
+I bambini con retinoblastoma possono vivere esperienze contrastanti: da una parte l’esperienza del cancro li porta ad apprezzare di più la vita, ma allo stesso tempo aumenta la loro vulnerabilità a causa del loro vissuto. Le continue visite mediche, lo stress familiare, l’incertezza e la malattia fisica possono influire sul loro sviluppo e sul benessere emotivo. È importante che durante il percorso di cura sia i bambini, sia i genitori abbiano un supporto psicologico che li aiuti a gestire tutti questi aspetti.
+
+Bibliografia
+
+Associazione Italiana per la Ricerca sul Cancro (AIRC). Retinoblastoma 
+NHS Inform. Retinoblastoma: Children (Inglese)
+National Institutes of Health (NIH). Retinoblastoma (Inglese)

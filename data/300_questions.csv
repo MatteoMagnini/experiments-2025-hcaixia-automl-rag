@@ -1,0 +1,301 @@
+ID,Domanda,Source,Type,Subtype
+1,Quali sono i sintomi più comuni dell'infezione da SARS-CoV-2 nelle donne in gravidanza?,ISS,Informative,General
+2,Come funziona il test di gravidanza e quali sono le differenze tra il test urinario e il test del sangue?,ISS,Informative,Procedure
+3,Quali sono i motivi per cui una donna può richiedere un'interruzione volontaria di gravidanza in Italia?,ISS,Informative,General
+4,Quali sono le malattie infettive più pericolose da contrarre in gravidanza per il mio bambino?,ISS,Informative,General
+5,È vietato assumere farmaci durante la gravidanza e l'allattamento?,ISS,Informative,Deontic
+6,A cosa serve il test combinato in gravidanza?,ISS,Informative,General
+7,Quali sono i sintomi più comuni della malaria?,ISS,Informative,General
+8,Durante la gravidanza si deve mangiare per due?,ISS,Informative,General
+9,È pericoloso fare attività fisica in gravidanza?,ISS,Informative,Deontic
+10,Cosa si intende per diagnosi prenatale e quali sono gli obiettivi principali di questa pratica?,ISS,Informative,Procedure
+11,Quali sono i principali problemi di salute legati alla talassemia?,ISS,Informative,General
+12,Quali sono le principali classi di farmaci antiemetici e quali sono i loro meccanismi d'azione?,ISS,Informative,General
+13,Quali sono i principali disturbi (sintomi) che possono verificarsi nelle persone con anemia falciforme?,ISS,Informative,General
+14,Quali sono i sintomi più comuni della rosolia negli adulti durante i primi cinque giorni di malattia?,ISS,Informative,General
+15,Che cosa sono i livelli normali di glicemia nel sangue dopo 8 ore di digiuno?,ISS,Informative,General
+16,Quali sono i rischi per la salute orale durante la gravidanza e come posso prevenirli?,ISS,Informative,General
+17,Quali sono i sintomi più comuni della palatoschisi nei neonati e nei bambini?,ISS,Informative,General
+18,Come può essere identificata la sindrome di Down durante la gravidanza?,ISS,Informative,Procedure
+19,Cos'è la villocentesi e quali sono le sue finalità?,ISS,Informative,Procedure
+20,Che cos'è l'amniocentesi e a cosa serve?,ISS,Informative,Procedure
+21,Qual è la percentuale di donne in gravidanza che soffrono di insonnia nel terzo trimestre?,ISS,Informative,General
+22,È vero che le donne in gravidanza non rischiano di infettarsi con il nuovo Coronavirus (SARS-CoV-2)?,ISS,Informative,Verdictive
+23,Quali sono i disturbi più comuni causati dall'infezione da clamidia?,ISS,Informative,General
+24,Perché è importante fare un'ecocardiografia fetale e in quali casi è consigliata?,ISS,Informative,Clarification
+25,Con una malattia cronica non avrò mai figli?,ISS,Evaluative,Epistemic
+26,Quali sono le tecniche di procreazione medicalmente assistita di I livello?,ISS,Informative,General
+27,Durante l'allattamento posso rimanere incinta?,ISS,Informative,Deontic
+28,Come viene trasmesso il virus Zika?,ISS,Informative,Procedure
+29,Quali sono i sintomi principali dell'endometriosi?,ISS,Informative,General
+30,Quali sono i fattori genetici e ambientali che possono contribuire allo sviluppo dell'asma?,ISS,Informative,General
+31,Quali sono i sintomi principali della varicella e come si manifesta l'esantema cutaneo?,ISS,Informative,General
+32,È sicuro fare il bagno al mare durante la gravidanza?,ISS,Informative,Deontic
+33,Cosa è il test del DNA fetale e a cosa serve?,ISS,Informative,General
+34,Quali sono le principali fonti di vitamina K1 e K2?,ISS,Informative,General
+35,Qual è l'obiettivo della terapia antiepilettica?,ISS,Informative,Procedure
+36,Cosa sono le vene varicose e quali sono i sintomi associati?,ISS,Informative,General
+37,Quando è consigliato fare l'esame per lo streptococco di gruppo B durante la gravidanza?,ISS,Informative,Clarification
+38,Quali sono le principali strategie di prevenzione contro l'influenza?,ISS,Informative,Procedure
+39,Cos'è la gonorrea e come si trasmette?,ISS,Informative,General
+40,Cosa sono gli analgesici e quali sono i principali tipi disponibili in commercio?,ISS,Informative,General
+41,Quali sono i sintomi della sifilide e come si manifesta la malattia nel corpo?,ISS,Informative,General
+42,Quali sono i sintomi iniziali dell'arterite di Takayasu e come possono variare da persona a persona?,ISS,Informative,General
+43,Quali sono le principali cause del dolore al seno?,ISS,Informative,General
+44,Quali sono le conseguenze di una incompatibilità Rh durante la gravidanza?,ISS,Informative,General
+45,Quali sono i rischi per la salute del mio bambino legati all'autoimmunità durante la gravidanza?,ISS,Informative,General
+46,Quali sono le cause della paralisi cerebrale infantile?,ISS,Informative,General
+47,Quali sono i segni e sintomi dell'anoressia nervosa?,ISS,Informative,General
+48,Cosa misura il test del glucosio?,ISS,Informative,General
+49,Quali sono le principali fonti alimentari di vitamina B9?,ISS,Informative,General
+50,Qual è il nome scientifico del virus che causa la quinta malattia?,ISS,Informative,General
+51,Quali sono le modalità di trasmissione dell'HIV?,ISS,Informative,Procedure
+52,Cosa causa l'anemia di Fanconi?,ISS,Informative,General
+53,Posso avere figli nonostante la mia malattia reumatica?,ISS,Evaluative,Epistemic
+54,Quali sono i principali disturbi (sintomi) causati dalla sindrome di Behçet?,ISS,Informative,General
+55,Quando è consigliato fare un'ecografia durante la gravidanza?,ISS,Informative,Procedure
+56,Quali sono le cause dell'ernia ombelicale nei neonati e nei bambini?,ISS,Informative,General
+57,Quali sono le principali carenze nutrizionali che possono verificarsi in chi segue una dieta vegana?,ISS,Informative,General
+58,Qual è l'ingrediente principale presente negli autoabbronzanti e come agisce sulla pelle?,ISS,Informative,Procedure
+59,Posso fare il vaccino antinfluenzale se sono incinta?,ISS,Informative,Deontic
+60,Con il coito interrotto è sicuro che non rimango incinta?,ISS,Informative,Deontic
+61,Che cos'è il diabete gestazionale e quali sono i rischi associati ad esso?,ISS,Informative,General
+62,Cosa è la trisomia 18 e quali sono le cause?,ISS,Informative,General
+63,Cosa sono le infezioni alimentari e quali sono i principali sintomi?,ISS,Informative,General
+64,Cos'è la Neurofibromatosi 1 e quali sono le sue manifestazioni principali?,ISS,Informative,General
+65,Quali sono le cause più comuni dell'infertilità femminile?,ISS,Informative,General
+66,Cosa sono i metalli pesanti negli alimenti?,ISS,Informative,General
+67,Perché è importante vaccinare i bambini contro l'influenza?,ISS,Informative,Clarification
+68,Quali sono le cause principali delle infezioni delle vie urinarie?,ISS,Informative,General
+69,Bere birra fa produrre più latte?,ISS,Informative,Verdictive
+70,Quali sono le principali tipologie di farmaci miorilassanti e come agiscono sul corpo?,ISS,Informative,Procedure
+71,Quali sono i diversi tipi di emicrania che si distinguono?,ISS,Informative,General
+72,Cosa è una dieta vegetariana e quali alimenti sono esclusi?,ISS,Informative,General
+73,È vero che le donne che decidono di vaccinarsi contro il COVID-19 durante l’allattamento devono sospenderlo?,ISS,Informative,Verdictive
+74,Quali sono le cause delle emorroidi?,ISS,Informative,General
+75,Cosa si intende per urinocoltura e a cosa serve?,ISS,Informative,Procedure
+76,Cosa sono i soffi cardiaci e quali sono le possibili cause?,ISS,Informative,General
+77,Quali sono i principali tipi di glaucoma e le relative caratteristiche?,ISS,Informative,General
+78,Cosa sono gli enzimi di HIV bloccati dai farmaci antiretrovirali?,ISS,Informative,General
+79,Quali sono i sintomi tipici dell'appendicite?,ISS,Informative,General
+80,Quali sono i sintomi tipici della malattia di Huntington?,ISS,Informative,General
+81,Quali sono le principali funzioni della vitamina C nel nostro organismo?,ISS,Informative,General
+82,Quali sono i sintomi più comuni dell'anemia da carenza di ferro?,ISS,Informative,General
+83,Cos'è un angioma e quali sono le sue caratteristiche principali?,ISS,Informative,General
+84,Cosa sono le vitamine e quali sono le loro funzioni nell'organismo?,ISS,Informative,General
+85,Quali sono i sintomi più comuni del carcinoma ovarico?,ISS,Informative,General
+86,Quali sono i disturbi più comuni causati dalla sindrome del tunnel carpale?,ISS,Informative,General
+87,Quali sono le possibili cause dell'epilessia?,ISS,Informative,General
+88,Come posso prevenire l'acne e evitare il peggioramento dei sintomi?,ISS,Informative,General
+89,Quali sono i principali tipi di gastroprotettori e quali sono le loro funzioni?,ISS,Informative,Procedure
+90,Cosa sono le cisti ovariche e quali sono i principali sintomi che possono causare?,ISS,Informative,General
+91,Cos'è la vitamina A e quali sono le sue principali funzioni nel nostro organismo?,ISS,Informative,General
+92,Quali sono i sintomi principali associati al reflusso gastroesofageo?,ISS,Informative,General
+93,Che cos'è l'epatite C e come si trasmette?,ISS,Informative,General
+94,Cosa sono le statine e come agiscono nel nostro organismo?,ISS,Informative,Procedure
+95,A cosa serve esattamente la scintigrafia e quali informazioni fornisce sul funzionamento degli organi?,ISS,Informative,Procedure
+96,È vero che con il primo rapporto sessuale non si resta incinta?,ISS,Informative,Verdictive
+97,Cosa sono i ritardanti di fiamma bromurati e quali sono i loro effetti sulla salute umana?,ISS,Informative,General
+98,"Se prendo la pillola anticoncezionale, sono protetta dalle infezioni sessualmente trasmesse?",ISS,Evaluative,Epistemic
+99,Cosa sono i decongestionanti nasali e quando si utilizzano?,ISS,Informative,General
+100,Quali sono i principali componenti della curcuma e quali sono gli effetti benefici attribuiti alla spezia?,ISS,Informative,General
+1,Quali sono le vaccinazioni sicure e consigliate durante la gravidanza?,UPPA+APPR,Informative,General
+2,Quando devo fare il primo controllo durante la gravidanza?,UPPA+APPR,Performative,-
+3,Quanto dura la degenza nell'Unità Operativa di Ostetricia e Ginecologia dell'Ospedale di Cavalese?,UPPA+APPR,Informative,General
+4,Quali sono i benefici dell'immersione in acqua durante il travaglio e il parto?,UPPA+APPR,Informative,General
+5,Quali sono le buone pratiche alla nascita che assicurano un'assistenza rispettosa della fisiologia?,UPPA+APPR,Informative,General
+6,Qual è l'importanza dei primi 1000 giorni nella vita di un bambino?,UPPA+APPR,Informative,General
+7,"Qual è il modo più naturale, sicuro, efficace ed economico per alimentare il tuo bambino?",UPPA+APPR,Informative,General
+8,Quali sono le motivazioni che possono portare una donna a non accogliere la propria maternità?,UPPA+APPR,Informative,General
+9,Quali sono gli alimenti consigliati durante la gravidanza?,UPPA+APPR,Informative,General
+10,Quali farmaci posso assumere durante la gravidanza?,UPPA+APPR,Informative,General
+11,Come posso prenotare le visite in gravidanza?,UPPA+APPR,Informative,General
+12,Perché le organizzazioni scientifiche internazionali non raccomandano l'esecuzione di routine dello screening per la funzione tiroidea durante la gravidanza?,UPPA+APPR,Informative,Clarification
+13,Quali sono le conseguenze fetali che possono essere causate da un'infezione durante la gravidanza?,UPPA+APPR,Informative,General
+14,Cos'è l'ecografia e come funziona?,UPPA+APPR,Informative,Procedure
+15,Quali sono i sintomi precoci e accentuati di una gravidanza gemellare rispetto a una gravidanza singola?,UPPA+APPR,Informative,General
+16,Qual è il ruolo del latte materno rispetto a quello in polvere?,UPPA+APPR,Informative,General
+17,Qual è l'incidenza dell'emicrania nel sesso femminile rispetto a quello maschile?,UPPA+APPR,Informative,General
+18,Quali sono i rischi legati all'esposizione al rumore per un neonato?,UPPA+APPR,Informative,General
+19,Come posso garantire il benessere psicofisico del mio bambino?,UPPA+APPR,Performative,-
+20,Come si sviluppano le funzioni motorie nei neonati?,UPPA+APPR,Informative,General
+21,Come vengono gestite le lezioni frontali nella scuola montessoriana rispetto a quella tradizionale?,UPPA+APPR,Informative,General
+22,Quali sono le cause dell'infertilità femminile e maschile?,UPPA+APPR,Informative,General
+23,"Perché il mio bambino sembra riluttante a mangiare o provare nuovi alimenti, in particolare frutta e verdura?",UPPA+APPR,Evaluative,Epistemic
+24,Quali sono le possibili cause dei tremori del neonato?,UPPA+APPR,Informative,General
+25,Perché la pelle del neonato è così diversa da quella dell'adulto?,UPPA+APPR,Informative,Clarification
+26,Qual è il modo migliore per far mangiare il mio bambino?,UPPA+APPR,Performative,-
+27,Perché il mio bambino sembra così sonnolento e meno attivo nella ricerca del seno dopo il taglio cesareo?,UPPA+APPR,Evaluative,Epistemic
+28,Come possono i genitori conciliare le molte richieste esterne con i bisogni dei figli ancora piccoli?,UPPA+APPR,Performative,-
+29,Come possono i bambini di 2-3 anni difendersi dai germi?,UPPA+APPR,Performative,-
+30,Perché il mio bambino ha spesso il sangue dal naso?,UPPA+APPR,Evaluative,Epistemic
+31,Come posso proteggere la cucina in modo che il bambino non possa raggiungere gli oggetti pericolosi?,UPPA+APPR,Performative,-
+32,Quali cibi dovrei evitare nei primi giorni dopo un episodio di disidratazione del mio bambino?,UPPA+APPR,Evaluative,Deontic
+33,Quali sono le differenze tra la quinta e la sesta malattia?,UPPA+APPR,Informative,General
+34,Cosa significa se ho perdite vaginali bianche durante il mio ciclo mestruale?,UPPA+APPR,Evaluative,Epistemic
+35,A che settimana si sviluppa il senso dell'udito nel feto?,UPPA+APPR,Informative,General
+36,Come posso aiutare il mio bambino a sviluppare un senso di autostima sano?,UPPA+APPR,Performative,-
+37,Quali sono i sintomi dell'infezione da malattia bocca mani piedi negli adulti?,UPPA+APPR,Informative,General
+38,Come posso capire se il pianto del mio neonato è normale?,UPPA+APPR,Evaluative,Epistemic
+39,Qual è la differenza tra lo zucchero scuro e quello bianco?,UPPA+APPR,Informative,General
+40,Come posso creare una routine quotidiana per il mio bambino appena nato?,UPPA+APPR,Performative,-
+41,Perché il mio bambino è così aggressivo?,UPPA+APPR,Evaluative,Epistemic
+42,Come posso favorire il legame affettivo con il mio bambino appena nato?,UPPA+APPR,Performative,-
+43,Come posso favorire la regolazione dei ritmi sonno-veglia del mio bambino?,UPPA+APPR,Performative,-
+44,Come posso aiutare il mio bambino a sviluppare la precisione e la concentrazione?,UPPA+APPR,Performative,-
+45,Quali sono le attività fisiche da evitare durante una laringite?,UPPA+APPR,Informative,General
+46,Quali sono i dosaggi della proteina free Beta HCG durante la gestazione in caso di anomalia cromosomica?,UPPA+APPR,Informative,General
+47,Come posso esprimere il mio dolore e la mia angoscia post parto?,UPPA+APPR,Informative,General
+48,Quali sono i benefici dell'allattamento al seno per il neonato?,UPPA+APPR,Informative,General
+49,Come si sentono i papà di solito di fronte al grande carico di responsabilità che viene loro attribuito?,UPPA+APPR,Informative,General
+50,Come vengono influenzati i livelli di prolattina e ossitocina durante l'allattamento?,UPPA+APPR,Informative,General
+51,Quali sono i rischi legati all'iperidratazione correlata all'uso di liquidi delle flebo?,UPPA+APPR,Informative,General
+52,Come posso aiutare il mio bambino a dormire meglio durante la notte?,UPPA+APPR,Performative,-
+53,Qual è il metodo di diagnosi più accurato per individuare la displasia congenita dell'anca?,UPPA+APPR,Informative,Clarification
+54,Quale tipo di bevande dovrei evitare di somministrare al mio bambino per evitare diarrea e vomito?,UPPA+APPR,Evaluative,Deontic
+55,Come posso garantire che il latte in polvere per il mio bambino sia sicuro da batteri?,UPPA+APPR,Performative,-
+56,Qual è l'età in cui solitamente si verifica l'herpes labiale nei bambini?,UPPA+APPR,Informative,General
+57,Come influisce l'ascolto delle parole pronunciate dalla madre durante la gestazione sul bambino appena nato?,UPPA+APPR,Informative,General
+58,Quali sono i prodotti consigliati per la profilassi delle infezioni nei neonati?,UPPA+APPR,Informative,General
+59,Come posso comportarmi in modo affettuoso nei confronti del mio bambino appena nato?,UPPA+APPR,Performative,-
+60,"A che punto inizia il bisogno di amore, affetto e contatto nei neonati?",UPPA+APPR,Informative,General
+61,Quali alimenti potrebbero causare la stomatite?,UPPA+APPR,Informative,General
+62,Cosa posso fare per intrattenere il mio bambino durante un volo?,UPPA+APPR,Performative,-
+63,Come posso incoraggiare mio figlio a provare cibi nuovi senza insistere troppo?,UPPA+APPR,Performative,-
+64,Quali sono le materie prime ideali per l'alimentazione del mio bambino?,UPPA+APPR,Informative,General
+65,Quali sono i rischi per i neonati e i lattanti in relazione alla bronchiolite?,UPPA+APPR,Informative,General
+66,Come si calcola correttamente il BMI nei bambini?,UPPA+APPR,Informative,Procedure
+67,Qual è l'importanza del microbiota vaginale materno per il neonato durante il parto?,UPPA+APPR,Informative,General
+68,Quali sono le caratteristiche della tosse psicogena nei bambini sopra i 6 anni?,UPPA+APPR,Informative,General
+69,Quali sono i pericoli principali a cui il mio bambino potrebbe essere esposto a partire dai 4 mesi?,UPPA+APPR,Informative,General
+70,Come posso gestire al meglio i comportamenti aggressivi del mio bambino appena nato?,UPPA+APPR,Informative,General
+71,Come potrebbe influenzare il taglio cesareo l'allattamento al seno?,UPPA+APPR,Informative,General
+72,"Qual è il peso considerato ""basso"" per un neonato alla nascita?",UPPA+APPR,Evaluative,Epistemic
+73,Perché il sonno dei neonati è diverso da quello degli adulti?,UPPA+APPR,Informative,Clarification
+74,Quali sono i difetti che possono causare problemi nell'articolazione dell'anca del mio bambino?,UPPA+APPR,Informative,General
+75,Quali sono i fattori che possono influenzare la presenza di nausea e vomito in gravidanza?,UPPA+APPR,Informative,General
+76,Quali sono le particolarità da tenere in considerazione durante una gravidanza gemellare?,UPPA+APPR,Informative,General
+77,Quali sono i reali bisogni e le motivazioni alla base della decisione di interrompere l'allattamento?,UPPA+APPR,Informative,General
+78,Quali sono le principali cause di soffocamento nei bambini?,UPPA+APPR,Informative,General
+79,Come posso aiutare il mio bambino a sviluppare un senso critico e consapevolezza del proprio pensiero?,UPPA+APPR,Performative,-
+80,Come posso contribuire attivamente allo sviluppo del mio neonato durante il ricovero?,UPPA+APPR,Performative,-
+81,Quali sono i sintomi di un'infezione da Streptococcus pneumoniae nei neonati?,UPPA+APPR,Informative,General
+82,Quali sono i benefici del babywearing per il mio bambino appena nato?,UPPA+APPR,Informative,General
+83,Come posso garantire il massimo comfort e la massima sicurezza al mio neonato?,UPPA+APPR,Performative,-
+84,Qual è il tempo biologico necessario per far sbollire la rabbia?,UPPA+APPR,Informative,General
+85,Qual è il rischio di infezione associato alla contaminazione dei giocattoli da parte di batteri e altri microrganismi?,UPPA+APPR,Informative,General
+86,Cosa sono le parasonnie e quali sono le più frequenti?,UPPA+APPR,Informative,General
+87,Perché è importante il contatto fisico tra me e il mio neonato?,UPPA+APPR,Informative,Clarification
+88,Cosa significa esattamente il risultato del tritest in gravidanza?,UPPA+APPR,Informative,Procedure
+89,Qual è la data di riferimento per l'età concezionale?,UPPA+APPR,Informative,General
+90,Quali sono le situazioni in cui è necessario chiamare immediatamente un medico per una convulsione febbrile nei neonati o bambini molto piccoli?,UPPA+APPR,Informative,General
+91,Quali sono le cause più comuni della mastite durante l'allattamento?,UPPA+APPR,Informative,General
+92,Come posso aiutare il mio bambino a diventare bilingue senza rallentare il suo percorso scolastico?,UPPA+APPR,Performative,-
+93,Come posso capire se la tosse del mio bambino è causata da un'infiammazione alla laringe?,UPPA+APPR,Evaluative,Epistemic
+94,Come posso capire quale sia il fattore di protezione di una crema solare?,UPPA+APPR,Informative,Clarification
+95,Cosa posso fare se noto dei nei sul mio bambino appena nato?,UPPA+APPR,Evaluative,Epistemic
+96,Come posso prevenire le ustioni in casa?,UPPA+APPR,Performative,-
+97,"Quali sono i cambiamenti fisiologici che avvengono nel seno durante la pubertà, la gravidanza e l'allattamento?",UPPA+APPR,Informative,General
+98,Quali sono le cause più frequenti di diarrea nei bambini?,UPPA+APPR,Informative,General
+99,Quali sono le possibili cause della SIDS?,UPPA+APPR,Informative,General
+100,Perché il piatto di plastica per bambini è diverso da quello da tavola?,UPPA+APPR,Informative,Clarification
+1,Posso fumare in gravidanza?,CARDS,Informative,Deontic
+2,Posso bere alcolici in gravidanza?,CARDS,Informative,Deontic
+3,Cosa significa embrione?,CARDS,Informative,General
+4,Come faccio a sapere a che settimana sono?,CARDS,Informative,General
+5,In quali alimenti posso trovare l'acido folico?,CARDS,Informative,General
+6,Quali sono i sintomi principali della gravidanza?,CARDS,Informative,General
+7,Perché dall'ecografia non si vede ancora niente?,CARDS,Evaluative,Epistemic
+8,Devo aumentare la quantità di cibo ai pasti?,CARDS,Informative,Deontic
+9,"Ho la nausea, cosa faccio?",CARDS,Evaluative,Deontic
+10,La data di concepimento è precisa?,CARDS,Informative,General
+11,Quanto devo bere al giorno?,CARDS,Informative,Deontic
+12,E' normale che sia sempre stanca?,CARDS,Evaluative,Epistemic
+13,Ci sono diversi tipi di ecografia?,CARDS,Informative,General
+14,Quando si può vedere il bambino all'ecografia?,CARDS,Informative,General
+15,Faccio fatica a mangiare,CARDS,Evaluative,Epistemic
+16,Posso prendere farmaci per la nausea?,CARDS,Informative,Deontic
+17,Quando compaiono i primi movimenti del feto?,CARDS,Informative,General
+18,Quanto è grande il mio bambino a 8 settimane?,CARDS,Informative,General
+19,Perchè sento tensione (male) al seno?,CARDS,Evaluative,Epistemic
+20,è normale fare spesso pipì?,CARDS,Evaluative,Epistemic
+21,Quando si definisce il sesso del bambino?,CARDS,Informative,General
+22,Quanti caffè posso bere al giorno?,CARDS,Informative,Deontic
+23,Posso già sentire il mio bambino che si muove?,CARDS,Informative,General
+24,Sono alla decima settimana e non si vede ancora nulla,CARDS,Evaluative,Epistemic
+25,Che differenza c'è fra embrione e feto?,CARDS,Informative,General
+26,Perché non vedo la pancia crescere?,CARDS,Evaluative,Epistemic
+27,Quando fare il test combinato?,CARDS,Informative,Procedure
+28,Il mio bambino percepisce qualcosa se tocco la pancia?,CARDS,Informative,General
+29,Che senso sviluppa per primo il feto?,CARDS,Informative,General
+30,Quando cresce la placenta?,CARDS,Informative,General
+31,E' normale che senta gonfiore alla pancia la sera?,CARDS,Evaluative,Epistemic
+32,Perchè non sono più regolare ad andare in bagno?,CARDS,Evaluative,Epistemic
+33,Quali alimenti contengono più fibra?,CARDS,Informative,General
+34,Quanto peso posso prendere in gravidanza?,CARDS,Informative,General
+35,Cos'è il pavimento pelvico?,CARDS,Informative,General
+36,E' normale che i miei capezzoli siano scuri e grandi?,CARDS,Evaluative,Epistemic
+37,Perchè mi sono comparse delle macchie sul viso?,CARDS,Evaluative,Epistemic
+38,Che tipo di protezione posso utilizzare per il sole?,CARDS,Informative,General
+39,Cosa riesce a fare il mio bambino alla 18esima settimana?,CARDS,Informative,General
+40,Quali sostanze oltrepassano la placenta?,CARDS,Informative,General
+41,Quali sostanza sono nocive per il bambino?,CARDS,Informative,General
+42,Quanto pesa il mio bambino alla 19esima settimana?,CARDS,Informative,General
+43,Cosa riesco a vedere durante l'ecografia?,CARDS,Informative,Clarification
+44,Quali malformazioni potrebbe avere il mio bambino?,CARDS,Informative,General
+45,Durante l'ecografia posso vedere se è affetto da Sindrome di Down?,CARDS,Informative,Clarification
+46,Chi posso contattare per i corsi di accompagnamento alla nascita?,CARDS,Informative,Clarification
+47,Cosa si fa durante i corsi di accompagnamento alla nascita?,CARDS,Informative,Clarification
+48,Avere rapporti sessuali fa male al bambino in qualche modo?,CARDS,Informative,General
+49,Il mio piccolo sarà peloso alla nascita?,CARDS,Informative,General
+50,Cosa posso usare per ridurre il prurito alla pancia?,CARDS,Performative,-
+51,Che creme posso utilizzare?,CARDS,Informative,General
+52,Che cosa si intende per curva di crescita del bambino?,CARDS,Informative,General
+53,Fa bene al bambino ascoltare musica?,CARDS,Informative,General
+54,Dove posso trovare la checklist per la salute materno infantile?,CARDS,Informative,General
+55,Che tipo di attività fisica posso fare?,CARDS,Informative,General
+56,E' normale avere bruciore allo stomaco e reflusso?,CARDS,Evaluative,Epistemic
+57,è normale sentire di far fatica a respirare?,CARDS,Evaluative,Epistemic
+58,Perchè ho le gambe pesanti e gonfie?,CARDS,Evaluative,Epistemic
+59,Cosa posso fare per il gonfiore alla gambe?,CARDS,Performative,-
+60,Che cosa sono gli incontri di accompagnamento alla nascita?,CARDS,Informative,General
+61,Chi posso contattare per avere informazioni sugli incontri di accompagnamento alla nascita?,CARDS,Informative,General
+62,Che cos'è l'ossitocina?,CARDS,Informative,General
+63,Che cosa sono le contrazioni di Braxton Hicks?,CARDS,Informative,General
+64,Che cosa succede nel terzo trimestre di gravidanza?,CARDS,Informative,General
+65,Quando devo andare in pronto soccorso?,CARDS,Informative,General
+66,Cosa posso fare per ridurre il dolore alla schiena?,CARDS,Performative,-
+67,è normale avere mal di schiena?,CARDS,Evaluative,Epistemic
+68,Quanto pesa il mio bambino alla 30esima settimana?,CARDS,Informative,General
+69,Quando le altre persone potrannno sentire il bambino muoversi?,CARDS,Informative,General
+70,Quanti mesi di astensione dal lavoro ho dopo il parto?,CARDS,Informative,General
+71,Posso lavorare fino al termine della gravidanza?,CARDS,Informative,Deontic
+72,Come posso prevenire il bruciore allo stomaco?,CARDS,Informative,Procedure
+73,Il mio bambino sente la mia voce?,CARDS,Informative,General
+74,Che cos'è il liquido che esce dalle mammelle?,CARDS,Informative,General
+75,è normale avere perdite dai capezzoli?,CARDS,Evaluative,Epistemic
+76,Come faccio a sapere se il mio seno va bene per allattare?,CARDS,Evaluative,Epistemic
+77,A cosa serve il massaggio perineale?,CARDS,Informative,Procedure
+78,Cosa devo mettere nella valigia per il parto?,CARDS,Informative,General
+79,"Se il mio bambino non si gira, cosa succede?",CARDS,Informative,General
+80,Perchè devo fare il tampone vagino-rettale?,CARDS,Informative,Clarification
+81,cos'è il tampone vaginale?,CARDS,Informative,Procedure
+82,Cosa succede se il tampone vaginale risulta positivo?,CARDS,Informative,Clarification
+83,"Se perdo il tappo mucoso, vuol dire che sto per partorire?",CARDS,Evaluative,Epistemic
+84,Il bambino potrebbe già nascere alla 37esima settimana?,CARDS,Informative,General
+85,E' normale avere paura del parto?,CARDS,Evaluative,Epistemic
+86,è normale avere contrazioni frequenti?,CARDS,Evaluative,Epistemic
+87,Sono alla 38 settimana e la pancia mi sembra enorme,CARDS,Evaluative,Epistemic
+88,Cosa posso fare per dormire meglio?,CARDS,Performative,-
+89,è normale che faccia fatica a muovermi?,CARDS,Evaluative,Epistemic
+90,è normale dormire male?,CARDS,Evaluative,Epistemic
+91,Quando nascerà il mio bambino?,CARDS,Informative,General
+92,Cosa devo fare se il bambino non nasce alla 40esima settimana?,CARDS,Performative,-
+93,Chi seguirà me e il mio bambino dopo il parto?,CARDS,Informative,General
+94,Cos'è la violenza ostetrica?,CARDS,Informative,General
+95,Cosa devere fare il papà del bambino durante il parto?,CARDS,Informative,General
+96,Posso avere un gatto?,CARDS,Informative,General
+97,Cosa è il PFAPA?,CARDS,Informative,General
+98,"Ho la febbre, posso prendere una tachipirina?",CARDS,Evaluative,Deontic
+99,"Il bambino non si attacca al seno, che cosa posso fare?",CARDS,Performative,-
+100,Quando arriva la montata lattea?,CARDS,Informative,General

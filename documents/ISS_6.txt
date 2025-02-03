@@ -1,0 +1,90 @@
+Teratogenesi: di cosa si tratta, cosa è importante sapere - ISSalute
+
+Introduzione
+
+
+Il termine teratogenesi deriva dal greco “tèratos” (mostro, prodigio) e “genesis” (nascita, creazione). È il processo responsabile dello sviluppo anomalo di uno o più organi del feto, dovuto a cause di varia natura. La scienza che studia le anomalie che si sviluppano prima della nascita (dette anomalie congenite) è detta teratologia.
+Le anomalie congenite, note anche come malformazioni, sono numerose, e una parte di esse non è facilmente diagnosticabile alla nascita, ad esempio, anomalie del cuore o dei reni. Le malformazioni congenite possono interessare circa il 3% dei nati, rappresentando un serio problema sanitario, e possono causare la morte del feto all'interno dell'utero, subito dopo la nascita o in età pediatrica oppure determinare disabilità cronica a lungo termine. Le anomalie congenite hanno, quindi, un impatto significativo sulle persone coinvolte, sulle famiglie e sui sistemi sanitari.
+Il 25% circa delle anomalie congenite è causato da fattori genetici; il 5-10% da fattori esterni identificati; circa il 65% è determinata dall'associazione di predisposizioni genetiche e di fattori esterni in parte ma non completamente individuati.
+La fase della gravidanza vulnerabile alla teratogenesi, ossia, maggiormente a rischio per lo sviluppo di malformazioni, è il primo trimestre. Tuttavia, fattori teratogeni possono danneggiare il feto anche successivamente, inducendo aborto spontaneo e ritardi dello sviluppo.
+
+Agenti teratogeni
+
+Si definisce teratogeno un composto, una sostanza o una condizione in grado di indurre alterazioni del normale sviluppo del feto durante la gravidanza e di provocare aborto spontaneo oppure malformazioni congenite, o dopo la nascita, che determinano un danno permanente alla salute.
+Tra i fattori esterni (non genetici) che hanno un effetto teratogeno, cioè in grado di causare malformazioni durante la gravidanza vi sono:
+
+infezioni della donna, causate da virus (rosolia, citomegalovirus, varicella, herpes simplex, Zika), batteri (listeriosi, sifilide) o protozoi (toxoplasmosi)
+malattie, come il diabete
+obesità
+alimentazione, l'eccesso di alcuni componenti della dieta (ad esempio, vitamina A e suoi derivati) o la carenza di nutrienti o elementi essenziali (ad esempio, acido folico, iodio) e, più in generale, lo stato nutrizionale della madre
+stili di vita, in primo luogo il fumo di tabacco, il consumo di alcolici e di droghe quali, ad esempio, la cocaina
+fattori ambientali, radiazioni ionizzanti e sostanze chimiche presenti negli ambienti di lavoro e di vita a cui è esposta la donna in età fertile e, in particolare, durante la gravidanza. Alcune di queste sostanze possono contaminare gli alimenti. Le principali sostanze in grado di provocare malformazioni nel feto includono: metilmercurio (che può essere presente nel pesce), alcuni tipi di pesticidi, le sostanze che alterano gli ormoni (cosiddetti interferenti endocrini, come le diossine e sostanze presenti anche nelle plastiche), gli idrocarburi policiclici aromatici (presenti nell'ambiente o derivati dalla cottura e conservazione dei cibi)
+alcuni farmaci, responsabili dell'1-3% delle malformazioni
+
+Modalità e tempi di azione dei teratogeni
+
+Il potenziale teratogeno di una sostanza chimica, o di un altro agente, cioè la sua capacità di indurre malformazioni e/o altri tipi di danno sullo sviluppo del feto durante la gravidanza, dipende dal tipo di azione che esercita nel momento in cui viene a contatto con l'organismo, dalla dose che raggiunge il feto ma anche dalla predisposizione genetica della madre e del feto a quello specifico fattore.
+La placenta, che normalmente protegge il feto e agisce da barriera nei confronti delle sostanze esterne, può essere attraversata da alcune molecole chimiche, soprattutto quelle a basso peso molecolare, ossia molto piccole e quelle che hanno affinità per i grassi (dette molecole lipofile) o che si legano a proteine del sangue. Inoltre, il passaggio di alcune sostanze può essere favorito da alterazioni del flusso sanguigno attraverso la placenta e dall’invecchiamento di quest'ultima. Vi sono anche agenti che danneggiano in primo luogo la placenta e, di conseguenza, determinano anche un effetto sul feto.
+Le sostanze e i fattori teratogeni possono causare malformazioni a carico di un singolo organo o di più organi e possono agire in tutte le fasi della gravidanza. Il tipo di danno determinato dipenderà dai meccanismi, dal tempo che passa tra l'esposizione all'agente e lo sviluppo della malformazione e, ovviamente, dalla dose:
+
+fase di pre-impianto (I-II settimana di gravidanza), bassa probabilità di sviluppare malformazioni ma alto rischio di morte embrionale e di danno al DNA
+fase embrionale (III-XIV settimana di gravidanza), è il periodo in cui gli organi si formano per cui è il momento di massima teratogenicità, ossia di frequenza della formazione di malformazioni
+fase fetale (dalla XIV settimana in poi), in questa fase della gravidanza si verificano l'accrescimento e il differenziamento di organi e tessuti. Di conseguenza, si possono verificare ritardi di crescita e sviluppo, aborto spontaneo e danni funzionali, tra cui particolarmente importanti le alterazioni dello sviluppo del sistema nervoso e comportamentale
+
+Alcuni esempi di fattori o agenti teratogeni legati agli stili di vita, all'alimentazione e all'ambiente e i corrispondenti effetti sullo sviluppo prenatale includono:
+
+alcool, può causare sindrome embriofetale da alcool con alterazioni facciali, ritardo della crescita e dello sviluppo intellettivo, aumentato rischio di aborto spontaneo o mortalità perinatale
+fumo, può essere responsabile di basso peso alla nascita, aumentato rischio di alcune malformazioni, problemi comportamentali nella tarda infanzia e adolescenza
+cocaina e droghe simili, provocano riduzione del volume del cervello (si parla di microcefalia), sindrome neurologica neonatale, difetti comportamentali e dell'apprendimento
+carenza di iodio, può determinare disturbi nella maturazione del sistema nervoso centrale; nei casi più gravi ipotiroidismo congenito
+eccesso o carenza di vitamina A e retinoidi, possono provocare malformazioni cardiache e scheletriche
+carenza di acido folico, causa difetti del tubo neurale (si parla di spina bifida)
+metil-mercurio, provoca difetti del sistema nervoso centrale, con ritardi neurocomportamentali persistenti
+piombo, causa alterata maturazione del sistema nervoso con ritardo mentale
+ossido di carbonio, è responsabile di ritardo mentale
+diossine, determinano ridotta fertilità maschile in età adulta
+
+Farmaci e rischio teratogeno
+
+Il primo caso di malformazioni dovute a farmaci assunti dalla madre durante la gravidanza completamente indagato dalla comunità scientifica si ebbe nei primi anni sessanta, quando fu riscontrato il collegamento tra l'utilizzo di talidomide nei primi due mesi di gravidanza e la comparsa di gravissime malformazioni degli arti superiori dei neonati (dette focomelia). Questa osservazione portò al ritiro del farmaco dal commercio.
+Il caso scosse fortemente l'opinione pubblica e pose all'attenzione di tutti la necessità di studi sul possibile effetto teratogeno dei farmaci nel feto. Negli anni successivi, indagini simili vennero estese anche alle sostanze a uso agroalimentare (ad esempio, pesticidi) e industriale.
+Attualmente, la valutazione del rischio teratogeno dei farmaci, cioè della capacità di farmaci di provocare malformazioni nel feto, si esegue attraverso sperimentazioni su animali integrate da studi sulle persone che usano un determinato medicinale. Gli studi sugli animali, infatti, rappresentano un indispensabile punto di partenza per impedire l'uso in gravidanza di farmaci in grado di determinare malformazioni (leggi la Bufala); tuttavia, le informazioni ricavate dall'animale da laboratorio presentano sempre un margine di incertezza per le differenze fisiologiche tra specie diverse e per la presenza di suscettibilità particolari (ad esempio genetiche) nell'ampia e diversificata popolazione umana. Per questo è fondamentale la segnalazione di possibili effetti indesiderati (reazioni avverse) attraverso il Sistema di Farmacosorveglianza e, se opportuno, lo sviluppo di studi specifici. Infatti, uno studio epidemiologico ben fatto e di ampie proporzioni può rilevare anche un rischio modesto di gravi effetti in un numero ridotto di persone. Un esempio è rappresentato dagli studi epidemiologici che hanno rivelato come l'acido valproico, un farmaco antiepilettico, possa aumentare il rischio di rare e gravi malformazioni del sistema nervoso: i difetti del tubo neurale.
+La decisione di ammettere, o meno, in commercio un farmaco in grado di causare malformazioni viene presa in funzione dei benefici che esso apporta nella cura di una malattia. Ovviamente, nel caso in cui gli studi condotti, eventualmente integrati con l'osservazione degli effetti che il farmaco determina sui malati a cui viene prescritto, dimostrino rischi per l'embrione o per il feto superiori a ogni possibile beneficio, il farmaco riceve la controindicazione assoluta al suo impiego in gravidanza.
+Tra i farmaci caratterizzati da una forte capacità di causare malformazioni nel feto e, quindi, controindicati in gravidanza, vi sono:
+
+immunosoppressori, possono causare malformazioni del sistema nervoso centrale
+antiepilettici, possono provocare difetti del tubo neurale, come la spina bifida, e ritardo della crescita
+ormoni sessuali, possono determinare alterazioni dello sviluppo sessuale
+anti-infiammatori non steroidei (FANS), possono causare malformazioni cardiache
+ipoglicemici, possono determinare difetti del sistema nervoso centrale
+derivati della vitamina A, possono provocare malformazioni scheletriche
+tetracicline, possono causare difetti dello scheletro, dei denti e delle ossa
+anticoagulanti antagonisti della vitamina K, possono provocare difetti scheletrici e del sistema nervoso centrale
+
+Prevenzione delle malformazioni congenite indotte da agenti teratogeni
+
+Le malformazioni che si sviluppano prima della nascita (congenite) a causa degli effetti di alcune sostanze (agenti teratogeni) sono essenzialmente prevenibili. Pertanto, parlare col proprio medico quando si programma una gravidanza aiuta a conoscere i rischi collegati e di conseguenza a ridurli.
+L'eliminazione dei fattori di rischio (detta prevenzione primaria) richiede:
+
+promozione di alimentazione e stili di vita sani
+adeguato apporto di folati e vitamina B12, prima e durante la gravidanza
+promozione delle vaccinazioni
+corretto uso dei farmaci in gravidanza, e più in generale in età fertile
+ambienti di lavoro sani
+formazione/informazione del personale sanitario, e comunicazione del rischio ai futuri genitori
+
+A livello più generale, le politiche per prevenire, curare e trattare le disabilità dovute a malformazioni congenite sono estremamente importanti. A questo riguardo, un accordo di collaborazione tra l'Organizzazione delle Nazioni Unite (ONU), l'Organizzazione Mondiale della Sanità (OMS), il Fondo delle Nazioni Unite per l'Infanzia (UNICEF, dall'inglese United Nations International Children's Emergency Fund) e i leader dei vari Governi nel 2010 ha programmato una serie di interventi ad alto impatto per migliorare la qualità della salute neonatale e infantile.
+In questo contesto si inseriscono anche le campagne di comunicazione sulla prevenzione dei difetti congeniti e sul corretto uso dei farmaci in gravidanza promosse rispettivamente dall'Istituto Superiore di Sanità e dall'Agenzia Italiana del Farmaco.
+La prevenzione delle malformazioni alla nascita ha destato molto interesse da parte delle autorità preposte alla tutela della salute. Le Raccomandazioni Europee riguardano azioni da parte delle Autorità e dei Servizi Sanitari nonché l'adozione di comportamenti informati e responsabili da parte delle donne (e di tutti i cittadini).
+Per approfondire è possibile consultare il rapporto Istisan dedicato e il Decalogo dell'ISS "Nutrizione e sicurezza alimentare in gravidanza: 10 regole per non esporsi troppo" nonché il documento del Ministero della Salute “Investire precocemente in salute: azioni e strategie nei primi 1000 giorni di vita".
+
+Bibliografia
+
+O. Granata, P. Carbone, A. Mantovani, D. Taruscio (Ed.). Prevenzione primaria delle malformazioni congenite: attività del Network Italiano Promozione Acido Folico. Roma: Istituto Superiore di Sanità; 2013 (Rapporti ISTISAN 13/28)
+Istituto Superiore di Sanità (ISS). Alimentazione e gravidanza: il decalogo proposto dall'ISS. Semplici regole per non esporsi troppo
+Ministero della Salute. Investire precocemente in salute: azioni e strategie nei primi 1000 giorni di vita
+
+Link approfondimento
+
+World Health Organization (WHO). Birth defects (Inglese)
+https://www.who.int/news-room/fact-sheets/detail/birth-defects

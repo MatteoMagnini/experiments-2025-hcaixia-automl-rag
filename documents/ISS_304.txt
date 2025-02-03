@@ -1,0 +1,90 @@
+Cellule staminali: cosa sono, tipi, terapie, legislazione ed etica - ISSalute
+
+Introduzione
+
+
+Con il termine cellula staminale si indica una cellula non specializzata che è in grado di autorinnovarsi e di trasformarsi, dando origine a diversi tipi di cellula (differenziamento cellulare). Questa sua caratteristica consente da un lato di mantenere in equilibrio le quantità dei diversi tipi di cellule che costituiscono un tessuto/organo e dall’altro di promuovere la riparazione degli stessi in seguito a traumi, infezioni o malattie.
+
+Caratteristiche delle cellule staminali
+
+Le cellule staminali sono identificate attraverso due caratteristiche:
+
+autorinnovamento
+potenza
+
+Autorinnovamento
+Tutte le cellule cosiddette differenziate o specializzate del corpo quali, ad esempio, quelle del sangue o della pelle sono in grado, attraverso un processo biologico di divisione definito mitosi, di dare origine a due cellule figlie geneticamente uguali tra loro e alla cellula da cui originano. La caratteristica che contraddistingue la cellula staminale, invece, consiste nella capacità di dare origine all’infinito a delle cellule figlie geneticamente uguali alla cellula madre. Per far sì che questo avvenga almeno una delle cellule figlie deve mantenere i tratti e le caratteristiche di staminalità.
+La cellula staminale può andare incontro a un processo di divisione cellulare che può essere simmetrico o asimmetrico:
+
+simmetrico, la cellula staminale madre dà origine a due cellule staminali figlie che sono, quindi, in grado, come la madre, di autorinnovarsi all’infinito
+asimmetrico, da una cellula madre si originano due cellule figlie di cui una continuerà ad avere la caratteristica dell’autorinnovamento, mentre l’altra andrà incontro a un processo di differenziamento o specializzazione. Potrà diventare, quindi, una cellula muscolare, cardiaca, della pelle, ecc. e darà origine solo a cellule figlie della stessa specie, perdendo la capacità di dare origine a tutti i tipi di cellula. La maggiore o minore capacità di specializzarsi in uno o più tipi cellulari definiti prende il nome di potenza
+
+Potenza
+I livelli di potenza, ossia la capacità di una cellula staminale di dare origine a un determinato tipo cellulare sono quattro: totipotenza, pluripotenza, multipotenza e unipotenza. Il margine di “scelta” diminuisce andando dalla totipotenza all’unipotenza.
+
+totipotenza, identifica la capacità di poter dare origine a un individuo completo. La cellula staminale totipotente per eccellenza è lo zigote che altro non è che il prodotto derivante dalla fusione della cellula uovo (cellula sessuale femminile) e dello spermatozoo (cellula sessuale maschile). La totipotenza viene mantenuta fino allo stadio di 8 cellule, definito blastomero che viene raggiunto all’incirca 2-3 giorni dopo la fecondazione. Se le 8 cellule che costituiscono il blastomero fossero separate in 8 cellule singole, ciascuna di esse sarebbe in grado di originare un individuo completo
+pluripotenza, caratteristica della blastocisti (ossia lo stadio successivo dello sviluppo dell’embrione) che si forma, dopo circa una settimana dalla fecondazione. All’interno della blastocisti, raccolte intorno a un nodo, o polo (detto nodo o bottone embrionale), sono presenti le cellule staminali pluripotenti, in grado di dare origine a tutti i tessuti e a tutte le tipologie di cellule ma non a un individuo intero
+multipotenza, circa 15 giorni dopo la fecondazione si avvia un processo di ripiegamento degli strati cellulari (detto gastrulazione) che porta alla formazione di tre zone biologico/anatomiche con caratteristiche diverse: ectoderma, mesoderma ed endoderma
+
+ectoderma, lo strato cellulare più esterno, darà origine al tessuto nervoso del feto, alla pelle e ai suoi annessi ossia peli e unghie
+mesoderma, lo strato di cellule intermedio, darà origine al sistema muscolo-scheletrico, all’apparato renale e cardio-circolatorio
+endoderma, lo strato cellulare più profondo, darà origine all’apparato digerente, respiratorio, agli organi sessuali. In questa fase le cellule che costituiscono il feto, cosiddette multipotenti, hanno già assunto delle caratteristiche specifiche
+
+
+unipotenza, le cellule unipotenti costituiscono il serbatorio di riserva per garantire il continuo ricambio cellulare per tutti quei tessuti, principalmente pelle e intestino, costituiti da cellule con una vita media molto breve: una cellula della pelle ha infatti una vita di circa 30 giorni. Le cellule staminali unipotenti del comparto intestinale saranno in grado di dare origine unicamente a cellule dell’intestino, mentre quelle della pelle unicamente a cellule epidermiche
+
+Tipi di cellule staminali conosciute
+
+Le cellule staminali, in base alla loro provenienza, possono appartenere a diverse tipologie che includono:
+
+cellule staminali embrionali, hanno la caratteristica di poter dare vita a un individuo completo. Si trovano nell’embrione in una fase molto precoce della gestazione, 7 giorni circa dal momento del concepimento, e sono per definizione le cellule staminali totipotenti
+cellule staminali fetali, sono presenti nel feto, quindi, dalla 10 settimana di gestazione fino al momento della nascita e possono dare vita solamente ad alcuni particolari tipi di cellula. Sono per definizione le cellule staminali pluripotenti
+cellule staminali adulte, sono generalmente multipotenti o unipotenti, possono quindi dare origine a un ristretto numero di tipologie cellulari o, addirittura, a un solo tipo di cellula. Si trovano, ad esempio, nello strato profondo della pelle, nel cervello, nei muscoli, nella cornea
+cellule staminali del cordone ombelicale, sono cellule del sangue, molto simili alle cellule staminali degli adulti ma essendo prelevate al momento della nascita in seguito al taglio del cordone (leggi la Bufala), hanno maggiore capacità di proliferare e attecchire
+cellule staminali del liquido amniotico, sono cellule con caratteristiche intermedie tra le cellule staminali embrionali e quelle adulte. Posseggono, quindi, una grande versatilità ma come le cellule staminali adulte, non sono in grado di dare origine a tumori (i teratomi) quando sono utilizzate nelle sperimentazioni
+cellule staminali del sangue, sono al momento il sottotipo di cellula staminale maggiormente studiato e caratterizzato. Fino al momento della nascita si trovano nella milza, nel fegato e nel sacco vitellino, mentre dopo la nascita sono presenti solo nel midollo osseo e nelle ossa lunghe e piatte (come femore, tibia, costole e sterno). Le cellule staminali ematopoietiche possono differenziarsi in due diverse tipologie cellulari: mieloide, a cui appartengono i globuli rossi, bianchi e le piastrine, o linfoide, a cui appartengono i linfociti. L’equilibrio nella produzione dell’uno e dell’altro sottotipo cellulare deve essere sapientemente regolato ed efficiente ma, allo stesso tempo, molto duttile e plastico. In caso di infezione, ad esempio, sarà necessario produrre più linfociti e globuli bianchi, mentre nel caso di emorragie o sanguinamenti più globuli rossi e piastrine
+cellule staminali tumorali, così come avviene nei tessuti sani e normali, anche nei tessuti tumorali è possibile trovare un piccolo numero di cellule staminali dotate di due elementi fondamentali:
+
+capacità di sostenere la continua crescita del tumore
+resistenza ai farmaci chemioterapici
+
+Queste cellule riescono, quindi, a sopravvivere e possono essere responsabili di fenomeni di ricomparsa del tumore o di metastasi anche dopo anni
+cellule staminali pluripotenti indotte (iPS, dall’inglese induced pluripotent stem cells), sono cellule staminali embrionali riprogrammate, partendo da una cellula di qualsiasi tipologia (cellula del sangue o cellula della pelle). La cellula di partenza viene indotta ad esprimere determinati geni in modo da ottenere una cellula con caratteristiche embrionali
+
+Cellule staminali e terapie
+
+La terapia con le cellule staminali prevede il loro impiego per riparare il danno di un particolare gruppo di cellule (come avviene, ad esempio, per le cellule del pancreas deputate alla produzione di insulina) o tessuto (ad esempio, in caso di un trapianto di midollo osseo). Le cellule che vengono maggiormente utilizzate nell’ambito della terapia sono le cellule staminali adulte. Esse, infatti, hanno il vantaggio di essere facilmente reperibili e, soprattutto, facilmente controllabili, a differenza di quello che accade per le cellule staminali embrionali e/o fetali i cui meccanismi di regolazione biologica non sono ancora completamente noti. Il limite principale delle cellule staminali adulte è la scarsa versatilità (multipotenza e unipotenza) e, quindi, la capacità di originare solo un determinato tipo di cellule.
+Una delle terapie con cellule staminali che viene praticata ed è riconosciuta a livello mondiale è il trapianto di cellule staminali del sangue. Il sangue è prelevato da un donatore sano, o dalla stessa persona che dovrà subire il trapianto (in questo caso le cellule raccolte durante le terapie vengono congelate), ed è utilizzato per un trapianto di tipo allogenico o per trapianti autologhi.
+
+trapianto allogenico, le cellule staminali vengono reinfuse in una persona diversa da quella a cui era stato prelevato il sangue; donatore e ricevente devono avere il massimo grado di compatibilità
+trapianto autologo, le cellule staminali raccolte vengono reintrodotte nella stessa persona alla quale era stato prelevato il sangue. In questo caso l’infusione viene effettuata dopo somministrazione di dosi molto elevate di chemio o radioterapia con lo scopo di eliminare totalmente le cellule malate. Il trattamento con le cellule staminali serve a ripopolare rapidamente il midollo, riducendo il periodo durante il quale, a causa dei trattamenti, si ha una forte riduzione di tutte le cellule del sangue (globuli bianchi, globuli rossi, piastrine)
+
+Il trapianto di cellule staminali è prevalentemente utilizzato per curare linfomi, mielomi, leucemia, malattie ereditarie del sangue, malattie metaboliche.Oltre a leucemie e linfomi, uno dei primi importanti successi basati sul trapianto di cellule staminali del sangue è stato ottenuto nella cura della malattia nota come ADA-SCID (dall’inglese Severe Combined Immunodeficiency due to Adenosine Deaminase Deficiency), chiamata anche malattia dei “bambini bolla”. Si tratta di una malattia molto grave in cui le difese immunitarie sono totalmente azzerate e i bambini devono vivere in isolamento, in ambienti asettici per evitare episodi infettivi.
+I risultati di uno studio italiano presentati nel giugno 2016 mostrano come per la prima volta a livello europeo e mondiale l’EMA (European Medicine Agency, Agenzia Europea per i Medicinali) abbia autorizzato la commercializzazione e diffusione di una terapia genica cosiddetta ex-vivo, basata sul prelievo delle cellule staminali ematopoietiche, la modifica in laboratorio e la reintroduzione nel paziente. Le cellule di questi bambini sono caratterizzate dalla mancanza genetica di un enzima necessario alla maturazione di un particolare tipo di cellula, i linfociti, deputati a difendere l’organismo dall’attacco di agenti infettivi. Le cellule staminali ematopoietiche vengono, quindi, sottoposte a processi di ingegnerizzazione in laboratorio, in modo tale da trasformarle in cellule sane (si inserisce dall’esterno il gene mancante), e poi sono reinfuse nel midollo dei bambini, ripopolandolo nel modo corretto.
+Dalla fine degli anni ’90 è molto praticato il trapianto di cornea che viene effettuato con le cellule staminali presenti nella regione dell’occhio che si trova al confine tra l’iride e la cornea stessa (detta limbus). Basta un piccolissimo frammento, di circa 1 millimetro, per effettuare un trapianto di cornea danneggiata da traumi, infezioni o malattie.
+Il trapianto di pelle è anch’esso largamente diffuso per la cura di ustioni gravi su gran parte del corpo. Generalmente le cellule staminali sono prelevate da frammenti di pelle delle ascelle, poi sono fatte crescere su strutture biologiche apposite (definite scaffold) e, infine, trapiantate.
+Accanto a queste terapie ben note, molti sforzi si stanno facendo per aumentare il numero di malattie trattabili con le cellule staminali come, ad esempio, danni a livello del muscolo cardiaco (infarto del miocardio), del cervello (malattie neurodegenerative come il Parkinson, ictus) dei muscoli (come la distrofia muscolare di Duchenne), lesioni spinali e midollari del sistema nervoso centrale.
+
+Cellule staminali: legislazione ed etica
+
+In Italia il Servizio Sanitario Nazionale (SSN) deve “assicurare attraverso risorse finanziarie pubbliche, la tutela della salute come fondamentale diritto dell’individuo [Art.32 della Costituzione]”. L’utilizzo in terapia di cellule staminali è a carico del SSN stesso in quanto fa parte dei Livelli Essenziali di Assistenza (LEA), vale a dire di tutte quelle prestazioni che mostrano un chiaro beneficio per la salute di tutti i cittadini, senza disparità di nessun genere.
+Le cellule staminali sono state oggetto di numerosi Decreti da parte dei vari governi che si sono succeduti:
+
+decreto del Presidente del Consiglio dei Ministri (DPCM) 21 novembre 2001, nella definizione dei LEA, in seguito a modifiche apportate nel 2007, è inclusa la raccolta, lavorazione, controllo e distribuzione degli emocomponenti, servizi trasfusionali e attività di ricerca e reperimento di cellule staminali presso registri e banche nazionali e internazionali. Il trapianto di cellule staminali ematopoietiche è stato, quindi, identificato come terapia salva-vita di grande successo per la cura di numerose malattie, anche gravi, del sangue
+decreto del Ministero della Salute 18 novembre 2009, istituzione di una Rete nazionale italiana di banche per la conservazione di sangue da cordone ombelicale. La Rete è costituita da 18 banche accreditate e viene coordinata dal Centro Nazionale Sangue e dal Centro Nazionale Trapianti. Ciascuna donna in gravidanza ha la facoltà, dopo averne fatto richiesta e aver effettuato accertamenti sanitari, di chiedere che il sangue del proprio cordone ombelicale sia prelevato e conservato per destinarlo ad altri individui, prevalentemente bambini (scopo allogenico). La quantità di cellule staminali presenti nel cordone ombelicale, infatti, è sufficiente per eseguire il trapianto in individui fino al peso di 25 chili circa. In Italia è vietato donare il sangue del cordone ombelicale per fini personali a meno di alcune eccezioni:
+
+malattie presenti nel neonato, diagnosticate al momento della nascita o in epoca immediatamente precedente o successiva
+malattie riscontrate in un familiare stretto, evidenziate al momento della nascita o anche in tempi antecedenti, curabili con le cellule staminali
+famiglie a elevato rischio di malattie genetiche, per le quali è appropriato il trattamento con le cellule staminali
+
+Secondo l’accordo Stato-Regioni del 29 aprile 2010 ciascun individuo ha la libera facoltà di trasferire il sangue del proprio cordone ombelicale all’estero in banche private per uso personale (leggi la Bufala), previo nullaosta al trasferimento da parte della Regione/Provincia di appartenenza
+accordo Stato-Regioni del 20 aprile 2011, identifica le linee guida per l’inserimento (accreditamento) di una struttura ospedaliera nella Rete di banche per la conservazione del sangue del cordone ombelicale. Per avere l’accreditamento, la struttura ospedaliera deve effettuare 500 parti l’anno e deve avere a sua disposizione personale qualificato e preparato alla raccolta, mantenimento e analisi del sangue raccolto. Tutti i campioni di sangue che hanno le caratteristiche necessarie per entrare nella banca vengono conservati per circa 15 anni, fino a che non vengono utilizzati. I campioni di sangue raccolti vengono analizzati per verificare la presenza di eventuali malattie. Le ristrettezze che caratterizzano, da una parte, i Centri riconosciuti per il prelievo e la conservazione dei campioni di sangue; dall’altra, gli alti livelli di qualità che deve avere il sangue, hanno spinto in molti casi a trasferire all’estero, a proprie spese, il sangue del cordone ombelicale
+
+È importante mettere in evidenza le potenzialità della donazione “altruista” poiché, secondo studi epidemiologici, le possibilità che una madre utilizzi il sangue del proprio bambino per curare il figlio stesso sono all’incirca dello 0.001%. Al contrario mettere a disposizione il sangue per la donazione altruistica aumenta fino al 75% la possibilità che una persona che ne ha bisogno trovi un sangue compatibile.
+
+Bibliografia
+
+Zeuner A, Palio E. Le cellule staminali: spunti per un’azione didattica. Roma: Istituto Superiore di Sanità (ISS); 2011. (Dispense per la scuola 11/1)
+Le applicazioni delle cellule staminali nella Medicina Rigenerativa. A cura della Sen. Prof. Elena Cattaneo. Roma, 15 aprile 2014, Palazzo Giustiniani - Senato della Repubblica
+Ministero della Salute. FAQ - Uso appropriato del sangue d cordone ombelicale
+Parlamento italiano. Camera dei Deputati. La ricerca sulle cellule staminali

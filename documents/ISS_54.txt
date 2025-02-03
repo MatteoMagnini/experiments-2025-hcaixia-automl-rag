@@ -1,0 +1,33 @@
+Test del DNA fetale: cos'è, a cosa serve, quando farlo - ISSalute
+
+Introduzione
+
+
+Il DNA fetale circolante nel sangue materno è il materiale genetico che proviene dalla placenta. Il suo dosaggio permette di rilevare difetti relativi ad alterazioni cromosomiche quali:
+
+trisomia 21 (sindrome di Down)
+trisomia 18 (sindrome di Edwards)
+trisomia 13 (sindrome di Patau)
+
+La presenza di DNA fetale libero è rilevabile nel sangue materno a partire da 4-5 settimane di gestazione, ma nella maggior parte delle gravidanze il livello necessario per eseguire il test in modo attendibile si raggiunge solo a 10 settimane di gestazione.
+L’esame fa parte dei test di diagnosi prenatale non invasivi che hanno l’obiettivo di fornire una stima del rischio di alcune anomalie dei cromosomi.
+
+Il test
+
+Il test si basa sulla misurazione delle quantità di specifiche sequenze di DNA per ogni cromosoma. Ad esempio, per valutare il rischio di sindrome di Down, caratterizzata da un cromosoma 21 in eccesso, si esaminano le sequenze di DNA fetale del cromosoma 21, se ne valuta la quantità e si paragonano a quelle identificate nel sangue della madre per lo stesso cromosoma. Se il test rivela la presenza di un numero di sequenze di DNA maggiore nel feto rispetto alla madre, il risultato indica che il feto potrebbe essere affetto dalla sindrome di Down.
+Il test consiste in un normale prelievo del sangue materno. L’esame viene consigliato alle donne ritenute a rischio di alterazioni cromosomiche (ad esempio le cosiddette primipare in età avanzata, vale a dire le donne che intraprendono una gravidanza in età non più giovanissima, dopo i 35 anni).
+
+Risultati
+
+Il test è affidabile nell’identificare un feto a rischio di trisomia 21, meno per la diagnosi di altre trisomie come la 18 o la 13.
+Per i controlli relativi alla sindrome di Down, che rappresenta l’indicazione principale, l’esame può presentare tre possibili risultati:
+
+positivo, il feto potrebbe essere affetto dalla sindrome di Down. In questo caso si consiglia di confermare il risultato ricorrendo ad un test più affidabile, come l’amniocentesi
+negativo, è altamente improbabile che il feto sia affetto dalla sindrome di Down
+inconcludente, il risultato non fornisce informazioni. Questo tipo di risultato, che riguarda circa il 4% dei test eseguiti, è di solito dovuto al fatto che la percentuale di DNA fetale presente nel campione prelevato non è sufficiente per fornire un risultato affidabile. In questo caso il test può essere ripetuto
+
+Tutte le donne in gravidanza possono avvalersi di questo test, ma è bene tenere presente che ad oggi esso viene offerto solo privatamente. Il Ministero della Salute, pur ritenendolo di grande interesse, non lo ha ancora incluso nei Livelli Essenziali di Assistenza (LEA) previsti dal Servizio Sanitario Nazionale perché non tutto il territorio nazionale dispone di laboratori pubblici in grado di garantire la sua esecuzione all’intera popolazione.
+
+Bibliografia
+
+Ministero della Salute. Linee guida Screening prenatale non invasivo basato sul DNA (Non Invasive Prenatal Testing – NIPT)

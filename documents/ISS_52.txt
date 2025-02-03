@@ -1,0 +1,168 @@
+Farmaci anticoagulanti: quando e come usarli - ISSalute
+
+Introduzione
+
+
+Gli anticoagulanti o antitrombotici sono farmaci che aiutano a prevenire la formazione di coaguli all'interno dei vasi sanguigni (vene ed arterie).
+I coaguli sono grumi di sangue derivanti dal processo di coagulazione che, normalmente, si verifica in caso di lesione di un vaso sanguigno, come quando ci si procura una ferita, per interrompere la fuoriuscita di sangue. La formazione di un coagulo a livello del vaso danneggiato consente, infatti, di sigillare la lesione attraverso un “tappo emostatico” che arresta il sanguinamento.
+I coaguli sono, quindi, un meccanismo protettivo, ma, quando si formano nel momento e nel punto sbagliati, possono ostruire i vasi sanguigni e impedire al sangue di raggiungere organi come il cervello, il cuore e i polmoni con conseguenze gravi e pericolose per la salute.
+Gli anticoagulanti, spesso definiti erroneamente “fluidificanti del sangue”, non rendono il sangue più fluido, ma inibiscono in modo significativo il processo che porta alla coagulazione. Al pari dei fluidificanti propriamente detti, cioè gli antiaggreganti piastrinici (come l'aspirina a basso dosaggio e il clopridogel), gli anticoagulanti vengono utilizzati nei casi ad alto rischio di formazione di coaguli per ridurre le probabilità di sviluppare gravi condizioni come l'ictus e l'infarto.
+
+Tipi di anticoagulanti
+
+Si distinguono diversi tipi di anticoagulanti, con caratteristiche e meccanismi d'azione differenti.
+Alcuni sono disponibili sotto forma di compresse o capsule da prendere per bocca (via orale), altri, come l'eparina, sono somministrati attraverso iniezioni sottocutanee o infusioni in vena (via endovenosa).
+Queste pagine contengono informazioni generali sul warfarin (che rappresenta da decenni il farmaco di prima scelta nella terapia anticoagulante orale) e i nuovi anticoagulanti orali (NAO), comprendenti i seguenti principi attivi:
+
+rivaroxaban
+dabigatran
+apixaban
+edoxaban
+
+Per informazioni più dettagliate sui singoli farmaci si rimanda alla Banca Dati Farmaci dell'AIFA, consultabile per nome commerciale del farmaco o per principio attivo.
+
+Quando si usano gli anticoagulanti
+
+Gli anticoagulanti sono utilizzati nelle persone con un elevato rischio di formazione di coaguli che potrebbero ostruire un vaso sanguigno e interrompere la normale circolazione del sangue, privando cellule e tessuti dell'ossigeno necessario al loro funzionamento.
+A seconda della loro localizzazione, i coaguli possono provocare le seguenti gravi condizioni:
+
+ictus, che si verifica quando un coagulo impedisce il normale afflusso di sangue al cervello causando la morte delle cellule cerebrali, con possibili disabilità permanenti e, a volte, con esito fatale
+attacco ischemico transitorio o TIA (dall'inglese Transient Ischemic Attack), un “mini ictus” che si risolve spontaneamente nell'arco di 24 ore, solitamente senza danni cerebrali permanenti
+infarto cardiaco (infarto del miocardio), che si verifica quando un coagulo ostruisce completamente un vaso sanguigno che porta il sangue al cuore, privandolo di ossigeno, con conseguenze di diversa gravità, a volte fatali
+trombosi venosa profonda, dovuta alla formazione di un coagulo in una vena profonda del corpo, in genere delle gambe, che si manifesta con dolore e gonfiore a livello locale
+embolia polmonare, che si verifica quando un coagulo ostruisce un vaso sanguigno del circolo polmonare interrompendo l'afflusso di sangue ai polmoni
+
+Gli anticoagulanti vengono prescritti per ridurre le probabilità che si sviluppino queste condizioni patologiche in presenza dei seguenti fattori di rischio:
+
+precedenti episodi di formazione inappropriata di coaguli
+interventi chirurgici che comportano l'immobilizzazione prolungata, come le operazioni di sostituzione dell'anca o del ginocchio
+impianto di protesi valvolari cardiache, sulla cui superficie possono formarsi dei coaguli
+fibrillazione atriale, un tipo di alterazione del battito cardiaco (aritmia) che può favorire la formazione di coaguli
+condizioni che predispongono alla formazione di coaguli (trombofilia), come la presenza del fattore V di Leiden (mutazione genetica del fattore V della coagulazione)
+sindrome da anticorpi antifosfolipidi, un disturbo del sistema immunitario che attacca erroneamente grassi e proteine presenti nei vasi sanguigni, provocando una coagulazione anomala
+
+Gli anticoagulanti possono essere impiegati anche per impedire che coaguli già esistenti si ingrandiscano, assumendo proporzioni tali da non permettere all'organismo di scioglierli e riassorbirli naturalmente. Sono, quindi, indicati per la cura di malattie come la trombosi venosa profonda e l'embolia polmonare.
+La durata della terapia dipende dal motivo per cui sono stati prescritti gli anticoagulanti. Può essere a breve termine, come quando si è sottoposti ad interventi di chirurgia ortopedica maggiore agli arti inferiori, oppure può proseguire per tutta la vita, nel caso in cui si soffra di una malattia cronica che predispone alla formazione di coaguli.
+
+Come si prendono gli anticoagulanti orali
+
+Gli anticoagulanti orali sono disponibili sotto forma di compresse e capsule da prendere con un po' d'acqua, ad intervalli regolari, in una o due dosi giornaliere, a seconda del principio attivo utilizzato.
+È di fondamentale importanza rispettare scrupolosamente le indicazioni del medico in merito all'ora di assunzione (del mattino e della sera in caso di doppia somministrazione), in quanto alcuni anticoagulanti esauriscono i loro effetti nell'arco delle 24 ore.
+Le persone con problemi di memoria o disabilità fisiche devono essere assistite durante la preparazione delle dosi da assumere, soprattutto se le compresse vanno frazionate, per evitare errori che potrebbero compromettere l'efficacia della terapia o provocare la comparsa di effetti collaterali anche gravi.
+Qualunque sia il principio attivo che si utilizza, è importante non modificare mai di propria iniziativa il dosaggio del farmaco o sospendere la terapia senza consiglio del medico.
+
+Mancata somministrazione o dose eccessiva (sovradosaggio)
+
+Il comportamento da tenere in questi casi varia a seconda della situazione e del tipo di farmaco assunto. Pertanto, in caso di dubbi è opportuno consultare il foglio illustrativo presente nella confezione del medicinale oppure rivolgersi al medico curante per sapere come ci si deve comportare.
+
+Monitoraggio della dose
+
+Warfarin
+La terapia con il warfarin richiede l'esecuzione di periodici prelievi di sangue per misurare la velocità di coagulazione, attraverso il test del tempo di protrombina (PT), il cui risultato viene espresso con un valore universale di riferimento, il cosiddetto INR (dall'inglese International Normalized Ratio).
+I valori dell'INR devono essere controllati regolarmente per assicurarsi che il sangue non coaguli troppo velocemente o troppo lentamente, ai fini dell'efficacia e della sicurezza della terapia.
+Il dosaggio del warfarin sarà modificato finché i valori dell'INR non raggiungono l'intervallo corretto, detto intervallo terapeutico.
+Nella fase iniziale della terapia sarà necessario sottoporsi a prelievi di sangue ravvicinati, a distanza di pochi giorni l'uno dall'altro. Non appena i valori dell'INR si saranno stabilizzati entro l'intervallo terapeutico, sarà possibile stabilire la dose ottimale del farmaco e i controlli potranno essere diradati, fino ad arrivare a un prelievo mensile.
+Le persone che non sono in grado di camminare o essere trasportate con i mezzi usuali possono chiedere il prelievo a domicilio con un'impegnativa del medico curante in cui venga indicata la motivazione della richiesta.
+Da alcuni anni sono stati messi in commercio i coagulometri portatili, che permettono di controllare l'INR con un prelievo di sangue dal polpastrello, attraverso un apposito pungidito, proprio come avviene per misurare la glicemia nelle persone diabetiche. Si tratta di strumenti piuttosto costosi, per i quali non è previsto il rimborso da parte del Servizio sanitario nazionale. Il loro uso, inoltre, non è indicato per tutti e richiede uno specifico corso di addestramento.
+Nuovi anticoagulanti orali (NAO)
+L'impiego dei nuovi anticoagulanti orali (NAO) non richiede il monitoraggio costante dell'INR, né aggiustamenti di dosaggio. Sarà, comunque, necessario sottoporsi a visite periodiche dal medico che valuterà se si sta assumendo la dose di farmaco raccomandata e l'eventuale comparsa di effetti indesiderati.
+
+Effetti indesiderati (collaterali) degli anticoagulanti orali
+
+Gli anticoagulanti orali, come tutti i medicinali, possono provocare la comparsa di effetti indesiderati (collaterali).
+Dato che gli anticoagulanti ritardano il normale processo di coagulazione del sangue, l'effetto collaterale più comune è il sanguinamento eccessivo (emorragia).
+Sanguinamento eccessivo
+I segni di una possibile emorragia in atto, ai quali occorre prestare attenzione, comprendono:
+
+presenza di sangue nelle urine, che appaiono colorate di rosa o rosso intenso
+feci striate di sangue rosso vivo oppure nere (come i fondi del caffè) e catramose
+sanguinamento prolungato dal naso (di durata superiore a 10 minuti)
+sanguinamento dalle gengive
+vomito di sangue o tosse con emissione di sangue
+forte dolore improvviso alla schiena
+mestruazioni più lunghe o abbondanti del solito, nelle donne in età fertile, o altre forme di sanguinamento dalla vagina
+
+In presenza di questi segnali o altri episodi di sanguinamento copioso, frequente o inarrestabile, è indispensabile rivolgersi subito al medico curante o raggiungere il pronto soccorso più vicino. Allo stesso modo, è necessario sottoporsi a un'immediata valutazione medica in caso di gravi incidenti stradali o forti traumi alla testa, anche in assenza di danni visibili.
+Altri effetti collaterali
+Oltre al sanguinamento eccessivo, gli anticoagulanti orali possono causare altri effetti collaterali, che variano in funzione del principio attivo utilizzato.
+Gli effetti collaterali specifici di ogni anticoagulante sono riportati nel foglietto illustrativo presente nella confezione del medicinale.
+In generale, i possibili effetti collaterali diversi dal sanguinamento comprendono:
+
+diarrea o stitichezza (costipazione)
+sensazione di stanchezza o malessere costante
+difficoltà di digestione
+dolore e/o gonfiore addominale
+vertigini e mal di testa
+prurito o eruzioni cutanee
+perdita di peli o capelli (alopecia)
+colorito giallastro della pelle e/o della parte bianca (sclera) degli occhi (ittero)
+
+Se si verificano questi o altri disturbi è opportuno rivolgersi al medico, che va contattato immediatamente in caso di ittero.
+Segnalazione degli effetti indesiderati
+La comparsa di effetti indesiderati durante l'uso degli anticoagulanti può essere comunicata alle autorità sanitarie competenti attraverso l'apposita scheda di segnalazione di sospetta reazione avversa, disponibile anche in farmacia.
+
+Interazioni
+
+Interazioni con altri farmaci
+Quando si prendono gli anticoagulanti orali bisogna sempre interpellare il medico o il farmacista prima di assumere altri farmaci, compresi quelli da banco (come l'aspirina) o rimedi erboristici (come l'erba di San Giovanni), medicinali omeopatici e integratori.
+Molti preparati possono interagire con gli anticoagulanti, potenziandone o riducendone gli effetti, con conseguenze pericolose per la salute.
+I farmaci che possono modificare il meccanismo d'azione degli anticoagulanti orali comprendono:
+
+antibiotici
+antidepressivi
+corticosteroidi  (usati per ridurre le infiammazioni)
+antiepilettici
+farmaci antinfiammatori non steroidei (FANS), come l'ibuprofene (in caso di febbre o dolori è consentito l'uso del paracetamolo)
+
+L'elenco dettagliato dei farmaci da evitare può essere consultato sul foglio illustrativo che accompagna ogni confezione di medicinale.
+Interazioni con gli alimenti e l'alcol
+L'uso degli anticoagulanti orali non richiede l'adozione di una dieta particolare, purché l'alimentazione sia sana, equilibrata e variata per assicurare all'organismo tutti i nutrienti necessari al suo corretto funzionamento.
+L'unica raccomandazione dietetica riguarda le persone in terapia con il warfarin, che devono mantenere il più possibile costante il consumo quotidiano di alimenti ricchi di vitamina k, quali verdure a foglia larga (come spinaci, broccoli, cavolfiori e lattuga), ceci, fegato e succo di mirtillo.
+La vitamina k, infatti, può interferire con l'azione del warfarin, modificandone gli effetti. A un incremento della quantità di vitamina k introdotta con l'alimentazione corrisponde una diminuzione dell'effetto anticoagulante, viceversa, a una riduzione dell'apporto di vitamina k corrisponde un aumento del rischio emorragico.
+Il medico potrà cambiare il dosaggio del warfarin per riportare i valori dell'INR nell'intervallo corretto, ma è sempre bene mantenere nel dovuto equilibrio l'azione dell'anticoagulante attraverso abitudini alimentari regolari nel tempo.
+Anche l'alcol interagisce con il warfarin, aumentandone gli effetti. Si raccomanda, quindi, il consumo moderato di vino (nella misura di 1 bicchiere ai pasti principali), mentre l'uso di alcolici e superalcolici è fortemente sconsigliato.
+Queste indicazioni dietetiche non riguardano chi fa uso dei nuovi anticoagulanti orali (NAO). In caso di dubbi basta rivolgersi al medico o al farmacista.
+
+Gravidanza
+
+Il warfarin normalmente non viene utilizzato durante la gravidanza, in quanto può provocare emorragie della placenta o del feto e gravi difetti alla nascita del bambino. Tuttavia, in alcuni casi, può essere impiegato nel secondo trimestre di gravidanza se, a giudizio del medico, i benefici derivanti dalla sua assunzione superano i rischi.
+Anche i nuovi anticoagulanti orali (NAO) sono sconsigliati in gravidanza, dato che i loro effetti sul bambino non sono ancora stati studiati.
+Le donne che desiderano un figlio devono discuterne preventivamente con il medico, che valuterà se sospendere la terapia anticoagulante o sostituire gli anticoagulanti orali con l'eparina iniettabile. Quest'ultima, infatti, non presenta rischi per il bambino poiché non attraversa la placenta e, quindi, non arriva al feto.
+Le donne in età fertile sottoposte alla terapia anticoagulante orale devono usare metodi contraccettivi diversi dalla pillola, che è controindicata, per evitare eventuali gravidanze. In caso di ritardi del ciclo mestruale devono informare tempestivamente il medico per effettuare un test di gravidanza.
+
+Allattamento
+
+Le donne in trattamento con il warfarin possono allattare al seno tranquillamente, in quanto non esistono evidenze scientifiche che dimostrino il passaggio del farmaco nel latte materno.
+Anche l'uso dell'eparina è sicuro durante l'allattamento, mentre i nuovi anticoagulanti orali (NAO) sono sconsigliati poiché ancora non sono noti i loro effetti sul bambino.
+In ogni caso, prima di iniziare ad allattare al seno è sempre bene chiedere consiglio al medico o al ginecologo.
+
+Raccomandazioni
+
+La terapia anticoagulante non impedisce il normale svolgimento delle attività quotidiane, ma richiede l'adozione di alcune precauzioni, qui di seguito elencate.
+Interventi chirurgici, esami invasivi o cure odontoiatriche complesse
+Prima di sottoporsi a un intervento chirurgico programmato o a un esame diagnostico invasivo, come la gastroscopia, la colonscopia e la biopsia, bisogna comunicare al chirurgo o al personale sanitario gli anticoagulanti che si stanno assumendo.
+Poiché questi farmaci rallentano la coagulazione del sangue, esiste, infatti, il rischio di un forte sanguinamento in caso di tagli o incisioni eseguiti durante l'intervento o l'esame.
+Per evitare il rischio di emorragie, in alcuni casi sarà necessario sospendere temporaneamente la terapia.
+Allo stesso modo, in previsione di estrazioni dentarie o altre procedure odontoiatriche invasive, è opportuno informare il dentista della terapia in corso, per permettergli di valutare i rischi connessi al suo intervento.
+A seconda dei casi, si dovrà sospendere l'anticoagulante o eseguire un prelievo di sangue, il giorno prima dell'intervento, per assicurarsi che il sangue coaguli alla giusta velocità.
+Traumi, lesioni e ferite
+L'uso degli anticoagulanti orali aumenta il rischio di emorragie in caso di traumi, lesioni e ferite, pertanto è necessario evitare, o svolgere con cautela, tutte le attività che possono indurre un sanguinamento adottando i seguenti accorgimenti:
+
+lavarsi i denti con delicatezza, usando uno spazzolino con setole morbide e senza esercitare pressione sulle gengive
+usare il rasoio elettrico per rasarsi o depilarsi, evitando l'uso di lamette o rasoi tradizionali
+maneggiare con prudenza oggetti appuntiti o taglienti, come forbici e coltelli, indossando guanti protettivi per le attività di giardinaggio
+evitare attività fisiche o sportive ad alto rischio di cadute, traumi o ferite, come il calcio, le arti marziali e altri sport di contatto. Utilizzare, in ogni caso, idonei dispositivi di protezione, come il casco per andare in bicicletta
+usare repellenti contro gli insetti, per proteggersi da morsi e punture inopportune
+evitare le iniezioni intramuscolari, se possibile, in quanto potrebbero provocare la formazione di ematomi locali
+
+Braccialetto di identificazione
+È buona norma portare sempre con sé un braccialetto di identificazione o un documento che segnali la terapia anticoagulante che si sta assumendo (grande come una carta di credito che viene fornito con il farmaco). Questo semplice accorgimento, in situazioni di emergenza, consentirà ai soccorritori e ai medici di intervenire in modo adeguato.
+Nota bene: per la prescrizione dei nuovi anticoagulanti orali (NAO) non è sufficiente una normale ricetta ma è attualmente necessario uno specifico piano terapeutico stilato on line dal medico.
+
+Bibliografia
+
+NHS. Anticoagulant medicines (Inglese)
+
+Link approfondimento
+
+FEDER-A.I.P.A - Federazione Associazioni Italiane Pazienti Anticoagulati

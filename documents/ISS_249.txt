@@ -1,0 +1,78 @@
+Microplastiche: diffusione e effetti sulla salute - ISSalute
+
+Introduzione
+
+
+La plastica è un materiale usato in ogni settore produttivo e attività umana (automobili, agricoltura, salute, edilizia/costruzioni, packaging, tessuti, giocattoli, ecc.) ed è prodotta in differenti dimensioni (macro-, micro-, nano-plastiche) e forme (frammenti, sfere, fibre) a seconda dell’utilizzo finale.
+Attualmente non esiste una definizione di microplastiche (MP) riconosciuta a livello internazionale. Si parla genericamente di una miscela eterogenea di materiali di forma differente - frammenti, fibre, sfere, granuli, pellets, fiocchi o perle - di dimensioni da 1 micrometro (µm) a 5 mm (millimetri). Una distinzione viene operata fra MP primarie o secondarie.
+Le MP primarie sono plastiche prodotte intenzionalmente in dimensioni ridotte, per essere usate, ad esempio, nei cosmetici (prodotti per il trucco, detergenti, dentifrici), nelle vernici, nelle paste abrasive e nei fertilizzanti, per le loro proprietà abrasive, esfolianti e leviganti o per il mantenimento dello spessore, aspetto e stabilità del prodotto.
+Le MP secondarie sono originate dall’usura, deterioramento e frammentazione di materiali in plastica di dimensioni maggiori, compresi tessuti sintetici e copertoni delle ruote. Infatti, la plastica presente nell’ambiente, spesso derivante dallo smaltimento non corretto dei prodotti di consumo, viene sottoposta a processi di degradazione molto lenti a opera della luce, a processi termo-ossidativi o di biodegradazione che indeboliscono l’integrità del materiale di origine, portando alla frammentazione in pezzi inferiori ai 5 mm. Le MP secondarie costituiscono la quota maggiore delle MP disperse nell'ambiente.
+I composti chimici identificati nelle MP presenti in ambiente acquatico – le più studiate – sono sostanze comunemente utilizzate nei prodotti di consumo, come polietilene, polipropilene e polistirene (dati relativi alle coste del Mediterraneo), polietilene tereftalato (in Nord Europa). I polimeri contengono, in media, il 4% di additivi utilizzati per modificarne il colore (coloranti, pigmenti), per migliorarne o modificarne le proprietà meccaniche (riempitivi, rinforzanti), per migliorarne la resistenza al calore, ai raggi ultravioletti e all’invecchiamento (antiossidanti, filtri, stabilizzanti), per renderli resistenti al fuoco (ignifughi, ritardanti di fiamma), per migliorarne le prestazioni (plasticizzanti, lubrificanti, sbiancanti, ecc.).
+Inoltre le MP possono assorbire sulla loro superficie contaminanti chimici e contenere sostanze inorganiche come alluminio, titanio, bario, zolfo, ossigeno e zinco.
+Le nanoplastiche (NP), generalmente prodotte durante processi di frammentazione delle MP, sono particelle di dimensioni comprese tra 0,001 e 0,1 µm (ossia da 1 a 100 nanometri) e per questo ricadono nella definizione corrente di nanomateriali, (Raccomandazione 2011/696/UE). Le informazioni attualmente disponibili sulle NP sono scarse, soprattutto a causa della mancanza di metodi validati per la loro rilevazione e quantificazione.
+
+Presenza ambientale delle microplastiche e esposizione umana
+
+L’attenzione della popolazione e della comunità scientifica sulle microplastiche (MP) è stata generata dall’enorme aumento dei rifiuti plastici negli oceani, divenuti attualmente il principale serbatoio di accumulo: le plastiche rivenute negli oceani, infatti, rappresentano l’80% del totale dei rifiuti.
+Molte delle plastiche a bassa densità galleggiano sulla superficie degli oceani, sono sottoposte all’azione distruttiva di vento, raggi solari e acqua e vengono frammentate in MP che rappresentano una seria minaccia per l’ecosistema marino e, in ultima analisi, per l’uomo. Inoltre, essendo troppo piccole per poter essere trattenute dai sistemi di filtrazione e depurazione delle acque reflue, le MP vengono rilasciate nell’ambiente marino, contribuendo al suo inquinamento. La concentrazione delle MP in ambiente marino è pari a circa 102.000 MP per metro cubo, ed è ancora più elevata nelle zone vicine ai siti di smaltimento rifiuti, agli impianti di trattamento delle acque, ai porti. La maggior parte (circa il 64%) delle MP identificate è in forma di fibre, il resto in frammenti.
+La contaminazione ambientale delle MP riguarda anche le acque dolci, i sedimenti, il terreno e l’aria. Diversi studi suggeriscono che il loro inquinamento può essere anche maggiore rispetto a quello dei mari e, dunque, anche esse rappresentano una fonte di esposizione per l’uomo.
+La popolazione è esposta alle microplastiche attraverso l’ambiente (per esempio con l’inalazione di microplastiche presenti in aria) ma anche attraverso il consumo di cibi o all’utilizzo di tessuti o cosmetici, in essi contenuti.
+Il documento dell’Autorità Europea per la Sicurezza Alimentare (EFSA) sulle microplastiche (MP) presenti negli alimenti riporta la loro concentrazione riscontrata in:
+
+pesce, la concentrazione varia da 1 a 7 MP per pesce ed è misurata nello stomaco e nell’intestino che rappresentano il sito principale di accumulo delle MP
+gamberi, 0,75 MP per grammo
+bivalvi, tra 0,2 e 4 MP per grammo
+
+Sulla base di questi dati, EFSA ha effettuato una stima dell’esposizione umana alle microplastiche considerando il consumo di una porzione da 225 grammi di cozze (poiché le cozze sono consumate senza la rimozione dei visceri) e usando la più alta concentrazione di MP rilevata nei molluschi. In tal modo si è calcolata un’ingestione di 900 pezzi di MP.
+Le MP sono state riscontrate anche in altri alimenti:
+
+sale, con concentrazioni comprese fra 0,007 e 0,68 MP per grammo
+birra, in cui fibre, frammenti e granuli di MP ammontano a 0,025, 0,033 e 0,017 per millilitro
+miele, 0,166 ﬁbre per grammo
+acqua in bottiglia, 94,37 MP per litro
+acqua del rubinetto, 4,23 MP per litro
+
+Dati sperimentali sugli organismi marini hanno evidenziato che le MP possono essere trasferite a vari livelli: ad esempio, le farine di pesce vengono utilizzate in zootecnia per produrre mangimi destinati al pollame e ai suini, contribuendo alla diffusione delle MP anche in alimenti di origine non marina.
+Anche le confezioni alimentari e l’uso di stoviglie in plastica (piatti, forchette, ecc.) possono rappresentare sorgenti di esposizione alle microplastiche.
+Le MP presenti nell’aria derivano dalla sospensione delle microplastiche presenti nelle acque o nei terreni, dall’abrasione dei materiali o dei tessuti sintetici: ad esempio, le MP rilasciate dagli pneumatici delle auto o delle moto nel traffico rappresentano la principale fonte di esposizione alle microplastiche negli ambienti esterni; le fibre di MP dei tessuti, invece, costituiscono la principale fonte di esposizione negli ambienti chiusi.
+Anche la polvere è un fattore importante di esposizione alle microplastiche, soprattutto per i bambini che sono particolarmente vulnerabili e suscettibili a causa dell’abitudine a portare gli oggetti alla bocca e al più ravvicinato contatto col suolo. Infine, l’esposizione attraverso la cute a causa della polvere, delle fibre sintetiche e dei cosmetici può apportare un contributo, sebbene di minore entità.
+Ai fini della valutazione dell’esposizione, le quantità introdotte attraverso l’inalazione e l’ingestione sono comparabili. Uno studio condotto su volontari provenienti da tutto il mondo ha dimostrato la presenza di almeno 20 diversi tipi di microplastiche in 10 grammi di feci, polipropilene e polietilene tereftalato erano presenti in tutti i campioni analizzati (80% delle MP totali). Lo studio è stato condotto su pochi individui ma è indicativo della presenza diffusa e variegata delle MP.
+
+Effetti sulla salute umana e sull’ambiente
+
+I rischi per l’uomo derivanti dalle microplastiche (MP) possono essere di natura fisica, chimica o microbiologica.
+I rischi fisici sono dovuti alle ridotte dimensioni delle MP (e anche delle nanoplastiche) che possono attraversare le barriere biologiche - come la barriera intestinale, ematoencefalica, testicolare e persino la placenta - e causare danni diretti, in particolare all’apparato respiratorio e all’apparato digerente, quali primi apparati con cui le MP entrano in contatto.
+I rischi chimici derivano dalla presenza di contaminanti, come i plasticizzanti (ftalati, bisfenolo A) o i contaminanti persistenti (ritardanti di fiamma bromurati, idrocarburi policiclici aromatici, policlorobifenili) presenti nelle microplastiche. Infatti, le MP possono essere veicolo di sostanze potenzialmente pericolose di natura organica oppure inorganica. Attualmente esistono pochi dati sulla presenza e concentrazione di metalli nelle MP e sui contaminanti ad esse associati. Molti di essi, essendo interferenti endocrini, possono provocare danni a carico del sistema endocrino, causare problemi alla sfera riproduttiva e al metabolismo sia nei figli di genitori che sono stati esposti alle microplastiche durante la gravidanza, sia in età adulta a seguito di esposizione nelle prime fasi di vita (neonatale, infanzia, pubertà).
+Le MP possono trasportare, attaccati alla loro superficie, microrganismi in grado di causare malattie: batteri come Escherichia coli, Bacillus cereus e Stenotrophomonas maltophilia sono stati rilevati in MP raccolte al largo delle coste del Belgio.
+Esistono ancora poche informazioni riguardo l’impatto delle MP sulla salute degli animali e dell’uomo. I polimeri, in generale, sono chimicamente inerti e, dunque, considerati non tossici. Tuttavia, le ridotte dimensioni e l’elevata superficie conferiscono alle MP, e ancora di più alle NP, maggiore reattività rispetto ai composti da cui originano, rendendole potenzialmente dannose per gli organismi a seconda del tipo di esposizione e della suscettibilità.
+Esistono pochi dati sul destino delle MP nel tratto gastrointestinale. I dati disponibili riguardano esclusivamente assorbimento e distribuzione ma non sono ancora noti processi di trasformazione (metabolici) e di eliminazione. Solo MP più piccole, di dimensione inferiore a 150 micrometri sembra possano attraversare la barriera intestinale, sebbene l’assorbimento sia comunque considerato molto basso (inferiore o uguale allo 0,3%). Il passaggio ad altri organi sembra possa avvenire sono per una frazione limitata, di dimensioni inferiori a 1,5 micrometri. Tuttavia, studi sperimentali hanno dimostrato che, una volta assorbite, le MP si accumulano in fegato, reni e intestino con la capacità di provocare stress ossidativo, problemi metabolici, processi infiammatori, nonché danni ai sistemi immunitario e neurologico. Infine, nella valutazione degli effetti negativi delle MP occorre tener conto della presenza delle sostanze chimiche in esse presenti o attaccate alla loro superficie, il cui rilascio nell’organismo rappresenta un potenziale rischio per la salute, e di eventuali organismi patogeni.
+Negli ultimi anni, la diffusa presenza delle MP ha destato preoccupazione a livello globale e diversi organismi regolatori stanno lavorando in maniera coordinata allo scopo di sviluppare sistemi e politiche per mitigare i potenziali rischi per l’uomo e per l’ambiente. La Commissione Europea (CE) ha richiesto all’Agenzia Europea per le Sostanze Chimiche (ECHA) di valutare i dati disponibili, allo scopo di presentare una proposta per limitare l’utilizzo delle MP primarie in prodotti di consumo quali cosmetici, detergenti e fertilizzanti. Quando sarà approvata, la restrizione avrà come effetto quello di ridurre le emissioni di MP di circa 400.000 tonnellate nell'arco dei successivi 20 anni. Considerando questo obiettivo, in Italia dal primo gennaio 2020 è stata vietata la vendita e la commercializzazione di cosmetici da risciacquo, come saponi, creme, gel esfolianti e dentifrici, contenenti MP.
+
+Valutazione del rischio
+
+Attualmente sono estremamente scarsi i dati disponibili sulla quantità delle microplastiche a cui la popolazione è esposta, sulle vie di esposizione, sui principali bersagli e sui potenziali effetti dannosi per la salute; la comunità scientifica internazionale sta lavorando nell’ambito di numerosi programmi di ricerca per ampliare le conoscenze sull’argomento con un approccio che prevede il coinvolgimento di più discipline diverse.
+Come evidenziato nel documento EFSA relativo ai rischi per l’uomo derivanti dall’esposizione alle microplastiche, l’impossibilità di effettuare una corretta valutazione del rischio per la salute umana è legata soprattutto alla mancanza di metodi chimici per la rilevazione e la quantificazione delle MP, soprattutto di quelle con dimensioni inferiori a 150 micrometri, negli alimenti ma anche nell’ambiente e nel corpo umano. L’attività di ricerca dovrebbe essere indirizzata a ottenere dati sulla cinetica e sugli effetti delle MP, soprattutto per quelle di dimensioni minori, comprese le nanoplastiche.
+
+Bibliografia
+
+Alexy P et al. Managing the analytical challenges related to micro- and nanoplastics in the environment and food: filling the knowledge gaps. Food Additives & Contaminants: Part A. 2020; 37(1): 1-10
+Boucher J & Friot D. Primary microplastics in the oceans: Global evaluation of sources. Gland, Switzerland: International Union for Conservation of Nature and Natural Resources (IUCN), 2017, 43 p. 
+Freshwater Microplastics: Emerging Environmental Contaminants?. Wagner M, Lambert S eds. (The Hanbook of Environmental Chemistry, 58). Springer Nature, 2018, 303 p.
+Cox KD et al. Human Consumption of Microplastics. [Sintesi]. Environmental Science and Technology. 2019; 53(12): 7068‐7074
+EFSA Panel on Contaminants in the Food Chain (CONTAM). Statement.  Presence of microplastics and nanoplastics in food, with particular focus on seafood. EFSA Journal. 2016; 14(6): e4501
+Gasperi J et al. Microplastics in air: Are we breathing it in?. [Sintesi]. Current Opinion in Environmental Science & Health. 2018; 1: 1-5
+PlasticsEurope. Plastics - the Facts 2019. An analysis of European plastics production, demand and waste data.
+Prata JC et al. Environmental exposure to microplastics: An overview on possible human health. [Sintesi]. Science of the Total Environment. 2020; 702: 134455
+Raccomandazione della Commissione Europea del 18/10/2011 sulla definizione di nanomateriale - 2011/696/UE
+Rodrigues MO et al., Impacts of plastic products used in daily life on the environment and human health: What is known? [Sintesi]. Environmental Toxicology and Pharmacology. 2019; 72: 103239
+Schwabl P et al. Detection of Various Microplastics in Human Stool: A Prospective Case Series. [Sintesi]. Annals of Internal Medicine. 2019; 171: 453-457
+European Commission. Scientific Advice Mechanism (SAM). Environmental and Health Risks of Microplastic Pollution. Scientific Opinion 6/2019
+Shen M et al. Recent advances in toxicological research of nanoplastics in the environment: A review. [Sintesi]. Environmental Pollution. 2019; 252: 511-521
+Van der Meulen MD, DeVriese L, Lee J, Maes T, Van Dalfsen JA, Huvet, A, Soudant P, Robbens J, Vethaak AD. Socio-economic impact of microplastics in the 2 Seas, Channel and France Manche Region: an initial risk assessment. MICRO Interreg project Iva, 2014
+World Health Organization (WHO). Microplastics in drinking-water. Technical document, 2019 (Inglese)
+
+Link approfondimento
+
+European Chemicals Agency (ECHA). Microplastica
+Food Packaging Forum. Microplastics (Inglese)
+https://echa.europa.eu/it/hot-topics/microplasticshttps://www.foodpackagingforum.org/food-packaging-health/microplastics

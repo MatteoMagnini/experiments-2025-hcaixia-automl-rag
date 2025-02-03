@@ -1,0 +1,43 @@
+Esame del sistema gruppo-ematico Rh - ISSalute
+
+Introduzione
+
+
+Il gruppo sanguigno è una delle numerose caratteristiche di un individuo come, ad esempio, il colore degli occhi e dei capelli; esso è determinato geneticamente ed ereditato da entrambi i genitori. La classificazione avviene sulla base di particolari molecole, denominate antigeni, presenti sulla superficie dei globuli rossi. Sono stati classificati oltre 700 tipi di antigeni e possono essere raggruppati in più di 30 sistemi. I più noti, sono il sistema ABO e il sistema Rh (Rhesus).
+Il sistema Rh comprende 5 antigeni: C, c, D, E, e.
+Un individuo è definito Rh positivo (Rh+) oppure Rh negativo (Rh-) in base alla presenza, o all’assenza, dell’antigene D sulla membrana dei globuli rossi (Tabella 1).
+
+
+
+
+
+Rh positivo (Rh+)
+
+
+Presenza dell’antigene D (D+)
+
+
+
+
+Rh negativo (Rh-)
+
+
+Assenza dell’antigene D (D-)
+
+
+
+
+
+Le più recenti conoscenze sulla genetica e sulla natura del sistema Rh hanno portato all’individuazione di persone che hanno globuli rossi con una debole espressione dell’antigene D sulla loro superficie (“D debole”) e di altre con globuli rossi che esprimono un antigene D “difettoso” (“D parziale”).
+
+Il test
+
+La determinazione del gruppo sanguigno Rh è effettuata su una piccola quantità di sangue, solitamente prelevata attraverso un ago inserito nella vena situata all’interno del gomito. Tutti i test “diretti” per la determinazione del gruppo sanguigno (eseguiti con differenti metodiche: piastra o micro piastra, provetta, schedine con micro colonne di gel o di microsfere, oppure con strumento automatico) si basano sulla presenza, o meno, di una reazione quando il sangue viene messo a contatto con del siero (parte liquida del sangue senza fattori della coagulazione) immune contenente anticorpi anti-D (test di agglutinazione); se si osserva la reazione di agglutinazione (i globuli rossi si radunano in ammassi e si ritrovano in fondo alla provetta - precipitano) la persona è definita Rh positiva (D+).
+
+Risultati
+
+In Italia circa l’85% della popolazione italiana è Rh positiva (D+).
+Definire il gruppo sanguigno di un individuo è molto importante in medicina trasfusionale; è fondamentale per accertare sia il gruppo ABO che Rh di un individuo che necessiti di una trasfusione per garantire che il sangue da trasfondere sia compatibile.
+In caso di incompatibilità Rh si possono verificare reazioni potenzialmente mortali. Infatti, un individuo Rh- (D-) al quale venga trasfuso sangue Rh+ (D+), produrrà anticorpi anti-D con il rischio di una grave reazione in caso riceva una successiva trasfusione con sangue Rh+ (D+).
+La tipizzazione Rh è particolarmente importante per le donne in gravidanza poiché se la madre è Rh- (D-) ma il padre è Rh+ (D+), il feto potrebbe essere positivo per l’antigene D (D+). In questo caso la madre, in seguito al contatto con i globuli rossi Rh+ (D+) del feto, produrrà anticorpi anti-D che, attraversando la placenta, causeranno la distruzione delle cellule del sangue del feto con sviluppo della cosiddetta malattia emolitica Feto-Neonatale (MEFN). La MEFN raramente si verifica alla prima gravidanza, mentre il rischio aumenta notevolmente nel corso delle gravidanze successive.
+Inoltre, una donna Rh- (D-), può produrre anticorpi anti-D in seguito ad aborto spontaneo o indotto, ad amniocentesi e ad altri eventi che possano favorire il contatto con i globuli rossi Rh+ (D+) del feto. Nei suddetti casi e dopo il parto, per le donne Rh- (D-) è prevista la cosiddetta immunoprofilassi specifica (somministrazione di anticorpi specifici) che annulla la produzione di anticorpi anti-D ed i rischi ad essa correlati.

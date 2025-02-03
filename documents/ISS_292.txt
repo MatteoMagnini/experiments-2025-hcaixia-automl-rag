@@ -1,0 +1,49 @@
+Emocromo: risultati - ISSalute
+
+Introduzione
+
+
+L'emocromo, chiamato anche emogramma, è un esame di laboratorio che fornisce informazioni dettagliate sulle cellule presenti nel sangue: globuli rossi o eritrociti, globuli bianchi o leucociti e piastrine.
+La parola emocromo è un'abbreviazione, comunemente usata, del termine  emocromocitometrico composto dalle parole greche haima (sangue), khroma (colore), kytos (cellula) e metron (misura) riferite al colore e alla quantità delle cellule del sangue.
+In realtà tale esame consiste in una serie, o pannello, di esami attraverso cui è possibile determinare non solo il numero dei vari tipi di cellule, ma anche le loro caratteristiche e le sostanze che le compongono.
+Un emocromo completo include:
+
+calcolo del numero totale di globuli bianchi (GB), cellule del sistema immunitario che aumentano in caso di infezione e di infiammazione. Poiché i globuli bianchi possono essere di diversi tipi, a seconda della funzione specifica che svolgono, nell'emocromo completo sono raccolti nella cosiddetta formula leucocitaria che comprende una valutazione dei vari tipi di GB presenti: neutrofili, linfociti, monociti, eosinofili e basofili
+calcolo del numero dei globuli rossi (GR), le cellule più numerose del sangue, e di tutto il corpo, che contengono l'emoglobina
+definizione dei livelli dell'emoglobina (Hb), proteina ferrosa contenuta nei GR che si lega alle molecole di ossigeno e le trasporta ai diversi organi e tessuti del corpo
+definizione dei livelli dell'ematocrito (HCT), percentuale di GR presenti nel volume totale del sangue
+valutazione di alcune caratteristiche fisiche (indici) dei globuli rossi:
+
+volume corpuscolare medio (MCV), misura della grandezza media dei GR
+quantità media di emoglobina (MCH), calcolo della quantità media di emoglobina che trasporta ossigeno nei globuli rossi
+concentrazione emoglobinica corpuscolare media (MCHC), calcolo della percentuale media di emoglobina presente dentro i globuli rossi
+ampiezza della distribuzione dei globuli rossi (RDW), misura dell’ampiezza delle variazioni di grandezza dei GR
+
+
+calcolo del numero delle piastrine, le cellule più piccole del sangue umano, che hanno la funzione di favorire la coagulazione e la cicatrizzazione delle ferite da cui fuoriesce sangue (emorragie)
+
+volume piastrinico medio (MPV), calcolo della dimensione media delle piastrine. È un dato importante perché le piastrine giovani sono più grandi di quelle vecchie. Un valore di MPV maggiore, quindi, indica una loro maggior produzione
+ampiezza della distribuzione delle piastrine (PDW), misura della variazione della loro grandezza
+
+
+
+L’emocromo è un esame molto comune ed è prescritto dal medico curante come parte delle analisi periodiche di controllo (esami di routine) perché consente di avere un quadro abbastanza completo dello stato di salute generale di una persona. Può essere necessario eseguirlo qualora si manifestino disturbi, come debolezza o stanchezza duraturi, che il medico ritenga possano essere causati da un’anemia; oppure in presenza di segni di infiammazioni, di infezioni o di lividi non comuni o di sanguinamenti.
+L’emocromo, pertanto, è prescritto per accertare (diagnosticare) e seguire nel tempo (monitorare) varie condizioni e malattie che interessano le cellule del sangue (ad esempio, anemia, infezioni, infiammazioni, disordini della coagulazione o tumori).
+È richiesto anche per monitorare gli effetti della chemioterapia, che può danneggiare la produzione di cellule da parte del midollo osseo, o per controllare l’effetto di alcuni farmaci.
+
+Il test
+
+Per eseguire l’emocromo occorre il prelievo di una piccola quantità (un campione) di sangue, di solito, pochi millilitri.
+Negli adulti, il sangue è abitualmente prelevato da una vena del braccio o mediante una puntura del dito; nei bambini piccoli, di solito, è ottenuto dal tallone.
+Non è richiesta alcuna preparazione particolare. Per effettuare il solo esame dell'emocromo non è necessario essere a digiuno.
+L’emocromo, in genere, è eseguito utilizzando strumenti automatizzati. Il sangue prelevato è conservato a temperatura ambiente in una provetta contenente un anticoagulante, successivamente è trasportato al laboratorio di analisi e analizzato con un macchinario elettronico chiamato contaglobuli. Tale strumento permette di analizzare, in poche decine di secondi, i campioni di sangue leggendo 2 volte i valori ottenuti e fornendo come valore finale la media aritmetica delle due misure.
+Qualora non sia possibile la lettura, o i due valori siano troppo discordanti tra di loro, la macchina non produce risultati e lo segnala scrivendo un trattino “–”.
+
+Risultati
+
+I valori normali dell’emocromo si differenziano in base al sesso, all’età e alla strumentazione usata. Sono differenti per i bambini e per gli adulti e i laboratori forniscono diversi valori di riferimento per le varie fasce d’età.
+I valori al di fuori della norma aiutano ad accertare (diagnosticare) malattie differenti, alcune di esse dovranno essere curate mentre altre potranno guarire per proprio conto.
+Ad esempio, un aumento dei globuli bianchi può essere un segnale della presenza di infezioni o infiammazioni e suggerisce di eseguire ulteriori esami per identificarne la causa. Una diminuzione dei globuli bianchi, invece, può essere provocata da alcuni farmaci, da certe infezioni virali, da insufficiente funzionamento del midollo, dall’ingrossamento della milza, da malattie del fegato o dall'eccesso di alcol.
+Una diminuzione dei globuli rossi si riscontra in caso di anemia. Un aumento dei globuli rossi, ad esempio, in caso di perdita di liquidi a causa di diarrea, disidratazione o ustioni. Alterazioni delle caratteristiche fisiche (indici) dei globuli rossi possono essere dovute a cause diverse. Ad esempio, un aumento del volume medio corpuscolare (MCV) può essere provocato da una carenza di vitamina B12, da malattie del fegato, della tiroide o può verificarsi nel periodo della gravidanza. La quantità media di emoglobina (MCH) può essere bassa nei casi di carenza di ferro o di condizioni infiammatorie.
+Il numero delle piastrine aumenta quando si verifica una perdita di sangue o nei casi di infiammazione e infezione; diminuisce quando ci sono alterazioni del sistema immunitario, carenze vitaminiche, durante la chemioterapia, nel caso di alcolismo o di malattie del fegato. Per quanto riguarda il contenuto di emoglobina dei GR, bisogna ricordare che la sua concentrazione varia a seconda dell'età della persona. Alla nascita, per esempio, i valori sono più elevati che in qualsiasi altra fase della vita e diminuiscono bruscamente nel periodo immediatamente successivo.
+I risultati dell’esame devono essere sempre valutati dal medico curante poiché qualsiasi valore, anche anomalo, deve essere interpretato in base allo stato di salute generale di ogni persona. Pertanto, il rapporto e il dialogo con il medico curante è fondamentale per chiedere informazioni e chiarimenti, per esprimere dubbi e preoccupazioni.

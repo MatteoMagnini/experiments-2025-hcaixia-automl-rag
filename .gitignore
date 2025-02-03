@@ -1,7 +1,7 @@
-documents/*.txt
+#documents/*.txt
 chroma/faq
-data/*.csv
-data/*.tsv
+#data/*.csv
+#data/*.tsv
 **/smac3_output
 results/cache/*.csv
 figures/*.png

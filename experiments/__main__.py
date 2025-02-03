@@ -40,8 +40,6 @@ def run_experiment(config: Configuration, seed: int = 0, budget: int = 100, prov
     embeddings_path /= str(overlap)
     if embeddings_path.exists():
         print(f"Skipping embeddings creation for {config['embedder']} with chunk length {config['chunk_length']} and overlap {overlap}")
-    elif config["retriever"] == "BM25":
-        print(f"Skipping embeddings creation because BM25 is used")
     else:
         create_embeddings(config["chunk_length"], config["overlap_percentage"], config["embedder"])
 

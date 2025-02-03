@@ -1,0 +1,109 @@
+Elettroencefalogramma (EEG): che cos'è e perché farlo - ISSalute
+
+Introduzione
+
+
+L’elettroencefalogramma (EEG) è un esame strumentale indolore e non invasivo che consente di analizzare, monitorare e registrare l'attività elettrica del cervello.
+Tale attività produce onde elettriche che, in un adulto in stato di benessere e in condizioni di riposo, hanno una frequenza di 8-13 cicli al secondo (ritmo alpha).
+In caso di anomalie a carico del cervello, tale ritmo risulta alterato. Quindi le registrazioni elettroencefalografiche permettono d'individuare una condizione patologica cerebrale, le cui cause dovranno essere approfondite con ulteriori esami strumentali come la TAC (tomografia assiale computerizzata) o la RMN (risonanza magnetica) cerebrali, o l'esame del liquido che circola nel cervello e nel canale midollare (liquor cefalo-rachidiano).
+L'elettroencefalogramma registra la differenza di potenziale elettrico esistente tra coppie di elettrodi posizionati sulla testa in corrispondenza di diverse aree della superficie del cervello (corteccia cerebrale).
+Gli elettrodi, posti sulla cute, sono collegati ad un amplificatore che raccoglie gli impulsi elettrici e li invia a un registratore e a un'apparecchiatura in grado di tradurli in un grafico. Tale registrazione può avvenire o su un supporto cartaceo o su un dispositivo elettronico esterno.
+L'esame deve essere effettuato in un ambiente silenzioso e lontano da possibili interferenze: altri macchinari elettrici in funzione, suoni o altri rumori.
+Il tracciato elettroencefalografico mostra dei dati che riguardano la funzione del cervello, pertanto varia a seconda della condizione di veglia o di sonno e dell'età della persona.
+Per questi motivi l'interpretazione dell’elettroencefalogramma è sempre affidata a medici specialisti esperti per adulti o per bambini.
+L'EEG è un esame eseguito frequentemente nella pratica clinica, insieme ad altre analisi complementari ad orientare la diagnosi neurologica. In particolare l'EEG è indicato nei casi di alterazioni della coscienza o delle funzioni cognitive, in caso di repentine modificazioni del comportamento, in gran parte delle patologie che si manifestano con disturbi del sonno, e in presenza di disturbi (sintomi) neurologici localizzati (focali) ai quali non corrispondano danni nella struttura del cervello tali da essere evidenziabili con una TAC o una RMN cerebrali.
+
+Quando eseguire l'elettroencefalogramma (indicazioni)
+
+Alcune malattie del cervello, come le epilessie, le encefaliti, le malattie da prioni, generalmente sono associate a segni caratteristici nel tracciato dell’elettroencefalogramma; altre, invece, non mostrano un tipo particolare di tracciato.
+Pertanto, in base ai disturbi presenti, l'elettroencefalogramma può essere richiesto dal medico per avvalorare un'ipotesi diagnostica o per ritenerla meno probabile.
+L'elettroencefalogramma (EEG) è indicato in molte condizioni, qui sono riportate le principali:
+
+L'EEG viene eseguito soprattutto in presenza di un tipo particolare di sintomi neurologici, che comunemente vengono chiamati crisi epilettiche. Le crisi epilettiche sono fenomeni improvvisi e, generalmente, di breve durata, che dipendono da un'alterata funzionalità elettrica dei neuroni (cellule del sistema nervoso) dovuta a diverse condizioni. Durante una crisi epilettica si possono verificare alterazioni dello stato di coscienza, convulsioni (contrazioni involontarie di vari muscoli del corpo) e vari altri disturbi.Le cause delle crisi epilettiche possono essere:
+
+danni strutturali del cervello (come un tumore, un'ischemia o un'emorragia, malformazioni vascolari, vasculiti, lesioni causate dalla sclerosi multipla, o da traumi)
+malattie genetiche (molte epilessie che compaiono nell'infanzia e nell'adolescenza hanno un'origine genetica)
+malattie infettive (come la meningite o l’encefalite)
+alterazioni metaboliche (come l'abuso alcolico, l'intossicazione da farmaci o altre sostanze, l'astinenza da droghe)
+malattie del sistema immunitario
+cause sconosciute
+
+L'elettroencefalogramma è un esame strumentale molto utile in questi casi nell'aiutare il medico a porre una diagnosi corretta, consigliare una terapia specifica o modificare una terapia già in corso
+L'EEG è indicato anche quando si verificano dei disturbi che potrebbero erroneamente essere interpretati come crisi epilettiche, per esempio: disturbi cardio-vascolari, psicologici e psichiatrici; alcuni disturbi di tipo soprattutto visivo che precedono la comparsa di mal di testa (ovvero aura emicranica) e movimenti involontari della muscolatura e degli arti. In tali casi l'EEG aiuta il medico a prendere in considerazione cause diverse dall'epilessia
+Nel caso di una sindrome demenziale (riduzione o perdita della memoria e di altre capacità del cervello come l'orientamento nello spazio e la capacità di giudizio, e alterazioni del comportamento) l'EEG, insieme ad altri esami di laboratorio e strumentali (esami del sangue, TAC e RMN cerebrali) fornisce informazioni necessarie per escludere alcune condizioni che possono essere simili a una demenza (come, per esempio, una intossicazione da farmaci o un danno al cervello)
+L'EEG è indicato per analizzare la funzione cerebrale nelle persone con disturbi del sonno come:
+
+sindrome delle apnee nel sonno (disturbi respiratori durante il sonno)
+epilessia notturna
+dissonnie:
+
+insonnia (difficoltà o impossibilità ad addormentarsi)
+narcolessia (improvvisi attacchi di sonno diurni)
+ipersonnia (eccessiva sonnolenza diurna)
+
+
+parasonnie:
+
+bruxismo (digrignamento dei denti durante il sonno)
+enuresi (incontinenza urinaria notturna)
+sonnambulismo (compiere delle azioni durante il sonno senza averne consapevolezza)
+
+
+
+Per la diagnosi di queste e altre malattie del sonno, oltre all'esecuzione dell'EEG è consigliabile rivolgersi ai centri specializzati nella medicina del sonno
+L'EEG è obbligatorio in caso di prelievo di organi per trapianto, per accertare lo stato di morte cerebrale del donatore
+
+Come si esegue l'elettroencefalogramma
+Generalmente, l'elettroencefalogramma (EEG) viene eseguito da un tecnico di neurofisiopatologia e i risultati sono interpretati e scritti nel referto da un medico specializzato in neurologia. Si esegue appoggiando sulla cute della testa dei piccoli elettrodi tenuti fermi da una cuffia di gomma.
+In casi specifici, come in pazienti che si trovano in una sala operatoria o in un reparto di terapia intensiva, si possono utilizzare elettrodi particolari come gli ago-elettrodi (elettrodi che vengono inseriti nella cute mediante un ago) o gli elettrodi a collodio (elettrodi che vengono temporaneamente incollati alla cute).
+In base alle indicazioni per cui è eseguito, la durata dell'elettroencefalogramma può variare dai 30 ai 60 minuti.
+
+Come ci si prepara ad un elettroencefalogramma
+
+Salvo diversa indicazione, non sono necessarie precauzioni particolari prima di sottoporsi all'elettroencefalogramma: si potrà sia mangiare, sia bere, sia continuare a prendere le terapie in corso.
+Per una migliore adesione degli elettrodi al cuoio capelluto, i capelli dovranno essere puliti e asciutti e si dovrà evitare di usare gel e cera.
+Il medico ricoprirà il capo del paziente con un gel specifico per consentire la buona conduzione elettrica durante l'esame.
+È consigliabile portare con sé un pettine per riordinare i capelli dopo l'esecuzione dell'esame oppure un cappello per coprire la testa in disordine (i capelli potrebbero non essere molto puliti alla fine dell'EEG).
+
+Tipi di elettroencefalogramma
+
+Esistono diversi tipi di elettroencefalogramma (EEG): di base, in privazione di sonno, dinamico, in telemetria video.
+EEG di base
+La registrazione dell'EEG di base dura dai 20 ai 40 minuti circa.
+Durante l'esame viene chiesto di rimanere tranquilli e, di tanto in tanto, di aprire e chiudere gli occhi per valutare la reattività del ritmo cerebrale.
+Successivamente, vengono effettuate due manovre di attivazione:
+
+iperventilazione, cioè viene chiesto di eseguire inspirazioni ed espirazioni profonde per alcuni minuti
+stimolazione luminosa intermittente, tramite uno strumento detto stroboscopio
+
+Entrambe le manovre hanno lo scopo di rendere evidenti eventuali anomalie di tipo epilettico.
+EEG in privazione di sonno
+Questo tipo di esame viene effettuato mentre la persona dorme. Può essere utilizzato se un EEG di base non fornisce informazioni sufficienti o per verificare i disturbi del sonno.
+In alcuni casi, potrebbe essere chiesto di rimanere svegli la notte prima dell'esame per addormentarsi con più facilità quando verrà eseguito l'EEG. Per tale motivo l'esame è chiamato EEG in privazione di sonno.
+EEG dinamico (Holter)
+Un EEG dinamico registra l'attività del cervello durante il giorno e la notte per un periodo di uno o più giorni. Gli elettrodi sono collegati a un piccolo registratore EEG portatile che può essere agganciato ai vestiti. È possibile continuare la maggior parte delle normali attività quotidiane durante la registrazione, anche se è necessario evitare di bagnare l'attrezzatura.
+Telemetria video
+La telemetria video, nota anche come video-EEG, consiste nel filmare la persona mentre si registra la sua attività cerebrale (con regolare autorizzazione da parte della persona stessa). Di solito, la telemetria video è eseguita nell'arco di alcuni giorni durante un ricovero ospedaliero.
+I segnali EEG sono trasmessi ad un computer. Anche il video è registrato da un computer su cui è posta una telecamera. Tutte le registrazioni sono sempre effettuate in presenza di personale specializzato.
+
+Cosa succede dopo un elettroencefalogramma
+
+Al termine dell'esecuzione dell'elettroencefalogramma (EEG), gli elettrodi vengono rimossi e il cuoio capelluto pulito. I capelli, probabilmente, risulteranno appiccicosi e disordinati.
+Di solito si può andare a casa subito dopo l'esame e tornare alle normali attività.
+In alcuni casi, soprattutto se ci si è sottoposti ad un EEG in privazione di sonno, dopo l'esame ci si potrebbe sentire stanchi. In questi casi si consiglia di farsi accompagnare e di non guidare.
+Di solito, i risultati dell'EEG non sono disponibili nello stesso giorno in cui si è effettuato l'esame. Le registrazioni, infatti, dovranno essere analizzate e inviate al medico specialista che, dopo alcuni giorni, consegnerà i risultati.
+
+Rischi o effetti indesiderati dell'elettroencefalogramma
+
+L'elettroencefalogramma (EEG) è indolore e, generalmente, molto sicuro. Nessuna scarica elettrica è immessa nel corpo durante l'esecuzione dell'esame. L'unico disagio può essere rappresentato dai capelli che, al termine dell'esame, risulteranno sporchi e disordinati e da una leggera stanchezza. Per queste caratteristiche l'esame può essere eseguito anche nelle donne in stato di gravidanza.
+Alla fine della procedura potrebbero verificarsi uno stato di leggera confusione e un formicolio alle labbra e alle dita durante la parte di iperventilazione dell'EEG di base. Inoltre, alcune persone potrebbero avere una leggera eruzione cutanea sul cuoio capelluto nei punti in cui sono stati applicati gli elettrodi.
+In caso di epilessia, o in persone che soffrono di convulsioni, c'è un rischio molto piccolo che possa verificarsi una crisi epilettica durante l'esecuzione dell'EEG. In questo caso le persone saranno aiutate e monitorate da personale altamente qualificato.
+
+Link approfondimento
+
+NHS Choices. Electroencephalogramm (EEG) (Inglese)
+Associazione Italiana per la Ricerca sul Cancro (AIRC). Elettroencefalogramma
+Ospedale San Raffaele. Laboratorio di elettroencefalografia   
+Fisher RS. The New Classification of Seizures by the International League Against Epilepsy 2017 [Sintesi]. Current Neurology and Neuroscence Report. 2017; 17(6): 48
+Lega Italiana contro l'Epilessia (LICE). Guida alle epilessie
+https://www.nhs.uk/conditions/electroencephalogram/https://www.airc.it/cancro/esami-medici/elettroencefalogramma/https://link.springer.com/article/10.1007/s11910-017-0758-6

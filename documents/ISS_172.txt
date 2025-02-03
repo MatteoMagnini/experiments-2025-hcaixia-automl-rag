@@ -1,0 +1,56 @@
+Favismo: che cos'è, sintomi e prevenzione - ISSalute
+
+Introduzione
+
+
+Il favismo è la carenza o la riduzione della funzione di un enzima (sostanza in grado di accelerare e facilitare le reazioni chimiche dell’organismo) chiamato glucosio-6-fosfato deidrogenasi (G6PD).
+Il favismo è il più comune difetto enzimatico umano, presente in oltre 500 milioni di persone nel mondo e 400 mila in Italia.
+La riduzione o il malfunzionamento dell’enzima (enzimopenia G6PD o deficit di G6PD) comporta il rischio, in determinate condizioni, di comparsa di una anemia acuta non immune: ovvero la distruzione improvvisa dei globuli rossi. Il G6PD, infatti, è contenuto per la maggior parte all’interno di queste cellule del sangue.
+
+Sintomi
+
+Una persona con la riduzione dell’enzima glucosio-6-fosfato deidrogenasi (enzimopenia G6PD) di solito non ha disturbi (asintomatica); si può definire fabica dopo aver avuto un episodio improvviso di distruzione dei globuli rossi (a seguito di una crisi emolitica), altrimenti lo è solo potenzialmente.
+L’anemia acuta del favismo, derivante dalla crisi emolitica, si manifesta con stanchezza, febbre, battito del cuore accelerato (tachicardia), dolori addominali, urine scure e colorazione gialla della pelle e della parte bianca degli occhi (ittero). Tali disturbi (sintomi) possono insorgere da poche ore a 1-3 giorni dopo l’ingestione delle fave, l’esposizione ad alcuni farmaci, la comparsa di infezioni.
+
+Cause
+
+Il gene per la produzione dell’enzima glucosio-6-fosfato deidrogenasi (G6PD) si trova sul cromosoma X. Pertanto, se l’unico cromosoma X posseduto dai maschi (XY) ha il gene difettoso, tutti i loro globuli rossi saranno caratterizzati dalla mancanza dell’enzima (G6PD); Le femmine, invece, hanno due cromosomi X (XX) e di solito il gene difettoso si trova su uno solo di essi, mentre l’altro è sano. Il favismo, quindi, nelle donne si manifesta in forma più lieve. Le femmine portatrici del gene difettoso possono trasmetterlo a tutti i loro figli (con il 50% di probabilità per ogni gravidanza), mentre i maschi solo alle figlie (con il 100% di probabilità per ogni gravidanza con feto femmina).
+I fattori scatenanti la distruzione dei globuli rossi (emolisi) sono due sostanze presenti solo nelle fave (gli altri legumi non le contengono, o le contengono solo in tracce trascurabili): la vicina e la convicina. Le fave e i cibi che le contengono, quindi, rappresentano gli unici alimenti in grado di poter provocare un'emolisi. La vicina e la convicina non sono sostanze volatili e non sono presenti nel polline, per questo motivo non si corre alcun rischio ad attraversare un campo di fave.
+Altri fattori che svolgendo un’azione ossidativa sui globuli rossi possono provocare l’emolisi in persone con quantità ridotte di G6PD sono:
+
+infezioni
+alcuni farmaci
+esposizione a sostanze con azione ossidante intracellulare 
+
+Per conoscere i farmaci potenzialmente emolitici è possibile consultare il Rapporto ISTISAN “Deficit di glucosio-6-fosfato deidrogenasi e farmaci”.
+
+Diagnosi
+
+L’accertamento (diagnosi) del favismo è basato sulla misurazione dell’attività dell’enzima glucosio-6-fosfato deidrogenasi (G6PD) nei globuli rossi. Nei maschi è considerato attendibile anche un esame chiamato fluorescent spot test, da eseguire quando la crisi emolitica non è in corso.
+Lo specialista di riferimento per valutare i risultati dell’esame è l’ematologo.
+Il referto contiene il risultato della misurazione dell'enzima, i valori di riferimento e l'interpretazione dell'esame. In caso di positività o di risultato dubbio, la persona deve essere sottoposta a una visita da parte dello specialista ematologo che le consegnerà anche una lista aggiornata delle sostanze da evitare.
+
+Terapia
+
+Non esiste una cura (terapia) specifica per il favismo. Durante la fase acuta si possono attuare trattamenti di supporto che aiutino a superare la crisi tra cui la somministrazione di trasfusioni nei casi più gravi.
+
+Prevenzione
+
+Le persone colpite da favismo (fabiche), per evitare di avere una crisi con distruzione dei globuli rossi (emolisi), non dovrebbero mangiare fave, soprattutto crude.
+La persona che in passato ha avuto un episodio di favismo è a conoscenza di avere una carenza di glucosio-6-fosfato deidrogenasi. Prima di assumere un farmaco o sostanze ad azione ossidante intracellulare, quindi, dovrebbe sempre consultare il proprio medico.
+Le crisi emolitiche possono verificarsi durante tutto l’arco di vita di una persona con carenza di G6PD. Non averne mai avute in passato non riduce il rischio che possano comparire, anche in età avanzata. Inoltre, la crisi emolitica non avviene necessariamente dopo ogni esposizione ad agenti ossidanti, essendo l’emolisi dose-dipendente (si manifesta cioè in base alla quantità di agente ossidante assunta).
+
+Bibliografia
+
+Istituto Superiore di Sanità (ISS) - Gruppo di lavoro ISS Malattie Rare COVID-19. Indicazioni ad interim per un appropriato sostegno delle persone con enzimopenia G6PD (favismo) nell’attuale scenario emergenziale SARS-CoV-2. Versione del 14 aprile 2020. Roma: Istituto Superiore di Sanità; 2020, 9 p. (Rapporti ISS COVID-19, n.14/2020)   
+Maffi D, Caforio MP, Pasquino MT, Caprari P. Deficit di glucosio-6-fosfato deidrogenasi e farmaci. Roma: Istituto Superiore di Sanità; 2009. (Rapporti ISTISAN 09/47) 
+Osservatorio Malattie Rare (OMaR). Enzimopenia G6PD, il prof. Lucio Luzzatto: “L'unico alimento da evitare sono le fave”
+Ministero della Salute. Comitato nazionale per la sicurezza alimentare. Parere n.9 del 19/11/2012. Problematiche relative al favismo  
+Società italiana talassemie ed emoglobinopatie (SITE). Enzimopenia G6PD (gennaio 2021)
+Uppa. Il favismo, una malattia antica
+
+Link approfondimento
+
+Associazione italiana ematologia oncologia pediatrica (AIEOP). Deficit di G6PD- Favismo
+Agenzia italiana del farmaco (AIFA). Elenco dei principi attivi da evitare in caso di carenza di Glucosio-6-Fosfato Deidrogenasi (G6PD)
+https://www.aieop.org/web/famiglie/schede-malattia/deficit-g6pd-favismo/https://www.aifa.gov.it/documents/20142/241044/elenco_dei_farmaci_G6PD.pdf

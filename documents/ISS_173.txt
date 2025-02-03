@@ -1,0 +1,174 @@
+Esame del gruppo sanguigno: sistemi ABO e Rh - ISSalute
+
+Introduzione
+
+
+Il gruppo sanguigno è una delle numerose caratteristiche di un individuo come, ad esempio, il colore degli occhi e dei capelli; esso è determinato geneticamente ed ereditato da entrambi i genitori. La classificazione dei gruppi sanguigni avviene sulla base di particolari molecole, denominate antigeni, presenti sulla superficie di alcune cellule del sangue, i globuli rossi. Sono stati classificati oltre 700 tipi di antigeni, che possono essere raggruppati in più di 30 sistemi. Di questi, i più noti sono il sistema ABO e il sistema Rh (rhesus).
+Il Sistema ABO è composto da quattro gruppi (A, B, AB, O) caratterizzati dalla presenza degli antigeni A e B. Se su un globulo rosso è presente l’antigene A si ha il gruppo A; se è presente l’antigene B, il gruppo B; se sono presenti entrambi; il gruppo AB. Se nessuno dei due antigeni è presente si ha il gruppo O (gruppo “zero” anche detto “O”, dall’iniziale della parola tedesca “ohne”, che vuol dire “senza”).
+Ognuno di questi gruppi sanguigni è suddiviso ulteriormente in due categorie in base alla presenza, o meno, sulla membrana dei globuli rossi di un particolare antigene appartenente al sistema Rh. Il fattore Rh può essere, dunque, positivo (Rh+) o negativo (Rh-).
+Esistono anche i cosiddetti “gruppi rari”: una persona viene definita di "gruppo raro" quando il suo assetto antigenico si riscontra al massimo in 1 soggetto ogni 1.000-5.000. In Italia esistono banche di gruppi rari che hanno un registro e una scorta di sangue (congelato) appartenente a questi gruppi.
+Definire il gruppo sanguigno di un individuo è molto importante in medicina trasfusionale; è fondamentale, infatti, per assicurare che ci sia compatibilità tra la persona che necessita di una trasfusione ed il sangue che viene trasfuso. In caso di incompatibilità ABO si possono verificare reazioni potenzialmente mortali. Infatti, una persona con gruppo sanguigno O possiede anticorpi anti-A e anti-B. Di conseguenza, se le viene trasfuso del sangue appartenente ai gruppi A, B, o AB, i suoi anticorpi reagiranno con i globuli rossi trasfusi, distruggendoli. Analogamente, un individuo Rh- al quale venga trasfuso del sangue Rh+, produrrà anticorpi anti-Rh con il rischio di una grave reazione, soprattutto in caso riceva una successiva trasfusione con sangue Rh+.
+L’individuazione del fattore Rh è particolarmente importante durante la gravidanza poiché una madre potrebbe essere incompatibile con il feto. Se la madre è Rh- ma il padre è Rh+, il feto potrebbe essere positivo per l’antigene Rh. L’organismo della madre potrebbe quindi sviluppare anticorpi contro l’antigene Rh+ che, attraversando la placenta, causerebbero la distruzione delle cellule del sangue del feto, con sviluppo della cosiddetta malattia emolitica feto-neonatale (MEFN). La MEFN raramente si verifica alla prima gravidanza, mentre il rischio aumenta nelle successive gravidanze.
+
+Il test
+
+La determinazione del gruppo sanguigno è effettuata su una piccola quantità di sangue, solitamente prelevata attraverso un ago inserito nella vena situata all’interno del gomito.
+Tutti i test diretti  per la determinazione del gruppo sanguigno (eseguiti con differenti metodiche: vetrino, piastra o micropiastra, provetta, schedine con micro colonne di gel o di microsfere, oppure con strumento automatico) si basano sul riscontro, o meno, di una reazione del sangue a contatto con due diversi tipi di siero immune contenente anticorpi anti-A o anti-B (test di agglutinazione). Ad esempio, su un vetrino sono poste due gocce di sangue: ad una di esse é aggiunta una goccia di siero "anti-A" e sull'altra una goccia di siero "anti-B". Se non si verificano reazioni, il sangue in esame appartiene al gruppo O (zero). Se si osserva la formazione di piccole masse che precipitano (agglutinazione) con il siero anti-A, il sangue è del gruppo A; se reagisce con il siero anti-B è del gruppo B; se si osserva la reazione di agglutinazione con entrambi i sieri (anti-B e anti-A), il sangue appartiene al gruppo AB.
+La determinazione indiretta dei gruppi sanguigni ABO è un test aggiuntivo che non sostituisce la verifica diretta. Il test indiretto ricerca la presenza degli anticorpi anti-A e anti-B che sono naturalmente presenti se sui globuli rossi della persona sono assenti i corrispettivi antigeni. Essa consiste nel testare il siero del soggetto contro globuli rossi noti di gruppo A e di gruppo B.
+Analoghe procedure si applicano per la determinazione del fattore Rh.
+
+Risultati
+
+I risultati del test consentono di determinare il proprio gruppo sanguigno (sistemi ABO e Rh).
+La diffusione dei gruppi varia a seconda delle diverse zone del mondo. In Italia la distribuzione è la seguente:
+
+
+
+
+
+0 +
+
+
+A +
+
+
+B +
+
+
+AB +
+
+
+0 -
+
+
+A -
+
+
+B -
+
+
+AB -
+
+
+
+
+39%
+
+
+36%
+
+
+7,5%
+
+
+2,5%
+
+
+7%
+
+
+6%
+
+
+1,5%
+
+
+0,5%
+
+
+
+
+
+Circa l’85% della popolazione italiana è Rh+.
+I risultati della individuazione (tipizzazione) del gruppo sanguigno consentiranno, inoltre, al medico di determinare quale tipo di sangue possa essere trasfuso/ricevuto senza rischi al malato che ne abbia la necessità.
+Lo schema della compatibilità per i sistemi ABO e Rh è riportata nella seguente tabella:
+
+
+
+
+
+Gruppo sanguigno e tipo Rh
+
+
+Può ricevere sangue da …
+
+
+
+
+A +
+
+
+A +, A -, O +, O -
+
+
+
+
+A -
+
+
+A -, O -
+
+
+
+
+B +
+
+
+B +, B -, O +, O -
+
+
+
+
+B -
+
+
+B -, O -
+
+
+
+
+AB +
+
+
+AB +, AB -, A +, A -, B +, B -, O +, O -
+
+
+
+
+AB -
+
+
+AB -, A -, B -, O -
+
+
+
+
+O +
+
+
+O +, O -
+
+
+
+
+O -
+
+
+O -
+
+
+
+
+
+Il sangue di gruppo O negativo è il cosiddetto donatore universale poiché può essere trasfuso, senza pericolo di reazioni indesiderate, a persone appartenenti a qualunque gruppo sanguigno.
+
+Bibliografia
+
+Dean L. Blood Groups and Red Cell Antigens. Bethesda (MD): National Center for Biotechnology Information (US); 2005. Chapter 5, The ABO blood group
+Reid ME, Lomas-Francis C. The Blood Group Antigen Facts Book. Second ed. 2004, New York: Elsevier Academic Press
+Klein HG and Anstee DJ. Mollison's Blood Transfusion in Clinical Medicine, 12th edition. Wiley-Blackwell, 2014
+
+Link approfondimento
+
+International Society of Blood Transfusion (ISBT)
+American Red Cross. Blood types

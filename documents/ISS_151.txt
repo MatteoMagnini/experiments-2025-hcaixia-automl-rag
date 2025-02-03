@@ -1,0 +1,70 @@
+Ritardanti di fiamma bromurati: cosa sono e i loro effetti - ISSalute
+
+Introduzione
+
+
+I ritardanti di fiamma sono composti chimici che vengono aggiunti ai prodotti di uso domestico e industriale per evitare che possano incendiarsi o per rallentare il propagarsi delle fiamme.
+Sono principalmente impiegati nei:
+
+mobili, tappezzeria, materassi, tappeti, tende
+dispositivi elettronici ed elettrici, come computer fissi e portatili, telefoni, smartphone, televisori, elettrodomestici
+materiali da costruzione, inclusi cabine e reti elettriche, materiali isolanti a base di schiume di polistirene e poliuretano
+sedili e coprisedili, paraurti e altri scomparti di automobili, aerei e treni
+
+Esistono tre principali categorie di ritardanti di fiamma, i composti alogenati che comprendono i composti clorurati (PCB) e bromurati,  i composti organofosforici e i composti inorganici. 
+I ritardanti di fiamma bromurati (Brominated Flame Retardants - BFR) comprendono cinque diverse categorie chimiche:
+
+eteri difenilici polibrominati (PBDE, dall’inglese  polybrominated diphenyl ethers), presenti in plastiche, tessuti, componenti elettriche e circuiti
+bifenili polibrominati (PBB, dall’inglese polybrominated biphenyls), presenti in elettrodomestici, tessuti e schiume plastiche
+esabromociclododecani (HBCDDs, dall’inglese hexabromocyclododecanes), impiegati nell'isolamento termico in edilizia
+tetrabromobisfenolo A (TBBPA dall’inglese tetrabromobisphenol A) e altri fenoli, presenti nei circuiti elettrici e nelle termoplastiche (soprattutto nelle televisioni)
+altri ritardanti di fiamma bromurati
+
+Ognuna delle prime due classi chimiche (PBDE e PBB) è composta da 209 composti diversi, detti congeneri, che si differenziano tra loro per il numero e la posizione degli atomi di bromo.
+Utilizzati in notevoli quantità fin dagli anni ’70, molti di essi non sono più prodotti e sono stati eliminati dal mercato; altri sono ancora in uso, sebbene in maniera sempre più regolamentata.
+A causa della loro struttura chimica, i ritardanti di fiamma bromurati sono molto stabili e restano nell'ambiente per anni. Poiché hanno la capacità di sciogliersi nei grassi e non sono facilmente degradati (metabolizzati), tendono ad accumularsi nella parte grassa degli organismi, dando luogo al fenomeno del bioaccumulo. Il contenuto di contaminanti viene trasferito lungo la catena alimentare (piante-erbivori-carnivori) per cui la concentrazione dei contaminanti negli organismi aumenta passando da un livello più basso ad uno più alto della catena trofica, dando luogo al fenomeno della biomagnificazione. Questo fenomeno implica che un organismo che occupa un livello maggiore nella catena alimentare possa avere livelli interni di contaminanti più elevati.
+L'Agenzia Europea per la Sicurezza Alimentare, European Food Safety Authority (EFSA), ha stilato diversi pareri scientifici sulla presenza di queste sostanze negli alimenti e ha stabilito quali sono più preoccupanti perché presenti in misura maggiore nella dieta. Ad esempio, fra gli eteri difenilici polibrominati (PBDE), sono stati identificati 8 congeneri maggiormente rilevanti per l'esposizione attraverso la dieta: BDE-28, -47, -99, -100, -153, -154, -183, -209.
+I BFR rappresentano un rischio per la salute umana a causa dei numerosi effetti indesiderati che possono determinare.
+
+Fonti di esposizione
+
+Le vie di esposizione ai ritardanti di fiamma bromurati (BFR) sono molteplici ed includono la dieta e la polvere domestica.
+I BFR hanno un'elevata stabilità chimica e pertanto rimangono nell'ambiente per molti anni disperdendosi nelle acque, nel suolo e in aria fino a entrare nella catena alimentare. L'Autorità Europea per la Sicurezza Alimentare, European Food Safety Authority (EFSA), ha valutato che gli alimenti di origine animale come pesce, carne, latte e prodotti derivati, dato il loro contenuto di grasso, possono essere considerati i maggiori veicoli di questi contaminanti nell'uomo. Sulla base dei dati ad oggi disponibili per vari congeneri appartenenti alle diverse categorie chimiche, l’EFSA ha concluso che l'esposizione attraverso la dieta non rappresenta un problema di salute. Tuttavia, promuove il loro monitoraggio negli alimenti e l'incremento della produzione di dati scientifici in merito agli effetti sulla salute, riservandosi di aggiornare il proprio parere se si producono nuove evidenze scientifiche. Nel frattempo, l'indicazione per la popolazione è quella di variare la dieta il più possibile e limitare il consumo di alimenti molto ricchi di grassi (ad esempio, pesci quali salmone o tonno)  per le fasce di popolazione più vulnerabili, quali i bambini e le donne in gravidanza.
+Non essendo chimicamente legati ai materiali che li contengono, i Ritardanti di fiamma bromurati (BFR) vengono rilasciati dalle superfici dei prodotti che li contengono presenti in casa, in auto e in ufficio depositandosi nella polvere domestica. Attraverso la polvere possono essere inalati, depositarsi sulla pelle  o essere ingeriti. I bambini, avendo un maggior contatto col suolo e l'abitudine di portarsi spesso le mani alla bocca, sono a maggior rischio di esposizione a queste sostanze nell'ambiente domestico.
+
+Effetti sulla salute
+
+Numerosi studi condotti su modelli animali, su colture cellulari e sulla popolazione, hanno evidenziato che l'esposizione a ritardanti di fiamma bromurati, agli eteri difenilici polibrominati (PBDE) in particolare, determini un'alterazione dell'equilibrio degli ormoni tiroidei, abbia effetti dannosi sul fegato e sul sistema riproduttivo e alteri il corretto sviluppo neurologico del feto con conseguenze sulla capacità di attenzione, memoria e apprendimento (cognitive).
+I ritardanti di fiamma sono annoverati tra gli Interferenti Endocrini, hanno quindi la capacità di alterare il corretto sviluppo riproduttivo, maschile e femminile, del feto ma anche di compromettere le funzioni riproduttive nell'adulto, soprattutto nell'uomo, per la loro maggiore interazione con il recettore per gli ormoni androgeni, prevalenti nell'uomo, oppure per effetti sulla sintesi degli ormoni sessuali.
+Queste sostanze sono in grado di superare la barriera rappresentata dalla placenta raggiungendo il feto e possono trasferirsi da madre a figlio anche durante l'allattamento. Particolare attenzione, quindi, considerati i potenziali effetti indesiderati che possono ripercuotersi anche nella vita adulta, deve essere posta nel ridurre l'esposizione durante queste fasi dello sviluppo.
+
+Regolamentazione
+
+L'aumento delle evidenze scientifiche degli effetti dei ritardanti di fiamma bromurati (BFR) sulla salute ha determinato il coinvolgimento dei decisori europei e americani nella richiesta di dati, informazioni, promozioni di studi e nell'adozione di misure legislative per ridurre o interrompere l'uso e la vendita di alcuni ritardanti di fiamma.
+In particolare:
+
+divieto di vendita di due miscele commerciali di eteri difenilici polibrominati (PBDE), i PentaBDE e gli OctaBDE, in concentrazioni maggiori dello 0.1%, a partire dall'agosto 2004 (Direttiva Europea 2003/11/EC)
+divieto da parte degli US della produzione industriale delle miscele Penta e OctaBDE dalla fine del 2004, e di uso dal 2006
+divieto d’uso di bifenili polibrominati (PBB) e PBDE in tutti i componenti elettrici ed elettronici  dal luglio 2006 (Direttiva Europea 2002/95/EC)
+messa al bando della  miscela di PBDE, la DecaBDE  nel giugno 2008 (Corte di giustizia Europea, Caso C-14/06). A seguire  alcuni stati europei, come la Svezia e la Norvegia, hanno bandito l'uso di queste miscele anche nella manifattura di tessuti, mobili, materiali da isolamento e cavi
+inserimento delle miscele PentaBDE e OctaBDE nell’elenco di sostanze persistenti il cui uso e prodizione dovrebbe essere eliminato da eliminare (Convenzione di Stoccolma sugli inquinanti organici persistenti, Maggio 2009)
+sei pareri scientifici sui principali gruppi di BFR e sui potenziali rischi per la salute pubblica derivanti dalla loro presenza negli alimenti prodotti dell'Autorità Europea per la Sicurezza Alimentare, European Food Safety Authority (EFSA), tra il 2010 e il 2012 richiesta della Commissione Europea
+produzione e uso delle miscele DecaBDE, continua a essere consentita negli Stati Uniti, sebbene alcuni singoli stati abbiano introdotto delle limitazioni. Recentemente, nel luglio 2019, l'Agenzia per la Protezione Ambientale (EPA) americana ha proposto una regolamentazione per bandire l'uso di tali miscele, tranne che nei veicoli aerei ed aerospaziali, a partire dal dicembre 2020
+
+Bibliografia
+
+Direttiva 2003/11/CE del Parlamento europeo e del Consiglio, del 6 febbraio 2003, recante ventiquattresima modifica della direttiva 76/769/CEE del Consiglio relativa alle restrizioni in materia di immissione sul mercato e di uso di talune sostanze e preparati pericolosi (pentabromodifenil etere, ottabromodifenil etere)
+Direttiva 2002/95/CE del Parlamento europeo e del Consiglio, del 27 gennaio 2003, sulla restrizione dell'uso di determinate sostanze pericolose nelle apparecchiature elettriche ed elettroniche
+Sentenza della Corte (Grande Sezione) 1 aprile 2008 — Parlamento europeo (causa C-14/06)
+Environmental Protection Agency (EPA). Regulation of Persistent, Bioaccumulative, and Toxic Chemicals Under TSCA Section 6(h), US Federal Register, Proposed Rules, vol.84 n°145, 2019
+Environmental Protection Agency (EPA). Decabromodiphenyl Ether (DecaBDE); Regulation of Persistent, Bioaccumulative, and Toxic Chemicals Under TSCA Section 6(h), 2021
+European Food Safety Authority (EFSA). Scientific Opinion on Polybrominated Biphenyls (PBBs) in Food. EFSA Journal. 2010; 8(10): 1789
+European Food Safety Authority (EFSA). Scientific Opinion on Polybrominated Diphenyl Ethers (PBDEs) in Food. EFSA Journal. 2011; 9(5): 2156
+European Food Safety Authority (EFSA). Scientific Opinion on Tetrabromobisphenol A (TBBPA) and its derivatives in food. EFSA Journal. 2011; 9(12): 2477
+European Food Safety Authority (EFSA). Scientific Opinion on Brominated Flame Retardants (BFRs) in Food: Brominated Phenols and their Derivatives. EFSA Journal. 2012; 10(4): 2634
+European Food Safety Authority (EFSA). Scientific Opinion on Emerging and Novel Brominated Flame Retardants (BFRs) in Food. EFSA Journal. 2012; 10(10): 2908
+
+Link di approfondimento
+
+European Food Safety Authority (EFSA). Ritardanti di fiamma bromurati
+https://www.efsa.europa.eu/it/topics/topic/brominated-flame-retardants

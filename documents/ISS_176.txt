@@ -1,0 +1,77 @@
+Dengue: disturbi, cause e prevenzione - ISSalute
+
+Introduzione
+
+
+La febbre dengue, o semplicemente “dengue”, è una malattia infettiva tropicale, trasmessa all'uomo dalla puntura di zanzare. La dengue, in genere, causa disturbi (sintomi) simil-influenzali ma a volte può manifestarsi in una forma grave, chiamata dengue emorragica, che può essere mortale. Di origine virale, la malattia è causata dal virus dengue che appartiene al gruppo degli Arbovirus, ossia virus trasmessi all'uomo da insetti, di cui se ne conoscono quattro tipi (DEN-1, DEN-2, DEN-3 e DEN-4). La dengue è una malattia infettiva non contagiosa perché, anche se l'uomo è il principale ospite, non si ha contagio diretto tra esseri umani, ma la trasmissione da persona a persona è possibile solo attraverso gli insetti (artropodi) vettori, che per dengue sono zanzare del genere Aedes. Il virus circola nel sangue della persona infetta per 2-7 giorni e viene quindi prelevato e trasmesso ad altri individui tramite la puntura di zanzara.
+La dengue è diffusa principalmente nei paesi tropicali e subtropicali, soprattutto in aree urbane, ed è particolarmente presente durante e dopo la stagione delle piogge. Nei paesi dell'emisfero nord, in particolare in Europa, la malattia si evidenzia soprattutto in persone di ritorno da soggiorni nelle aree tropicali e subtropicali dove la malattia è comune (malattia di importazione) e l'aumento osservato negli ultimi anni è dovuto all'aumentata frequenza degli spostamenti.
+
+Sintomi
+
+Il disturbo (sintomo) più comune della dengue è la febbre, che può manifestarsi con temperature anche molto elevate (40-41°C). Dopo 3-4 giorni dall'insorgenza della febbre, possono presentarsi:
+
+nausea e vomito
+mal di testa acuti 
+dolori attorno e dietro agli occhi 
+forti dolori muscolari e alle articolazioni 
+irritazioni della pelle
+
+È importante che le persone di ritorno da viaggi in aree nelle quali la malattia è presente e che manifestino uno o più dei disturbi suddetti informino il proprio medico, indicando anche data e luogo del viaggio.
+I disturbi causati dalla dengue durano, in genere, 2-7 giorni e possono essere confusi con altre malattie che causano febbre, dolori o eruzioni cutanee. Nella maggior parte delle persone i disturbi scompaiono dopo circa una o due settimane. Dopo aver contratto e superato l'infezione, l'immunità dura tutta la vita ma un soggetto immune ad un tipo virale rimane comunque suscettibile agli altri sierotipi di virus dengue.
+Oltre alla dengue classica (forma più lieve della malattia), circa 1 persona su 20 che si ammala può sviluppare una forma più severa, detta dengue grave o emorragica. La dengue emorragica può causare shock, sanguinamento interno e persino morte.
+I segnali di avvertimento di dengue emorragica di solito iniziano nelle 24-48 ore dopo che la febbre è scomparsa e comprendono:
+
+dolore alla pancia 
+vomito (almeno 3 volte in 24 ore) 
+sanguinamento da naso, gengive, occhi e/o orecchie 
+vomito di sangue o sangue nelle feci 
+sensazione di stanchezza, irrequietezza o irritabilità 
+
+I neonati e le donne in gravidanza, o chi ha già contratto la dengue in passato, presenta un rischio più alto di sviluppare la dengue emorragica.
+
+Cause
+
+Il virus dengue (DEN) è la causa della malattia dengue. Il virus appartiene al genere Flavivirus, famiglia Flaviviridae, del gruppo degli Arbovirus, ossia virus trasmessi agli uomini da insetti (artropodi) tramite una puntura.
+Ad oggi si conoscono 4 diverse sottospecie (sierotipi) virali, molto simili tra loro: DEN-1, DEN-2, DEN-3 e DEN-4. DEN-2 e 3 sono spesso associate alle forme più gravi di malattia. La trasmissione del virus DEN avviene attraverso la puntura di una zanzara appartenente al genere Aedes (lo stesso che trasmette all'uomo la febbre gialla o la Chikungunya).
+In aree tropicali e sub-tropicali il vettore principale è la zanzara Aedes aegypti, ma anche Aedes albopictus comunemente chiamata zanzara tigre e presente in Italia e in vari paesi europei, implicata nella trasmissione della malattia. L'infezione è trasmessa all'uomo attraverso la puntura di zanzare femmine infette per aver punto, a loro volta, una persona malata. Dopo circa una settimana, queste zanzare possono trasmettere il virus pungendo individui sani. La dengue non si diffonde per contatto diretto da uomo a uomo (inter-umano), ma può essere trasmessa anche attraverso il trapianto di organi e le trasfusioni. La trasmissione verticale durante la gravidanza o l'allattamento è stata documentata solo occasionalmente.
+
+Diagnosi
+
+L'accertamento (diagnosi) della dengue è normalmente effettuato sulla base dei disturbi presenti in quelle persone che nelle due settimane prima della comparsa dei disturbi hanno soggiornato in un'area dove la malattia è diffusa. La diagnosi deve essere confermata con la ricerca del virus o di anticorpi specifici in campioni di sangue. Poiché la dengue è una malattia soggetta a notifica a livello nazionale, il medico è tenuto a segnalare tutti i casi sospetti al dipartimento sanitario dell'AUSL competente. La conferma della malattia può essere eseguita prelevando un singolo campione di siero, prima che siano trascorsi 7 giorni dalla comparsa della febbre (fase acuta della malattia), per identificare il materiale genetico del virus, mediante PCR, o l'antigene della proteina non strutturale dengue 1 (NS1), mediante immunoanalisi (ELISA).
+In fasi più avanzate della malattia (più di 4 giorni dopo l'inizio della febbre), l'accertamento (diagnosi) avviene attraverso la ricerca di anticorpi IgM, specifici contro il virus dengue, mediante immunoanalisi ELISA.
+
+Terapia
+
+Non esistono una cura o trattamenti antivirali specifici per la dengue e, nella maggior parte dei casi, le persone guariscono completamente in una o due settimane, grazie ad un'adeguata assistenza medica, al riposo assoluto, all'uso di farmaci e bagni di spugna per abbassare la febbre e alla somministrazione di liquidi per combattere la disidratazione. Sono sconsigliati farmaci contenenti acido acetilsalicilico e altri farmaci antinfiammatori non steroidei (come l'ibuprofene) a causa delle loro proprietà anticoagulanti. In qualche caso, stanchezza e depressione possono permanere anche per alcune settimane.
+Nel caso di dengue emorragica sono generalmente necessarie un'osservazione ravvicinata e un monitoraggio costante in un'unità di terapia intensiva.
+Le persone infette, inoltre, dovrebbero evitare punture di zanzara, principalmente nei primi giorni della malattia, per ridurre il rischio di ulteriore trasmissione a persone sane.
+
+Prevenzione
+
+Non è disponibile alcuna prevenzione per la dengue. Per chi vive o per chi prevede di viaggiare in aree in cui la malattia è diffusa, la misura più efficace consiste nell'evitare di entrare in contatto con le zanzare portatrici del virus. Le pratiche come l'uso di repellenti, vestiti adeguati e protettivi, zanzariere e tende sono quindi le uniche possibili. Dato che le zanzare sono più attive nelle prime ore del mattino, è particolarmente importante utilizzare le protezioni in questa parte della giornata.
+Per ridurre il rischio di epidemie di dengue, il mezzo più efficace è la lotta sistematica e continuativa alla zanzara che trasmette la malattia. Ciò significa eliminare tutti i ristagni d'acqua in prossimità delle zone abitate ed effettuare vere e proprie campagne di disinfestazione che riducano la popolazione di zanzare della specie Aedes.
+Purtroppo, l'aver contratto la dengue protegge la persona solo contro il virus DEN che l'ha causata ma non contro gli altri tre tipi virali. La conoscenza del virus e del suo meccanismo di azione sono aumentate solo in anni recenti, dopo che si è registrato un incremento della diffusione della malattia.
+Attualmente sono allo studio una serie di vaccini. Il primo vaccino autorizzato per prevenire la dengue (Dengvaxia) è disponibile solo in alcuni paesi. L'Agenzia Europea per i medicinali (EMA, dall'inglese European Medicines Agency) ha approvato il suo uso a partire dai 9 ai 45 anni di età, mentre l'Autorità americana per i farmaci (FDA, dall'inglese Food and Drug Administration) lo ha autorizzato solo per individui dai 9 ai 16 anni. L'Organizzazione Mondiale della Sanità raccomanda che il vaccino sia somministrato solo a chi vive in zone ad alta diffusione della dengue e in chi abbia già contratto la malattia, dal momento che le persone che ricevono il vaccino e non sono state precedentemente infettate potrebbero essere a rischio di sviluppare manifestazioni più gravi di dengue, se successivamente contraessero l'infezione.
+
+Complicazioni
+
+Le complicazioni della dengue si verificano quando la malattia non viene identificata e curata nelle fasi iniziali o quando non vengono osservati il riposo e l'idratazione costante.
+Alcune delle complicazioni che possono essere causate dalla dengue includono:
+
+grave disidratazione
+problemi neurologici e/o respiratori
+danni al fegato e al cuore
+dengue emorragica, questa forma grave di dengue provoca emorragie soprattutto negli occhi, nelle gengive, nelle orecchie e nel naso, nonché la comparsa di sangue nelle feci, macchie rosse sulla pelle e vomito. Se non curata rapidamente, la dengue emorragica può portare alla morte. I trattamenti devono essere effettuati in ospedale in modo da poter controllare le emorragie e l'idratazione del corpo
+
+La dengue emorragica colpisce principalmente i paesi dell'Asia e dell'America latina ed è diventata, in queste aree, una delle principali cause di ricovero ospedaliero e di morte tra i bambini e gli adulti.
+
+Bibliografia
+
+Wilder-Smith A,  Ooi E, Horstick O, Wills B. Dengue [Sintesi]. Lancet. 2019; 393: 350–63
+
+Link approfondimento
+
+EpiCentro (ISS). Febbre dengue
+Centres for Disease Control and Prevention (CDC). Dengue (Inglese)
+NHS. Dengue (Inglese)
+https://www.epicentro.iss.it/febbre-dengue/https://www.cdc.gov/dengue/index.htmlhttps://www.nhs.uk/conditions/dengue/

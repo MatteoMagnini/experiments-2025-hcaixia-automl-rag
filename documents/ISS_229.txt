@@ -1,0 +1,32 @@
+Radiofarmaci: cosa sono, quando e come si prendono - ISSaluteiazioni: utilizzo, esposizione e rischi per la salute - ISSalute
+
+Introduzione
+
+
+I radiofarmaci sono composti chimici (al pari dei farmaci) che contengono radionuclidi, ovvero nuclei atomici radioattivi; vengono utilizzati in medicina nucleare sia per accertare le malattie (diagnosi), sia per curarle.
+Ogni radionuclide emette una particolare radiazione, ovvero particelle alfa, e/o beta e/o gamma con caratteristiche ben definite e in un tempo, statisticamente determinato, generalmente specificato dalla cosiddetta emivita (ossia il tempo necessario al decadimento di metà dei radionuclidi presenti nel radiofarmaco). Ad esempio il Gallio 68, usato in medicina nucleare per studiare in modo più preciso e completo un particolare tipo di tumori, i cosiddetti “tumori neuroendocrini”, è un radionuclide che emette prevalentemente radiazione beta positiva, mentre lo Iodio 131, il primo radiofarmaco usato in medicina nucleare e impiegato soprattutto nello studio delle malattie della tiroide, emette beta negativi (elettroni) e ha una emivita di circa 8 giorni.
+
+A cosa serve un radiofarmaco
+
+Un radiofarmaco è costituito da due componenti: una molecola biologica e una parte radioattiva. La parte radioattiva è composta da uno o più radionuclidi mentre la molecola biologica ha la funzione di trasportare la componente radioattiva, sfruttando il metabolismo della persona, verso l’organo o l’apparato d’interesse per l’esame o la terapia medica da effettuare. Nelle indagini eseguite con lo scopo di accertare (diagnosticare) una malattia, la frazione della radiazione emessa dalla componente radioattiva che “viaggia” trasportata dalla molecola biologica emerge dal corpo della persona e può essere “fotografata” (rivelata) da una strumentazione specifica (tecniche scintigrafiche). Poiché i radiofarmaci entrano nei processi metabolici, grazie alla radiazione emessa, offrono una rappresentazione dei processi biologici in cui sono coinvolti, ovvero delle funzionalità degli organi e dei tessuti che sono oggetto dell’indagine medica. L’informazione funzionale fornita dagli esami di medicina nucleare, generalmente sotto forma di immagini bi- o tri-dimensionali della distribuzione del radiofarmaco, diventa quindi un importante complemento alle informazioni fornite da altri esami diagnostici (radiografia, TAC, risonanza magnetica).
+Il radiofarmaco può anche essere utilizzato come strumento di cura: si addensa nel tessuto tumorale e la radiazione emessa distrugge le cellule circostanti. In tal caso vengono generalmente utilizzati radionuclidi con particelle (alfa o beta) che depositano la loro energia nelle cellule vicine al loro punto di emissione. In tal modo vengono danneggiate solo le cellule tumorali. Uno dei fronti più innovativi della medicina nucleare è dato dalla possibilità di utilizzare uno stesso radiofarmaco sia per la fase di accertamento (diagnostica), sia per quella terapeutica (teragnostica): l’aspetto “diagnostico” del farmaco permette di verificare “quasi in tempo reale” l'efficacia della terapia sulla persona e, qualora fosse necessario, di intervenire per migliorare l’azione terapeutica. La teragnostica può essere considerata una forma avanzata di medicina personalizzata.
+L’ambito principale di utilizzo dei radiofarmaci è quello oncologico ma sono impiegati anche in ambito cardiologico e neurologico.
+La produzione dei radionuclidi si effettua con macchinari estremamente complessi (ciclotroni, reattori nucleari). Spesso il radiofarmaco deve essere preparato nei locali dell’ospedale in cui viene utilizzato, soprattutto quando l’attività del radionuclide è molto breve o le quantità coinvolte molto limitate; tutti questi aspetti rendono molto articolata la produzione e la gestione dei radiofarmaci che necessita di personale specializzato in diverse discipline e di ambienti ospedalieri specifici.
+
+Come viene somministrato un radiofarmaco
+
+I radiofarmaci possono essere somministrati per bocca, per endovena, attraverso il peritoneo o per via locale. Per i trattamenti terapeutici le persone dopo aver ricevuto il radiofarmaco devono essere ricoverati in apposite camere radioprotette, per un periodo generalmente variabile da 2 a 5 giorni, dove smaltiranno i livelli di radioattività fino a che non diverranno accettabili, secondo le vigenti normative, per non creare problemi a familiari e a persone con le quali potrebbero venire a contatto.
+Negli esami diagnostici la modesta quantità di radioattività assunta dalla persona non crea particolari disagi a livello personale e ai familiari.
+Dopo la somministrazione del radiofarmaco, prima di procedere all’acquisizione delle immagini, è previsto un tempo di attesa per permettere al radiofarmaco di distribuirsi nei siti da indagare. Generalmente, viene chiesto alla persona di idratarsi bene sia nella fase di attesa, sia dopo l’esame per favorire l’eliminazione di quella parte del radiofarmaco che non viene metabolizzato dall’organismo.
+Nel caso di presunta o accertata gravidanza, la donna è tenuta a informare il medico nucleare del suo stato. Il medico valuterà se, per motivi clinici, sia necessario procedere con l’esame. Se la donna allatta, potrebbe essere necessaria una temporanea sospensione dell’allattamento di durata variabile in base al tipo di radiofarmaco utilizzato.
+
+Bibliografia
+
+Associazione Italiana Medicina Nucleare (AIMN)
+Fondazione Umberto Veronesi. Magazine. Che cosa sono i radiofarmaci e come funzionano?
+
+Link approfondimento
+
+International Atomic Energy Agency (IAEA). Radiation protection in nuclear medicine
+Advanced Life Sciences in Italy (ALISEI). Nasce un polo di eccellenza internazionale su fusione e radiofarmaci nel centro ENEA del Brasimone
+https://www.iaea.org/resources/rpop/health-professionals/nuclear-medicine

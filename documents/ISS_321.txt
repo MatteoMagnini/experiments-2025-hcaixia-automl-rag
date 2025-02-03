@@ -1,0 +1,66 @@
+Epatite E: disturbi, cause e cura - ISSalute
+
+Introduzione
+
+
+L'epatite E è un'infiammazione del fegato dovuta a un virus a RNA classificato nella famiglia degli hepevirus (HEV: hepatitis E virus) di cui sono stati individuati quattro genotipi, ovverossia gruppi di virus caratterizzati da affinità genetica.
+L'infezione è presente in molte aree del mondo con un maggior numero di nuovi casi (incidenza) nei paesi dell’Asia sudorientale e dell’America Latina, in particolar modo dove sono presenti molti abitanti e le condizioni igieniche sono inadeguate. Ogni anno sono segnalati circa 20 milioni di infezioni a livello mondiale, di cui circa 3 milioni causano disturbi (sintomi).
+La fascia di età maggiormente interessata dall'infezione è quella tra i 15 e i 40 anni. In Italia, i casi segnalati al sistema di sorveglianza SEIEVA dell’Istituto Superiore di Sanità sono relativamente pochi (poco meno di 200 nel periodo 2007-2016) ma persiste, tuttavia, una scarsa conoscenza dei modi di trasmissione dell’infezione e dei segnali che indicano la sua presenza.
+L’infezione è principalmente trasmessa per via oro-fecale, bevendo acqua contaminata con feci di persone o animali malati. Limitati casi sono stati segnalati in seguito all'ingestione di carne suina non adeguatamente cotta.
+
+Sintomi
+
+L'epatite E tende a manifestarsi improvvisamente (forma acuta) a distanza di 15-60 giorni dal contagio del virus. I primi disturbi (sintomi) dell'epatite acuta sono rappresentati da:
+
+malessere e debolezza
+febbricola
+nausea, vomito
+dolore addominale
+prurito, eruzioni cutanee
+
+A distanza di qualche giorno, generalmente, la pelle e gli occhi assumono una colorazione giallastra (ittero). In questa fase le urine possono apparire più scure della norma. I disturbi (sintomi) causati dall'epatite acuta possono durare per un periodo variabile da due a sei settimane e tendono, di solito, a diminuire spontaneamente. In rari casi, documentati anche in donne nel corso del terzo trimestre di gravidanza, l'epatite si può presentare in forma fulminante con il rischio di mortalità per insufficiente funzionamento del fegato.
+
+Cause
+
+Il virus dell'epatite E (HEV), proveniente dalle feci delle persone o degli animali infetti, può sopravvivere in forma attiva e contaminare le acque utilizzate a scopo alimentare o agricolo. Inoltre, il virus è presente nella carne di animali (maiali, cinghiali) non trattata o non adeguatamente cotta.
+Per tale ragione l'infezione si trasmette prevalentemente tramite:
+
+ingestione di acqua, frutta e verdure contaminate con materiale fecale di persone infette, principalmente in aree molto popolate dove non è presente una gestione adeguata degli scarichi delle fogne. La preparazione di pasti da parte di persone malate può diffondere l'infezione in ambito domestico o collettivo
+
+Inoltre, seppure in misura assai meno rilevante, è possibile una trasmissione dell'infezione mediante:
+
+assunzione di carne suina non adeguatamente cotta
+trasmissione materno-fetale, seppure sia stata documentata solo in un ridotto numero di casi
+
+Diagnosi
+
+La diagnosi di epatite E si basa sui disturbi (sintomi) presenti e su indagini strumentali e di laboratorio. I sintomi caratteristici dell'epatite acuta (ittero, dolore addominale, nausea, vomito e inappetenza) possono fornire indicazioni al medico per la prescrizione di analisi di laboratorio in grado di individuare la causa dell'epatite.
+Un ingrossamento del fegato, con o senza dolore, può essere evidenziato durante la visita medica o un'ecografia addominale.
+Nelle analisi di laboratorio si riscontra, di solito, un aumento nel sangue di alcune proteine enzimatiche (transaminasi GOT/AST e GPT/ALT, gamma-GT) che rappresentano un indice dello stato di infiammazione del fegato ed elevati livelli di bilirubina nel sangue e nelle urine.
+L'accertamento (diagnosi) di epatite E richiede, comunque, la presenza nel sangue degli anticorpi contro l'HEV. In particolare, gli anticorpi della classe IgM indicano un'infezione in corso mentre quelli della classe IgG possono essere presenti nella fase acuta o a distanza di mesi o anni dalla guarigione. Esiste inoltre un esame molecolare, detto test RT-PCR, per il riscontro dell'RNA virale nel sangue.
+
+Terapia
+
+I disturbi (sintomi) causati dall'epatite E durano, in genere, qualche settimana e tendono a diminuire nel tempo fino a scomparire. La cura consiste in un adeguato riposo e in una dieta specifica a base di cibi leggeri e privi di grassi sino alla guarigione completa delle alterazioni del fegato. In casi più gravi è stato sperimentato con discreto successo l'impiego di farmaci anti-virali quali la ribavirina.
+
+Prevenzione dell'epatite E
+
+L’infezione può essere prevenuta:
+
+rispettando le norme igieniche sia collettive (controllo delle acque, gestione degli scarichi fognari, controllo della produzione e distribuzione degli alimenti) che individuali (lavaggio delle mani e degli alimenti, cottura degli alimenti)
+evitando, nei paesi dove l'infezione è presente e diffusa (endemica), l'ingestione di acqua non imbottigliata (anche in forma di ghiaccio), l'assunzione di verdura e frutta lavata con acqua corrente o di alimenti non cotti
+
+È disponibile un vaccino contro l'epatite E che conferisce una efficace protezione contro il virus e favorisce la risposta del sistema di difesa dell'organismo (immunitario). Il suo impiego è suggerito dall'Organizzazione Mondiale della Sanità (OMS) alle persone residenti nei paesi dove l'infezione è molto diffusa (Asia sudorientale, America Latina subtropicale) o ci siano epidemie circoscritte, in particolare se le condizioni igieniche non sono adeguate.
+
+Vivere con
+
+L'epatite E, nella maggior parte dei casi, si presenta in forma acuta, dura per qualche settimana e va curata esclusivamente con il riposo e una dieta specifica, basata su alimenti leggeri, poveri di grassi, e ricchi in fibre e verdure. In questo periodo è importante prevenire la diffusione dell'infezione ai familiari e conviventi mediante il lavaggio frequente delle mani e la cautela nella preparazione degli alimenti. Nei casi più gravi, in cui il fegato è compromesso, è indicato il ricovero in ospedale per ricevere le cure necessarie.
+
+Bibliografia
+
+World Health Organization (WHO). Fact sheet on Hepatitis E (Inglese)
+World Health Organization (WHO). Hepatitis E vaccine: WHO position paper (Inglese)
+Khuroo MS. Discovery of hepatitis E: the epidemic non-A, non-B hepatitis 30 years down the memory lane [Sintesi]. Virus Research. 2011; 161(1): 3-14
+Khuroo M, Khuroo MS, Khuroo NS. Hepatitis E: Discovery, global impact, control and cure. World Journal of Gastroenterology. 2016; 22(31): 7030–7045
+EpiCentro (ISS). Epatite virale
+Tosti ME, Mele A, Spada E, Marzolini F, Crateri S, Ferrigno L, Iantosca G, Gruppo di collaborazione SEIEVA (Ed.). X Workshop SEIEVA (Sistema Epidemiologico Integrato dell'Epatite Virale Acuta). Bagno Vignoni (Siena) 13-15 dicembre 2012. Atti. Roma: Istituto Superiore di Sanità; 2015 (Rapporti ISTISAN 15/29)

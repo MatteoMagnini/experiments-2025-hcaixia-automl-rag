@@ -1,0 +1,51 @@
+MOC: quando e perchè farla - ISSalute
+
+Introduzione
+
+
+La mineralometria ossea computerizzata (MOC) è l'esame strumentale utilizzato per accertare (diagnosticare) l'osteoporosi poiché consente di misurare in modo accurato la densità dell’osso.
+È divenuto noto perché sempre più donne lo eseguono quando entrano in menopausa.
+Tale esame, tuttavia, non deve essere eseguito da tutte le donne che entrano in menopausa perché non è in grado di identificare in maniera affidabile quelle che, nella popolazione generale, saranno a rischio di frattura.
+La MOC, infatti è un esame utile per accertare (esame diagnostico) l'osteoporosi laddove si pensi sia presente e non per verificarne l'assenza.
+Al contrario del pap test che, invece, serve proprio a verificare di non avere lesioni e per questo deve essere eseguito da tutte le donne (esame di screening o di controllo).
+In base alle evidenze scientifiche disponibili, la MOC deve essere eseguita solo su persone di cui siano noti i fattori di rischio per le fratture, tenendo in considerazione la loro età.
+
+Il test
+
+L'esame è rapido e indolore, utilizza una limitata dose di radiazioni e non richiede alcuna preparazione particolare.
+Può riguardare diverse parti dello scheletro, spesso il femore o la colonna vertebrale.
+Può essere eseguito rimanendo completamente vestiti ma senza indossare oggetti metallici.
+Parte dei raggi X emessi dallo strumento sono assorbiti dai tessuti corporei, come il grasso e l'osso, e un apposito apparecchio (rilevatore) permette di produrre un'immagine dell'area indagata.
+Tra le varie tecniche disponibili, la DEXA (assorbimento a raggi X a doppia energia) è quella che presenta il migliore rapporto costo/beneficio. Rispetto agli altri esami a raggi X, la MOC con tecnica DEXA utilizza un livello molto più basso di radiazioni.
+Nonostante sia una procedura molto sicura non deve essere eseguita in gravidanza.
+Controlli ripetuti e frequenti con intervalli inferiori ai 18-36 mesi sono inutili.
+I casi in cui è indicata l’esecuzione della MOC sono:
+
+menopausa precoce (prima dei 45 anni di età)
+terapie croniche (in corso o previste) con farmaci corticosteroidi per via generale, antiepilettici, anticoagulanti, immunosoppressori e antiretrovirali
+donne in post menopausa con familiari, da parte materna, colpiti da fratture non causate da traumi prima dei 75 anni di età
+donne in post menopausa con indice di massa corporea minore di 19 Kg/m²
+osteoporosi documentata da radiografia o ecografia
+condizioni riconosciute come possibile causa di osteoporosi secondaria
+
+Risultati
+
+L'accertamento (diagnosi) dell'osteoporosi si basa sul confronto tra il valore della densità ossea ottenuto dall'esame e quello medio di persone adulte sane appartenenti allo stesso sesso.
+La MOC con tecnica DEXA confronta quindi la densità ossea della persona esaminata con quella attesa in un adulto sano della stessa età, sesso ed etnia.
+Per valutare il risultato dell’esame si utilizzano dei parametri di cui il più noto è il T-score.
+Secondo l'Organizzazione Mondiale della Sanità, la diagnosi mediante la tecnica DEXA va effettuata considerando i valori di densità ossea, espressi in T-score secondo il seguente schema:
+
+T score maggiore o uguale (≥) a -1 = risultato normale
+T score compreso tra -1 e –2.5 = risultato indicativo di osteopenia
+T score minore (<) di -2.5 = risultato indicativo di osteoporosi
+T score minore (<) di -2.5 abbinato a frattura = risultato indicativo di osteoporosi grave
+
+Nell'interpretazione dei risultati deve essere tenuto presente che non è sempre facile confrontare i risultati ottenuti con apparecchiature diverse o risultati ottenuti dalla misurazione di segmenti ossei diversi della stessa persona.
+Si raccomanda, pertanto, di paragonare solo le indagini densitometriche eseguite con lo stesso strumento che deve, ovviamente, essere sottoposto a periodici controlli di qualità.
+Anche se i risultati della densità minerale ossea sono in grado di offrire una buona indicazione della resistenza dell’osso, i risultati di una MOC con tecnica DEXA non possono prevedere il rischio di frattura che è funzione di altri fattori come, ad esempio, l'età, il sesso o una storia di cadute precedenti che il medico deve tenere in considerazione per decidere se ricorrere a una cura farmacologica.
+In generale, una densitometria che riporta una riduzione della densità ossea non indica di per sé la presenza di osteoporosi ma rappresenta un dato molto importante per la formulazione della diagnosi in associazione alle analisi del sangue o strumentali richieste dal medico.
+
+Bibliografia
+
+Regione Piemonte Assessorato Tutela della Salute e Sanità - Linee guida per osteoporosi (approvate con D.D. n. 233 del 20-09-2007)
+World Health Organization (WHO). WHO Scientific Group on the Assessment of Osteoporosis at Primary Health Care Level. Summary Meeting Report (2004)

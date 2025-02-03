@@ -1,0 +1,86 @@
+COVID e gravidanza: come evitare l'infezione, effetti, cure - ISSalute
+
+Introduzione
+
+
+L’Italia è stato il primo Paese europeo colpito dal nuovo coronavirus, il virus SARS-CoV-2 causa della pandemia. Gli effetti del virus su donne in gravidanza e neonati all’inizio dell’epidemia erano ancora sconosciuti ma temibili, date le precedenti esperienze con altri virus respiratori come SARS-1, MERS e influenza H1N1 che in passato avevano colpito duramente mamme e bambini.
+Alla luce degli studi eseguiti in Italia durante la pandemia le donne in gravidanza non sono risultate più suscettibili al COVID-19, ossia all’infezione causata dal virus SARS-CoV-2, rispetto alle donne in età riproduttiva non in gravidanza.
+La maggioranza dei disturbi (sintomi) osservati nelle donne in gravidanza sono lievi o moderati. È stato notato, tuttavia, un aumento dei bambini nati prima della 37° settimana di gravidanza (nati pretermine) e in qualche caso sono state osservate complicazioni respiratorie gravi dovute alla polmonite conseguente a COVID-19.
+La presenza di individui infettati dal virus SARS-CoV-2 che hanno sviluppato disturbi lievi o del tutto assenti è stata documentata sia nella popolazione generale, sia tra le donne in gravidanza.
+Le donne in gravidanza, come tutta la popolazione, per evitare il contagio devono rispettare scrupolosamente le misure di prevenzione.
+All’inizio dell’emergenza sanitaria da nuovo Coronavirus, l’Istituto Superiore di Sanità (ISS) tramite la rete del Sistema italiano di sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) ha avviato uno studio nazionale per raccogliere e descrivere tutti i casi di donne con infezione da SARS-CoV-2 accertata ricoverate in ospedale durante la gravidanza, per il parto e in puerperio (entro 42 giorni dal parto).
+
+Sintomi
+
+I disturbi (sintomi) causati dall’infezione da SARS-CoV-2 in gravidanza non sono specifici e si manifestano in maniera molto variabile, come accade nella popolazione generale. Si stima che il tempo di incubazione medio, vale a dire il tempo che trascorre dal contagio alla comparsa dei primi disturbi, sia di 5-6 giorni. Anche le donne in gravidanza possono contrarre l’infezione da SARS-CoV-2 senza presentare alcun disturbo (asintomatiche), con lievi disturbi (paucisintomatiche) o, raramente, manifestando problemi gravi come la compromissione della respirazione e la polmonite.
+In circa l’80% dei casi la malattia si presenta in forma lieve. Dalla fine del mese di aprile 2020, negli ospedali italiani è stato attivato un sistema di controlli (screening) per la ricerca del virus in tutte le donne in gravidanza che, per motivi diversi, sono state ricoverate, offrendo loro l’esecuzione di un tampone nasofaringeo. Questo screening ha permesso di conoscere la reale percentuale di donne in gravidanza, ricoverate, contagiate ma senza disturbi (asintomatiche), informazione ancora non disponibile per le persone non in gravidanza che, per motivi diversi, hanno dovuto ricorrere a un ricovero ospedaliero.
+In base ai risultati del Sistema italiano di sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) relativi alla prima ondata pandemica, compresa tra fine febbraio e fine luglio 2020, il 55% delle donne in gravidanza ha manifestato disturbi (sintomi) al momento dell’accertamento (diagnosi) dell’infezione. I più frequenti sono stati la febbre (36%), la tosse (31%) e la stanchezza (20%).
+
+Cause
+
+La causa della malattia è un virus della famiglia dei Coronavirus, chiamato SARS-CoV-2, che potrebbe provenire dagli animali. Lo studio della sequenza del suo codice genetico mostra, infatti, tratti simili a quelli del coronavirus dei pipistrelli. È un virus poco resistente che viene inattivato quando esposto a una temperatura di 56°C per 30 minuti, o se trattato con alcool o disinfettanti appropriati.
+ll virus può essere trasmesso per:
+
+contatto diretto o indiretto con una persona infetta, in caso di contatto diretto il contagio può avvenire in tempi molto brevi
+contatto con superfici o oggetti toccati dalla persona infetta 
+attraverso le goccioline di saliva (droplet), che la persona infetta emette tossendo, starnutendo o parlando se la distanza rispetto ad essa è inferiore a 1-2 metri
+attraverso l’aerosol, ad esempio in ambienti chiusi non areati e affollati, sui trasporti pubblici ecc, le goccioline di saliva possono arrivare alla bocca, al naso, agli occhi, oppure essere inalate da persone che si trovano vicine alla persona infetta
+
+Affinché la trasmissione avvenga attraverso le goccioline di saliva (droplet), sembra sia necessaria una permanenza di almeno 15 minuti rimanendo a una distanza inferiore a due metri da un individuo infetto.
+
+Diagnosi
+
+L’accertamento (diagnosi) della presenza del virus nell’organismo avviene mediante un tampone nasofaringeo che, grazie a diverse tecniche di laboratorio, permette di confermare la presenza dell’acido ribonucleico (RNA) virale. Il tampone è la modalità più utilizzata sia per la sua semplicità e rapidità di esecuzione, sia per la sua affidabilità. Gli esami RX (radiografia) o TAC (tomografia assiale computerizzata) del torace sono ulteriori strumenti utilizzati dai medici quando sospettano una polmonite. La ricerca degli anticorpi nel sangue (test sierologico) permette, invece, di verificare se l’individuo sia già entrato in contatto con il virus e abbia sviluppato gli anticorpi in grado di proteggerlo da una nuova infezione. Quest’ultimo esame, quindi, non serve per verificare la presenza del virus in una persona con disturbi (sintomi) o che abbia avuto contatti a rischio ma solo per verificare se è stata contagiata in passato e abbia quindi sviluppato una risposta anticorpale.
+In base ai risultati del Sistema italiano di sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) relativi alla prima ondata pandemica, quella verificatasi tra febbraio e luglio 2020, in gravidanza l’accertamento della presenza del virus è effettuato quasi sempre mediante tampone naso-faringeo e circa la metà delle donne (la totalità in caso di sospetta polmonite) viene sottoposta a esame radiologico del torace oppure a una ecografia o TAC polmonare.
+Lo studio ItOSS ha evidenziato che, durante la prima ondata pandemica, le donne con precedenti malattie croniche (ad esempio l’ipertensione), le donne obese e le donne di cittadinanza non italiana avevano un rischio maggiore di sviluppare una polmonite da COVID-19.
+Al momento non c’è evidenza che l’infezione materna da SARS-CoV-2 aumenti il rischio di aborto, di morte in utero o entro 7 giorni dalla nascita. Si è rilevato che le donne infette partoriscono più spesso prima di completare la 37° settimana di gravidanza (parto pretermine). Lo studio ItOSS ha evidenziato che, durante la prima ondata pandemica, i parti pretermine sono stati quasi il doppio di quelli che si verificano abitualmente.
+
+Terapia
+
+Come avviene nella popolazione generale, anche le donne in gravidanza che non hanno disturbi (asintomatiche) o hanno disturbi lievi (paucisintomatiche) non necessitano di ricovero ospedaliero né di terapia farmacologica, ad eccezione dei farmaci per abbassare la febbre, quando necessario.
+Alle donne in gravidanza con infezione da SARS-CoV-2 accertata (positive al test) e ricoverate in ospedale dovrebbe essere somministrata l’eparina a basso peso molecolare a meno che non sia previsto il parto entro 12 ore. In caso di gravi complicazioni da COVID-19, le donne devono essere prese in carico da parte di una squadra di specialisti (team multidisciplinare) in grado di offrire l’opportuna terapia medica e, quando necessario, il supporto alla respirazione.
+In caso di ricovero ospedaliero per il parto, a tutte le donne dovrebbe essere garantita la presenza di una persona di propria scelta per tutta la durata del travaglio, del parto e durante la degenza, in modo da favorire una migliore esperienza della nascita del proprio figlio. Durante il travaglio la donna può scegliere liberamente le posizioni da assumere e le modalità del controllo della frequenza cardiaca del bambino (feto) devono essere valutate caso per caso, prendendo in considerazione le settimane di gravidanza e le condizioni del bambino in utero (feto).
+L’analgesia epidurale non è controindicata in caso di infezione da SARS-CoV-2. Lo studio del Sistema italiano di sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) ha evidenziato che, durante la prima ondata pandemica (febbraio-luglio 2020), il 32% delle donne che hanno partorito per via vaginale ne ha fatto uso.
+La positività al SARS-CoV-2 non costituisce di per sé un’indicazione al taglio cesareo, per il quale rimangono valide le indicazioni cliniche abituali, né la modalità del parto deve essere influenzata dalla malattia, a meno che le condizioni respiratorie della donna richiedano un approccio diverso. I dati ItOSS mostrano che, durante la prima ondata pandemica, il tasso di tagli cesarei è stato pari a 33,7% non lontano dalla quota che si verifica normalmente in Italia (32,3% nel 2018). La scelta della modalità del parto deve essere comunque discussa con la donna, tenendo in considerazione le sue preferenze insieme alle eventuali indicazioni del ginecologo e dell’anestetista. Le madri infettate da SARS-CoV-2 e i loro neonati dovrebbero essere messi nelle condizioni di rimanere insieme durante tutto il ricovero, giorno e notte, di avere un contatto pelle-a-pelle e di poter iniziare precocemente l’allattamento. I benefici per la salute di queste pratiche superano, infatti, l’ipotetico rischio di trasmissione del virus. L’eventuale separazione della mamma dal bambino va valutata in base alle condizioni di salute di entrambi, al desiderio della donna e in considerazione delle possibili conseguenze che tale separazione avrebbe sul loro benessere e sull’allattamento.
+
+Prevenzione
+
+Il rispetto scrupoloso delle raccomandazioni è indispensabile per prevenire il contagio da virus SARS-CoV-2. Le donne in gravidanza, per le quali è molto importante evitare di contrarre la malattia, devono seguire le stesse indicazioni fornite alla popolazione generale.
+Si raccomanda di:
+
+mantenere sempre il distanziamento fisico 
+usare sempre le mascherine di protezione, indossandole correttamente e coprendo sia il naso che la bocca
+lavarsi accuratamente e frequentemente le mani, per almeno 40 secondi con acqua e sapone o, in mancanza, con soluzioni alcoliche
+arieggiare spesso gli ambienti e pulire le superfici, con prodotti a base di alcool o candeggina diluita
+evitare l’uso di mezzi di trasporto pubblico, se non indispensabile
+lavorare in modalità agile, quando possibile
+evitare le occasioni di incontro in ambienti pubblici, specie se al chiuso
+evitare incontri con amici e familiari non conviventi, prediligendo contatti a distanza (in remoto) mediante telefono, Internet e social media
+utilizzare il telefono o servizi online per contattare il proprio medico di base, o altri servizi assistenziali essenziali
+
+Per quanto riguarda l’uso dei vaccini contro COVID-19, le donne in gravidanza e allattamento non sono state incluse negli studi di valutazione dei vaccini autorizzati per cui, allo stato attuale, non è noto se essi siano efficaci e sicuri in gravidanza. Al momento, la vaccinazione potrebbe essere presa in considerazione dalle donne in gravidanza ad alto rischio di contagio (ad esempio le operatrici sanitarie) o di complicazioni gravi in caso di infezione da SARS-CoV-2 nelle donne con malattie precedenti come l’ipertensione o l’obesità (leggi la Bufala). Le donne in queste condizioni devono valutare, con i medici curanti, i potenziali benefici e rischi derivanti dalla vaccinazione e la scelta deve essere fatta caso per caso.
+Se una donna vaccinata scopre di essere in gravidanza subito dopo la vaccinazione, le prove attualmente disponibili non suggeriscono la necessità di un'interruzione della gravidanza. Se la donna scopre di essere in gravidanza tra la prima e la seconda dose del vaccino, può rimandare la seconda somministrazione alla conclusione della gravidanza, eccezion fatta per le persone ad alto rischio. Le donne che allattano possono essere vaccinate senza necessità di interrompere l’allattamento (leggi la Bufala).
+
+Complicazioni
+
+Seppur in una minoranza dei casi, in gravidanza la malattia COVID-19 può complicarsi con forme gravi di polmonite e insufficienza respiratoria che possono richiedere il ricovero in un reparto di terapia intensiva e un supporto per la respirazione. La squadra che si occupa dell’assistenza in terapia intensiva è composta da specialisti in diverse discipline (multidisciplinare) in modo da garantire i migliori risultati sia per la mamma che per il bambino. Se le condizioni della mamma lo richiedono, il parto può essere anticipato rispetto al termine previsto per la fine della gravidanza.
+Durante la prima ondata pandemica (febbraio-luglio 2020), lo studio del Sistema italiano di sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) ha evidenziato che non si sono verificate morti materne né neonatali.
+
+Vivere con
+
+In caso di infezione accertata da SARS-CoV-2 in gravidanza (tampone positivo) si raccomanda di contattare il proprio medico curante per concordare come comportarsi anche in relazione agli abituali controlli ed ecografie ostetriche che devono essere comunque eseguite.
+Molti consultori familiari organizzano i corsi di preparazione alla nascita a distanza, ossia ricorrendo a video conferenze da seguire su pc, tablet, cellulare. È bene informarsi per tempo, per non perdere l’opportunità di partecipare.
+Per quanto riguarda le visite mediche e le ecografie, sarà il medico a fornire indicazioni in modo da assicurare il controllo del normale decorso della gravidanza e dell’accrescimento fisiologico del feto. È bene informarsi anche sui presidi sanitari della propria zona di residenza dove è possibile ricoverarsi per il parto. In questo modo sarà possibile scegliere per tempo il punto nascita che risponde meglio alle proprie aspettative e desideri.
+Lo studio del Sistema italiano si sorveglianza ostetrica (ItOSS, dall’inglese Italian Obstetric Surveillance System) ha evidenziato che, durante la prima ondata pandemica (febbraio-luglio 2020), circa la metà delle mamme che ha partorito ha potuto avere in sala parto la presenza di una persona di sua scelta, quasi 4 madri su 10 sono state separate dal loro piccolo dopo la nascita, il 27% ha praticato il contatto pelle-a-pelle mentre il 72% ha tenuto il bambino in camera durante la degenza e il 79% lo ha potuto allattare.
+
+Bibliografia
+
+Royal College of Obstetricians and Gynaecologists. Coronavirus (COVID-19), pregnancy and women's health 
+Maraschini A, Corsi E, Salvatore MA, et al. Coronavirus and birth in Italy: results of a national population-based cohort study. Annali dell'Istituto Superiore di Sanità. 2020; 56(3): 378-388
+Corsi E, Maraschini A, Perrone E, et al. The preparedness of the Italian obstetric surveillance system in the response to the emergency of the SARS-CoV-2 pandemic: methodological aspects of a population-based study. Epidemiologia e Prevenzione. 2020; 44(5-6) Suppl 2: 81-87
+
+Link approfondimento
+
+EpiCentro (ISS). Coronavirus. COVID-19: gravidanza, parto e allattamento
+EpiCentro (ISS). Vaccini e vaccinazioni. Vaccinazione contro il COVID-19 in gravidanza e allattamento
+https://www.epicentro.iss.it/coronavirus/sars-cov-2-gravidanza-parto-allattamentohttps://www.epicentro.iss.it/vaccini/covid-19-target-gravidanza-allattamento

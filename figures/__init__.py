@@ -21,10 +21,10 @@ PRETTY_NAMES = {
 
 
 def plot_pareto(
-    costs_x: dict,
-    costs_y: dict,
-    pareto_costs_x: dict,
-    pareto_costs_y: dict,
+    costs_x: list[float],
+    costs_y: list[float],
+    pareto_costs_x: list[float],
+    pareto_costs_y: list[float],
     file_path: os.path or list[os.path],
     obj0: str,
     obj1: str
@@ -35,9 +35,8 @@ def plot_pareto(
     ax.scatter(costs_x, costs_y, marker="x")
     ax.scatter(pareto_costs_x, pareto_costs_y, marker="x", c="r")
     ax.step(
-        [pareto_costs_x[0]] + pareto_costs_x.tolist() + [np.max(pareto_costs_x)],  # We add bounds
-        [np.max(pareto_costs_y)] + pareto_costs_y.tolist() + \
-        [np.min(pareto_costs_y)],  # We add bounds
+        [pareto_costs_x[0]] + pareto_costs_x + [np.max(pareto_costs_x)],  # We add bounds
+        [np.max(pareto_costs_y)] + pareto_costs_y + [np.min(pareto_costs_y)],  # We add bounds
         where="post",
         linestyle=":",
     )
@@ -94,8 +93,8 @@ def plot_pareto_raw(
         obj0: str,
         obj1: str
 ) -> None:
-    costs_x, costs_y = costs.iloc[:, 0], costs.iloc[:, 1]
-    pareto_costs_x, pareto_costs_y = pareto_costs.iloc[:, 0], pareto_costs.iloc[:, 1]
+    costs_x, costs_y = list(costs.iloc[:, 0]), list(costs.iloc[:, 1])
+    pareto_costs_x, pareto_costs_y = list(pareto_costs.iloc[:, 0]), list(pareto_costs.iloc[:, 1])
     plot_pareto(
         costs_x=costs_x,
         costs_y=costs_y,
