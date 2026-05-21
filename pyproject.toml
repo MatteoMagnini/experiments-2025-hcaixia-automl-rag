@@ -1,31 +1,36 @@
-[tool.poetry]
+[project]
 name = "experiments"
 version = "0.1.0"
 description = "Experiments for the paper \"Enhancing Trustworthy Text Generation in Digital Health\" for AIME 2025"
-authors = ["Matteo Magnini <matteo.magnini@unibo.it>"]
-license = "Apache-2.0"
 readme = "README.md"
-package-mode = true
-
-[tool.poetry.dependencies]
-python = "^3.12"
-smac = "^2.3.0"
-configspace = "^1.2.1"
-fire = "^0.7.0"
-chromadb = "^0.6.3"
-pandas = "^2.2.3"
-langchain-text-splitters = "^0.3.5"
-langchain-ollama = "^0.2.2"
-langchain-chroma = "^0.2.1"
-matplotlib = "^3.10.0"
-langchain = "^0.3.16"
-langchain-community = "^0.3.16"
-rank-bm25 = "^0.2.2"
-llama-index = "^0.12.14"
-llama-index-embeddings-huggingface = "^0.5.1"
-einops = "^0.8.0"
-
+requires-python = ">=3.12,<4"
+license = { text = "Apache-2.0" }
+authors = [
+	{ name = "Matteo Magnini", email = "matteo.magnini@unibo.it" },
+]
+dependencies = [
+	"smac>=2.4.0,<3",
+	"configspace>=1.2.2,<2",
+	"fire>=0.7.1,<0.8",
+	"chromadb>=1.5.9,<2",
+	"pandas>=3.0.3,<4",
+	"langchain-text-splitters>=1.1.2,<2",
+	"langchain-ollama>=1.1.0,<2",
+	"langchain-chroma>=1.1.0,<2",
+	"matplotlib>=3.10.9,<4",
+	"langchain>=1.2.18,<2",
+	"langchain-classic>=1.0.7,<2",
+	"langchain-community>=0.4.1,<0.5",
+	"rank-bm25>=0.2.2,<0.3",
+	"llama-index>=0.14.21,<0.15",
+	"llama-index-embeddings-huggingface>=0.7.0,<0.8",
+	"transformers>=5.8.0,<6",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["chroma*", "data*", "documents*", "experiments*", "utils*"]

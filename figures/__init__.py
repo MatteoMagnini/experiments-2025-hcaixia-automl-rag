@@ -13,7 +13,7 @@ PATH = Path(__file__).parents[0]
 PRETTY_NAMES = {
     "1 - accuracy": "1 - Accuracy",
     "number of documents": "Number of Documents",
-    "chunk_length": "Chunk Length",
+    "chunk_token_length": "Chunk Token Length",
     "overlap_percentage": "Overlap Percentage",
     "retriever": "Retriever",
     "embedder": "Embedder",

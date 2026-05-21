@@ -1,10 +1,5 @@
 from pathlib import Path
+from utils import get_supported_embedders, DEFAULT_PROVIDER
 
 PATH = Path(__file__).parents[0]
-EMBEDDERS = [
-    "nomic-embed-text",
-    "mxbai-embed-large",
-    "bert-base-cased",
-    "bert-base-italian-xxl-cased",
-    "biobert-base-cased",
-]
+EMBEDDERS = get_supported_embedders(DEFAULT_PROVIDER)
