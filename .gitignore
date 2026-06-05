@@ -1,5 +1,5 @@
 #documents/*.txt
-chroma/faq
+qdrant/faq
 #data/*.csv
 #data/*.tsv
 **/smac3_output
@@ -8,6 +8,22 @@ figures/*.png
 figures/*.eps
 results/incumbents.csv
 results/results.csv
+# ResultSingleton dumps, e.g. incumbents.csv_results.csv
+results/*_results.csv
+
+# --- Local caches & run artifacts (never commit) ---
+# Claude Code session/cache
+.claude/
+# HuggingFace model downloads
+.hf_cache/
+hf_cache/
+# Local smoke-test data mount (see README_DOCKER.md)
+_data/
+# Gold-standard CSV backups written by data/generate_gold_standards.py
+data/*_backup.csv
+# enroot / docker image artifacts
+*.sqsh
+*.tar
 
 .idea
 

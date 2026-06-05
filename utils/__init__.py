@@ -1,9 +1,11 @@
+import os
 import numpy as np
 import pandas as pd
 from pathlib import Path
 from ollama import ResponseError
 from langchain_ollama import OllamaEmbeddings
 from langchain_core.documents import Document
+from langchain_core.embeddings import Embeddings
 from results import PATH as RESULT_PATH
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from ConfigSpace import Configuration
@@ -14,25 +16,23 @@ PATH = Path(__file__).parents[0]
 OLLAMA_URL = "localhost"
 OLLAMA_PORT = 11434
 DEFAULT_PROVIDER = "ollama"
+
 OLLAMA_EMBEDDERS = [
-    "nomic-embed-text",
-    "mxbai-embed-large",
     "embeddinggemma",
     "nomic-embed-text-v2-moe",
     "qwen3-embedding:0.6b",
     "qwen3-embedding:4b",
-    "ibm/granite-embedding:278m",
-    "ibm/granite-embedding:125m",
-    "ibm/granite-embedding:107m",
-    "ibm/granite-embedding:30m",
-
+    "ibm/granite-embedding:278m",  # multilingual variant (Italian included)
+    "ibm/granite-embedding:107m",  # multilingual variant (Italian included)
 ]
+
 HUGGINGFACE_NAME_MAP = {
-    "nomic-embed-text": "nomic-ai/nomic-embed-text-v1",
-    "mxbai-embed-large": "mixedbread-ai/mxbai-embed-large-v1",
-    "bert-base-cased": "google-bert/bert-base-cased",
+    "nomic-embed-text-v2-moe": "nomic-ai/nomic-embed-text-v2-moe",
+    "qwen3-embedding-0.6b": "Qwen/Qwen3-Embedding-0.6B",
+    "qwen3-embedding-4b": "Qwen/Qwen3-Embedding-4B",
+    "granite-embedding-278m": "ibm-granite/granite-embedding-278m-multilingual",
+    "granite-embedding-107m": "ibm-granite/granite-embedding-107m-multilingual",
     "bert-base-italian-xxl-cased": "dbmdz/bert-base-italian-xxl-cased",
-    "biobert-base-cased": "dmis-lab/biobert-base-cased-v1.1"
 }
 CHUNKING_DIRECTORY_BY_PROVIDER = {
     "huggingface": "hf_tokens_v1",
@@ -40,6 +40,7 @@ CHUNKING_DIRECTORY_BY_PROVIDER = {
 }
 MIN_OLLAMA_EMBED_WORDS = 32
 OLLAMA_RETRY_SHRINK_FACTOR = 0.75
+OLLAMA_TIMEOUT = float(os.environ.get("OLLAMA_TIMEOUT", "120"))
 
 
 def _coerce_texts(documents: list[str | Document]) -> list[str]:
@@ -59,7 +60,7 @@ def _is_ollama_context_error(exc: Exception) -> bool:
     return isinstance(exc, ResponseError) and "context length" in str(exc).lower()
 
 
-class HuggingFaceEmbeddingAdapter:
+class HuggingFaceEmbeddingAdapter(Embeddings):
     def __init__(self, model_name: str, trust_remote_code: bool = False):
         self.embedding_model = HuggingFaceEmbedding(model_name=model_name, trust_remote_code=trust_remote_code, embed_batch_size=1024)
 
@@ -70,11 +71,15 @@ class HuggingFaceEmbeddingAdapter:
         return self.embedding_model.get_text_embedding_batch([query])[0]
 
 
-class OllamaEmbeddingAdapter:
+class OllamaEmbeddingAdapter(Embeddings):
     def __init__(self, model_name: str, base_url: str):
         self.model_name = model_name
         self.max_words_per_input: int | None = None
-        self.embedding_model = OllamaEmbeddings(model=model_name, base_url=base_url)
+        self.embedding_model = OllamaEmbeddings(
+            model=model_name,
+            base_url=base_url,
+            client_kwargs={"timeout": OLLAMA_TIMEOUT},
+        )
 
     def _truncate_texts(self, texts: list[str], word_limit: int | None) -> list[str]:
         if word_limit is None:

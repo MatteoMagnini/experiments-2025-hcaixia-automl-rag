@@ -1,1001 +1,438 @@
-question,file_name,id
-Quali sono i modelli di crescita ideali a cui i pediatri devono riferirsi per valutare la crescita del mio bambino?,Uppa_563.txt,835
-"Ostetrica, quali sono i vantaggi e gli svantaggi della scintigrafia per la tiroide durante la gravidanza?",ISS_328.txt,378
-"Ostetrica, come posso riconoscere se il mio neonato ha l'acne neonatale?",Uppa_831.txt,1045
-Qual è la raccomandazione dell'OMS riguardo all'allattamento esclusivo al seno nei primi mesi di vita del bambino?,Uppa_491.txt,790
-"Quali sono le ""bandierine rosse"" che dovremmo osservare nel comportamento del nostro bambino?",Uppa_459.txt,756
-Quali difficoltà possono incontrare le donne fumatrici quando cercano di smettere di fumare in gravidanza?,Uppa_798.txt,1011
-Qual è l'importanza del bilancio di salute per il nostro bambino nei primi mesi di vita?,Uppa_561.txt,834
-"""Ostetrica, quali sono i principali disturbi che potrei aspettarmi durante la gravidanza?""",ISS_140.txt,170
-Come posso aiutare il mio bambino a capire la situazione se ci sono eventi difficili in famiglia?,Uppa_107.txt,509
-"""Ostetrica, quali sono le cause delle perdite bianche durante la gravidanza?""",Uppa_617.txt,874
-Qual è il tipo di tumore più comune che può colpire l'utero durante la gravidanza?,ISS_99.txt,502
-Quali sono le cose da evitare quando si cerca di svegliare il mio bambino appena nato?,Uppa_119.txt,519
-"""Ci sono delle controindicazioni per i farmaci che sto assumendo durante l'allattamento?""",Uppa_17.txt,561
-"Ostetrica, posso includere il gelato nella dieta del mio bambino appena nato?",Uppa_27.txt,630
-Quali sono i rischi associati all'obesità infantile che dovrei tenere in considerazione durante la gravidanza?,Uppa_160.txt,554
-"""Cosa sai dell'arterite di Takayasu e come potrebbe influenzare la mia salute durante la gravidanza?""",ISS_70.txt,471
-Qual è il medico di riferimento per la diagnosi delle cisti ovariche?,ISS_140.txt,170
-Quali esami di routine sono consigliati durante la gravidanza?,Card_week_11_mamma.txt,43
-Posso aggiungere la curcuma alle insalate durante la mia gravidanza?,ISS_154.txt,185
-"Ostetrica, quanto è importante il primo contatto fisico con il mio bambino dopo la nascita?",Uppa_144.txt,542
-Quali sono i sintomi che potrei osservare se il mio midollo osseo sta rallentando la produzione di cellule del sangue?,ISS_102.txt,120
-"""Ostetrica, potrei avere problemi con la digestione dei latticini dopo la gravidanza? Ho sentito che la lattasi può ridursi con la crescita.""",ISS_241.txt,282
-"""Cosa posso fare per evitare la cinetosi durante i viaggi in autobus mentre sono incinta?""",ISS_193.txt,228
-Quali sostanze chimiche dovrei evitare durante la gravidanza per proteggere la mia pelle e quella del mio bambino?,ISS_260.txt,303
-Qual è la profondità minima consigliata per la vasca da parto in acqua?,Uppa_751.txt,970
-Quali sono i metodi di test per l'HIV che potrei considerare durante la gravidanza?,ISS_344.txt,396
-**Quali comportamenti dovrei evitare per prevenire la trasmissione dell’epatite B durante la gravidanza?**,ISS_208.txt,245
-Quali sono i segnali precoci di disprassia che dovrei osservare nel mio bambino durante il primo anno di vita?,Uppa_846.txt,1059
-Qual è l'importanza di ascoltare i miei bambini durante la gravidanza e dopo la nascita?,Uppa_162.txt,555
-Qual è il modo corretto per preparare il latte artificiale per il mio bambino?,Uppa_45.txt,748
-**Qual è l'importanza di completare la terapia antibiotica anche se i sintomi scompaiono?**,ISS_104.txt,124
-Quali sono le differenze tra le varie specie di cannella che potrei utilizzare in cucina durante la gravidanza?,ISS_307.txt,355
-Quali sono gli effetti collaterali che potrei aspettarmi durante la gravidanza?,ISS_116.txt,140
-Qual è il modo principale in cui si può contrarre il virus durante la gravidanza?,ISS_50.txt,449
-Come posso capire se il mio bambino sta lavorando su un'attività in modo costruttivo?,Uppa_628.txt,884
-"""Ostetrica, quali sono i sintomi più comuni che potrei aspettarmi durante le prime settimane di gravidanza?""",Uppa_587.txt,856
-Qual è l'età in cui i dolori della crescita si manifestano più frequentemente nei bambini?,Uppa_866.txt,1080
-Qual è l'affidabilità di un test urinario positivo se eseguito correttamente?,ISS_5.txt,448
-Quali sono i benefici di un abbraccio per il mio bambino appena nato?,Uppa_502.txt,795
-Quando posso sapere se il mio bambino si è girato in posizione cefalica?,Uppa_754.txt,973
-Qual è il modo migliore per incoraggiare il mio bambino a mangiare durante i pasti?,Uppa_625.txt,881
-"**Ostetrica, quali sono i sintomi della fenilchetonuria (PKU) che dovrei tenere d'occhio durante la gravidanza?**",ISS_34.txt,391
-"Ostetrica, quali sono le cause dell'aumento della celiachia nei bambini?",Uppa_821.txt,1035
-Qual è la durata tipica dei sintomi della gastroenterite nei bambini?,Uppa_799.txt,1012
-"""Ostetrica, è vero che i girelli possono essere utili per spostare il bambino durante il giorno?""",Uppa_582.txt,852
-"""Quali precauzioni devo prendere se devo sottopormi a un intervento chirurgico durante la gravidanza?""",ISS_26.txt,302
-Quali sono i benefici degli oli essenziali durante la gravidanza e il postpartum?,ISS_168.txt,200
-Quali sono i benefici della vaccinazione per il mio bambino appena nato?,ISS_282.txt,327
-Quali sono i rischi emotivi associati alla pubertà precoce nei bambini?,ISS_319.txt,368
-Qual è il modo migliore per diagnosticare la sindrome di DiGeorge subito dopo la nascita?,ISS_202.txt,239
-Quali sono i benefici dell'esercizio fisico durante la gravidanza per il mio benessere fisico e mentale?,ISS_122.txt,147
-Qual è l'importanza del tampone vagino-rettale durante la gravidanza?,Uppa_571.txt,842
-"Ostetrica, quali sono i segnali che mi indicano se è il momento giusto per effettuare esami invasivi come l'amniocentesi o la villocentesi?",Uppa_22.txt,600
-Qual è l'importanza del test per il dosaggio degli anticorpi anti-perossidasi tiroidea durante la gravidanza?,ISS_117.txt,141
-"""Ostetrica, quali effetti collaterali potrei aspettarmi se assumo antagonisti dei recettori istaminici H",ISS_138.txt,167
-"Ostetrica, quanto tempo ci vuole perché gli effetti della Cannabis a uso medico si facciano sentire dopo averla assunta?",ISS_331.txt,382
-Qual è l'importanza di esaminare le vie urinarie dei bambini che hanno avuto pielonefrite?,Uppa_43.txt,729
-Qual è un criterio usato per definire la presenza di obesità durante la gravidanza?,Uppa_162.txt,555
-Qual è la posizione migliore per misurare la pressione sanguigna a casa durante la gravidanza?,Uppa_820.txt,1034
-"Qual è l'importanza del controllo della glicemia durante la gravidanza, soprattutto per chi ha il diabete di tipo",ISS_29.txt,335
-Quali esami di screening sono offerti gratuitamente dal Servizio Sanitario Nazionale durante la gravidanza?,ISS_19.txt,224
-"Quali sono i segnali che potrei notare nel mio bambino che potrebbero indicare un problema di visione, come l'ambliopia?",Uppa_449.txt,747
-Quali sono i cibi che richiedono maggiore attenzione quando inizio a introdurre alimenti solidi al mio bambino?,Uppa_547.txt,824
-"Quali sono i rischi di infezione che potrei affrontare durante la gravidanza, considerando che ho una storia di LES?",ISS_69.txt,469
-Quali sono i metodi più comuni per indurre il parto?,Uppa_701.txt,935
-"""È vero che stare al caldo può aiutare a prevenire il raffreddore durante la gravidanza?""",Uppa_123.txt,524
-"""Quali alimenti posso mangiare se ho problemi di digestione durante la gravidanza?""",ISS_235.txt,275
-"Ostetrica, quali sono i fattori che influenzano il microbiota del mio bambino?",ISS_352.txt,405
-Quali sono le opzioni di trattamento se la terapia medica non è più sufficiente per il glaucoma?,ISS_115.txt,139
-Quali parti del corpo sono più comunemente interessate dai dolori della crescita nei bambini?,Uppa_866.txt,1080
-"Ostetrica, quali sono i rischi associati all'iniezione di sostanze durante gli esami diagnostici?",ISS_149.txt,179
-Quali sono i segnali di fame che devo osservare nel mio bambino per sapere quando è il momento di offrirgli la poppata?,Uppa_543.txt,820
-Quali sono i consigli per ridurre l'inquinamento ambientale durante la gravidanza?,Uppa_737.txt,959
-Quali sono le pratiche di igiene personale che dovrei seguire durante la gravidanza per proteggere me e il mio bambino?,Uppa_805.txt,1020
-È normale che il mio bambino parli nel sonno?,Uppa_622.txt,878
-Quali attività all'aperto potrei fare con il mio bambino per favorire il suo sviluppo?,Uppa_293.txt,647
-Qual è la probabilità che io possa partorire per via vaginale dopo un precedente taglio cesareo?,Approf_Nuova gravidanza dopo taglio cesareo.txt,21
-Quali sono i modi migliori per insegnare al mio bambino a servire il cibo a tavola?,Uppa_287.txt,642
-Quali sono le cure non ormonali che posso utilizzare per alleviare il dolore durante la gravidanza?,ISS_107.txt,130
-Qual è il ruolo dell'istinto nel comportamento di una madre durante la gravidanza e dopo il parto?,Uppa_454.txt,751
-Quali sono le raccomandazioni alimentari per prevenire problemi durante la gravidanza?,ISS_120.txt,145
-Qual è la temperatura ideale dell'acqua per il bagnetto del mio bambino?,Uppa_772.txt,990
-"Posso mangiare sushi durante la gravidanza, o è meglio evitarlo del tutto?",Uppa_951.txt,1156
-Qual è il momento in cui si decide di ricorrere alla chirurgia per una malattia valvolare?,ISS_136.txt,165
-"Ostetrica, quali sono gli anticorpi e a cosa servono nel nostro corpo durante la gravidanza?",ISS_117.txt,141
-"Ostetrica, quali sono i benefici dei rumori bianchi per il sonno del neonato?",Uppa_901.txt,1117
-Qual è l'importanza della diagnosi precoce durante la gravidanza?,ISS_171.txt,204
-"È normale che un neonato possa sentirsi ""sbagliato"" o inadeguato nei confronti dei genitori?",Uppa_34.txt,669
-Qual è il ruolo della vitamina B,ISS_162.txt,194
-Quali gruppi di popolazione devono prestare particolare attenzione agli effetti del mercurio?,ISS_207.txt,244
-"""Ostetrica, quali sono le caratteristiche del cortisone e come può influenzare la mia gravidanza?""",ISS_156.txt,187
-"""Ostetrica, ho sentito parlare di un estratto di camomilla e melissa per le coliche infantili. È vero che può aiutare a ridurre il pianto del mio bambino?""",Uppa_893.txt,1108
-Quali sono i benefici dell'immersione in acqua durante il travaglio di parto per la mia esperienza di mamma?,Approf_Parto in acqua.txt,24
-"""Ostetrica, quali sono i sintomi della febbre gialla e come posso riconoscerli durante la gravidanza?""",ISS_348.txt,400
-Quali cambiamenti ci sono nella terapia per il neonato rispetto a un bambino più grande?,Uppa_139.txt,538
-Quali sono le opzioni di assistenza disponibili per noi durante il parto e la degenza?,Uppa_537.txt,814
-"""Cosa devo fare se il mio bambino ha un mal di testa che non passa e sembra peggiorare?""",Uppa_214.txt,595
-Quali sono i principali sintomi della malattia di Gaucher tipo,ISS_217.txt,255
-Qual è il modo migliore per aiutare il mio bambino a prendere coscienza della nuova situazione familiare dopo la nascita del fratellino?,Uppa_330.txt,667
-"""Posso utilizzare i decongestionanti nasali durante la gravidanza o l'allattamento, o ci sono rischi associati?""",ISS_153.txt,184
-"Ostetrica, come posso utilizzare la metacognizione per gestire meglio le mie emozioni durante la gravidanza?",Uppa_430.txt,730
-Come posso stimolare la capacità rappresentativa del pensiero nel mio bambino durante i primi anni di vita?,Uppa_430.txt,730
-Qual è il numero di embrioni che possiamo trasferire durante il trattamento di FIVET?,ISS_45.txt,443
-Quali sono gli effetti collaterali temporanei che potrei aspettarmi dopo un trattamento durante la gravidanza?,ISS_239.txt,279
-"Ostetrica, come posso capire se il risultato del test allergologico è positivo?",Uppa_189.txt,576
-Quali sono i rischi associati a una scoliosi non trattata nel mio bambino?,Uppa_154.txt,550
-Qual è il vantaggio di partecipare a un gruppo di supporto durante la gravidanza?,Uppa_645.txt,902
-"""Cosa succede al mio corpo se ho una reazione al glutine durante la gravidanza?""",ISS_243.txt,284
-Quali sono i principali cambiamenti che il mio bambino affronterà quando inizierà la scuola dell'infanzia?,Uppa_673.txt,920
-Qual è il range normale di fosfatasi alcalina nel sangue per i bambini fino a un anno?,ISS_146.txt,176
-"""È normale avere sintomi che vanno e vengono durante la gravidanza, come nella mononucleosi?""",Uppa_462.txt,760
-**Quali alimenti dovrei includere nella mia dieta vegetariana per garantire che io e il mio bambino riceviamo abbastanza nutrienti essenziali?**,ISS_108.txt,131
-Quali sono le indicazioni per la gestione degli effetti avversi dei farmaci durante la gravidanza?,ISS_187.txt,221
-Qual è l'importanza del microbiota intestinale durante la gravidanza e dopo la nascita del bambino?,ISS_352.txt,405
-"Ostetrica, come si determina la data presunta della nascita del mio bambino?",Uppa_974.txt,1176
-Quali sono i principali disturbi del sonno che potrei aspettarmi di vedere nel mio bambino appena nato?,Uppa_908.txt,1122
-Qual è il valore dell'IMC che indica un normo-peso durante la gravidanza?,ISS_1.txt,114
-Qual è la crescita normale della circonferenza cranica del mio bambino nei primi mesi di vita?,Uppa_807.txt,1021
-"Ostetrica, quali sono i segnali che indicano che la fontanella del mio bambino sta chiudendo correttamente?",Uppa_807.txt,1021
-Che cos'è esattamente la crosta lattea e perché si forma nei neonati?,Uppa_774.txt,992
-Quali sono i rischi associati a un intervento durante la gravidanza?,ISS_56.txt,455
-Quali attività posso fare con il mio bambino per stimolare la sua motricità fine?,Uppa_285.txt,640
-Quanto dura in media la fase di sonno attivo del neonato e come si alterna con il sonno non-REM?,Uppa_914.txt,1128
-Quali sono i benefici di una buona alimentazione durante la gravidanza per il mio bambino?,Uppa_937.txt,1143
-"""Quali sono le opzioni di cura disponibili per la fenilchetonuria (PKU) durante la gravidanza?""",ISS_34.txt,391
-"""Se ho una storia familiare di VHL, quali sono i sintomi che dovrei tenere d'occhio durante la gravidanza?""",ISS_268.txt,311
-Qual è il modo migliore per diagnosticare eventuali problemi della pelle durante la gravidanza?,ISS_137.txt,166
-Quali sono i rischi associati alla sindrome della morte in culla (SIDS) e come posso prevenirli?,Uppa_706.txt,938
-Quali sono gli effetti collaterali che potrei aspettarmi se assumo recettori antagonisti dei leucotrieni durante la gravidanza?,ISS_49.txt,447
-"Ostetrica, quali sono i segni che potrebbero indicare una sindrome dell'ovaio policistico (PCOS) durante la gravidanza?",ISS_143.txt,173
-Quali sono i rischi associati al raddoppiare una dose di antibiotici durante la gravidanza?,ISS_345.txt,397
-Qual è l'importanza della vitamina D durante la gravidanza e dopo il parto?,ISS_234.txt,274
-"""Qual è l'importanza di prendere i farmaci regolarmente anche se non ho sintomi durante la gravidanza?""",ISS_49.txt,447
-"""Quali sono i benefici della cannabis a uso medico per alleviare il dolore durante la gravidanza o dopo il parto?""",ISS_331.txt,382
-Qual è la routine serale consigliata per aiutare il bambino ad addormentarsi?,Uppa_552.txt,827
-Qual è il momento migliore per effettuare un esame Beta hCG nel sangue dopo il concepimento?,Uppa_790.txt,1006
-Quali sono le pratiche igieniche fondamentali da seguire quando si preparano conserve in casa per garantire la sicurezza alimentare per me e il mio bambino?,Uppa_435.txt,735
-Cosa devo fare se il mio bambino continua a piangere e non riesco a calmarlo?,Uppa_440.txt,740
-"Ostetrica, quali sono i livelli normali della proteina C-reattiva (PCR) nel sangue durante la gravidanza?",ISS_223.txt,262
-A che età il mio bambino inizierà a sviluppare i meccanismi per il sonno?,Uppa_965.txt,1166
-"Qual è l'importanza di incoraggiare i bambini a muoversi autonomamente, come andare a scuola a piedi?",Uppa_342.txt,670
-"Ostetrica, quali sono le probabilità che il mio bambino sviluppi la sindrome di Wiskott-Aldrich se io sono portatrice della mutazione del gene WAS?",ISS_175.txt,208
-"Ostetrica, se devo fare un esame sulla saliva, ci sono delle precauzioni da seguire prima del prelievo?",ISS_354.txt,407
-Quali sono i benefici della donazione del sangue del cordone ombelicale per i malati?,Uppa_707.txt,939
-"Ostetrica, quali alimenti dovrei evitare durante la gravidanza per ridurre la nausea?",Uppa_587.txt,856
-Qual è la posizione migliore per dormire durante il primo trimestre di gravidanza?,Uppa_804.txt,1019
-"""Se inizio a prendere la pillola anticoncezionale, posso stare tranquilla riguardo alle infezioni sessualmente trasmesse?""",ISS_152.txt,183
-"""Ostetrica, è normale che il mio neonato dorma così tanto? Dovrei preoccuparmi per il suo sonno?""",Uppa_447.txt,745
-"Ostetrica, quali sono le principali fonti di esposizione alle microplastiche per una donna incinta?",ISS_249.txt,290
-"Ostetrica, cosa sono esattamente i fibromi e da cosa sono costituiti?",ISS_245.txt,286
-Quali sono i luoghi della casa in cui dovrei prestare maggiore attenzione per la sicurezza del mio bambino?,Uppa_599.txt,863
-"Ostetrica, quali fattori influenzano il dosaggio degli enzimi durante la gravidanza?",ISS_302.txt,350
-"Quali sono i sintomi che potrei notare nel mio bambino che potrebbero indicare un problema agli occhi, come il retinoblastoma?",ISS_236.txt,276
-"Ostetrica, cosa significa esattamente ""temperamento"" in relazione al mio bambino?",Uppa_643.txt,900
-Quali sono i rischi associati all'uso dell'alcol durante la gravidanza?,ISS_16.txt,191
-"Ostetrica, quando posso iniziare a introdurre il glutine nella dieta del mio bambino?",Uppa_821.txt,1035
-"""Ostetrica, quali sono gli effetti collaterali più comuni della melatonina che potrei aspettarmi se decidessi di assumerla durante la gravidanza?""",ISS_273.txt,317
-"Ostetrica, come posso aiutare il mio bambino a sviluppare un pensiero logico man mano che cresce?",Uppa_158.txt,552
-Quali sono i sintomi iniziali della meningite nei neonati che dovrei tenere d'occhio?,Uppa_473.txt,771
-Quali sono i benefici dell'assunzione di probiotici durante la gravidanza e nei primi mesi di vita del bambino?,Uppa_277.txt,634
-Quali sono i metodi migliori per diagnosticare un'infezione da Entamoeba durante la gravidanza?,ISS_318.txt,367
-"""Quali sono le procedure corrette da seguire se una persona ha una crisi epilettica mentre sono al lavoro?""",ISS_135.txt,164
-"Ostetrica, come posso aiutare il mio bambino a riaddormentarsi più facilmente dopo un risveglio notturno?",Uppa_899.txt,1114
-Quali precauzioni devo prendere riguardo alla carne durante la gravidanza?,Uppa_435.txt,735
-Qual è il momento in cui il bambino inizia a riconoscere i suoni e le parole mentre è ancora in utero?,Uppa_583.txt,853
-Qual è un metodo efficace per aiutare il mio bambino a attaccarsi al seno in caso di ingorgo?,Uppa_127.txt,527
-"Ostetrica, come posso utilizzare il movimento per alleviare il dolore durante le contrazioni uterine?",Uppa_687.txt,928
-"Ostetrica, quali sono le circostanze in cui potrei dover interrompere l'allattamento al seno durante la gravidanza?",Uppa_851.txt,1065
-Quali sono i principali microrganismi che possono causare la broncopolmonite nei neonati?,Uppa_885.txt,1100
-Quali sono i diritti delle donne durante il parto all'interno delle strutture pubbliche?,Uppa_212.txt,594
-Qual è l'importanza di essere coerenti e determinati nell'insegnare al mio bambino ad addormentarsi in autonomia?,Uppa_557.txt,830
-Posso prendere l'aspirina durante la gravidanza o ci sono alternative più sicure?,ISS_67.txt,467
-"""Quali sono gli effetti collaterali dei corticosteroidi che potrei dover affrontare durante la gravidanza?""",ISS_130(1).txt,156
-"""Quali sono i segnali di neuropatia periferica che dovrei tenere d'occhio durante la gravidanza?""",ISS_78.txt,479
-Quali sono i principali difetti congeniti che potrei dover considerare durante la mia gravidanza?,Uppa_800.txt,1015
-Qual è la struttura dell'utero e quali sono le sue parti principali?,ISS_360.txt,414
-"Ostetrica, quali sono le procedure che seguono dopo la fecondazione per trasferire l'embrione nell'utero?",ISS_45.txt,443
-Quali test genetici dovrei considerare per verificare la presenza del gene PKD durante la gravidanza?,ISS_215.txt,253
-Quali sono gli effetti dell'affaticamento estremo sulla mia vita quotidiana durante la gravidanza?,ISS_49.txt,447
-"Ostetrica, come possono le esperienze gustative negative durante la gravidanza influenzare le mie scelte alimentari in futuro?",Uppa_53.txt,807
-Quando è il momento migliore per iniziare a dare il ciuccio al mio bambino?,Uppa_443.txt,743
-"Ostetrica, quali sono i principali componenti del microbiota e come influiscono sulla salute del neonato?",ISS_352.txt,405
-Qual è l'impatto delle plastiche sugli ecosistemi marini e sulla salute umana?,ISS_249.txt,290
-Quali sono i sintomi che potrei aspettarmi durante la gravidanza in relazione alla sclerodermia?,ISS_178.txt,211
-"**Ostetrica, se io sono un portatore sano, è necessario che il mio partner si sottoponga a un test?**",ISS_26.txt,302
-"**Ostetrica, quali sono i rischi di contagio per me e il mio bambino se qualcuno in casa ha la varicella?**",Approf_Varicella.txt,39
-"Ostetrica, quali sono i motivi per cui potrei aver bisogno di una terapia antibiotica durante la gravidanza?",ISS_345.txt,397
-Quali sono i trattamenti disponibili se il mio bambino dovesse avere una forma grave di spina bifida?,ISS_12.txt,144
-"""Dopo aver ricevuto il vaccino antinfluenzale, quali sono i sintomi che potrei notare nel braccio?""",ISS_103(1).txt,121
-Qual è la percentuale di peso che è considerata normale perdere dopo la nascita del bambino?,Uppa_604.txt,865
-Qual è l'incidenza dell'episiotomia nei parti naturali in diverse regioni d'Italia?,Uppa_212.txt,594
-Quali sono i sintomi che potrei sperimentare durante la gravidanza?,ISS_69.txt,469
-"""Quali sono i rischi per la mia salute e quella del mio bambino legati all'aumento della temperatura media durante la gravidanza?""",ISS_198.txt,233
-"""Ostetrica, quali sono i sintomi che potrei notare se sviluppassi un'infezione nella zona del tatuaggio durante la gravidanza?""",ISS_221.txt,260
-Qual è l'importanza dell'acido folico durante la gravidanza e quando dovrei iniziare a prenderlo?,ISS_3.txt,346
-Quali sono le tecniche di riproduzione assistita disponibili in Italia?,ISS_45.txt,443
-"Ostetrica, quali sono i rischi di contrarre la rickettsiosi durante la gravidanza?",Uppa_470.txt,768
-**Quali sono le complicazioni extra-intestinali che potrei dover considerare durante la gravidanza?**,ISS_130(1).txt,156
-"Quali sono i segnali che potrei notare se il mio bambino ha difficoltà a parlare in situazioni sociali specifiche, come a scuola?",Uppa_777.txt,994
-Quali sono gli effetti collaterali che potrei aspettarmi dall'uso di anticoagulanti durante la gravidanza?,ISS_52.txt,451
-Qual è l'importanza di accogliere il desiderio di dipendenza del mio bambino fin da piccolo?,Uppa_31.txt,657
-Quali sono le differenze di interesse e competenza tra i bambini appena nati e quelli più grandi?,Uppa_377.txt,691
-Qual è la procedura corretta per raccogliere le urine del mio neonato?,ISS_113.txt,137
-Quando è il momento giusto per iniziare a svezzare il mio bambino?,Uppa_567.txt,838
-Quali sono i sintomi principali del diabete di tipo,ISS_29.txt,335
-"Ostetrica, quali condizioni possono essere valutate tramite il test della proteina C-reattiva (PCR)?",ISS_223.txt,262
-Cosa devo fare se il mio bambino viene morso da una zecca?,Uppa_907.txt,1121
-"Ostetrica, cosa significa ""ridatare"" la gravidanza e quando viene fatto?",Uppa_437.txt,737
-"Ostetrica, quali sono i valori che dovrei monitorare durante la mia gravidanza per quanto riguarda la pressione arteriosa?",ISS_278.txt,322
-Quali sono i segnali di allerta che dovrei tenere d'occhio per capire se sto avendo un'emorragia grave dopo il parto?,ISS_327.txt,377
-Qual è il modo migliore per introdurre il cibo solido al mio bambino senza creare tensioni a tavola?,Uppa_394.txt,703
-A che età i bambini iniziano a infilare e sfilare il bavaglino autonomamente?,Uppa_417.txt,716
-"Ostetrica, quali sono i segni che potrebbero indicare la sindrome dell'ovaio policistico (PCOS) durante la mia gravidanza?",ISS_143.txt,173
-"Ostetrica, quali sono i vantaggi di non avere dolore ai punti dopo il parto?",Uppa_448.txt,746
-Quali sono le campagne di comunicazione attualmente attive per la prevenzione dei difetti congeniti durante la gravidanza?,ISS_6.txt,459
-Quali sono i benefici dell'uso topico di composti a base di colostro durante la gravidanza?,Uppa_734.txt,957
-Qual è il virus che può causare la poliomielite e quali sono i suoi tipi?,ISS_133(1).txt,161
-Quali sono gli effetti collaterali che potrei aspettarmi dall'uso del LNG-IUS durante la gravidanza?,ISS_245.txt,286
-"Ostetrica, come posso aiutare il mio bambino a sentirsi compreso nelle sue emozioni?",Uppa_33.txt,666
-Quali sono i sintomi che potrebbero indicare un'anemia da carenza di ferro durante la gravidanza?,ISS_126.txt,151
-"""Ostetrica, posso prendere integratori di vitamina C durante la gravidanza per prevenire il raffreddore comune?""",ISS_125.txt,150
-"Ostetrica, come posso evitare di trasmettere atteggiamenti grassofobici al mio bambino, considerando che spesso questi comportamenti sono interiorizzati?",Uppa_740.txt,962
-Quali esami del sangue sono importanti per valutare l'efficacia del trattamento durante la gravidanza?,ISS_306.txt,354
-Quali sono i benefici di partecipare a un corso preparto per la mia esperienza di parto?,Uppa_757.txt,975
-"Ostetrica, quanto è importante mantenere pulito l'ambiente del mio bambino e quali sono le raccomandazioni principali a riguardo?",Uppa_38.txt,692
-"Ostetrica, quali ormoni sono responsabili delle modifiche al seno durante la gravidanza?",Uppa_730.txt,956
-"Ostetrica, potresti spiegarmi come funziona la connessione tra il mio sangue e quello del mio bambino durante la gravidanza?",Uppa_390.txt,701
-"Ostetrica, cosa devo fare se durante la gravidanza compaiono febbre e macchie sulla pelle?",Uppa_464.txt,762
-"Ostetrica, quali sono i sintomi che potrei notare se il mio bambino avesse la talassemia?",ISS_20.txt,236
-"Ostetrica, quali sono alcune tisane che posso bere per alleviare il gonfiore dopo i pasti?",ISS_241.txt,282
-"Ostetrica, come posso consultare il foglio illustrativo di un medicinale che sto considerando di prendere durante la gravidanza?",ISS_119.txt,143
-Quali sono i benefici della cannabis terapeutica per le donne in gravidanza?,ISS_331.txt,382
-"È sicuro seguire una dieta gluten free durante la gravidanza, anche se non sono celiaca?",Uppa_434.txt,734
-Quali segnali posso osservare per capire se il mio bambino è pronto per iniziare lo svezzamento?,Uppa_460.txt,758
-È sicuro portare il mio neonato in montagna se ci sono altitudini superiori a,Uppa_904.txt,1119
-Quali sono i rischi associati alla mammografia durante la gravidanza o nel periodo postpartum?,ISS_272.txt,316
-Quali sono le capacità di relazione che i bambini sviluppano nei primi mesi di vita?,Uppa_614.txt,871
-"Ostetrica, quali sono i rischi di contagio da zoonosi durante la gravidanza, considerando che ho un cane e un gatto in casa?",Uppa_284.txt,639
-Come posso iniziare a differenziare le risposte alle richieste del mio bambino nei primi mesi di vita?,Uppa_554.txt,828
-"Ostetrica, quali informazioni dovremmo ricevere prima della dimissione dal punto nascita riguardo all'allattamento?",Uppa_535.txt,812
-Qual è il fabbisogno medio di acqua per un lattante durante il periodo dell’allattamento?,Uppa_41.txt,711
-Quali attività posso proporre al mio bambino per stimolare il suo senso del tatto?,Uppa_947.txt,1153
-Quali sono i rischi associati a malattie autoimmuni materne durante la gravidanza?,Uppa_946.txt,1152
-"""Quali sono i sintomi che potrei osservare se il mio bambino avesse crisi toniche?""",ISS_135.txt,164
-"Ostetrica, quali sono i meccanismi che il corpo utilizza per fermare il sanguinamento dopo il parto?",ISS_52.txt,451
-Qual è la differenza tra colesterolo buono e colesterolo cattivo durante la gravidanza?,ISS_357.txt,410
-Quali sono i vantaggi del cesareo dolce per la mamma e il bambino?,Uppa_576.txt,846
-Quali sono le cose più importanti da sapere sulla crescita di un bambino sano?,Uppa_234.txt,607
-**Quali alimenti dovrei evitare durante la gravidanza per ridurre l'esposizione all'arsenico?**,ISS_226.txt,265
-Quali sono le figure professionali che possono lavorare insieme alle ostetriche durante il corso preparto?,Uppa_645.txt,902
-Qual è la durata tipica dei programmi di autoterapia di gruppo per le mamme in attesa o con bambini appena nati?,ISS_109.txt,132
-Cosa posso fare se il mio bambino piange sempre quando lo lascio al nido?,Uppa_920.txt,1133
-"Ostetrica, è vero che l'episiotomia è un intervento protettivo durante il parto?",Uppa_212.txt,594
-"Ostetrica, quali sono le forme atipiche di pitiriasi rosea che potrei dover tenere d'occhio durante la gravidanza?",ISS_166.txt,198
-Qual è il momento migliore per iniziare a utilizzare un Mei Tai con pannello regolabile per il mio bambino?,Uppa_522.txt,803
-Quali sono i fattori di rischio per le malattie cardiovascolari che dovrei tenere d'occhio durante la gravidanza?,ISS_357.txt,410
-"Ostetrica, come devo raccogliere il campione di urine per l'elettroforesi delle proteine urinarie?",ISS_118.txt,142
-"Ostetrica, quali sono le raccomandazioni riguardo all'uso della tecnologia in camera dopo il parto?",Uppa_262.txt,627
-Quali sono le metodiche di analisi specifiche che vengono utilizzate per la diagnosi delle malattie neonatali?,Uppa_717.txt,947
-"Ostetrica, quali sono i segnali che indicano un attacco d'asma e come posso riconoscerli?",ISS_49.txt,447
-Quali sono i gruppi alimentari vegetali che dovrei includere nella mia dieta durante la gravidanza?,Uppa_480.txt,778
-Quali tipi di rumori bianchi posso utilizzare per calmare il mio bambino?,Uppa_871.txt,1086
-"""È sicuro utilizzare il dispositivo di stimolazione magnetica transcranica durante la gravidanza o l'allattamento?""",ISS_107.txt,130
-"Ostetrica, quali sono i segni distintivi della scarlattina nei neonati?",Uppa_217.txt,597
-Qual è il modo migliore per gestire i capricci del mio bambino senza farlo sentire umiliato o non amato?,Uppa_103.txt,506
-Quali alimenti posso abbinare ai piatti per garantire un buon apporto di vitamina C durante la gravidanza?,Uppa_451.txt,749
-Quali sono i rischi di sviluppare malattie infiammatorie intestinali durante la gravidanza?,ISS_130(1).txt,156
-Qual è il rischio di malattia grave da COVID-,Approf_Vaccinazioni in gravidanza.txt,38
-Qual è l'importanza della sterilità per i barattolini e il tiralatte?,Uppa_14.txt,539
-Come posso essere sicura di aver fatto abbastanza per il mio bambino in questi primi mesi?,Uppa_561.txt,834
-Qual è il vaccino anti-influenzale raccomandato durante la gravidanza?,ISS_3.txt,346
-Quali sono le principali difficoltà che i genitori affrontano quando ricevono consigli discordanti da professionisti della salute riguardo all'accudimento del neonato?,Uppa_421.txt,720
-"Ostetrica, quali sono i fattori che possono predisporre una donna incinta alla comparsa del lupus eritematoso sistemico (LES)?",ISS_69.txt,469
-Come posso spiegare a mio figlio che le persone che non ci sono più possono continuare a vivere nei nostri ricordi?,Uppa_167.txt,558
-Quali sono le principali fonti di esposizione alle microplastiche per una donna incinta?,ISS_249.txt,290
-Qual è l'età ideale per iniziare a utilizzare materiali montessoriani con il mio bambino?,Uppa_264.txt,628
-Quali sono le soluzioni organizzative che potrei adottare per creare un ambiente sicuro e stimolante per il mio bambino?,Uppa_966.txt,1167
-"Ostetrica, cos'è esattamente l'indice di Apgar e perché è così importante per il mio neonato?",Uppa_792.txt,1007
-"Ostetrica, quali precauzioni devo prendere prima di sottopormi a un test durante la gravidanza?",ISS_360.txt,414
-"""Cosa devo fare se il mio bambino non sembra fare la cacca regolarmente?""",Uppa_897.txt,1112
-Qual è l'importanza di distinguere tra i diversi tipi di batteri quando si tratta di trattare un'infezione nel mio bambino?,Uppa_873.txt,1088
-"Ostetrica, ho sentito parlare di una possibile relazione tra vaccini e autismo. È vero che i vaccini possono causare autismo?",Uppa_472.txt,770
-Quali sono le zoonosi e come possono influenzare la salute del mio bambino?,Uppa_284.txt,639
-Qual è il modo migliore per aiutare il mio bambino a sentirsi sicuro mentre esplora nuovi ambienti?,Uppa_920.txt,1133
-Qual è il ruolo del senso del gusto durante la gravidanza e come può influenzare le mie scelte alimentari?,Uppa_53.txt,807
-Quali sono i vantaggi dell'ecografia tridimensionale rispetto a quella bidimensionale?,Uppa_116.txt,516
-"Quali precauzioni posso adottare per evitare il contagio della varicella tra i miei figli, considerando che ho già avuto la malattia?",Uppa_140.txt,540
-Quali caratteristiche deve avere un prodotto per garantire il giusto sostegno alla colonna vertebrale del mio neonato?,Uppa_522.txt,803
-"""Ostetrica, ho notato delle piccole protuberanze sulla mia pelle, potrebbero essere angiomi? Cosa devo fare?""",ISS_127.txt,152
-A che età posso iniziare a notare lo sviluppo del linguaggio del mio bambino?,Uppa_626.txt,882
-Quali sono i metodi migliori per misurare la pressione arteriosa durante la gravidanza?,ISS_164.txt,196
-Quali sono i trattamenti specifici per l'anemia nei bambini?,Uppa_834.txt,1048
-Se il mio bambino sviluppa la Neurofibromatosi di tipo,ISS_97.txt,500
-"Ostetrica, quali sono le cause dei tremori nei neonati nei primi giorni di vita?",Uppa_879.txt,1093
-"""È normale che io soffra di stitichezza durante la gravidanza, o dovrei preoccuparmi?""",ISS_134.txt,163
-Quali sono i benefici dell'allattamento per il temperamento del mio bambino?,Uppa_567.txt,838
-"Ostetrica, quali informazioni devo ricevere entro la",Card_week_33_mamma.txt,87
-Quali sono le terapie alternative che potrei considerare durante la mia gravidanza?,Uppa_376.txt,690
-Quali sono i benefici degli integratori alimentari durante la gravidanza e dopo il parto?,ISS_295.txt,341
-Quali sono alcuni modi semplici per giocare con il mio bambino appena nato durante la giornata?,Uppa_419.txt,718
-Qual è il test di screening che devo fare per controllare il diabete gestazionale durante la gravidanza?,ISS_1.txt,114
-"Ostetrica, quali sono i benefici dei tannini per le mucose durante la gravidanza?",Uppa_630.txt,887
-Qual è l'importanza dell'equilibrio nel metabolismo calcio-fosforo durante la gravidanza e l'allattamento?,Uppa_807.txt,1021
-Quali sono le migliori pratiche per iniziare l'allattamento subito dopo la nascita?,Uppa_923.txt,1136
-Quali sono i test disponibili per identificare la mutazione del gene NF,ISS_97.txt,500
-Qual è l'importanza dell'acido folico prima e durante la gravidanza?,Uppa_425.txt,724
-"""Cosa posso fare se il mio bambino non ama viaggiare in auto e si agita nel seggiolino?""",Uppa_476.txt,774
-"Ostetrica, qual è l'approccio migliore per nutrire il mio bambino con formula?",Uppa_780.txt,998
-Qual è l'importanza di avere una stanza tranquilla per il neonato?,Uppa_782.txt,999
-"""È normale che la mia pancia sia visibile ma non ancora molto ingombrante in questa fase della gravidanza?""",Card_week_18_mamma.txt,57
-Qual è l'importanza dei primi,Uppa_737.txt,959
-Quali farmaci posso utilizzare per abbassare la febbre del mio bambino?,ISS_80.txt,482
-"""Ostetrica, ho sentito parlare dell'anemia falciforme. Quali precauzioni devo prendere riguardo agli integratori di ferro durante la gravidanza?""",ISS_26.txt,302
-"Qual è il rischio di contrarre la malaria durante la gravidanza, soprattutto se viaggio in Africa Sub-sahariana?",ISS_15.txt,180
-Quali sono i segni di ADHD che potrei notare in un adulto?,Uppa_748.txt,967
-Quali attività posso svolgere per aumentare il consumo di energia durante la gravidanza?,Uppa_162.txt,555
-Qual è la percentuale stimata di bambini che vivono in famiglie con genitori omosessuali negli Stati Uniti?,Uppa_655.txt,909
-Quali sono i sintomi che potrei notare se contraggo un'epatite durante la gravidanza?,ISS_201.txt,238
-"""Quali sono i rimedi per contrastare l'eccesso di acidità durante la gravidanza?""",ISS_138.txt,167
-"Come posso essere sicura di accettare le caratteristiche uniche del mio bambino, anche se non corrispondono all'immagine che ho in mente?",Uppa_629.txt,885
-Quali sono i principali tipi di Disturbi Specifici dell’Apprendimento (DSA) che potrei dover conoscere per il futuro del mio bambino?,ISS_324.txt,374
-"Ostetrica, quando dovrei iniziare a prestare attenzione ai piedi del mio bambino per capire se ha il piede piatto?",Uppa_418.txt,717
-Quali alimenti dovrei includere nella mia dieta per assicurarmi di avere una buona quantità di magnesio durante la gravidanza?,ISS_163.txt,195
-"Ostetrica, quali sono le condizioni a rischio che richiedono la profilassi antibiotica se non ho fatto il tampone vagino-rettale?",ISS_60.txt,460
-Quali strategie posso adottare per aiutare mio figlio a migliorare la sua attenzione e pianificazione?,Uppa_748.txt,967
-Quali sono gli alimenti che dovrei evitare durante l'allattamento per garantire la salute del mio bambino?,ISS_244.txt,285
-Quali tecniche posso utilizzare se il mio bambino rifiuta di prendere una medicina liquida?,Uppa_656.txt,910
-Quali sono le opzioni di cura per un tumore al testicolo in stadio avanzato?,ISS_171.txt,204
-"""Ostetrica, posso usare la marijuana per alleviare la nausea durante la gravidanza?""",Uppa_587.txt,856
-Quali sono i rischi associati all'esposizione ai PCB durante la gravidanza?,ISS_301.txt,349
-Quando è il momento migliore per vaccinarmi contro l'influenza durante la mia gravidanza?,ISS_103.txt,122
-Quali sono i potenziali rischi per la salute del mio bambino legati alla presenza delle microplastiche (MP) nell'ambiente?,ISS_249.txt,290
-Qual è l'importanza di limitare l'uso degli schermi per i bambini sotto i,Uppa_259.txt,624
-Qual è la prevalenza della sudamina nei neonati e negli adulti?,Uppa_880.txt,1095
-Devo seguire una dieta speciale durante la gravidanza?,ISS_20.txt,236
-"Ostetrica, quali sono le complicazioni che possono verificarsi se il gruppo sanguigno del feto non è compatibile con quello della madre?",ISS_237.txt,277
-Quali alimenti fortificati dovrei considerare per garantire un apporto adeguato di nutrienti durante la gravidanza?,ISS_90.txt,493
-Quali sono le cause principali dei disturbi dello spettro autistico che dovrei conoscere durante la gravidanza?,Uppa_472.txt,770
-Quali sono i sintomi che potrei osservare nei bambini con xeroderma pigmentoso (XP) e in quale fascia di età si manifestano?,ISS_216.txt,254
-"""Quali precauzioni dovrei prendere per evitare reazioni allergiche durante la gravidanza?""",ISS_165.txt,197
-"""Ostetrica, quali sono i segnali di allerta che dovrei tenere d'occhio durante la gravidanza, come il vomito di colore rosso vivo o feci nere?""",ISS_10.txt,115
-"""Quali sintomi potrei osservare che indicano un possibile problema, come il sanguinamento delle labbra o il dolore al torace?""",ISS_378.txt,433
-Quali sono le opzioni disponibili per la conservazione del cordone ombelicale dopo la nascita del mio bambino?,Uppa_755.txt,974
-Quali sono i rischi associati all'uso di farmaci per l'ipertiroidismo durante la gravidanza?,ISS_98.txt,501
-Qual è la posizione più comune in cui le donne hanno partorito nel corso della storia?,Uppa_687.txt,928
-"""Cosa devo fare se mi sento svenire durante l'esercizio fisico mentre sono incinta?""",ISS_170.txt,203
-Qual è un modo efficace per aiutare il mio bambino a digerire meglio?,Uppa_780.txt,998
-"""Quali sono i sintomi che potrebbero indicare la presenza di herpes zoster oftalmico durante la gravidanza?""",ISS_159.txt,190
-"""Qual è il fabbisogno giornaliero di vitamina D per il mio bambino appena nato?""",ISS_204.txt,241
-"È possibile allattare i gemelli in modo esclusivo, o è necessario integrare con il latte artificiale?",Uppa_129.txt,529
-"Qual è il modo migliore per gestire il dolore durante la gravidanza, se ho emicranie frequenti?",ISS_107.txt,130
-Quali sono i rischi legati al fumo durante l'allattamento?,Uppa_798.txt,1011
-Quali sono i motivi per cui dovrei considerare di conservare il latte materno?,Uppa_393.txt,702
-Qual è l'importanza del contatto fisico tra il bambino e i genitori nei primi giorni di vita?,Uppa_539.txt,816
-Quali sono i cibi solidi semplici che posso mangiare per aiutare a tollerare l'introduzione dei liquidi durante la gravidanza?,ISS_322.txt,372
-"Ostetrica, quali sono le manifestazioni comuni che potrei aspettarmi dopo il parto e quanto tempo ci vorrà perché scompaiano?",ISS_68.txt,468
-"Ostetrica, se decido di cambiare la mia dieta durante la gravidanza, quanto tempo ci vorrà per vedere un effetto sul mio corpo?",ISS_352.txt,405
-Quale letto dovrei scegliere per il mio bambino appena nato?,Uppa_54.txt,817
-"Ostetrica, quali alimenti dovrei evitare di mangiare durante la gravidanza per garantire la salute del mio bambino?",Uppa_690.txt,929
-**Quali sono alcuni degli effetti collaterali che potrei aspettarmi durante la gravidanza?**,ISS_361.txt,415
-Qual è stata l'importanza della scoperta della penicillina per la medicina moderna?,Uppa_208.txt,589
-"Ostetrica, ci sono delle precauzioni che devo prendere prima di un esame?",ISS_360.txt,414
-Quali trattamenti sono disponibili per gestire l'emocromatosi ereditaria durante la gravidanza?,ISS_364.txt,418
-Quali sono i segni che indicano che mio figlio potrebbe avere la laringite?,Uppa_837.txt,1050
-Qual è l'importanza della vaccinazione contro la poliomielite durante la gravidanza?,ISS_133.txt,162
-Quali sono i sintomi che potrebbero indicare un problema di salute legato al meteorismo?,ISS_235.txt,275
-Quali sono i principali rischi legati alla pratica di sport di contatto durante la gravidanza?,Uppa_23.txt,606
-A che settimana di gravidanza posso vedere la camera gestazionale durante l'ecografia?,Uppa_841.txt,1054
-Qual è il ruolo del sonno REM nei neonati e nei bambini piccoli?,Uppa_551.txt,826
-"È sicuro assumere farmaci durante l'allattamento, anche se ho bisogno di qualcosa per il mio benessere?",Uppa_46.txt,757
-"""Cosa devo fare se noto del sangue nelle feci del mio bambino?""",Uppa_776.txt,993
-Quali sono i modelli di vaschette per il bagnetto che mi consigli di considerare per il mio neonato?,Uppa_431.txt,731
-"Ostetrica, quali sono i sintomi che dovrei tenere d'occhio per capire se ho la mastite?",Uppa_771.txt,989
-Quali sono le cause principali della cistite in gravidanza?,Uppa_898.txt,1113
-Quali aspetti dello sviluppo del mio bambino possono essere valutati con le scale Griffiths III?,Uppa_839.txt,1052
-Quali sono i principali disturbi che potrei osservare nel mio neonato se ha la palatoschisi?,ISS_32.txt,369
-Quali sono i rischi associati alla suzione del dito o del ciuccio per il mio bambino?,Uppa_443.txt,743
-"Ostetrica, perché sento i miei piedi e le mie caviglie così gonfi e doloranti, specialmente di sera?",Uppa_804.txt,1019
-Qual è l'importanza di discutere a priori le regole e i limiti per il nostro bambino?,Uppa_489.txt,787
-Quali sono le cause delle ragadi del capezzolo e come posso prevenirle durante l'allattamento?,Uppa_122.txt,523
-"Ostetrica, cosa significa ""vigile attesa"" e come viene gestita durante la gravidanza?",Uppa_478.txt,776
-"""Quali sono i sintomi che potrei notare se la mia vista è stata danneggiata durante la gravidanza?""",ISS_115.txt,139
-Quali sono le opzioni disponibili per le coppie sierodiscordanti che desiderano concepire naturalmente?,ISS_116.txt,140
-Qual è il solvente più comune utilizzato per l'estrazione degli oli essenziali?,ISS_168.txt,200
-Quali fattori ambientali possono influenzare la salute respiratoria del mio bambino?,ISS_49.txt,447
-Quali sono i disturbi del sonno più comuni nei neonati?,Uppa_908.txt,1122
-"Ostetrica, come posso capire se il colore arancio-mattone nel pannolino del mio neonato è sangue o qualcos'altro?",Uppa_776.txt,993
-Quali sono i farmaci più comuni che posso utilizzare per il mio bambino se ha difficoltà respiratorie?,Uppa_172.txt,564
-"""Se avverto dei disturbi dopo le cure, quanto è importante contattare subito il medico invece di aspettare il prossimo appuntamento?""",ISS_129.txt,154
-Quali esami del sangue sono consigliati per monitorare la salute del mio bambino dopo la nascita?,ISS_202.txt,239
-"Qual è la differenza tra ""mutismo elettivo"" e ""mutismo selettivo""?",Uppa_777.txt,994
-Quali attività posso fare all'aperto durante la gravidanza per scoprire le potenzialità del mio corpo senza rischi?,Uppa_536.txt,813
-Quanto tempo ci vorrà prima che il mio bambino si riprenda completamente dalla malattia bocca mani piedi?,Uppa_244.txt,617
-Quali sono i benefici del contatto pelle a pelle con il mio bambino subito dopo il parto?,Uppa_70.txt,933
-Qual è l'importanza del pesce azzurro nella dieta di una donna incinta?,Uppa_95.txt,1155
-"""Quali sono i rischi se non utilizzo farmaci preventivi per l'asma durante la gravidanza?""",ISS_49.txt,447
-Quali sono gli effetti collaterali e le controindicazioni dei farmaci che potrei utilizzare per il mio bambino?,Uppa_234.txt,607
-Quali sono i sintomi visibili che potrei notare nel mio bambino che potrebbero indicare la FAS/FASD?,Uppa_977.txt,1178
-Qual è l'importanza di monitorare l'andamento della crescita del feto durante la gravidanza?,Uppa_843.txt,1056
-Quali sono le differenze tra le convulsioni febbrili semplici e quelle complesse?,ISS_211.txt,249
-"Ostetrica, molte donne pensano che il cesareo sia la soluzione migliore per evitare il dolore. È vero che il cesareo può ridurre il dolore del travaglio?",ISS_359.txt,412
-Quanti legumi posso includere nella mia dieta durante la gravidanza?,Uppa_910.txt,1124
-Quali trattamenti sono consigliati per ridurre il rossore delle cicatrici post-parto?,Uppa_954.txt,1158
-Quali controlli vengono effettuati per garantire la qualità delle acque che utilizziamo per l'irrigazione delle risaie?,Uppa_458.txt,755
-Quando dovrei iniziare a fare il massaggio del perineo durante la mia gravidanza?,Uppa_659.txt,911
-Quali consigli potete fornire per gestire l'inserimento al nido del mio bambino?,Uppa_920.txt,1133
-Qual è il rischio di prematurità nelle gravidanze ottenute tramite Procreazione Medicalmente Assistita rispetto a quelle spontanee?,Uppa_712.txt,943
-Qual è la procedura per eseguire la villocentesi?,Uppa_481.txt,779
-"Ostetrica, quali segnali posso osservare per valutare il benessere del mio bambino durante la gravidanza?",Uppa_708.txt,940
-Quali sono i rischi di avere crisi durante la gravidanza e come possono influenzare il mio bambino?,ISS_135.txt,164
-Qual è l'importanza della presenza del papà durante la gravidanza e il parto?,Uppa_404.txt,707
-Qual è la malattia infettiva più comune nei bambini?,Uppa_784.txt,1001
-Qual è il tempo di attesa per ricevere i risultati di un test che potrebbe indicare la presenza di malattie genetiche nel mio bambino?,ISS_122.txt,147
-Qual è il metodo migliore per calcolare l'altezza prevista di mio figlio in base alla mia e alla statura di mio marito?,Uppa_563.txt,835
-Qual è il momento migliore per eseguire un test di gravidanza?,ISS_5.txt,448
-"Ostetrica, quali tecniche posso utilizzare per stimolare il flusso di latte durante l'allattamento?",Uppa_127.txt,527
-Qual è l'importanza di liberarsi dai preconcetti e dai vecchi schemi di pensiero quando si cresce un bambino?,Uppa_533.txt,810
-Qual è l'importanza di iniziare la cura antibiotica prima che la tosse diventi intensa e incontrollabile?,ISS_214.txt,252
-Quali sono le difficoltà che potrei incontrare durante la gravidanza e come posso affrontarle?,Uppa_715.txt,945
-"Ostetrica, quali sono gli effetti degli ormoni naturali sul mio corpo durante la gravidanza?",ISS_185.txt,219
-Qual è la quantità di liquidi che dovrei offrire al mio bambino se ha sete?,Uppa_630.txt,887
-Quali segnali indiretti dovrei osservare nel mio bambino per capire se ci sono problemi alla vista?,ISS_97.txt,500
-Quali legumi posso includere nella mia dieta durante la gravidanza?,Uppa_915.txt,1129
-Qual è il modo migliore per scegliere la scuola giusta per il mio bambino?,Uppa_485.txt,783
-Qual è l'importanza di curare i denti da latte del mio bambino?,Uppa_822.txt,1036
-Quali sono i benefici del co-sleeping per il mio bambino appena nato?,Uppa_782.txt,999
-"Qual è la durata massima consigliata per l'attività fisica durante la gravidanza, in particolare per lo sci?",Uppa_23.txt,606
-Quali sono i principali rischi legati al parto vaginale dopo un cesareo (VBAC)?,Uppa_939.txt,1145
-Quali sono i migliori spuntini da consumare durante la gravidanza?,Uppa_290.txt,646
-Quali sintomi potrei notare se avessi un problema ai reni durante la gravidanza?,ISS_215.txt,253
-Qual è la massima differenza che può esserci tra la datazione ecografica e l'età effettiva del feto in questa fase della gravidanza?,Uppa_534.txt,811
-"Qual è il significato di ""SIDS"" e perché è importante conoscerlo?",Uppa_428.txt,727
-Quali sono le cause più comuni della diarrea nei neonati e nei lattanti?,Uppa_801.txt,1016
-"""Ostetrica, quali sono i sintomi che potrei avvertire se sviluppassi anemia durante la gravidanza?""",ISS_20.txt,236
-Quali sono le principali tecniche di procreazione assistita disponibili per le coppie che stanno cercando di concepire?,Uppa_490.txt,789
-Quali sono le principali cause dell'infertilità femminile che dovrei conoscere?,Uppa_479.txt,777
-"Ostetrica, quali sono i sintomi della meningite virale e quanto tempo ci vuole per risolversi?",Uppa_473.txt,771
-Quali sono i sintomi che indicano che mio figlio potrebbe avere una tonsillite virale?,Uppa_872.txt,1087
-Quali sono i germi principali che possono causare meningite nei neonati e nei bambini piccoli?,Uppa_473.txt,771
-"Quali sono i rischi per la salute durante le ondate di calore, specialmente per le donne incinte e i neonati?",ISS_198.txt,233
-"Ostetrica, posso mangiare peperoncino durante la gravidanza o l'allattamento?",ISS_353.txt,406
-Quali sono i segnali di mal di schiena che dovrei tenere d'occhio durante la gravidanza?,Uppa_671.txt,919
-Qual è la percentuale di neonati che rimangono piccoli alla nascita?,Uppa_89.txt,1104
-"""Quali sono gli effetti collaterali più comuni degli antistaminici di prima generazione che dovrei conoscere durante la gravidanza?""",ISS_312.txt,361
-"Ostetrica, quali sono le conseguenze per il microbiota del mio bambino se parto con un cesareo?",Uppa_744.txt,964
-Quali sono i rischi di sviluppare ipotiroidismo durante la gravidanza?,ISS_271.txt,315
-Quali sono i benefici dell'olio di fegato di pesce durante la gravidanza?,Uppa_95.txt,1155
-"""Quali farmaci posso prendere per alleviare i sintomi durante la gravidanza senza rischiare la salute del mio bambino?""",ISS_326.txt,376
-Quali precauzioni dovrei prendere riguardo all'influenza durante la gravidanza?,Uppa_363.txt,682
-Qual è l'importanza di escludere la disseminazione a organi distanti della malattia durante la gravidanza?,ISS_99.txt,502
-Quali sono i sintomi che dovrei tenere d'occhio per capire se ho un ematoma dopo il parto?,ISS_317.txt,366
-"""Quali sono le complicazioni che possono insorgere se soffro di stitichezza durante la gravidanza?""",ISS_134.txt,163
-Quali controlli effettua il medico di famiglia durante la visita post-parto per assicurarsi che tutto vada bene?,ISS_107.txt,130
-"Ostetrica, quali sono i rischi associati alla decisione di non vaccinare i bambini?",Uppa_639.txt,896
-"Ostetrica, quali sono i rischi associati al parto cesareo per il mio bambino?",Uppa_642.txt,899
-"Dopo il parto, quali controlli regolari dovrò seguire per garantire la mia salute e quella del mio bambino?",ISS_265.txt,308
-Quali sono i valori normali di azotemia che dovrei tenere d'occhio durante la gravidanza?,ISS_253.txt,295
-Qual è l'età in cui si verifica la massima incidenza del sonnambulismo nei bambini?,Uppa_747.txt,966
-Quali sono le conseguenze della spina bifida sui bambini?,ISS_12.txt,144
-"Ostetrica, quali fattori possono influenzare il successo dell'allattamento materno?",Uppa_383.txt,696
-Quali sono i segni fisici che potrei notare se non sto mangiando abbastanza durante la gravidanza?,ISS_75.txt,476
-"Ostetrica, quali sono i rimedi consigliati per alleviare la congestione nasale durante la gravidanza?",Uppa_884.txt,1099
-Qual è il modo migliore per gestire i giocattoli del mio bambino per evitare il sovraccarico?,Uppa_317.txt,662
-Qual è l'importanza del movimento o dello sport durante la gravidanza e dopo la nascita del bambino?,Uppa_812.txt,1026
-"""Quali sono le opzioni di trattamento per l'anemia durante la gravidanza, e la terapia genica è una di queste?""",ISS_20.txt,236
-Qual è l'importanza di avere un clima di fiducia e sincerità in famiglia durante la gravidanza e dopo la nascita del bambino?,Uppa_19.txt,577
-"Ostetrica, quali sono i benefici del digiuno durante la gravidanza e come si confrontano con la normale alimentazione?",ISS_338.txt,389
-Quali sono i rischi dell'influenza durante la gravidanza?,Uppa_936.txt,1142
-Qual è il modo migliore per gestire la febbre nel mio bambino appena nato?,Uppa_75.txt,968
-"Ostetrica, quanto è importante per noi genitori trovare del tempo per ricaricarci e rifornirci di energia durante i primi mesi con il nostro bambino?",Uppa_58.txt,850
-Quali strategie posso provare per affrontare i momenti critici dopo la nascita del mio bambino?,Uppa_941.txt,1148
-Quali sono le prospettive che si chiudono dopo la perdita di un bambino e quali nuove opportunità possono aprirsi per una mamma?,Uppa_107.txt,509
-Quali sono i rischi del contagio da HPV durante la gravidanza e come posso proteggere il mio bambino?,ISS_293.txt,339
-Qual è l'età ideale per iniziare a insegnare un secondo linguaggio al mio bambino?,Uppa_76.txt,978
-Quali attività posso proporre al mio bambino per stimolare la sua attenzione e motricità fine?,Uppa_987.txt,1183
-Qual è l'importanza delle abilità motorie nello sviluppo linguistico del mio bambino?,Uppa_605.txt,866
-Qual è l'importanza della socializzazione per il mio bambino nei primi mesi di vita?,Uppa_18.txt,570
-Quali sono i sintomi che potrebbero indicare la presenza della malattia di Gaucher nel mio bambino?,ISS_217.txt,255
-Quali sono i trattamenti disponibili per le malattie infiammatorie croniche intestinali durante la gravidanza?,ISS_130.txt,157
-Qual è l'importanza del test combinato durante la gravidanza?,ISS_14.txt,169
-"Ostetrica, potresti spiegarmi cos'è esattamente l'episiotomia e perché viene praticata durante il parto?",Uppa_212.txt,594
-"""Quali sono le complicazioni respiratorie gravi che potrei dover affrontare durante la gravidanza se soffro di asma?""",ISS_49.txt,447
-Quali sono i sintomi che dovrei tenere d'occhio durante la gravidanza in caso di malattie infettive?,Uppa_470.txt,768
-"Ostetrica, quali sono i rischi legati al consumo di salumi come il prosciutto crudo durante la gravidanza?",Uppa_945.txt,1151
-Qual è l'età in cui la maggior parte delle persone inizia a avvertire disturbi legati al QT lungo?,ISS_170.txt,203
-"**Ostetrica, è normale che il mio bambino mostri una certa diffidenza verso il cibo? Quando dovrei preoccuparmi?**",Uppa_811.txt,1025
-"Ostetrica, quali sono i comportamenti naturali che il mio bambino mostra alla nascita?",Uppa_58.txt,850
-Qual è l'alimento principale per il mio bambino durante il primo anno di vita?,Uppa_385.txt,697
-Quali sono le possibili cause di un'infezione renale durante la gravidanza?,ISS_248.txt,289
-"Ostetrica, quali sono le situazioni in cui è consigliabile effettuare un'esplorazione vaginale in assenza di contrazioni?",Uppa_708.txt,940
-"Ostetrica, quali esami posso fare per controllare la mia tiroide durante la gravidanza?",ISS_242.txt,283
-Quando dovrei programmare la mia vaccinazione antinfluenzale durante la gravidanza?,ISS_103(1).txt,121
-**Quali precauzioni dovrei prendere per evitare emorragie durante la mia gravidanza?**,ISS_52.txt,451
-"Ostetrica, quali strumenti posso utilizzare per comprendere meglio il processo di valutazione durante la gravidanza e il parto?",Uppa_520.txt,801
-Quali sono le misure preventive più importanti da adottare per evitare incidenti domestici con un neonato?,Uppa_599.txt,863
-"Ostetrica, quali sono i rischi associati all'uso dell'ormone della crescita durante la gravidanza?",Uppa_89.txt,1104
-"""Quali sono le cause più comuni di falsi positivi nei test di gravidanza?""",ISS_5.txt,448
-Qual è l'importanza di trasmettere corrette abitudini alimentari fin dai primi tempi per il mio bambino?,Uppa_725.txt,951
-Quali sono i metodi più comuni per rimuovere i tatuaggi e quali rischi comportano?,ISS_221.txt,260
-Quali sono gli effetti collaterali comuni dei progestinici iniettabili che potrei aspettarmi durante la gravidanza?,ISS_245.txt,286
-Quali sono i sintomi che dovrei tenere d'occhio dopo una puntura di zecca durante la gravidanza?,Uppa_470.txt,768
-"Ostetrica, quanto pesa l'utero all'inizio della gravidanza e quanto può arrivare a pesare alla fine?",Uppa_685.txt,927
-"Ostetrica, quali sono i rischi del tetano per un neonato?",ISS_282.txt,327
-Quali attività posso incoraggiare nel mio bambino per aiutarlo a sviluppare la sua memoria?,Uppa_175.txt,566
-"Ostetrica, è normale che il mio bambino abbia spesso la tosse durante l'inverno?",Uppa_151.txt,547
-Quali sono i comportamenti che posso adottare per ridurre il rischio di sviluppare malattie durante la gravidanza?,ISS_291.txt,337
-Quali sono i modi migliori per confortare il mio bambino quando sembra avere bisogno di aiuto?,Uppa_552.txt,827
-Quali sono le caratteristiche di un bambino sicuro di sé e come posso favorirle fin dai primi mesi di vita?,Uppa_649.txt,904
-Quali sono le principali valvulopatie che potrei dover conoscere durante la gravidanza?,ISS_136.txt,165
-Quali sono i test di screening che posso fare nel secondo trimestre di gravidanza e quali informazioni possono fornire?,ISS_33.txt,380
-"""Quali farmaci dovrei evitare di assumere durante la gravidanza per non interferire con gli antiepilettici che potrei prendere?""",ISS_58.txt,457
-Qual è l'importanza di programmare visite dal dentista durante la gravidanza?,Uppa_822.txt,1036
-"Ostetrica, quali organi del corpo possono essere influenzati dalle sostanze prodotte dall'intestino durante la gravidanza?",ISS_352.txt,405
-"Ostetrica, quali sono i rischi associati all'uso di miorilassanti durante la gravidanza?",ISS_106.txt,128
-Quali sono i segnali che dovrei riconoscere per identificare una possibile recidiva del virus durante la gravidanza?,ISS_186.txt,220
-Quali sono i segnali che potrebbero indicare una malformazione vascolare nel mio bambino?,Uppa_776.txt,993
-Quali sono i primi passi da seguire per migliorare l'igiene personale del mio bambino dopo i bisogni?,Uppa_366.txt,683
-Qual è il programma di vaccinazione per il mio bambino dopo la nascita?,Uppa_470.txt,768
-Quali attività posso incoraggiare per aiutare il mio bambino a sviluppare le sue abilità motorie?,Uppa_536.txt,813
-"""Ci sono eventi stressanti legati al parto che potrebbero influenzare la mia pelle, come la vitiligine?""",ISS_206.txt,243
-Qual è l'importanza del rischio nello sviluppo delle capacità del mio bambino?,Uppa_342.txt,670
-Qual è il modo migliore per insegnare al mio bambino a usare lo spazzolino manuale?,Uppa_577.txt,847
-Quali sono i segnali che indicano che il mio bambino sta autoregolando bene l'alimentazione?,Uppa_460.txt,758
-"""Qual è l'assunzione raccomandata di calcio per le donne sopra i",ISS_336.txt,387
-"Ostetrica, quale ruolo ha il feto durante il parto e come influisce sulla sua progressione lungo il canale del parto?",Uppa_70.txt,933
-Qual è l'importanza della vaccinazione per la salute del fegato durante la gravidanza?,ISS_289.txt,334
-Qual è il modo migliore per insegnare al mio bambino a mettere via i giocattoli?,ISS_187.txt,221
-Qual è l'importanza di fare un tampone durante la gravidanza?,ISS_264.txt,307
-"Ostetrica, perché sento il bisogno di organizzare e pulire la casa prima della nascita del mio bambino?",Uppa_571.txt,842
-Qual è l'importanza dell'attività motoria per lo sviluppo del mio bambino?,Uppa_175.txt,566
-Quali strategie posso utilizzare per aiutare il mio bambino a gestire la frustrazione pre-linguistica?,Uppa_309.txt,656
-Qual è l'obiettivo dell'Organizzazione Mondiale della Sanità riguardo al morbillo?,ISS_167.txt,199
-"""Quali farmaci non posso dare al mio bambino se ha meno di",ISS_67.txt,467
-Quali sono i migliori accorgimenti da seguire per evitare di essere punti dalle zecche durante una passeggiata all'aperto?,Uppa_300.txt,653
-Qual è l'approccio migliore per supportare lo sviluppo del mio bambino nei primi mesi di vita?,Uppa_715.txt,945
-"""Quali sono le istruzioni da seguire se decido di utilizzare la formula artificiale per il mio bambino?""",Approf_Le cure che nutrono nei primi 1000 giorni.txt,19
-Quali metodi contraccettivi possono aiutarmi a proteggermi dalle infezioni a trasmissione sessuale durante la gravidanza?,ISS_51.txt,450
-"""Quali sono i sintomi principali dell'emofilia di tipo C che dovrei tenere d'occhio durante la gravidanza?""",ISS_65.txt,465
-Qual è il modo migliore per dedicare del tempo alla mia bambina dopo una giornata di lavoro?,Uppa_375.txt,689
-"""Ostetrica, quali fattori possono aumentare il rischio di osteoporosi dopo la gravidanza?""",ISS_336.txt,387
-"Ostetrica, quali sono i diversi tipi di calze a compressione che posso considerare durante la gravidanza?",ISS_59.txt,458
-"Ostetrica, quali sono le differenze tra le ernie riducibili e quelle irriducibili?",ISS_316.txt,365
-Qual è il momento migliore per iniziare a frequentare i corsi preparto?,Uppa_645.txt,902
-Quando dovrei contattare il medico se noto che il mio bambino è particolarmente apatico?,Uppa_457.txt,754
-Quali sono le indicazioni per la terapia dell’induzione durante la gravidanza?,ISS_65.txt,465
-Quanto tempo ci vorrà affinché il mio bambino inizi a automatizzare i suoni correttamente?,Uppa_585.txt,855
-Qual è il modo migliore per proteggere il mio bambino da eventuali infezioni durante la gravidanza?,ISS_313.txt,362
-"""Ostetrica, ho sentito che la musica può avere effetti positivi durante la gravidanza. È vero che può aumentare i livelli di ossitocina?""",Uppa_981.txt,1181
-"Ostetrica, come funziona il processo di anonimato per le donazioni di sangue placentare?",Uppa_755.txt,974
-Quali sono le cause dell'emicrania durante la gravidanza?,ISS_107.txt,130
-"Ostetrica, perché molte persone parlano di ""scelta naturale"" quando si tratta di alimentazione infantile?",Uppa_16.txt,553
-Quali sono i vantaggi della didattica a distanza per le mamme in attesa?,Uppa_702.txt,936
-"Qual è il modo migliore per gestire il dolore durante la gravidanza, se ho emicranie frequenti?",ISS_107(1).txt,129
-"Ostetrica, cosa devo portare con me il giorno del ricovero programmato?",Approf_Accesso all’Ospedale per il parto.txt,1
-"Ostetrica, quali sono le malattie esantematiche di cui dovrei essere a conoscenza durante la gravidanza?",Uppa_470.txt,768
-Quali alimenti dovrei includere nella dieta del mio bambino durante lo svezzamento?,Uppa_964.txt,1165
-Quali sono le migliori pratiche per mantenere la colonna vertebrale sana durante la gravidanza?,ISS_228.txt,267
-"Ostetrica, quali sono le ragioni per cui il Lotus Birth non è una pratica comune nel mondo e nella storia?",Uppa_144.txt,542
-"""Ostetrica, quali sono le cause che possono portare a un risultato positivo nel test di gravidanza, anche in assenza di una gravidanza normale?""",Uppa_486.txt,784
-Qual è la durata tipica del ciclo mestruale e come si suddivide?,Uppa_468.txt,765
-"Ostetrica, quali sono le cause più comuni del dolore alla parte inferiore della pancia durante il secondo trimestre di gravidanza?",Uppa_685.txt,927
-Quali attività posso fare con il mio bambino in cucina per aiutarlo a sviluppare le sue abilità motorie?,Uppa_644.txt,901
-Quali sono i permessi e i congedi disponibili per i padri in Italia dopo la nascita del bambino?,Uppa_404.txt,707
-Quali sono i rischi per il cuore durante la gravidanza?,ISS_364.txt,418
-Qual è l'importanza di iniziare la terapia sostitutiva con levo-tiroxina per il mio neonato?,ISS_188.txt,222
-Qual è il ruolo dei probiotici nella gravidanza e come possono influenzare il rischio di preeclampsia?,Uppa_736.txt,958
-"Quali sono i rischi per la mia salute renale durante la gravidanza, soprattutto se ho il diabete di tipo",ISS_29.txt,335
-Quali sono i consigli per proteggere il mio bambino dalle zecche durante le passeggiate all'aperto?,Uppa_300.txt,653
-"Ostetrica, quali sono le cause della cistinuria e come posso sapere se sono a rischio?",ISS_240.txt,281
-"""Ostetrica, se ho un tatuaggio monocromatico, sarà più facile rimuoverlo dopo il parto rispetto a uno policromatico?""",ISS_221.txt,260
-Cosa si intende per pregrafismo e perché è importante?,Uppa_876.txt,1090
-"""Quali sono i sintomi cutanei che potrei notare se fossi esposta a basse dosi di arsenico durante la gravidanza?""",ISS_226.txt,265
-Quali sono i rischi legati alle apnee notturne nei bambini?,Uppa_911.txt,1125
-Quali sono i segnali che indicano che la sintomatologia durante la gravidanza è diventata importante?,Uppa_734.txt,957
-"Ostetrica, come si prendono gli ossiuri e quali sono le modalità di trasmissione?",Uppa_521.txt,802
-Quali sono i rischi associati all'esposizione all'arsenico inorganico durante la gravidanza?,ISS_101.txt,118
-"Ostetrica, come posso aiutare mio figlio a sentirsi a suo agio nel parlare di sessualità quando sarà più grande?",Uppa_19.txt,577
-Quali sono le conseguenze più gravi della rosolia durante il primo trimestre di gravidanza?,ISS_123.txt,148
-Qual è l'importanza della segnalazione di effetti indesiderati durante la gravidanza?,ISS_6.txt,459
-"Ostetrica, cosa significa esattamente ""parto podalico"" e quali sono le sue caratteristiche principali?",Uppa_754.txt,973
-Quali sono le condizioni in cui l'interruzione volontaria di gravidanza (IVG) è consentita oltre il termine previsto?,ISS_7.txt,470
-Quali sono le componenti funzionali incluse nel Piano vaccinale oltre alla somministrazione del vaccino?,ISS_351.txt,404
-Qual è il momento in cui il bambino inizia a comprendere che gli altri sono entità separate da lui?,Uppa_175.txt,566
-"""Quali precauzioni dovrei prendere per evitare infezioni durante il parto?""",ISS_221.txt,260
-"Ostetrica, quanto può essere utile il massaggio perineale durante il parto?",Uppa_659.txt,911
-"**Ostetrica, potresti spiegarmi cos'è la malattia renale policistica e come potrebbe influenzare la mia gravidanza?**",ISS_215.txt,253
-Quali sono le precauzioni che devo prendere riguardo all'uso di farmaci durante la gravidanza?,Uppa_768.txt,986
-Qual è il ruolo dei genitori nell'educazione sessuale dei bambini?,Uppa_674.txt,921
-"Ostetrica, quali sono i potenziali rischi per la salute del mio bambino legati all'esposizione alle microplastiche (MP)?",ISS_249.txt,290
-Quali sono le precauzioni da prendere se devo viaggiare in un'area a rischio malaria durante la gravidanza?,ISS_15.txt,180
-Quali sono gli appuntamenti che devo seguire durante la gravidanza secondo l'agenda pubblicata dal Ministero?,Uppa_974.txt,1176
-Quando posso iniziare a introdurre cibi solidi nella dieta del mio bambino?,Uppa_460.txt,758
-Quali alimenti dovrei evitare di dare al mio bambino di pochi mesi?,Uppa_833.txt,1047
-Quali attività posso fare con il mio bambino per stimolare la sua creatività?,Uppa_644.txt,901
-Qual è il ruolo dell'amico immaginario nello sviluppo del bambino?,Uppa_298.txt,649
-"Ostetrica, quali dispositivi posso utilizzare per testare la presenza di THC nel mio organismo durante la gravidanza?",ISS_354.txt,407
-"È normale che io abbia voglia di ""mangiarmi"" il mio bambino a causa dei suoi cosciotti paffuti e delle braccine rosate?",Uppa_250.txt,621
-Qual è l'importanza del contatto fisico tra me e il mio neonato subito dopo la nascita?,ISS_261.txt,304
-Quali sono i segnali che potrebbero indicare la necessità di una consulenza genetica durante la gravidanza?,ISS_129.txt,154
-"Ostetrica, quali sono i vantaggi della somministrazione di corticosteroidi durante la gravidanza?",Uppa_716.txt,946
-Qual è il momento ideale per iniziare a preparare la valigia per il parto?,Uppa_738.txt,960
-Quali sono i principali paesi in cui viene coltivato il ginseng?,ISS_183.txt,217
-"Ostetrica, quali sono i segni che dovrei tenere d'occhio se sospetto di avere la dengue durante la gravidanza?",ISS_176.txt,209
-Quali sono i segni che potrebbero indicare un'alterazione del tono muscolare nel mio bambino?,Uppa_839.txt,1052
-Quali cambiamenti nello stile di vita posso apportare per prevenire la stitichezza durante la gravidanza?,ISS_134.txt,163
-"Ostetrica, quali sono i rischi di sviluppare il diabete di tipo",ISS_29.txt,335
-Quando dovrei ripetere l'esame se il risultato è negativo?,Uppa_868.txt,1082
-Quali alimenti dovrei evitare durante la gravidanza per prevenire allergie nel mio bambino?,ISS_49.txt,447
-Qual è l'importanza di concedere tempo ai bambini per completare le loro attività senza interruzioni?,Uppa_684.txt,926
-"Perché è così difficile per il sistema sanitario sviluppare un piano di azione che promuova il movimento fisico nei bambini, specialmente in quelli più a rischio di sovrappeso?",Uppa_96.txt,1163
-Quali sono i farmaci che posso prendere se ho calcoli renali di calcio durante la gravidanza?,ISS_330.txt,381
-Qual è la quantità di pomodoro che dovrei consumare ogni giorno per beneficiare del licopene durante la gravidanza?,Uppa_78.txt,997
-"""Ostetrica, potresti spiegarmi se l'omocistinuria è una malattia rara e se ci sono esenzioni per le spese mediche in Italia?""",ISS_277.txt,321
-Qual è l'importanza della maestria e dell'esperienza nella cura del neonato?,Uppa_644.txt,901
-"Ostetrica, qual è il modo corretto per calcolare il mio Indice di Massa Corporea (IMC) durante la gravidanza?",Uppa_819.txt,1033
-È normale non riuscire a sentire il battito del mio bambino subito?,Uppa_946.txt,1152
-"""Quali sono i segnali che dovrei tenere d'occhio per quanto riguarda la salute del mio seno durante la gravidanza?""",ISS_291.txt,337
-Quali sono i segnali che potrebbero indicare un rallentamento della crescita del feto durante la gravidanza?,Uppa_843.txt,1056
-Quali sono i vantaggi di utilizzare una fascia porta bebè sin dalla nascita?,Uppa_522.txt,803
-Qual è l'importanza dello screening per il cancro del seno durante la gravidanza o dopo il parto?,ISS_272.txt,316
-Qual è l'importanza dello screening per il cancro del collo dell'utero durante la gravidanza?,ISS_360.txt,414
-Quali sono le opzioni per il parto se non entro in travaglio spontaneamente prima del termine?,Uppa_716.txt,946
-Quali sono i sintomi che potrei osservare nei primi giorni dopo la nascita del mio bambino?,Uppa_470.txt,768
-Qual è l'importanza del movimento nei primi anni di vita del bambino?,Uppa_312.txt,658
-"Ostetrica, come viene gestita la pulizia del neonato subito dopo la nascita?",Uppa_19.txt,577
-"""Quali accorgimenti devo seguire per mantenere la mia salute dentale durante la gravidanza?""",ISS_136.txt,165
-**Come posso aiutare mia figlia a gestire la paura della morte che ha sviluppato dopo il racconto sulla bisnonna?**,Uppa_167.txt,558
-"""Ostetrica, posso prendere l'aspirina a basse dosi durante la gravidanza, e se sì, come devo assumerla?""",ISS_67.txt,467
-"Ostetrica, è normale avere dolore al seno durante la gravidanza?",Uppa_730.txt,956
-"Ostetrica, quali sono i rischi di trattare l'anemia da carenza di vitamina B",ISS_77.txt,478
-"Ostetrica, quali sono i metodi più efficaci per rimuovere i microrganismi dalle mani, specialmente in ospedale?",ISS_227.txt,266
-Quali controlli dovrei fare se ho una storia familiare di sindrome di Rothmund-Thomson di tipo,ISS_196.txt,231
-Quali sono i benefici degli oli essenziali durante la gravidanza e l'allattamento?,ISS_168.txt,200
-"Ostetrica, quali sono le cause principali del bruciore di stomaco in gravidanza?",Uppa_896.txt,1111
-Quali sono i rischi associati all'assunzione di antipertensivi durante la gravidanza?,ISS_283.txt,328
-Qual è l'importanza di inserire il mio bambino in nuovi contesti sociali durante i primi mesi di vita?,Uppa_469.txt,766
-"Quali sono i segnali che indicano che potrei avere un problema serio durante la gravidanza, come uno stato di male epilettico?",ISS_135.txt,164
-Qual è l'importanza della vaccinazione antitetanica durante la gravidanza e per il neonato?,ISS_282.txt,327
-Quali sono le risorse disponibili per comprendere meglio l'ADHD nei bambini?,ISS_187.txt,221
-Quali sono i sintomi che potrei notare nei miei occhi durante la gravidanza?,ISS_115.txt,139
-Quali sono i sintomi più comuni delle infezioni delle basse vie urinarie durante la gravidanza?,ISS_104.txt,124
-Qual è il modo migliore per gestire la tosse nei neonati senza ricorrere a farmaci?,Uppa_165.txt,556
-Quali sono i benefici della terapia con anticorpi monoclonali rispetto ai trattamenti chemioterapici tradizionali?,ISS_349.txt,401
-Qual è l'importanza della presenza del genitore durante il percorso di stimolazione del bambino?,Uppa_839.txt,1052
-Quali sono i sintomi del diabete di tipo,ISS_25.txt,291
-Quali sono i lassativi più comuni che posso usare durante la gravidanza per alleviare la stitichezza?,ISS_181.txt,215
-Quali sono i motivi per cui dovrei considerare una consulenza in un centro specializzato durante la mia gravidanza?,Uppa_809.txt,1023
-"""Ho avvertito una strana sensazione di scossa elettrica nelle dita, è normale durante la gravidanza?""",ISS_132.txt,160
-Qual è la posizione migliore da adottare durante l'allattamento per evitare che il mio bambino rigurgiti?,Uppa_589.txt,858
-"Ostetrica, quali precauzioni dovrei prendere per proteggere la mia pelle dal sole durante la gravidanza, soprattutto se ho la vitiligine?",ISS_206.txt,243
-È vero che durante l'allattamento devo seguire una dieta rigida e precisa?,Uppa_483.txt,781
-"Ostetrica, come posso gestire il conflitto tra il desiderio di sentirmi apprezzata dagli altri e il bisogno di godere del legame fisico con il mio bambino?",Uppa_104.txt,507
-"""Ostetrica, quali metodi contraccettivi non proteggono dall'HIV durante la gravidanza?""",ISS_83.txt,485
-Quali esercizi posso fare per migliorare la mia elasticità durante la gravidanza?,Uppa_874.txt,1089
-Quali sono i rischi di epatite virale durante la gravidanza?,ISS_321.txt,371
-Quando posso aspettarmi che il mio latte arrivi dopo il parto?,Uppa_730.txt,956
-Qual è il rischio di contrarre l'influenza durante la gravidanza?,ISS_62.txt,462
-Quali sono le raccomandazioni del Ministero della Salute riguardo agli integratori alimentari durante la gravidanza?,ISS_295.txt,341
-Quali sono le possibili cause delle crisi epilettiche che potrei dover considerare durante la gravidanza?,ISS_374.txt,429
-Quali sono i sintomi della listeriosi e come posso riconoscerli durante la gravidanza?,ISS_79.txt,480
-Qual è il ruolo del colesterolo nel mio corpo durante la gravidanza?,ISS_274.txt,318
-Qual è il modo migliore per capire quando introdurre la frutta nella dieta del mio bambino durante lo svezzamento?,Uppa_912.txt,1126
-"""Quali sono i farmaci antifungini e come possono aiutarmi durante la gravidanza?""",ISS_356.txt,409
-"Ostetrica, quanto è importante bere liquidi durante la gravidanza per la salute mia e del bambino?",ISS_124.txt,149
-"Quali sono i migliori modi per prendersi cura di me stessa durante la gravidanza, specialmente se ho una malattia cronica come l'asma?",ISS_49.txt,447
-Qual è l'importanza di un'ortopanoramica durante la gravidanza?,ISS_180.txt,214
-"""Ostetrica, ho notato che le mie allergie respiratorie sono peggiorate durante la gravidanza. È normale che ciò accada?""",Uppa_887.txt,1101
-Qual è il modo migliore per comunicare ai miei figli la mia intenzione di separarmi dal loro padre/madre?,Uppa_72.txt,948
-"Ostetrica, quali sono le possibili cause di un elevato valore dell'azoto ureico durante la gravidanza?",ISS_253.txt,295
-Quali vaccini sono previsti per il mio bambino nel secondo anno di vita?,Uppa_976.txt,1177
-Quali sono le condizioni necessarie affinché l'ecografia sia efficace?,Uppa_116.txt,516
-"Ostetrica, quali sono i rischi legati all'uso eccessivo di antibiotici durante la gravidanza?",Uppa_208.txt,589
-È vero che dormire accanto al bambino aiuta a gestire meglio i risvegli notturni durante l'allattamento?,Uppa_855.txt,1069
-"Ostetrica, quali sono i benefici dell'utilizzo dell'aerosol nei bambini?",Uppa_113.txt,514
-Quali sono i benefici della terapia biologica durante la gravidanza?,ISS_361.txt,415
-Quali sono le condizioni che possono essere collegate alla sindrome delle gambe senza riposo durante la gravidanza?,ISS_169.txt,201
-"Ostetrica, quali sono i principali rischi di infezione per me e il mio bambino durante la gravidanza?",ISS_377.txt,432
-"Ostetrica, quali sono i benefici del contatto pelle a pelle subito dopo la nascita del primo gemello?",Uppa_716.txt,946
-A che età è consigliabile iniziare a introdurre la lettura e la scrittura al mio bambino?,Uppa_827.txt,1041
-È normale sentirsi così stanca durante la gravidanza?,Uppa_905.txt,1120
-"Ostetrica, quali sono le caratteristiche delle perdite che dovrei monitorare durante la gravidanza?",Uppa_933.txt,1141
-"Ostetrica, quali sono i benefici dei vaccini per il mio bambino appena nato?",Uppa_99.txt,1184
-"Se il mio bambino ha un raffreddore, posso comunque procedere con la vaccinazione?",Uppa_976.txt,1177
-"Ostetrica, è vero che gli integratori di minerali e vitamine non passano nel latte materno?",Uppa_540.txt,818
-Quali sono i segnali che dovrei tenere d'occhio per capire se il mio bambino ha bisogno di un medico?,ISS_326.txt,376
-Quali sono i benefici degli oli essenziali durante la gravidanza?,ISS_168.txt,200
-È sicuro per me rimanere incinta se ho la malattia di Crohn?,ISS_130.txt,157
-Qual è la probabilità che il mio bambino erediti un gene mutato legato a malattie rare come l'anemia di Fanconi?,ISS_84.txt,486
-"Ostetrica, cos'è esattamente l'indice di Apgar e perché è stato introdotto?",Uppa_792.txt,1007
-"Ostetrica, quali sono i motivi per cui si raccomanda l'astinenza durante la gravidanza?",Uppa_745.txt,965
-"Ostetrica, quali sono le evidenze scientifiche che supportano l'allattamento prolungato oltre i tre mesi?",Uppa_421.txt,720
-"""Posso utilizzare creme o unguenti per trattare la vitiligine durante la gravidanza, o ci sono rischi associati?""",ISS_206.txt,243
-"Ostetrica, quali sono i sintomi che potrei notare se avessi un problema di pressione oculare durante la gravidanza?",ISS_115.txt,139
-Quali sono i trattamenti disponibili se ho un'epatite C durante la gravidanza?,ISS_201.txt,238
-"Quali sono i trattamenti disponibili per gestire i sintomi durante la gravidanza, in particolare per chi ha la malattia di Gaucher?",ISS_217.txt,255
-Qual è il vantaggio di avere un lettino basso per il mio bambino?,Uppa_938.txt,1144
-"Ostetrica, cos'è il rooming in e perché è importante per me e il mio bambino?",Uppa_919.txt,1132
-Qual è il ruolo del bario durante gli esami radiologici e come influisce sulla visibilità dell'intestino tenue?,ISS_130(1).txt,156
-Qual è la causa principale dell'obesità nei bambini?,Uppa_162.txt,555
-Quali alimenti posso includere nella mia dieta per garantire un adeguato apporto di vitamina B,ISS_108.txt,131
-"**Ostetrica, quali fattori possono aumentare il rischio di sviluppare il diabete gestazionale durante la gravidanza?**",ISS_1.txt,114
-Qual è il modo migliore per scoprire eventuali problemi di salute durante la gravidanza?,ISS_289.txt,334
-Quali sono i segnali che indicano un possibile ritardo nello sviluppo del linguaggio del mio bambino?,Uppa_626.txt,882
-È vero che allattare un bambino più a lungo della media è considerato una scelta di salute?,Uppa_814.txt,1028
-Quali sono le norme igieniche che dovrei seguire per prevenire la trasmissione del CMV durante la gravidanza?,ISS_44.txt,442
-Quali sono i comportamenti tipici dei bambini che possono aumentarne l'esposizione al piombo?,ISS_213.txt,251
-Qual è il tumore più comune tra le donne e quali sono le sue implicazioni in termini di mortalità?,ISS_272.txt,316
-Quali sono i limiti degli studi sui prodotti naturali che potrei considerare durante la gravidanza?,ISS_331.txt,382
-Qual è l'età più comune in cui si verificano le infezioni da gonorrea?,ISS_66.txt,466
-Quali sono i fattori che possono influenzare la mia pressione arteriosa durante la giornata?,ISS_278.txt,322
-È sicuro fare il bagno in casa durante la gravidanza?,ISS_135.txt,164
-Qual è l'età consigliata per introdurre i pannelli Montessori al mio bambino?,Uppa_947.txt,1153
-"""Durante la visita, come può il medico valutare i disturbi che potrei avere, specialmente se si manifestano di notte?""",ISS_130.txt,157
-Come posso favorire la relazione tra il mio bambino e l'ambiente che lo circonda nei suoi primi anni di vita?,Uppa_295.txt,648
-Quali sono i segnali che indicano una carenza di stimolazioni ambientali nel mio bambino?,Uppa_51.txt,798
-"Ostetrica, come funziona il test per valutare il rischio di sindrome di Down durante la gravidanza?",ISS_54.txt,453
-Quali sono i vantaggi di incoraggiare il mio bambino a praticare sport fin da piccolo?,Uppa_105.txt,508
-Qual è la differenza tra noduli caldi e noduli freddi nella tiroide?,ISS_328.txt,378
-Quali sono i farmaci che posso prendere durante la gravidanza se ho la sindrome di Behçet?,ISS_87.txt,489
-Qual è l'importanza dell'educazione affettiva nei primi mesi di vita del bambino?,Uppa_424.txt,723
-"Ostetrica, quali sono i livelli di prolattina durante le ultime settimane di gravidanza e subito dopo il parto?",Uppa_922.txt,1135
-Quali sono i segnali che mi indicano che è il momento giusto per smettere di allattare?,Uppa_814.txt,1028
-Quali sono le emozioni comuni che un padre può provare quando il neonato viene ricoverato in TIN?,Uppa_677.txt,922
-"Ostetrica, cosa si intende esattamente per Tocofobia e come può influenzare il mio parto?",Uppa_537.txt,814
-"Ostetrica, quali sono le cause principali dell'embolia durante la gravidanza?",ISS_124.txt,149
-"Posso iniziare a mangiare legumi durante la gravidanza e, se sì, da quando è consigliato farlo?",Uppa_915.txt,1129
-Quali sono i rischi associati al consumo di alcol durante la gravidanza?,ISS_16.txt,191
-Come posso aiutare il mio bambino a iniziare a leggere in modo efficace?,Uppa_827.txt,1041
-"Quali segnali indicano che il mio bambino potrebbe avere difficoltà a partecipare a eventi sociali legati al cibo, come compleanni o mense scolastiche?",Uppa_811.txt,1025
-Qual è l'importanza del supporto del personale sanitario durante la degenza per l'allattamento al seno?,Uppa_923.txt,1136
-Quali alimenti dovrei includere nella mia dieta per assicurarmi di avere un adeguato apporto di vitamine del gruppo B durante la gravidanza?,ISS_128.txt,153
-Quali attività posso fare con il mio bambino per stimolare il suo sviluppo motorio?,Uppa_918.txt,1131
-"""Perché le vene varicose si sviluppano durante la gravidanza?""",ISS_59.txt,458
-"Ostetrica, quali sono le opzioni disponibili per il parto in Italia, in particolare per il taglio cesareo dolce?",Uppa_576.txt,846
-Qual è la cosa più importante da sapere se il mio bambino ha avuto un episodio di convulsione febbrile?,Uppa_817.txt,1031
-Cosa succede se l'inizio dell'allattamento è ritardato?,Uppa_541.txt,819
-"Ostetrica, a che età il mio bambino inizierà a capire il senso delle parole?",Uppa_558.txt,831
-Quali sono i primi sintomi della bronchiolite che dovrei osservare nel mio neonato?,Uppa_797.txt,1010
-Qual è la dose raccomandata di acido folico che dovrei assumere mentre pianifico la mia gravidanza?,ISS_22.txt,258
-Qual è l'importanza di avere il partner presente durante gli incontri di accompagnamento alla nascita?,Uppa_757.txt,975
-Quali sono i principali benefici dell'allattamento al seno rispetto ai sostituti?,Uppa_535.txt,812
-Quali sono i sintomi che potrei osservare se fossi affetta da epatite acuta C durante la gravidanza?,ISS_144.txt,174
-"""Ostetrica, posso chiederti se ci sono preparazioni a base di Cannabis che possono essere utili durante la gravidanza o l'allattamento?""",ISS_331.txt,382
-Quali sono i cambiamenti fisiologici che dovrei osservare durante il mio ciclo mestruale dopo il parto?,Uppa_728.txt,953
-"Ostetrica, quali sono i rischi per il mio bambino legati all'esposizione ai policlorobifenili (PCB) durante la gravidanza?",ISS_222.txt,261
-Qual è l'obiettivo principale degli esami delle urine all'inizio della gravidanza?,Uppa_868.txt,1082
-"""Ostetrica, il latte materno cambia durante la gravidanza? In che modo?""",Uppa_851.txt,1065
-Quali sono i segnali che indicano che il mio bambino sta interiorizzando le norme fondamentali per le relazioni umane?,Uppa_178.txt,568
-È normale che io provi sentimenti di rabbia e gelosia durante la gravidanza?,Uppa_35.txt,674
-Qual è la percentuale di bambini che dorme con i genitori a un mese di vita?,Uppa_252.txt,622
-Qual è il modo migliore per ridurre gradualmente la durata delle poppate?,Uppa_814.txt,1028
-Quali segni ecografici posso aspettarmi di vedere durante il secondo trimestre per la spina bifida?,ISS_12.txt,144
-Qual è la posizione migliore per sistemare il bambino durante l'allattamento?,Uppa_779.txt,996
-"Ostetrica, quali sono i migliori modi per proteggere il mio bambino dal sole durante le passeggiate all'aperto?",Uppa_729.txt,954
-"""Ostetrica, quali sono le condizioni in cui il parto naturale non è consigliato dopo un taglio cesareo?""",Uppa_448.txt,746
-Quali precauzioni dovrei prendere per proteggere la salute del mio bambino se vivo con qualcuno che ha l'epatite C?,ISS_144.txt,174
-Quali sono le cause della rinite gravidica durante la gravidanza?,Uppa_884.txt,1099
-"Ostetrica, quali sono le prove scientifiche a sostegno dell'efficacia dei rimedi omeopatici durante la gravidanza?",Uppa_314.txt,659
-Qual è il test che si effettua tra la,ISS_55.txt,454
-Quali sono le caratteristiche principali della sindrome di Rothmund-Thomson che dovrei conoscere durante la gravidanza?,ISS_196.txt,231
-"Qual è l'importanza del legame affettivo tra genitore e bambino, indipendentemente dai legami biologici?",Uppa_655.txt,909
-"Ostetrica, come posso affrontare il cambiamento che avverrà nella mia vita con l'arrivo del bambino?",Uppa_67.txt,918
-Quali professionisti fanno parte del team diabetologico che mi seguirà durante la gravidanza?,ISS_29.txt,335
-"""Quali miglioramenti posso aspettarmi riguardo al sanguinamento durante la gravidanza?""",ISS_245.txt,286
-A che età posso aspettarmi che il colore degli occhi del mio bambino si stabilizzi definitivamente?,Uppa_882.txt,1097
-Quali sono i rischi associati alla rosolia se contratta nelle prime settimane di gravidanza?,ISS_27.txt,313
-Quali sono i valori ottimali della pressione arteriosa durante la gravidanza?,ISS_278.txt,322
-Come posso affrontare i miei timori di adulto per non influenzare negativamente il mio bambino?,Uppa_488.txt,786
-Quali sono i sintomi più comuni che potrei aspettarmi se contraggo il virus Zika durante la gravidanza?,ISS_47.txt,445
-Quali sono i segnali che potrebbero indicare un ritardo nello sviluppo linguistico del mio bambino nei primi anni di vita?,Uppa_626.txt,882
-"Ostetrica, perché è importante il parent training per il nostro bambino?",Uppa_952.txt,1157
-Quali sono le abitudini da evitare quando si tratta di assaggiare il cibo per controllarne la temperatura?,Uppa_456.txt,753
-Qual è la probabilità che io possa sviluppare insufficienza renale acuta durante la gravidanza?,ISS_248.txt,289
-Quali sono alcuni consigli alimentari che potrei seguire per combattere la stitichezza durante la gravidanza?,ISS_134.txt,163
-"Ostetrica, quali sono i sintomi che dovrei segnalare se notassi sanguinamenti o lividi durante la gravidanza?",ISS_373.txt,428
-Quali sono i segnali che potrebbero indicare danni retinici durante la gravidanza?,ISS_25.txt,291
-"""Ostetrica, come posso sapere se sto vivendo sintomi di depressione post partum?""",ISS_109.txt,132
-Quali sono le cause più comuni di broncopolmonite nei neonati?,Uppa_885.txt,1100
-Qual è la probabilità che il mio neonato contragga l'epatite B al momento del parto?,ISS_208.txt,245
-Qual è la qualità dell'acqua che posso bere durante la gravidanza?,Uppa_202.txt,584
-Qual è l'influenza degli stereotipi di genere sul comportamento dei bambini?,Uppa_629.txt,885
-Cosa devo fare se scopro di essere incinta mentre assumo statine?,ISS_145.txt,175
-Quali sono le abitudini che posso instaurare fin dai primi giorni di vita per aiutare il mio bambino a dormire meglio?,Uppa_908.txt,1122
-Quali esami del sangue sono consigliati per monitorare la salute del mio bambino appena nato?,ISS_202.txt,239
-Quali esami possono essere eseguiti per diagnosticare eventuali malattie cardiache nel neonato?,ISS_340.txt,392
-Qual è il modo corretto per preparare il latte in polvere per il mio bambino?,Uppa_45.txt,748
-Quali sono le cause più comuni del mal di schiena durante la gravidanza e come posso affrontarle?,ISS_325.txt,375
-"Ostetrica, cosa significa esattamente il termine ""reflusso"" in relazione al mio bambino?",Uppa_42.txt,719
-Quali sono i sintomi principali della quinta malattia che dovrei tenere d'occhio nel mio bambino?,ISS_80.txt,482
-Qual è l'importanza di avere informazioni complete e obiettive riguardo all'omeopatia durante la gravidanza e dopo il parto?,Uppa_314.txt,659
-"Ostetrica, quali sono le implicazioni di un risultato positivo allo screening per la salute del mio bambino?",Uppa_453.txt,750
-"Ostetrica, quali sono le ragioni che rendono difficile per noi genitori dire no ai nostri figli?",Uppa_270.txt,631
-Quali sono i segnali che indicano che il mio bambino potrebbe avere bisogno di aiuto per respirare?,Uppa_411.txt,712
-Quali sono le prime consonanti che il mio bambino dovrebbe essere in grado di produrre?,Uppa_585.txt,855
-"Ostetrica, quali sono le principali modalità di contagio del citomegalovirus durante la gravidanza?",ISS_44.txt,442
-Quali sono i segni iniziali che potrei notare nel mio bambino riguardo a un possibile impaccio motorio?,ISS_74.txt,475
-Qual è l'importanza di scegliere giocattoli che rafforzano la distinzione di genere per il mio bambino?,Uppa_632.txt,889
-È normale avere una leggera fuoriuscita di sangue all'inizio della gravidanza?,Uppa_429.txt,728
-"Ostetrica, cosa posso fare per prevenire la sudamina nel mio bambino durante l'estate?",Uppa_880.txt,1095
-Quali sono i sintomi che potrei avvertire se sviluppassi la sindrome del tunnel carpale durante la gravidanza?,ISS_132.txt,160
-Quali sono le caratteristiche degli animali che potrei osservare durante le passeggiate con il mio bambino?,Uppa_987.txt,1183
-Qual è il modo migliore per far addormentare il mio bambino dopo il pasto serale?,Uppa_908.txt,1122
-Quali corsi sono disponibili per le donne in gravidanza e i loro familiari?,Approf_Incontri di Accompagnamento alla Nascita (IAN).txt,15
-Quali sono le cause più comuni della pubertà precoce nei bambini?,ISS_319.txt,368
-Quali sono le formulazioni di farmaci più rapide da assumere durante la gravidanza?,ISS_107(1).txt,129
-Quali sono le cose più importanti di cui ho bisogno durante il periodo espulsivo?,Uppa_382.txt,695
-"Ostetrica, posso assumere integratori a base di enzimi durante la gravidanza per migliorare la digestione?",ISS_241.txt,282
-"Ostetrica, perché è così importante che il neonato si attacchi subito dopo il parto?",Uppa_929.txt,1138
-Come può l'ostetrica aiutarmi a mantenere un equilibrio tra la mia vita personale e le esigenze del mio bambino?,Uppa_241.txt,615
-Qual è il fattore di protezione che dovrei cercare nelle creme solari per il mio bambino?,Uppa_729.txt,954
-Quali sintomi potrei osservare nel mio bambino che potrebbero indicare un problema di sviluppo?,ISS_232.txt,272
-A che età inizia generalmente a camminare un bambino e quali attività gli piacciono di più in questa fase?,Uppa_565.txt,836
-Cosa devo fare se il mio bambino ha una scottatura sulla pelle e non trasuda liquido?,Uppa_109.txt,510
-Qual è il modo migliore per supportare una neomamma durante i primi giorni dopo il parto?,Uppa_408.txt,710
-"Ostetrica, quando inizia di solito la nausea durante la gravidanza e quando posso aspettarmi che si risolva?",Uppa_429.txt,728
-"Ostetrica, cos'è la lallazione e quando inizia a manifestarsi nei bambini?",Uppa_786.txt,1003
-Quali sono i lassativi più sicuri da utilizzare durante la gravidanza?,ISS_181.txt,215
-Quali sono i rischi per il mio bambino se io contraggo la leptospirosi durante la gravidanza?,ISS_377.txt,432
-Quali esami specialistici possono essere utilizzati per identificare le aree del cervello responsabili di funzioni importanti prima di un intervento chirurgico?,ISS_135.txt,164
-Quali sono i fattori di rischio per le displasie dell'anca nei neonati?,Uppa_101.txt,504
-"Ostetrica, ho sentito che a volte si può riscontrare una camera gestazionale vuota. Questo significa che la mia gravidanza non sta procedendo bene?",Uppa_891.txt,1106
-"Ostetrica, come può l'adrenalina influenzare il mio corpo durante il travaglio?",ISS_365.txt,419
-"Ostetrica, quali sono i potenziali effetti del glutine sulla mia digestione durante la gravidanza?",ISS_243.txt,284
-"Ostetrica, quali sono i segnali di carenza di selenio che dovrei tenere d'occhio durante la gravidanza?",ISS_163.txt,195
-Qual è l'importanza del contatto pelle a pelle subito dopo la nascita del mio bambino?,Uppa_919.txt,1132
-Qual è la soglia di rumore oltre la quale si considera reale il rischio di danni all'udito durante la gravidanza?,Uppa_224.txt,602
-"Ostetrica, quali sono le funzioni della tiroide durante la gravidanza?",ISS_56.txt,455
-"Ostetrica, è vero che l'allattamento può influenzare la mia fertilità dopo il parto?",ISS_46.txt,444
-"""Ostetrica, cosa posso aspettarmi se il mio bambino inizia a manifestare episodi di pavor nocturnus?""",Uppa_130.txt,531
-Quali aree del corpo sono protette dai vaccini contro l'HPV?,ISS_293.txt,339
-Quali sono i benefici del contatto precoce tra me e il mio bambino appena nato?,Uppa_559.txt,832
-Cosa devo fare se noto che il mio bambino non sembra seguire gli oggetti con lo sguardo?,Uppa_913.txt,1127
-Qual è il fabbisogno di calcio giornaliero durante la gravidanza e l'allattamento?,ISS_163.txt,195
-"Ostetrica, quali sono le caratteristiche necessarie affinché la gravidanza progredisca fisiologicamente?",Uppa_891.txt,1106
-"Ostetrica, cosa posso fare per prevenire la cinetosi durante i viaggi in auto mentre sono incinta?",ISS_193.txt,228
-"Ostetrica, come posso riconoscere quando la mia rabbia sta iniziando a emergere nei momenti di stress con il mio bambino?",Uppa_635.txt,892
-Qual è l'importanza dell'autonomia per il mio bambino nei primi mesi di vita?,Uppa_156.txt,551
-A che età i bambini iniziano a muoversi carponi e a esplorare l'ambiente domestico?,Uppa_565.txt,836
-"Ostetrica, quali sono i rischi associati all'infezione da streptococco in gravidanza per il mio bambino?",Uppa_830.txt,1044
-Qual è un segnale d'allarme che dovrei tenere d'occhio riguardo al mio neonato?,Uppa_784.txt,1001
-Quali informazioni posso trovare riguardo ai farmaci sul sito che mi hai consigliato?,ISS_58.txt,457
-"""Ostetrica, ho notato che molte donne della mia famiglia hanno sofferto di nausea in gravidanza. Questo significa che anche io potrei avere lo stesso problema?""",Uppa_587.txt,856
-Quali sono i fattori di rischio per contrarre la difterite durante la gravidanza?,ISS_259.txt,301
-Quali sono i test che vengono effettuati per diagnosticare la fenilchetonuria nei neonati?,ISS_34.txt,391
-Quali sono le dosi di ibuprofene che posso trovare in commercio per il mio bambino?,Uppa_616.txt,873
-Qual è l'importanza di misurare la circonferenza della pancia durante la gravidanza?,ISS_29.txt,335
-"Ostetrica, quali sono i rischi legati a un'eccessiva medicalizzazione delle cure ostetriche?",Uppa_448.txt,746
-"Ostetrica, quali sono i processi di divisione cellulare che avvengono durante la gravidanza e come influiscono sullo sviluppo del mio bambino?",ISS_304.txt,352
-Qual è il modo migliore per affrontare una crisi con il mio bambino appena nato?,Uppa_743.txt,963
-Quali sono i sintomi che potrei notare se ho una carenza di ferro durante la gravidanza?,ISS_126.txt,151
-Quali sono gli effetti degli interferenti endocrini sullo sviluppo del mio bambino in base al sesso?,ISS_363.txt,417
-Quali sintomi dovremmo osservare per capire se i dolori del nostro bambino sono solo dolori di crescita o se c'è bisogno di ulteriori accertamenti?,Uppa_866.txt,1080
-Quali sono alcuni piatti completi che potrei includere nella mia dieta durante la gravidanza?,Uppa_964.txt,1165
-"Ostetrica, quali sono i benefici degli amminoacidi essenziali durante la gravidanza?",ISS_290.txt,336
-"""Quali sono le complicazioni associate alla malformazione di Chiari di tipo II durante la gravidanza?""",ISS_12.txt,144
-"Ostetrica, quali sono i sintomi che indicano che il travaglio sta per iniziare?",Uppa_382.txt,695
-"""Quali sono i sintomi che potrei notare prima della comparsa delle vescicole dell'herpes zoster?""",ISS_159.txt,190
-Quali strategie posso utilizzare per aiutare il mio bambino a gestire i comportamenti tipici dell'ADHD nella vita quotidiana?,ISS_187.txt,221
-"Ostetrica, quanto è sicuro bere caffè durante la gravidanza?",Uppa_787.txt,1004
-"Ostetrica, a che punto è lo sviluppo del feto in questa fase della gravidanza?",Card_week_13_bambino.txt,46
-Quali sono i rischi associati a un tumore alla vescica non muscolo invasivo durante la gravidanza?,ISS_265.txt,308
-"""Quali sono i sintomi che potrebbero indicare una gravidanza extrauterina e quando dovrei preoccuparmi di fare un test di gravidanza?""",Uppa_486.txt,784
-"Come posso insegnare al mio bambino l'importanza di aspettare il proprio turno, come ad esempio quando gioca con gli altri bambini?",Uppa_631.txt,888
-Cosa posso fare se il mio bambino si fa male mentre gioca con gli altri?,Uppa_358.txt,679
-"Ostetrica, come posso interpretare i risultati del tritest?",Uppa_844.txt,1057
-Qual è il momento migliore per iniziare a trattare eventuali problemi dentali del mio bambino?,Uppa_822.txt,1036
-Quali sono i vantaggi e gli svantaggi dell'uso del biberon di plastica rispetto a quello di vetro?,Uppa_29.txt,645
-Quali sono i principali sistemi di classificazione del tumore che dovrei conoscere durante la mia gravidanza?,ISS_289.txt,334
-"Quali segnali potrei osservare nel mio bambino che potrebbero indicare una difficoltà specifica nell'apprendimento, come la dislessia evolutiva?",Uppa_51.txt,798
-"Ostetrica, quali sono i fattori che possono influenzare la salute intestinale durante la gravidanza?",ISS_130(1).txt,156
-"Ostetrica, quali tipi di esami possono essere effettuati per controllare la salute del collo dell'utero durante la gravidanza?",ISS_293.txt,339
-Qual è la distanza alla quale i neonati riescono a mettere a fuoco meglio?,Uppa_913.txt,1127
-È normale avere dolori al basso ventre durante il nono mese di gravidanza?,Uppa_685.txt,927
-Qual è l'importanza di una cura adeguata dell'infezione primaria durante la gravidanza?,ISS_186.txt,220
-"Ostetrica, cosa posso fare se mi sento triste dopo il parto?",Uppa_236.txt,609
-Qual è l'importanza dei carboidrati nella mia dieta durante la gravidanza?,Uppa_937.txt,1143
-Qual è l'importanza dell'acqua durante il travaglio e il parto?,Uppa_751.txt,970
-Quali sono alcuni rimedi che posso utilizzare per alleviare il fastidio delle gengive del mio bambino?,Uppa_767.txt,985
-Quali esercizi fisici posso praticare durante la gravidanza per mantenere un buon livello di attività?,ISS_1.txt,114
-Quali sono le varianti di dieta che posso seguire durante la gravidanza?,Uppa_530.txt,808
-Quali segni e disturbi dovrei osservare per capire se ci sono problemi di salute durante la gravidanza?,ISS_211.txt,249
-"Ostetrica, quali sono i principali benefici del latte materno rispetto alle formule artificiali per il mio bambino?",Uppa_573.txt,843
-"""Quali sono i segnali di allerta per problemi di salute mentale durante la gravidanza?""",ISS_15.txt,180
-Quali sono i segnali che indicano che il mio bambino potrebbe avere una plusdotazione intellettiva?,Uppa_715.txt,945
-Quali domande mi porrete per raccogliere la mia storia clinica riguardo ai disturbi respiratori?,ISS_49.txt,447
-Qual è la durata della protezione che si sviluppa dopo la vaccinazione?,ISS_208.txt,245
-Qual è la posizione corretta in cui devo mettere il mio bambino fasciato per evitare il rischio di SIDS?,Uppa_971.txt,1173
-"""Cosa sono i soffi cardiaci e perché vengono definiti innocenti?""",ISS_136.txt,165
-Quali formaggi dovrei evitare durante la gravidanza?,ISS_3.txt,346
-"Ostetrica, quanto è importante calcolare il BMI del mio bambino appena nato e quali sono i fattori da considerare oltre al peso?",Uppa_819.txt,1033
-"""Quali sono gli effetti collaterali della pilocarpina che dovrei tenere in considerazione durante la gravidanza?""",ISS_78.txt,479
-Qual è l'importanza di permettere ai bambini di esplorare e vivere esperienze di scoperta durante la loro crescita?,Uppa_342.txt,670
-"Ostetrica, perché è importante monitorare il BMI dei bambini durante la crescita?",Uppa_819.txt,1033
-Come posso gestire la frustrazione quando il mio bambino inizia a mostrare comportamenti tipici dei Terrible two?,Uppa_455.txt,752
-Qual è l'importanza dell'esame per le formazioni cutanee durante la gravidanza?,ISS_262.txt,305
-Quali sono i benefici di sviluppare l'empatia durante la gravidanza e dopo la nascita del bambino?,Uppa_344.txt,671
-Quali sono i sintomi di disattenzione che potrei osservare nel mio bambino una volta che sarà più grande?,ISS_187.txt,221
-"Ostetrica, quali sono i test utili per valutare le allergie nei neonati, specialmente se il bambino è in trattamento con antistaminici?",Uppa_172.txt,564
-Quali sono i benefici del gioco all'aperto per il mio bambino?,Uppa_280.txt,637
-"Ostetrica, posso assumere farmaci per bocca mentre prendo il carbone vegetale?",ISS_241.txt,282
-Quali misurazioni vengono utilizzate per valutare la crescita del feto durante la gravidanza?,Uppa_843.txt,1056
-Quali esami del sangue sono necessari per accertare la presenza di epatite infettiva durante la gravidanza?,ISS_201.txt,238
-Qual è la percentuale di bambini tra un mese e,Uppa_252.txt,622
-"""Ostetrica, è normale avere un leggero fastidio alla schiena durante il secondo e terzo trimestre di gravidanza?""",Uppa_671.txt,919
-Qual è l'importanza di mantenere alta la copertura vaccinale durante la gravidanza?,ISS_133(1).txt,161
-"Ostetrica, quali sono le malattie rare che possono manifestarsi subito dopo la nascita?",ISS_302.txt,350
-Qual è l'importanza dell'acido folico durante la gravidanza?,ISS_77.txt,478
-"""Qual è la frequenza dell'allergia al nichel nella popolazione generale?""",ISS_101(1).txt,117
-Quali sono le cause più comuni della stitichezza nei bambini?,Uppa_812.txt,1026
-"""Quali sono i sintomi dell'intolleranza al lattosio che potrei notare dopo il parto?""",ISS_243.txt,284
-"Ostetrica, ho sentito molte opinioni sui vaccini. È vero che ci sono rischi associati al vaccino MPR e all'autismo?",ISS_123.txt,148
-Quando dovrei sottopormi al test della glicemia durante la gravidanza?,ISS_76.txt,477
-Quali sono alcuni giochi montessoriani fai da te che posso realizzare per il mio bambino appena nato?,Uppa_321.txt,664
-"Ostetrica, quali sono gli effetti degli interferenti endocrini sul mio corpo durante la gravidanza?",Uppa_348.txt,673
-"Ostetrica, cosa significa esattamente resistenza all'insulina durante la gravidanza?",ISS_1.txt,114
-"Quali sono le opzioni di trattamento disponibili in fase pre-natale per il mio bambino, se necessario?",Uppa_668.txt,916
-Qual è il tempo medio di miglioramento dei sintomi dopo aver individuato la proteina responsabile in caso di enterocolite proteino-indotta?,Uppa_776.txt,993
-Quali sono i benefici per il mio bambino nel fare amicizia con altri coetanei?,Uppa_615.txt,872
-"""Quali sono le paure più comuni che le mamme possono avere durante la gravidanza e come posso affrontarle?""",ISS_115.txt,139
-Quali sono le condizioni igienico-sanitarie che devo considerare prima di decidere di farmi un tatuaggio durante la gravidanza?,ISS_221.txt,260
-Quali sono i benefici del contatto diretto tra i padri e i neonati?,Uppa_677.txt,922
-"""Durante la visita, come può il medico valutare i disturbi che potrei avere, specialmente se si manifestano di notte?""",ISS_130(1).txt,156
-Perché i neonati si ammalano raramente?,Uppa_463.txt,761
-Quali sono alcuni semplici accorgimenti che posso adottare per gestire la malattia da reflusso gastroesofageo durante la gravidanza?,ISS_142.txt,172
-Qual è l'importanza di garantire che abbastanza sangue raggiunga i polmoni del mio bambino dopo la nascita?,ISS_340.txt,392
-Quali attività posso includere nella routine serale per aiutare il mio bambino a rilassarsi prima di andare a letto?,Uppa_899.txt,1114
-Qual è la durata consigliata per un impacco di argilla in caso di mal di schiena durante la gravidanza?,Uppa_671.txt,919
-"Qual è l'importanza del ""mammese"" nella comunicazione con il mio bambino?",Uppa_477.txt,775
-"Ostetrica, quali sono i segnali che indicano se un'infezione può diventare cronica durante la gravidanza?",ISS_208.txt,245
-Qual è la durata consigliata per il primo ciclo di somministrazione di echinacea durante la gravidanza o l'allattamento?,Uppa_169.txt,560
-Quali sono gli effetti emotivi che potrei aspettarmi se il mio bambino dovesse affrontare una pubertà precoce?,ISS_319.txt,368
-Quali sono le variabili che possono influenzare l'ascolto del battito fetale con un doppler?,Uppa_946.txt,1152
-"Come posso insegnare al mio bambino a gestire le emozioni, come la rabbia, in modo sano?",Uppa_581.txt,851
-"Ostetrica, a che età posso aspettarmi che il mio bambino inizi a mostrare segni di ansia da separazione?",Uppa_31.txt,657
-"Ostetrica, è vero che l'ormone della crescita può aiutare i bambini a diventare più alti?",Uppa_89.txt,1104
-Qual è l'età più comune in cui si manifesta la scarlattina nei bambini?,Uppa_217.txt,597
-Quali sono i principali fattori di rischio per la SIDS di cui dovrei essere a conoscenza?,Uppa_428.txt,727
-"Ostetrica, come posso rendere il momento della lettura con il mio bambino più speciale e coinvolgente?",Uppa_609.txt,869
-Qual è l'importanza di una diagnosi precoce di autismo per il mio bambino?,Uppa_327.txt,665
-Quali attività posso incoraggiare per stimolare le capacità motorie del mio bambino tra i,Uppa_565.txt,836
-Qual è il rischio di contrarre un'infezione delle vie urinarie nei bambini e come si confronta con altre infezioni comuni?,Uppa_43.txt,729
-Quali sintomi o manifestazioni fisiche dovrei tenere d'occhio durante la gravidanza?,ISS_232.txt,272
-"Ostetrica, quali sono i segni che potrebbero indicare un'alterazione nei livelli delle transaminasi durante la gravidanza?",ISS_144.txt,174
-"""Perché i miei bambini piangono e si disperano? Potrebbe essere un segno di dolore?""",Uppa_42.txt,719
-Quali alimenti dovrei includere nella mia dieta per garantire un adeguato apporto di fibre durante la gravidanza?,ISS_158.txt,189
-"Ostetrica, come posso gestire la mia frustrazione quando mi accorgo che qualcosa è finito, come i biscotti in casa?",Uppa_469.txt,766
-"Ostetrica, indossare una pancera post parto può influenzare la mia postura in qualche modo?",Uppa_753.txt,972
-"**Ostetrica, come posso preparare mio figlio a un ambiente scolastico che sembra non favorire la collaborazione tra i bambini?**",Uppa_377.txt,691
-"""Quali sono i benefici degli antidepressivi durante la gravidanza, in particolare per il mio umore e stato emozionale?""",ISS_86.txt,488
-"""Qual è la frequenza del criptorchidismo nei neonati e quali sono le sue caratteristiche principali?""",ISS_203.txt,240
-Quali attività posso fare con il mio bambino per aiutarlo a sviluppare la concentrazione?,Uppa_287.txt,642
-"Ostetrica, quali sono le modalità di campionamento delle urine che posso aspettarmi durante la mia gravidanza?",ISS_330.txt,381
-Qual è l'importanza di insegnare al mio bambino i nomi degli oggetti e degli animali fin da subito?,Uppa_261.txt,626
-Qual è l'abbigliamento più consigliato da indossare durante il travaglio?,Uppa_738.txt,960
-"Ostetrica, posso usare il cranberry per prevenire le infezioni delle vie urinarie nel mio bambino appena nato?",Uppa_219.txt,599
-Qual è l'impatto sociale dell'asma sulla vita di una mamma e del suo bambino?,Uppa_188.txt,575
-"""Quali rimedi naturali posso utilizzare per alleviare i fastidi dell’herpes durante la gravidanza?""",Uppa_865.txt,1079
-Quali tipi di analisi del sangue sono importanti durante la gravidanza e cosa possono rivelare?,ISS_135.txt,164
-Quali sono le opzioni di integrazione di DHA per il mio bambino appena nato?,Uppa_900.txt,1116
-Quali antidolorifici posso somministrare al mio bambino se ha dolore nelle prime fasi di vita?,Uppa_244.txt,617
-Quali tipi di screening sono previsti per il mio bambino durante la crescita?,ISS_268.txt,311
-Quali alimenti dovrei evitare per mantenere la chetosi durante la gravidanza?,ISS_362.txt,416
-Qual è l'importanza di avere entrambi i genitori presenti durante le comunicazioni con gli operatori sanitari?,Uppa_677.txt,922
-Quando posso iniziare a introdurre la seconda pappa al mio bambino?,Uppa_910.txt,1124
-Qual è la percentuale di sopravvivenza a,ISS_289.txt,334
-Quali farmaci immunosoppressori dovrei evitare durante la gravidanza per ridurre il rischio di difetti alla nascita?,ISS_81.txt,483
-Quali sono le raccomandazioni riguardo a una dieta vegetariana durante la gravidanza?,Uppa_530.txt,808
-Qual è la quantità di cibo che dovrei iniziare a mangiare dopo il parto?,ISS_75.txt,476
-Quali segnali di disagio psicologico potrei osservare nel mio bambino che potrebbero indicare un problema alimentare?,Uppa_740.txt,962
-Quali sono gli effetti collaterali più comuni del tamoxifene che potrei aspettarmi durante la gravidanza?,ISS_291.txt,337
-Quali sono le misure di prevenzione che posso adottare per proteggere la salute del mio bambino durante la gravidanza?,ISS_222.txt,261
-Qual è il modo migliore per insegnare al mio bambino a usare il gabinetto?,Uppa_1.txt,503
-"""Quali sono i rischi legati all'uso eccessivo di conservanti durante la gravidanza?""",ISS_78.txt,479
-Qual è il momento migliore per programmare la mia prima visita ginecologica dopo il parto?,ISS_191.txt,226
-Qual è la funzione della molecola biologica nei trattamenti medici?,ISS_229.txt,268
-Quali sono i segnali che indicano che il mio bambino sta bene e si sente soddisfatto?,Uppa_524.txt,804
-Qual è la causa della tiroidite post-partum e come si collega al mio sistema immunitario dopo la gravidanza?,ISS_271.txt,315
-Quali sono i diversi tipi di triptani disponibili e quali potrei considerare se avessi mal di testa durante la gravidanza?,ISS_375.txt,430
-Quali sono i segni vitali che vengono monitorati subito dopo la nascita del mio bambino?,Uppa_792.txt,1007
-"""Ostetrica, perché le donne incinte sono particolarmente colpite dalla cinetosi durante i viaggi in automobile?""",ISS_193.txt,228
-Quanti chili posso prendere in gravidanza e come posso calcolare il mio aumento di peso?,Uppa_637.txt,894
-"Ostetrica, quali esami possono aiutare a valutare il mio stato nutrizionale durante la gravidanza?",ISS_266.txt,309
-Quali sono i primi sintomi della fibrosi cistica che potrei osservare nel mio bambino?,ISS_302.txt,350
-Come posso gestire le mie faccende quotidiane mentre allatto il mio neonato e mi prendo cura del mio bambino più grande?,Uppa_664.txt,914
-È sicuro fare il bagno in acqua fredda durante la gravidanza?,Uppa_301.txt,654
-"""Ostetrica, posso allattare il mio bambino anche se ho avuto il Covid-",Uppa_869.txt,1083
-"Posso includere la frutta a guscio nella mia dieta durante la gravidanza, e in che modo posso consumarla?",Uppa_480.txt,778
-Qual è la percentuale di bambini di,Uppa_518.txt,799
-"Ostetrica, quali precauzioni dovremmo prendere riguardo ai giocattoli che producono bolle di sapone per il nostro bambino?",Uppa_422.txt,721
-"Ostetrica, come posso capire se il mio feto sta crescendo correttamente durante la gravidanza?",Uppa_843.txt,1056
-Quali sono le misure igieniche che posso adottare per ridurre il rischio di tonsillite nel mio bambino?,Uppa_872.txt,1087
-Quali sono i tagli sicuri degli alimenti che dovrei considerare per il mio bambino?,Uppa_833.txt,1047
-Quali sono i principali fattori di esposizione alle microplastiche che dovrei considerare per il mio bambino appena nato?,ISS_249.txt,290
-Quali sono i rischi di utilizzare il ciuccio come soluzione automatica per il pianto del mio bambino?,Uppa_852.txt,1066
-Come posso incoraggiare il mio bambino a esplorare e giocare in modo creativo?,Uppa_558.txt,831
-"Ostetrica, quali fattori di rischio dovrei considerare per la mia salute e quella del mio bambino durante la gravidanza?",ISS_272.txt,316
-Quali attività rilassanti posso fare con il mio bambino prima di metterlo a letto per aiutarlo a dormire meglio?,Uppa_814.txt,1028
-Quali sono le regole fondamentali da seguire durante il parto?,ISS_124.txt,149
-Qual è la percentuale di donne in Italia che possono essere colpite dal diabete gestazionale?,Uppa_724.txt,950
-Perché nel terzo trimestre ho difficoltà a dormire ininterrottamente?,Uppa_804.txt,1019
+question,id,gold_standard_answer
+Come posso aiutare il mio bambino a sentirsi più a suo agio con le persone sconosciute?,833,"In base al testo di riferimento, per aiutare il bambino a entrare in relazione con gli sconosciuti ed evitare di ingigantire le sue paure, è possibile adottare alcune attenzioni pedagogiche:
+
+* **Fare il primo passo per dare il buon esempio:** mostrate al bambino che la persona estranea non rappresenta un pericolo compiendo azioni concrete che lui possa osservare e seguire, come:
+  * Aprire la porta di casa e salutare amichevolmente i visitatori.
+  * Entrare per primi nella stanza del pediatra al momento della visita (in modo che il bambino vi segua).
+  * Mostrare al piccolo come accarezzare la barba del nonno (che può sembrargli spaventosa).
+* **Rispettare i suoi limiti:** non costringete mai il bambino a baciare, essere baciato o abbracciato da una persona verso la quale manifesta paura."
+"Ostetrica, ho notato un piccolo puntino marroncino sulla manina del mio bambino. È normale?",567,"In base al testo di riferimento, può stare tranquilla: il puntino marroncino sul dorso della manina del bambino è un neo benigno, nello specifico presenta l'aspetto tipico del **neo di Clark**. 
+
+Le caratteristiche che lo rendono benigno sono:
+* È perfettamente circolare;
+* Ha i bordi sfumati;
+* È monocolore;
+* Ha un aspetto reticolato-puntiforme.
+
+Per poter osservare ogni dettaglio del neo, si utilizza il **dermatoscopio** (una sorta di piccolo cannocchiale che si appoggia sul neo per ingrandirlo e illuminarlo). Tramite questo strumento si devono valutare quattro caratteristiche, la prima delle quali è l'**Asimmetria**."
+Quali sono i sintomi del diabete gestazionale e come posso riconoscerli durante la gravidanza?,950,"In base al testo di riferimento fornito, non vengono elencati sintomi fisici specifici per riconoscere il diabete gestazionale. 
+
+Il testo indica che, come per altri tipi di diabete, la condizione comporta l'impossibilità per l'organismo di utilizzare tutti gli zuccheri introdotti con il cibo (come dolci, pane, pasta, riso e frutta), i quali rimangono in circolo nel sangue determinando un aumento dei livelli di zucchero (glicemia). 
+
+Inoltre, viene specificato che la definizione e la diagnosi della patologia sono rese difficili dal fatto che i livelli di glucosio nel sangue aumentano fisiologicamente durante la gravidanza, e non esiste una distinzione netta tra le donne affette da diabete mellito gestazionale che hanno un aumentato rischio di esiti avversi e quelle che, pur essendo definibili come affette, non presentano tali rischi aumentati."
+Quali sono le principali difficoltà che una mamma può affrontare durante la fase del post-parto?,922,"In base al testo di riferimento, le principali difficoltà che una mamma può affrontare durante la fase del post-parto (che può rivelarsi particolarmente dura) includono:
+
+* Il bisogno di sostegno pratico ed emotivo;
+* Il fatto che, spesso in queste circostanze, le mamme vedono il bambino solo in un secondo momento;
+* La gestione di eventuali altri figli a casa;
+* Lo stress causato dalle richieste di informazioni da parte di amici e parenti;
+* L'accresciuta solitudine dovuta alla pandemia di COVID-19, che limita gli aiuti pratici che possono essere offerti ai neogenitori;
+* Un sovraccarico di preoccupazioni."
+Quali sono i sintomi della scarlattina e come posso riconoscerla rispetto ad altre malattie esantematiche?,362,"In base al testo di riferimento fornito:
+
+* **Sintomi:** Il testo non elenca sintomi dettagliati, ma indica che la scarlattina si presenta con un **esantema** (un'eruzione cutanea) e che di solito si manifesta in forma non molto grave, pur essendo altamente contagiosa.
+* **Come riconoscerla rispetto ad altre malattie:** Il testo non fornisce indicazioni su come distinguere la scarlattina dalle altre malattie esantematiche. Al contrario, specifica che la scarlattina **può essere confusa** con il morbillo, la rosolia, la quinta e la sesta malattia proprio perché si presentano tutte con un esantema simile."
+"Se il mio bambino è esposto a due lingue diverse, sarà in grado di riconoscerle alla nascita?",773,"In base al testo di riferimento, il bambino sarà in grado di differenziare le due lingue alla nascita solo a condizione che esse siano molto diverse tra loro, come ad esempio l'inglese e l'italiano, oppure l'inglese e il giapponese. 
+
+Se invece le due lingue si assomigliano molto, come l'italiano e lo spagnolo, il bambino non le distinguerà alla nascita, ma sarà in grado di farlo più tardi, intorno ai 4-5 mesi di età."
+Quali sono le regole da seguire riguardo all'uso dei videoschermi durante la gravidanza e dopo la nascita del bambino?,627,"In base al testo di riferimento fornito, non sono presenti informazioni o regole specifiche riguardanti l'uso dei videoschermi durante la gravidanza e dopo la nascita del bambino. 
+
+Il testo menziona unicamente, in via generale, alcune regole relative ai videoschermi e alla tecnologia, che includono:
+* Il tempo da dedicare ai videoschermi;
+* L'uso di Internet solo in casa;
+* La collocazione del PC in una zona della casa accessibile a chiunque;
+* L'inserimento di password e filtri di controllo parentale."
+Quali sono i rischi associati all'esposizione ai dispositivi digitali per i bambini piccoli?,624,"In base al testo di riferimento, i rischi associati all'esposizione agli schermi per i bambini piccoli riguardano le conseguenze sull'attenzione. 
+
+In particolare, gli studi documentano che:
+* Esiste un rapporto diretto tra la durata dell'esposizione agli schermi e le conseguenze sull'attenzione di bambini e ragazzi.
+* Un bambino piccolo che fruisce di un'ora di TV al giorno corre un rischio di sviluppare un deficit di attenzione due volte superiore rispetto a chi non la guarda."
+Quali suoni posso aspettarmi di sentire per primi nel mio bambino?,855,"In base al testo di riferimento, i primi suoni che di solito diventano disponibili e che può aspettarsi di sentire nel suo bambino sono:
+
+* **Le vocali**: a livello fonetico sono sette, poiché la ""e"" e la ""o"" presentano sia la variante chiusa che quella aperta (“e”/“è”, “o”/“ho”);
+* **Le consonanti prodotte accostando le labbra**: (m-p-b);
+* **Le consonanti che nascono dal dorso della lingua che tocca il palato**: (t-d-n-l)."
+Quali comportamenti di buona salute dovremmo adottare per il nostro bambino appena nato?,609,"In base al testo di riferimento fornito, non vengono elencati specifici comportamenti di buona salute, ma si specifica che:
+
+* Non si tratta di medicine, ma di comportamenti che dovrebbero essere sempre offerti a tutti i bambini e ai loro genitori.
+* È fondamentale prestare attenzione alla depressione post-partum, una malattia che non colpisce direttamente il bambino ma la mamma, e che rappresenta una causa per cui il lattante piange molto."
+Qual è l'importanza di avere un rapporto di fiducia con l'ostetrica durante la gravidanza e il parto?,5,"In base al testo di riferimento, stabilire un rapporto di fiducia e conoscenza con l'ostetrica (o con un gruppo di ostetriche) si inserisce nel Percorso Nascita per assicurare la continuità dell'assistenza attraverso la presa in carico della donna per tutto il percorso. 
+
+Inoltre, l'importanza di avere questa figura come professionista di riferimento risiede nel fatto che, in caso di insorgenza di complicazioni o fattori di rischio, sarà proprio lei a definire per la donna il percorso di consulenza o di presa in carico specialistica."
+Quanto tempo devo aspettare dopo un taglio cesareo prima di riprendere l'attività fisica?,263,"In base al testo di riferimento, è necessario aspettare **almeno 6 settimane**, che corrisponde al tempo medio di guarigione della ferita (in assenza di ulteriori complicazioni, come ad esempio un'infezione). 
+
+Tuttavia, prima di riprendere l'attività fisica, è preferibile e consigliabile rivolgersi al proprio medico o ginecologo per sapere quando è più sicuro tornare a praticare sport impegnativi. Inoltre, nei primi mesi dopo il parto cesareo, si raccomanda di non eseguire esercizi faticosi e di non sollevare carichi pesanti."
+"Ostetrica, quali sono i fattori che determinano il gruppo sanguigno del mio bambino?",464,"Il gruppo sanguigno del suo bambino si eredita dai genitori e viene definito in base ad alcune sostanze, in grado di essere riconosciute dal sistema di difesa dell’organismo, chiamate antigeni Rh e AB0. Queste sostanze si trovano sulla superficie dei globuli rossi (chiamati anche emazie o eritrociti)."
+Posso assumere integratori di Coenzima Q,351,La sua assunzione sotto forma di integratori va sempre concordata con il proprio medico.
+Qual è la probabilità che il mio bambino nasca con un problema congenito?,224,"Nella popolazione generale, la probabilità di avere un bambino con un problema presente alla nascita (congenito) è pari a circa il 3%. 
+
+In particolare, nell'1% di questi casi si tratta di anomalie che riguardano i cromosomi o il DNA, mentre negli altri casi si tratta di malformazioni congenite (come ad esempio del cuore o dei reni) o di altre malattie (come malattie infettive o enzimopatie)."
+"""Quanto tempo ci vorrà per guarire dalla pitiriasi rosea dopo la comparsa delle macchie sulla pelle?""",198,"In base al testo di riferimento, si guarisce dalla pitiriasi rosea in 2-12 settimane."
+"Ostetrica, è normale che i neonati vomitino?",891,"In base al testo di riferimento, i bambini vomitano spesso (ogni genitore avrà visto vomitare il proprio figlio almeno una volta). 
+
+Tuttavia, il vomito di per sé non è una malattia, ma un riflesso e un segno con cui il nostro organismo ci avverte che c’è qualcosa che non va. Più precisamente, si tratta di un riflesso in cui, dopo aver ricevuto un segnale dal sistema nervoso, il diaframma si contrae bruscamente e spinge il contenuto dello stomaco verso l'alto, lungo l'esofago, fino alla bocca."
+"Ostetrica, quali sono le cause delle macchie sulla pelle durante la gravidanza?",1179,"In base al testo di riferimento fornito, non vengono indicate le cause delle macchie sulla pelle durante la gravidanza. Il testo definisce il fenomeno come ""cloasma gravidico"" o ""melasma"" e descrive dove si manifesta (viso, petto, mani e talvolta a livello genitale), ma si conclude ponendo la domanda ""Perché vengono le macchie in gravidanza?"" senza fornirne la risposta o spiegarne le cause."
+Quali sono le precauzioni da prendere se ho la spondilite anchilosante durante la gravidanza?,267,Nel testo di riferimento fornito non sono presenti informazioni relative alle precauzioni da prendere in caso di gravidanza per chi soffre di spondilite anchilosante.
+Qual è la lunghezza dell'embrione alla settima settimana di gravidanza?,108,Alla settima settimana di gravidanza l’embrione ha raggiunto un centimetro di lunghezza.
+Qual è l'importanza di utilizzare la crema solare durante la gravidanza?,1107,"In base al testo di riferimento, l'utilizzo della crema solare serve a proteggere la pancia in gravidanza, ma non solo."
+"Ostetrica, quanto latte deve assumere il mio neonato nei primi giorni di vita?",571,"Nei primi giorni di vita il neonato assume il colostro. Le quantità sono molto piccole (pochi grammi, come un cucchiaino) durante il primo giorno e poi crescono man mano, a condizione che non vengano poste limitazioni alla frequenza delle poppate."
+Quali sono i modi migliori per creare un clima di fiducia e sostegno intorno a me mentre allatto?,790,"In base al testo di riferimento, i modi per creare un clima di fiducia e sostegno intorno a te mentre allatti sono:
+
+* Ricevere aiuto nelle faccende domestiche;
+* Ricevere aiuto nella preparazione dei pasti;
+* Avere la possibilità di riposare quando ne senti il bisogno;
+* Favorire una ripresa dell’attività fisica e del lavoro protetto."
+Qual è l'importanza del linguaggio che utilizziamo con il nostro bambino per sviluppare le sue capacità empatiche?,723,"In base al testo di riferimento, l'importanza del linguaggio (e dell'atteggiamento) che assumiamo risiede nel fatto che deve aiutare il bambino a sviluppare le sue capacità empatiche, ovvero la capacità di mettersi nei panni dell'altro. Questo sostegno da parte degli adulti è fondamentale affinché tale competenza si trasformi da una semplice potenzialità a una capacità interiorizzata e individuale del bambino."
+"Ostetrica, quali informazioni posso trovare sull'etichetta a batteria dei prodotti alimentari per aiutarmi a fare scelte consapevoli durante la mia gravidanza?",359,"In base al testo di riferimento, sull'etichetta a batteria e sull'etichettatura dei prodotti alimentari puoi trovare le seguenti informazioni per aiutarti a fare scelte consapevoli:
+
+* **Indicazioni nutrizionali semplici e immediate**, raffigurate come una o più batterie.
+* Informazioni sulla **composizione e sulle caratteristiche** del prodotto alimentare.
+* Informazioni sul **corretto uso, consumo e durata** del prodotto.
+
+Lo scopo di questo sistema è favorire scelte consapevoli per la composizione della propria alimentazione giornaliera. 
+
+*Nota: il testo di riferimento non contiene informazioni specifiche o indicazioni differenziate per lo stato di gravidanza.*"
+È normale che il mio bambino abbia la febbre più volte all'anno?,761,"Sì, secondo il testo di riferimento, un bambino sano tra i 2 e i 6 anni può avere la febbre più volte l’anno. Questo non costituisce assolutamente un pericolo per la sua salute."
+Quali sono i radionuclidi utilizzati in medicina nucleare per la diagnosi delle malattie?,268,"Sulla base del testo di riferimento fornito, i radionuclidi utilizzati per lo studio e l'accertamento (diagnosi) delle malattie sono:
+
+* **Gallio 68**: utilizzato per studiare in modo più preciso e completo un particolare tipo di tumori, i cosiddetti “tumori neuroendocrini”.
+* **Iodio 131**: impiegato soprattutto nello studio delle malattie della tiroide."
+Qual è la posizione corretta per tenere il neonato durante il contatto pelle a pelle?,8,"In base al testo di riferimento, la posizione corretta durante il contatto pelle a pelle prevede:
+
+* **La mamma** in posizione semiseduta (non distesa).
+* **Il neonato** con:
+  * viso visibile e rivolto da un lato;
+  * bocca e naso non ostruiti e liberi di respirare;
+  * collo esteso;
+  * torace ben appoggiato contro il torace della mamma e ben coperto;
+  * gambe flesse."
+Quali sono le cause comuni del broncospasmo nei bambini più grandi?,1078,"In base al testo di riferimento, nei bambini più grandi il broncospasmo può essere dovuto a:
+
+* La presenza di **asma**;
+* Eventuali **allergie**.
+
+Inoltre, nei bambini che soffrono di asma, la comparsa del broncospasmo può essere favorita da:
+* Sostanze inquinanti presenti nell’aria;
+* Fumo passivo;
+* Freddo;
+* Stimoli apparentemente “innocui” come una risata."
+Quali sono le conseguenze se il criptorchidismo non viene curato?,240,"Se non curato, in fase avanzata il criptorchidismo può causare:
+
+* formazione di una massa anomala e/o tumorale ai testicoli, con possibile conseguente asportazione del testicolo malato;
+* difficoltà nel camminare;
+* torsione del testicolo ritenuto, nella fase acuta;
+* mancato sviluppo del tessuto seminale;
+* progressiva atrofia del testicolo, con riduzione del volume;
+* scarsa produzione di spermatozoi (oligozoospermia) o anche assente produzione di spermatozoi (azoospermia);
+* bassa produzione di ormoni (ipogonadismo);
+* sterilità."
+"""Quali sono i passi che devo seguire se ho una patologia cronica e voglio rimanere incinta?""",14,"Se hai una patologia cronica e desideri rimanere incinta, i passi da seguire in base al testo di riferimento sono:
+
+1. **Prima del concepimento:** Devi valutare, insieme al tuo ginecologo o allo specialista di riferimento, la compatibilità della tua terapia farmacologica con la gravidanza. Questo passaggio è fondamentale poiché, mentre molti farmaci possono essere utilizzati in sicurezza, per alcune terapie sarà necessaria una modifica prima di iniziare la ricerca della gravidanza.
+2. **Durante la gravidanza o per l'allattamento:** Se assumi farmaci in gravidanza o hai la necessità di verificare se questi sono compatibili con l'allattamento, puoi richiedere una consulenza telefonica:
+   - Presso l'ospedale in cui è nato il bambino;
+   - Presso la Neonatologia dell'Ospedale Santa Chiara di Trento ai numeri di telefono **0461 903811** e **0461 903512**."
+Qual è la composizione del meconio che il mio bambino espellerà dopo la nascita?,1051,"In base al testo di riferimento, il meconio è composto da:
+
+* liquido amniotico;
+* cellule epiteliali intestinali;
+* muco;
+* bile;
+* acqua.
+
+Nei giorni successivi al parto (durante la fase di transizione), le feci saranno invece composte da meconio commisto a residui alimentari."
+Quali sono alcuni semplici accorgimenti che posso adottare per mantenere in buona salute il mio apparato cardiocircolatorio durante la gravidanza?,384,"In base al testo di riferimento fornito, non viene fatta menzione specifica della gravidanza. Tuttavia, per mantenere in buona salute l'apparato cardiocircolatorio in generale, il testo indica i seguenti accorgimenti:
+
+* **Fare attività fisica:** ad esempio, camminare almeno un'ora al giorno a passo lungo e svelto, oppure praticare sport come il nuoto.
+* **Evitare l'inattività prolungata:** stare seduti per lungo tempo (ad esempio in macchina o in aereo per lunghi viaggi) può causare gonfiore a caviglie e polpacci e conseguente tromboflebite alle gambe.
+* **Sgranchirsi le gambe:** è necessario alzarsi a intervalli di circa un'ora.
+* **Muoversi anche da seduti:** se si è costretti a rimanere seduti, è importante muovere le gambe o flettere le caviglie con una certa frequenza."
+"""Ostetrica, ho notato che ho delle afte che continuano a ripresentarsi. Potrebbe esserci una causa familiare per questo disturbo?""",434,"Sì, è possibile. Spesso le persone che presentano afte che si ripresentano nel tempo hanno familiari con questo stesso disturbo (storia familiare di afte). Ciò può essere dovuto all'ereditarietà oppure a un fattore ambientale condiviso, come l'assunzione di determinati alimenti o l’esposizione ad allergeni."
+"Quali sono le vitamine più importanti che devo considerare durante la gravidanza e l'allattamento, specialmente se sono vegana?",808,"In base al testo di riferimento fornito, le vitamine più importanti da considerare durante la gravidanza e l'allattamento, specialmente per una mamma vegana, sono:
+
+1. **Vitamina B12**: sia in gravidanza sia in allattamento, la mamma vegana deve assumerne quantità sufficienti.
+2. **Vitamina D**: i vegani, non assumendo uova (una delle fonti di questa vitamina, insieme ad alcuni pesci e all'esposizione solare), corrono un rischio maggiore di esserne carenti, in particolare durante il periodo invernale. Per questo motivo, è raccomandabile assumere integratori o alimenti arricchiti con tale vitamina."
+"Ostetrica, quali parti del corpo possono essere infettate dal gonococco durante la gravidanza?",466,"In base al testo di riferimento, il gonococco può infettare le seguenti parti del corpo:
+
+* Il collo dell’utero (cervice uterina)
+* L'uretra (l'ultimo tratto delle vie urinarie)
+* Il retto
+* La gola (meno comunemente)
+* Gli occhi (meno comunemente)
+
+Inoltre, l'infezione può essere trasmessa da madre a figlio durante il parto, potendo causare cecità nel neonato (colpendo quindi gli occhi del piccolo)."
+Quali sono i rischi del fumo passivo durante la gravidanza per il mio bambino?,959,"In base al testo di riferimento, i rischi e gli effetti dell'esposizione al fumo passivo per il bambino durante la gravidanza sono i seguenti:
+
+* I composti contenuti nel fumo, una volta inalati, passano dai polmoni al sangue e a tutti i tessuti, arrivando anche al feto attraverso la placenta.
+* In particolare, la nicotina diminuisce l'afflusso di sangue all'utero e alla placenta, riducendo di conseguenza l'apporto di sostanze nutritive al bambino."
+Qual è il modo migliore per spogliare il mio bambino in modo che possa esplorare il suo corpo?,632,
+Quali sono i benefici dell'arnica durante la gravidanza e dopo il parto?,638,"In base al testo di riferimento fornito, non sono presenti informazioni riguardanti i benefici dell'arnica specificamente durante la gravidanza e dopo il parto. 
+
+Il testo menziona unicamente le proprietà antinfiammatorie, antimicrobiche e immunoregolatrici dell'arnica, e il suo utilizzo tradizionale (confermato da studi scientifici) per curare lussazioni, distorsioni, ematomi, escoriazioni e ferite."
+È sicuro ricevere il vaccino antinfluenzale mentre allatto il mio bambino?,495,"Sì, il vaccino antinfluenzale è fortemente consigliato anche durante l'allattamento, poiché permette di rinforzare le difese immunitarie del neonato che non può essere vaccinato prima del terzo mese di vita."
+"**Ostetrica, quali sono stati gli effetti della pandemia da COVID-",1010,"In base al testo di riferimento, gli effetti delle misure adottate per fronteggiare la pandemia da COVID-19 (lockdown, distanziamento sociale, utilizzo delle mascherine, disinfezione delle mani e sanificazione degli ambienti) sono stati i seguenti:
+
+* **Nel corso del 2020:** i casi di bronchiolite segnalati in tutto il mondo hanno subito un calo del 70-80% rispetto agli anni precedenti.
+* **Negli ultimi mesi del 2021:** si è registrato, al contrario, un rapido aumento del numero di casi di bronchiolite nei bambini e nei neonati."
+Quali sono i benefici di alcune piante medicinali durante la gravidanza?,186,"In base al testo di riferimento fornito, non sono presenti informazioni riguardanti i benefici delle piante medicinali durante la gravidanza."
+Quali sono i sintomi iniziali dell'asma nei bambini che dovrei tenere d'occhio?,564,"In base al testo di riferimento, l'attacco d'asma nei bambini comincia generalmente con una **tosse secca, stizzosa e fastidiosa**."
+"Ostetrica, come posso utilizzare i gesti spontanei del mio bambino per facilitare il cambio del pannolino?",1098,"In base al testo di riferimento, può utilizzare i gesti spontanei del bambino per compiere delle azioni, adattandosi ad essi per assecondare il suo bisogno di muoversi ed evitare che si senta bloccato. 
+
+Ad esempio, un piedino alzato può diventare il momento giusto per infilare un calzino, facendo poi notare al bambino l'utilità del suo stesso movimento."
+Quali sono le raccomandazioni dell'OMS e dell'UNICEF riguardo all'allattamento materno?,1136,"In base al testo di riferimento, l’OMS e l’UNICEF raccomandano:
+
+* L’allattamento materno esclusivo e a richiesta per i primi 6 mesi di vita del neonato;
+* Successivamente, dopo l’introduzione degli alimenti complementari, il proseguimento dell'allattamento fino ai 2 anni e oltre, e in ogni caso fino a quando mamma e bambino lo desiderano."
+Qual è l'importanza di far assaporare nuovi cibi al bambino durante la gravidanza?,1146,"Sulla base del testo di riferimento, l'importanza di far fare al bambino una precoce esperienza dei sapori a partire dalla gravidanza (attraverso i ""sapori"" dell'alimentazione materna percepiti mediante il liquido amniotico) risiede nel fatto che, durante la fase neofobica — in particolare nel corso del terzo anno di vita —, l'introduzione di nuovi cibi diventa sempre più difficile se il bambino non ha avuto modo di assaggiarli in precedenza."
+"Qual è il modo migliore per spiegare ai bambini piccoli le relazioni tra adulti, come il matrimonio?",921,"In base al testo di riferimento, per spiegare questo tipo di relazioni ai bambini (come nel caso della domanda se da grandi sposeranno il papà o la mamma), si risponde spiegando che il genitore è già sposato, che quando il bambino sarà grande il genitore avrà molti anni più di lui, e che crescendo il bambino conoscerà altre persone tra cui troverà certamente qualcuno che gli piace."
+"""Quali sono i disturbi del sonno che potrei aspettarmi di vedere nel mio bambino?""",966,"In base al testo di riferimento, i disturbi del sonno che si possono manifestare nei bambini sono:
+
+* **Sonnambulismo**: un disturbo di natura benigna che può manifestarsi nei bambini dai 2 anni di età in su (e può continuare anche in età adulta).
+* **Pavor nocturnus** (terrori notturni).
+* **Sonniloquio** (parlare nel sonno).
+* **Risvegli confusionali**."
+Qual è l'importanza del contatto visivo e della voce per il neonato nei primi giorni di vita?,1150,"In base al testo di riferimento, il vostro volto (con le sue mutevoli espressioni) e la vostra voce sono per il neonato una fonte di sorpresa e meraviglia, e rappresentano il primo approccio prima di iniziare a proporre il *tummy time*."
+Quali sono le principali cause dei disturbi del sonno nei bambini al di sotto dei,1002,"In base al testo di riferimento, le principali cause dei disturbi del sonno nei bambini al di sotto dei 5 anni sono:
+
+* Le cattive abitudini di vita;
+* L'aumento delle luci artificiali;
+* L'utilizzo sempre più precoce degli strumenti elettronici, come tablet o smartphone.
+
+Inoltre, per i bambini più piccoli di età compresa fra 1 e 3 anni, i disturbi possono essere causati anche dalla cosiddetta ""ansia da separazione"", ovvero la paura di essere separati dalla mamma."
+"Ostetrica, quali esami sono necessari per diagnosticare la cistite acuta durante la gravidanza?",124,"In base al testo di riferimento, per diagnosticare la cistite acuta in gravidanza (che rientra nei casi diversi dalle donne non in gravidanza e senza altre malattie), alla visita medica devono essere associati i seguenti esami:
+
+* **Esame delle urine**
+* **Urinocoltura**
+* **Antibiogramma**"
+"""Quali sintomi dovrei tenere d'occhio per capire se ho bisogno di un test per l'insufficienza renale durante la gravidanza?""",295,"Il testo di riferimento non menziona specificamente la gravidanza. Tuttavia, indica che il test diventa indispensabile qualora si presentino i sintomi di insufficienza renale (o di epatite), che includono:
+
+* stimolo frequente a urinare
+* necessità di bere spesso
+* anomalie nell'urina (ad esempio urina di colore più scuro, con sangue o schiumosa)
+* dolore alle articolazioni
+* dolore alle ossa
+* mal di schiena
+* frequenti crampi muscolari
+* sensazione di gambe affaticate
+* stanchezza e spossatezza
+* problemi durante il sonno (fatica ad addormentarsi o a riprendere il sonno, risvegli notturni, sonnolenza durante il giorno)
+* pressione alta (ipertensione arteriosa)
+* diminuzione o scomparsa dell’appetito
+* gonfiore (localizzato soprattutto alle estremità, come mani e piedi)
+* prurito immotivato"
+"È vero che posso bere alcolici mentre allatto, o è completamente controindicato?",1018,"In base alle ricerche recenti, gli alcolici durante l'allattamento non sono controindicati in modo assoluto. 
+
+Tuttavia, per riuscire ad allattare in modo sicuro e salutare, è necessario consumare alcol in modo moderato e responsabile, prestando attenzione ad alcune piccole accortezze. Bisogna infatti considerare che l'alcol entra facilmente nel flusso sanguigno e nel latte materno; i livelli di alcol nel latte variano in base al quantitativo di alcolici assunti e al tempo trascorso da quando si è bevuto."
+Quali sono i sintomi che dovrei osservare nel mio bambino per capire se potrebbe avere problemi di stitichezza?,1026,"In base al testo di riferimento fornito, non vengono elencati i sintomi specifici da osservare nel bambino per capire se soffre di stitichezza. 
+
+Il testo indica solamente che esistono ""sintomi diversi legati alla stitichezza"" e che la raccolta della storia clinica e la visita medica sono di solito sufficienti al pediatra per valutare la situazione e capire quando è il caso di preoccuparsi."
+Come posso insegnare al mio bambino l'importanza dell'autocontrollo fin da piccolo?,895,"In base al metodo di Maria Montessori descritto nel testo di riferimento, per educare un bambino in questa direzione (favorendo l'autocontrollo, la consapevolezza del proprio volere e la capacità di adattarsi agli altri) è possibile:
+
+* **Insegnare l'attesa:** ad esempio, mettendo a disposizione dei bambini un solo paio di forbici (e non un paio per ciascun bambino).
+* **Educare alla responsabilità:** concedendo il materiale a un singolo bambino che lo prende in carico, lo usa e ne gestisce personalmente il riordino e la pulizia. Nel caso di un lavoro di gruppo, invece, i bambini gestiscono insieme anche la divisione della responsabilità."
+Quali alimenti dovrei privilegiare nella mia dieta durante la gravidanza per controllare l'aumento di peso?,929,"In base al testo di riferimento, per contenere l'aumento di peso durante la gravidanza dovresti privilegiare i seguenti alimenti:
+
+* **Cereali integrali**, come pasta, pane e riso;
+* **Frutta e verdura**, consumandone cinque porzioni al giorno.
+
+Inoltre, per controllare il peso, il testo consiglia di:
+* Fare attenzione al consumo di snack, merendine, dolci e bevande zuccherate (in quanto troppo ricchi di grassi e zuccheri);
+* Non esagerare con gli alimenti fritti (come patatine e cotolette), preferendo metodi di cottura più semplici come la cottura al forno, al vapore o in padella."
+Quali sono le principali abitudini del sonno che dovrei osservare nel mio bambino appena nato?,652,"In base esclusivamente al testo di riferimento fornito, gli aspetti relativi al sonno del bambino che vengono indicati e che sono stati oggetto di indagine sono:
+
+* La percezione di un problema di sonno;
+* Le abitudini del sonno;
+* Le modalità di addormentamento e di riaddormentamento in occasione dei risvegli notturni."
+Quali strategie posso utilizzare per aiutare il mio bambino a interiorizzare le norme fin dai primi momenti di vita?,568,"In base al testo di riferimento fornito, non vengono indicate strategie pratiche specifiche per aiutare un bambino a interiorizzare le norme. 
+
+Tuttavia, il testo evidenzia due elementi fondamentali relativi a questo tema fin dai primi momenti di vita:
+1. I bambini, già da neonati, hanno una naturale **""sete di conoscere le leggi del mondo fisico, relazionale e sociale""**.
+2. È importante adottare la concezione del bambino come un **""soggetto da conoscere e da rispettare sempre, fin dai primi momenti di vita""**."
+"""È sicuro assumere integratori alimentari durante la gravidanza, o dovrei consultare il mio medico prima di farlo?""",431,"Prima di utilizzare gli integratori alimentari è sempre bene affidarsi ai consigli del proprio medico curante o di un esperto di nutrizione. 
+
+Per quanto riguarda la gravidanza, il testo specifica che è considerata sicura l'assunzione di piperina mediante un'alimentazione bilanciata (mentre non vengono forniti dettagli specifici sulla sicurezza degli integratori in generale durante la gravidanza, se non l'indicazione generale di consultare il medico prima di utilizzarli)."
+Quale tipo di attività fisica è consigliata durante la gravidanza per evitare infortuni?,704,"In gravidanza, l’attività fisica consigliata è l’**esercizio aerobico**, durante il quale si muovono in maniera ritmica i grossi muscoli del corpo, come quelli di braccia e gambe. 
+
+Per evitare infortuni, l'attività scelta deve tenere conto dei cambiamenti del corpo:
+* **Evitare movimenti bruschi o traumatici** per non mettere a rischio le articolazioni, che in questo periodo diventano più “soffici” con legamenti che si allungano.
+* **Tenere conto dello spostamento in avanti del baricentro** (dovuto all'aumento del volume dell'addome), che sottopone a stress muscoli e articolazioni e aumenta il rischio di caduta per perdita di equilibrio."
+Quali sono i vaccini obbligatori che mio figlio deve ricevere?,1177,"In base al testo di riferimento, i vaccini obbligatori per i bambini sono in tutto 10:
+
+* Difterite
+* Tetano
+* Poliomielite
+* Epatite B
+* Pertosse
+* Haemophilus influenzae di tipo b
+* Morbillo
+* Parotite
+* Rosolia
+* Varicella
+
+Queste 10 vaccinazioni vengono somministrate attraverso due vaccini combinati: il vaccino **esavalente** (che contiene sei differenti vaccini) e il vaccino **tetravalente** (morbillo-parotite-rosolia-varicella)."
+Come posso aiutare il mio bambino a esprimere i suoi sentimenti quando piange o si dispera?,671,"In base al testo di riferimento, quando un bambino piange o si dispera puoi aiutarlo nel seguente modo:
+
+* **Inizia a nominare i sentimenti che prova e a dar loro un senso.** Ad esempio, puoi dirgli: *«Ti vedo proprio arrabbiato perché vorresti un altro biscotto e invece sono finiti!»*.
+* **Rimandagli sempre il suo sentire** anche quando comunica attraverso un'opposizione o un lamento, trovando il tempo di dirgli, ad esempio: *«Sei stufo di camminare, vorresti arrivare presto…»*.
+
+Il regalo più grande che puoi fare al tuo bambino in questi momenti è **fargli sentire che lo hai compreso**, anche se non puoi soddisfare la sua richiesta (come dargli un biscotto che non c'è) o se hai la necessità di raggiungere una destinazione."
+A che punto dello sviluppo si trova il feto in questo momento?,52,"In questo momento dello sviluppo, il feto si trova nelle seguenti condizioni:
+
+* **Dimensioni e peso:** è grande circa 12 cm e pesa circa 100 grammi.
+* **Sistema nervoso:** continua a svilupparsi, permettendo al feto di iniziare a muovere braccia e gambe.
+* **Movimenti:** inizia ad aprire e chiudere le manine e i suoi movimenti sono più intensi. Questi movimenti possono essere già riconosciuti (inizialmente come uno sfarfallio o bolle nella pancia) se si hanno già avute altre gravidanze, mentre in caso di prima gravidanza si faranno sentire più avanti, solitamente dopo la 20ma settimana."
+"Ostetrica, quali sono i rischi associati a bassi livelli di vitamina D durante la gravidanza?",159,"In base al testo di riferimento fornito, i rischi associati a bassi livelli di vitamina D durante la gravidanza includono:
+
+* **Nelle donne in gravidanza:** un aumentato rischio di ""questa sindrome"" (come rilevato da precedenti studi epidemiologici).
+* **Nella prole (come confermato da uno studio di laboratorio su ratti con bassi livelli di vitamina D durante la gravidanza e l'allattamento):** una maggiore probabilità di mostrare un insolito sviluppo cerebrale, con comportamenti caratterizzati da:
+  * ridotta interazione sociale;
+  * problemi di memoria e apprendimento."
+"Quali sono i principali disturbi della vista che potrei dover considerare per il mio bambino, specialmente se ci sono fattori genetici in gioco?",298,"In base al testo di riferimento, i principali disturbi della vista legati all'albinismo (una malattia a trasmissione ereditaria) che potrebbe dover considerare sono:
+
+* debole capacità visiva (ipovisione)
+* miopia e ipermetropia
+* astigmatismo
+* fotofobia (particolare sensibilità alla luce)
+* movimenti oscillatori, ritmici e involontari degli occhi (nistagmo)
+* strabismo"
+"Ostetrica, quali sono i principali usi dei cortisonici durante la gravidanza?",187,"In base al testo di riferimento fornito, non sono presenti informazioni riguardanti l'uso dei cortisonici durante la gravidanza. 
+
+Il testo indica unicamente che i cortisonici vengono utilizzati, in generale, principalmente a scopo antinfiammatorio e per ridurre l'attività del sistema immunitario, oltre a citare la loro sperimentazione storica su malati colpiti da artrite reumatoide o da altre malattie."
+Quali sono gli elementi fondamentali che servono per accogliere un neonato?,706,"In base al testo di riferimento, gli elementi ""fondamentali"" per accogliere un neonato sono la mamma e il papà."
+Quali tecniche di essicazione e fermentazione posso utilizzare per preparare il mio corpo al parto?,333,"In base al testo di riferimento fornito, non sono presenti informazioni relative a tecniche di essicazione e fermentazione per preparare il corpo al parto. Il testo descrive esclusivamente il processo di lavorazione, essicazione e fermentazione dei frutti del caffè dopo la raccolta."
+Qual è l'impatto emotivo che può avere su un bambino quando lo sgridiamo o lo puniamo?,506,"Sulla base del testo di riferimento, quando sgridiamo o puniamo un bambino, l'impatto emotivo può essere il seguente:
+
+* **Sensazione di essere cattivo:** Il bambino si sente percepito come una cosa cattiva, in modo totale e per sempre.
+* **Paura di aver perso l'amore:** Pensa davvero che non lo ameremo mai più e che il nostro non-amore sia totale, assoluto e perenne.
+* **Disperazione e senso di smarrimento:** Questa convinzione è per lui una letterale fonte di disperazione. Si sente ""perduto per sempre"".
+* **Reazioni fisiche e capricci:** I capricci che manifesta di conseguenza (come urlare fino a diventare paonazzo, battere i piedi gridando proteste, rotolarsi e battere la testa per terra) possono essere veri e propri gesti di disperazione di chi si sente, appunto, perduto per sempre."
+"Ostetrica, perché sento il bisogno di urinare così frequentemente nelle prime settimane di gravidanza?",728,"Nelle prime settimane di gravidanza, l'aumento dello stimolo a urinare (chiamato ""pollachiuria"") è dovuto all'azione del progesterone. Questo ormone rilassa la muscolatura liscia della vescica e dell'uretra, limitando di conseguenza la capacità di trattenere la pipì."
+Quali sono i criteri per scegliere un antistaminico durante la gravidanza?,361,Nel testo di riferimento fornito non sono presenti informazioni o criteri riguardanti la scelta di un antistaminico specificamente durante la gravidanza.
+"Ostetrica, quali sono i carboidrati che posso considerare sicuri durante la gravidanza?",494,"In base al testo di riferimento fornito, non sono presenti informazioni su quali carboidrati siano sicuri da assumere o utilizzare durante la gravidanza. 
+
+Il testo menziona unicamente alcuni carboidrati o zuccheri semplici — come il glucosio, il DHA (a 3 atomi di carbonio) e l'eritrulosio (a 4 atomi di carbonio) — descrivendone esclusivamente la reazione chimica con le proteine dello strato corneo della pelle per generare una colorazione temporanea simile all'abbronzatura."
+"Ostetrica, quali sono le principali proteine che vengono analizzate nel protidogramma durante la gravidanza?",142,"In base al testo di riferimento fornito, le principali proteine (o frazioni proteiche) analizzate nel protidogramma sono:
+
+* **Albumina** (che in condizioni normali rappresenta il picco più alto)
+* **Alfa 1 globuline**
+* **Alfa 2 globuline**
+* **Beta globuline** (che attualmente molti laboratori separano in due frazioni: **beta-1-globuline** e **beta-2-globuline**)
+* **Gamma globuline**
+
+*Nota: il testo di riferimento non menziona specificamente la gravidanza o la figura dell'ostetrica, ma indica che il protidogramma analizza queste frazioni proteiche e può essere richiesto dal medico come esame di controllo (routine) o in caso di risultati anomali in altri esami.*"
+"Ostetrica, cos'è esattamente la translucenza nucale e perché è importante durante la gravidanza?",1017,"La translucenza nucale non è un esame specifico a cui la mamma e il feto si sottopongono, ma una caratteristica che viene analizzata durante l'ecografia: si tratta di una raccolta di liquido che appare traslucida all'esame.
+
+È importante durante la gravidanza perché il suo spessore viene esaminato per stimare il rischio di malformazioni cromosomiche. Inoltre, l'analisi della translucenza nucale – insieme alle caratteristiche fetali e materne e al dosaggio di ormoni specifici sul sangue materno – permette di identificare, grazie agli screening effettuati nel primo trimestre di gravidanza, circa il 90% dei feti affetti da malformazioni cromosomiche."
+"Ostetrica, come posso contrarre lo streptococco durante la gravidanza?",1044,"Durante la gravidanza, lo streptococco si può contrarre e presentare nei seguenti modi:
+
+* **Contatto intimo (rapporti sessuali):** la trasmissione avviene tramite il contatto intimo con un portatore del microrganismo.
+* **Presenza preesistente:** poiché lo streptococco si trova comunemente nella microflora genitale dell'adulto, in molti casi il batterio è già presente nella donna in modo transitorio o intermittente.
+* **Contatti frequenti e persistenti:** le donne che hanno contatti frequenti e persistenti con portatori possono presentare nel tempo fluttuazioni della densità di colonizzazione."
+"Ostetrica, perché potrebbe essere necessario eseguire un esame degli anticorpi anti-perossidasi durante la gravidanza?",141,"In base al testo di riferimento, l'esame degli anticorpi anti-perossidasi può essere prescritto in gravidanza o in caso di aborti ripetuti. In generale, questo esame viene richiesto principalmente per approfondire l'origine di un mal funzionamento della tiroide."
+"Qual è l'importanza del ""pensiero magico"" nei primi anni di vita del bambino?",941,"In base al testo di riferimento, l'importanza del ""pensiero magico"" (presente soprattutto nei primi sette anni di vita) risiede nei seguenti aspetti:
+
+* Rappresenta il modo stesso in cui il bambino **pensa, vive, conosce, interpreta e si relaziona con il mondo**.
+* Conoscere questa modalità di pensiero **aiuta l'adulto a relazionarsi con il piccolo**.
+* Permette di saper leggere i comportamenti infantili riconoscendone il significato profondo (senza sminuirli), il che **favorisce una relazione educativa ricca e improntata al rispetto reciproco**."
+Quali sono i colori e le consistenze degli alimenti che dovrei preferire durante la gravidanza per il benessere del mio bambino?,883,"In base al testo di riferimento fornito, non sono presenti informazioni relative ai colori e alle consistenze degli alimenti da preferire durante la gravidanza per il benessere del bambino. 
+
+Il testo menziona alcuni colori (bianco, verde, arancione) e consistenze (morbido, duro, cremoso, croccante, viscido) esclusivamente come esempi di ""parole-informazione"" utili per arricchire il vocabolario e la ""cassetta degli attrezzi"" del pensiero dei bambini."
+"Ostetrica, quali sono i benefici dei vaccini per il mio bambino appena nato?",1184,"In base al testo di riferimento fornito, i prodotti definiti ""vaccini"" in questo contesto non sono in realtà veri vaccini, ma specialità medicinali contenenti antigeni batterici (frammenti di batteri o catene polipeptidiche). 
+
+I benefici di questi preparati, indicati in particolare per i bambini (poiché sono i soggetti più esposti a infezioni ripetute in un breve periodo di tempo), consistono nel:
+
+* **Stimolare la risposta immunitaria:** assunti dall'organismo sano, stimolano la produzione degli anticorpi necessari a contrastare il batterio o il virus vero e proprio quando questo attaccherà l'organismo.
+* **Prevenire le infezioni:** vengono prescritti come profilassi (prevenzione) delle infezioni respiratorie recidivanti, come ad esempio faringotonsilliti, otiti e bronchiti. 
+
+*Nota: Il testo di riferimento parla genericamente di ""bambini"" e non fa specifico riferimento ai ""neonati"" (bambini appena nati).*"
+Qual è il modo migliore per introdurre nuovi cibi al mio bambino?,1025,"Il modo migliore per procedere è fare in modo che sulla tavola, tra le proposte per il pasto, sia presente almeno una pietanza che piaccia al bambino, insieme al resto del menù da cui tutta la famiglia potrà attingere. 
+
+In questo modo, il piccolo avrà sempre a disposizione qualcosa che può consumare con facilità, ma allo stesso tempo sarà esposto a una più ampia varietà di cibi. 
+
+Inoltre, è importante evitare di proporre alternative o di far decidere il menù al bambino. Questo approccio aiuta a rafforzare la funzione di guida dei genitori, che sostengono il figlio fornendo limiti chiari entro i quali poter scegliere."
+Posso iniziare a dare un po' di caffè al mio bambino appena nato?,535,"Sì, in base al testo di riferimento, un po' di caffè (per dare sapore o colore al latte) si può dare a qualsiasi età, quindi anche a un bambino appena nato. 
+
+È tuttavia necessario osservare con attenzione se al bambino piace e se questo disturba il suo sonno. Qualora si notasse un aumento di difficoltà nell'addormentarsi, basterà sospenderne il consumo. Se invece non si osservano effetti avversi, non ci sono controindicazioni al consumo di caffè. Come alternativa, è sempre possibile utilizzare il caffè d'orzo, che non ha alcun effetto eccitante."
+Quali sono i fattori di rischio che dovrei considerare riguardo alle malattie ereditarie durante la mia gravidanza?,725,"In base al testo di riferimento, i fattori di rischio da considerare riguardo alle malattie ereditarie (anomalie del DNA) sono quelli derivati dalla **storia familiare dei futuri genitori** (con riferimento a situazioni di sospetto o a patologie come talassemia, fibrosi cistica e distrofia muscolare). 
+
+Per identificare e distinguere le situazioni a rischio da quelle normali, è fondamentale sottoporsi a un'**accurata anamnesi**, che permette di raccogliere queste informazioni attraverso poche e facili domande."
+Quali sono i segnali che potrebbero indicare un accumulo di ferro nel mio corpo durante la gravidanza?,418,"In base al testo di riferimento fornito, non sono presenti informazioni specifiche riguardo all'accumulo di ferro durante la gravidanza. 
+
+In generale, per quanto riguarda l'accumulo di ferro (emocromatosi), il testo indica che:
+* All'inizio **possono non manifestarsi disturbi (sintomi) evidenti**.
+* L'accumulo di ferro può causare **danni al fegato** (con livelli di gravità variabili da lievi a gravi).
+* La presenza di questi danni, anche in fase iniziale, può essere evidenziata attraverso la prescrizione di **test specifici** per l'emocromatosi."
+Qual è il ruolo di una mamma Peer nel supporto alle neomamme?,34,"In base al testo di riferimento fornito, il ruolo di una mamma Peer nel supporto alle neomamme (e ai genitori) consiste nel:
+
+* **Rispondere alle domande** di altre mamme;
+* **Sostenere i genitori** nei primi mesi di vita del bambino, rispettandone i desideri, le aspettative e i bisogni;
+* **Condividere informazioni aggiornate** con loro;
+* **Metterli in contatto con professionisti esperti** in caso di bisogno.
+
+Per poter svolgere questo ruolo e aiutare gli altri genitori, la mamma Peer ha seguito un apposito corso formativo sull'alimentazione e sulla cura del bambino."
+Quali sono i farmaci che possono aiutare a ridurre la pressione arteriosa durante la gravidanza?,328,"In base al testo di riferimento fornito, non sono presenti informazioni in merito ai farmaci utili per ridurre la pressione arteriosa specificamente durante la gravidanza."
+Qual è l'importanza di avere un colloquio con il medico prima del concepimento?,247,"In base al testo di riferimento, l'importanza di avere un colloquio con il medico prima del concepimento (consulenza preconcezionale) risiede nel fatto che questo incontro serve a:
+
+* **Individuare la presenza di malattie ereditarie** in famiglia e di altri possibili problemi legati alla gravidanza;
+* **Decidere gli esami** da effettuare;
+* **Fornire alla coppia tutte le informazioni** necessarie;
+* **Valutare l'opportunità di una consulenza genetica**, che il medico potrà proporre nel caso in cui nella storia familiare dei genitori o nel loro stato di salute vi siano elementi in grado di aumentare i rischi di difetti congeniti nel nascituro."
+Quali strategie posso utilizzare per gestire la rabbia e l'aggressività nei miei bambini?,1157,"In base al testo di riferimento fornito, per gestire la rabbia e l'aggressività nei bambini e negli adolescenti ci si può avvalere di programmi specifici (come il *""Programma per il controllo di rabbia e aggressività in bambini e adolescenti""*) e del supporto di esperti di problemi evolutivi. 
+
+La strategia principale indicata non consiste nel ricevere passivamente delle nozioni, ma nell'intervento di questi esperti che, più di trasmettere competenze ai genitori, devono **“attivarle”** in loro, ad esempio attraverso percorsi di *Parent Training*."
+"Ostetrica, potresti spiegarmi cos'è il progesterone e perché è importante durante la gravidanza?",1039,"Il progesterone è un ormone steroideo prodotto a partire dal colesterolo. 
+
+La sua importanza è legata al fatto che il suo ruolo è strettamente connesso alla capacità di avviare e mantenere una gravidanza. Insieme ad altri ormoni, tra cui l'estrogeno, il progesterone serve infatti a preparare l'utero per l'impianto dell'embrione e favorisce la fisiologica prosecuzione della gestazione. Inoltre, in seguito al concepimento, questo ormone svolge diverse funzioni."
+"""Quali sono gli effetti collaterali più comuni che potrei aspettarmi dopo una scleroterapia?""",458,"In base al testo di riferimento, gli effetti collaterali (effetti indesiderati) che si possono riscontrare dopo una scleroterapia includono:
+
+* Coaguli di sangue nelle altre vene delle gambe
+* Mal di testa
+* Mal di schiena lombare
+* Cambiamenti del colore della pelle, come ad esempio macchie marroni sulle aree trattate
+* Svenimenti
+* Problemi visivi temporanei
+
+In rari casi, possono verificarsi anche gravi complicazioni come ictus o attacchi ischemici transitori."
+"Ostetrica, è normale che io possa sentire il battito del mio bambino senza l'uso di strumenti?",1152,"Sì, in effetti è possibile sentire il battito fetale senza l'aiuto di strumenti, in particolare dopo la 23^ settimana di gravidanza. 
+
+In questo periodo, inoltre, il feto sarà in grado di percepire i suoni e le voci, che imparerà a riconoscere rispondendo con i movimenti. L'utilizzo della tecnologia non può infatti sostituirsi alle sensazioni, ai cambiamenti psicofisici legati alla crescita del bambino e alla connessione vitale di una mamma con il suo piccolo, che va oltre ogni strumento."
+Quali sono i rischi per il mio bambino se fumo durante la gravidanza?,938,"In base al testo di riferimento fornito, non vengono menzionati specificamente i rischi del fumo durante la gravidanza. 
+
+Tuttavia, con riferimento alle madri fumatrici in generale, il testo evidenzia i seguenti aspetti:
+* Alcuni studi hanno evidenziato un **rallentamento della crescita** nei figli di madri fumatrici.
+* È importante prestare attenzione all'**aumento ponderale** (di peso) del bambino.
+* In generale, fumare **non è una scelta salutare** per la mamma e per il bambino."
+Quali piante medicinali possono aiutare a rafforzare il sistema immunitario durante la gravidanza?,574,"In base al testo di riferimento fornito, non sono presenti informazioni relative all'uso di piante medicinali durante la gravidanza, né viene specificato quali di esse possano aiutare a rafforzare il sistema immunitario in questo specifico periodo."
+È possibile avere una gravidanza sana anche se ho una malattia reumatica?,487,"Sì, è assolutamente possibile che la gravidanza si svolga senza incidenti anche nelle persone con malattie reumatiche. 
+
+Sebbene alcune condizioni, soprattutto legate a fenomeni di autoimmunità, possano associarsi a un aumento del rischio di aborti, parti pretermine e disordini ipertensivi, una corretta diagnosi, la valutazione del rischio e un'adeguata strategia terapeutica riducono queste evenienze a una frequenza che non si discosta molto da quella registrata nelle donne sane.
+
+Se desidera una gravidanza, il testo raccomanda di consultarsi prima con il proprio medico per individuare eventuali fattori di rischio per se stessa e per il futuro bambino, e per definire le cure migliori da poter seguire prima, durante e dopo la gravidanza."
+Qual è il modo migliore per prepararsi a diventare genitori?,625,"In base al testo di riferimento, difficilmente si diventa buoni genitori leggendo un libro su come esserlo (il che potrebbe far risparmiare alcuni errori, ma farne fare altri). 
+
+Il modo per decidere, ogni volta, come comportarsi è **ascoltare il proprio cuore, ma ascoltarlo bene**. Bisogna essere sicuri che il proprio cuore parli per il bene del bambino, un bene che quasi mai coincide con l'accontentarlo o con il cercare di ""farlo contento""."
+Quali sono i metodi per diagnosticare la presenza di virus nel mio bambino?,161,"In base al testo di riferimento fornito, i metodi per diagnosticare (accertare) la presenza del virus sono:
+
+* **L'individuazione del virus nelle feci** o **nelle secrezioni delle prime vie respiratorie**.
+* **La ricerca del virus nel liquido cerebrospinale** (il liquido che circonda il cervello e il midollo spinale).
+
+Inoltre, il testo specifica che soltanto l'**isolamento del poliovirus** può confermare con certezza che si tratti di poliomielite."
+Qual è il trattamento più efficace per la carie dei denti da latte del mio bambino?,1036,"In base al testo di riferimento, in alcuni casi la sola terapia con l’ozono (più volte ripetuta) può essere risolutiva. 
+
+Tuttavia, viene specificato che qualsiasi trattamento della carie dei denti da latte è inutile se parallelamente non si agisce anche sulle cause che l’hanno provocata. Pertanto, la cura della carie non consiste solo nell'otturazione, ma prevede necessariamente:
+* un miglioramento dell’igiene orale;
+* una corretta fluoroprofilassi;
+* un cambiamento delle abitudini alimentari e degli stili di vita."
+Qual è l'importanza di monitorare la pressione a domicilio durante la gravidanza?,958,"L'importanza di monitorare la pressione a domicilio durante la gravidanza risiede nel fatto che **nessun disordine ipertensivo deve essere sottovalutato in gravidanza**. 
+
+Per questo motivo, è importante controllarla almeno una volta a settimana (e più volte se sono presenti edemi)."
+"Quali sono i segni che potrebbero indicare che il mio bambino è allergico a qualcosa, come il pelo del gatto?",576,"In base al testo di riferimento fornito, non vengono menzionati i segni o i sintomi fisici che indicano se un bambino è allergico. 
+
+Tuttavia, il testo indica che per individuare se un soggetto è o non è allergico si utilizzano i seguenti test:
+* **Test cutanei (prick test):** sono facili, economici, non dolorosi e risultano positivi nell’80-90% dei bambini asmatici.
+* **Test allergici sul sangue (RAST e ImmunoCap):** hanno la stessa capacità del prick test di individuare un'allergia, ma sono molto più costosi."
+Qual è il ruolo della suzione del neonato nel processo di guarigione durante l'allattamento?,989,"In base al testo di riferimento, la suzione del neonato può essere un ottimo alleato per il processo di guarigione. Al contrario, un'interruzione improvvisa dell'allattamento potrebbe esacerbare la mastite e aumentare il rischio di formazione di un ascesso mammario."
+"Ostetrica, quali sono le opzioni disponibili se il mio partner ha una grave infertilità maschile?",443,"In base al testo di riferimento, in caso di grave infertilità maschile (dovuta a un numero di spermatozoi inferiore a 1.500.000 per millilitro o a una loro ridotta capacità di movimento), le opzioni disponibili sono:
+
+1. **Una procedura di fecondazione assistita (ulteriormente aiutata):** in cui si aiuta tecnicamente lo spermatozoo a penetrare nell'ovulo (ovocita), poiché da solo (o anche ricorrendo alla FIVET) non riuscirebbe a farlo.
+2. **Il prelievo direttamente dal testicolo:** qualora nel liquido seminale del partner non fossero presenti spermatozoi adatti alla fecondazione, si può tentare il prelievo direttamente dal testicolo ricorrendo ad altre tecniche."

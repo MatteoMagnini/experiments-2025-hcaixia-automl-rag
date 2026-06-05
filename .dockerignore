@@ -1,0 +1,32 @@
+# Keep the build context (and image) small. Documents/ and data/*.csv ARE kept
+# because the experiment reads them; only heavy/irrelevant artefacts are excluded.
+
+.git
+.gitignore
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Embedding caches and SMAC/results outputs are regenerated at runtime and can
+# be huge (GBs) — never bake them into the image.
+qdrant/faq/
+.hf_cache/
+hf_cache/
+_data/
+smac3_output*/
+**/smac3_output*/
+results/cache/results.csv
+results/*_results.csv
+*.log
+
+# Large/unused data artefacts.
+data/chunk_questions_dataset.tsv
+data/*_backup.csv
+
+# Container artefacts.
+*.sqsh
+*.tar
+Dockerfile_example*

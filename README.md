@@ -1,6 +1,3 @@
-# Experiments of the paper "Automated Machine Learning to Enhance Knowledge Retrieval in Retrieval-Augmented Generation Pipelines"
-## Paper accepted at HC@AIxIA 2025, co-located with ECAI 2025
-
 ## Embeddings Provider
 
 The project now defaults to Ollama for embedding generation and retrieval experiments.
@@ -9,7 +6,8 @@ The project now defaults to Ollama for embedding generation and retrieval experi
 - Default Ollama embedders: `nomic-embed-text`, `mxbai-embed-large`
 - Hugging Face remains available as an explicit fallback provider
 
-The embedding cache is provider-specific. Ollama and Hugging Face runs write to different directories under `chroma/faq/`, so existing Hugging Face caches are not reused by Ollama runs.
+The embedding cache is provider-specific. 
+Ollama and Hugging Face runs write to different directories under `chroma/faq/`, so existing Hugging Face caches are not reused by Ollama runs.
 
 ## Setup
 

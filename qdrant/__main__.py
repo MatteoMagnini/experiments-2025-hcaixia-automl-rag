@@ -1,10 +1,12 @@
 from time import time
+import os
+import shutil
 import fire
 import pandas as pd
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
-from chroma import PATH as CHROMA_PATH, DATABASE_NAME_FAQ, CHUNK_LOOKUP_FILE_NAME, CHUNK_DOCUMENTS_LOOKUP_FILE_NAME
+from langchain_qdrant import QdrantVectorStore
+from qdrant import PATH as QDRANT_PATH, DATABASE_NAME_FAQ, CHUNK_LOOKUP_FILE_NAME, CHUNK_DOCUMENTS_LOOKUP_FILE_NAME
 from documents import PATH as DOCUMENT_PATH, LOOKUP_FILE_NAME
 from utils import DEFAULT_PROVIDER, HUGGINGFACE_NAME_MAP, build_embeddings, get_embeddings_path
 from transformers import AutoTokenizer
@@ -26,7 +28,7 @@ def resolve_existing_path(path: Path) -> Path:
 
 
 LOOKUP_FILE = DOCUMENT_PATH / LOOKUP_FILE_NAME
-FAQ_DATABASE = CHROMA_PATH / DATABASE_NAME_FAQ
+FAQ_DATABASE = QDRANT_PATH / DATABASE_NAME_FAQ
 
 
 def word_count(text: str) -> int:
@@ -36,15 +38,13 @@ def word_count(text: str) -> int:
 def build_text_splitter(provider: str, embedder: str, chunk_token_length: int, overlap: int) -> RecursiveCharacterTextSplitter:
     if provider == "huggingface":
         tokenizer = AutoTokenizer.from_pretrained(HUGGINGFACE_NAME_MAP[embedder], trust_remote_code=True)
+        tokenizer.model_max_length = int(1e9)
         return RecursiveCharacterTextSplitter.from_huggingface_tokenizer(
             tokenizer,
             chunk_size=chunk_token_length,
             chunk_overlap=overlap,
         )
 
-    # Ollama does not expose a Hugging Face-compatible tokenizer API.
-    # For the default path, count words and prefer sentence boundaries so
-    # chunks stay readable and are less likely to split a sentence mid-way.
     return RecursiveCharacterTextSplitter(
         separators=["\n\n", "\n", ". ", "! ", "? ", "; ", ", ", " ", ""],
         keep_separator="end",
@@ -57,11 +57,9 @@ def build_text_splitter(provider: str, embedder: str, chunk_token_length: int, o
 def main(chunk_token_length: int, overlap_percentage: float, embedder: str, provider: str = DEFAULT_PROVIDER):
     overlap = int(chunk_token_length * overlap_percentage)
     faq_embedder_folder = get_embeddings_path(FAQ_DATABASE, provider, embedder, chunk_token_length, overlap)
+    shutil.rmtree(faq_embedder_folder, ignore_errors=True)
     faq_embedder_folder.mkdir(parents=True, exist_ok=True)
     # Embed every .txt file in the documents folder
-    # Create a lookup table for the chunks to speed up operations
-    # Create a lookup table for the chunks-documents to speed up operations
-    # (each new chunk is associated with the original file id)
     document_lookup = pd.read_csv(LOOKUP_FILE, index_col="id")
     text_splitter = build_text_splitter(provider, embedder, chunk_token_length, overlap)
     documents = [
@@ -83,18 +81,62 @@ def main(chunk_token_length: int, overlap_percentage: float, embedder: str, prov
     chunk_lookup.to_csv(faq_embedder_folder / CHUNK_LOOKUP_FILE_NAME, index=True, index_label="id")
     # Embed the chunks
     embeddings = build_embeddings(embedder, provider)
-    vectorstore = Chroma(persist_directory=str(faq_embedder_folder), embedding_function=embeddings)
 
-    print(f'Starting to embed {len(chunks)} chunks with {embedder}')
+    print(f'Starting to embed {len(chunks)} chunks with {embedder}', flush=True)
     start_time = time()
 
+    qdrant_url = os.environ.get("QDRANT_URL")
+    qdrant_api_key = os.environ.get("QDRANT_API_KEY")
+
     batch_size = 1024
-    for i in range(0, len(chunks), batch_size):
+    total_chunks = len(chunks)
+    total_batches = (total_chunks + batch_size - 1) // batch_size
+
+    def log_embed_progress(done: int, batch_index: int) -> None:
+        elapsed = time() - start_time
+        rate = done / elapsed if elapsed > 0 else 0
+        eta = (total_chunks - done) / rate if rate > 0 else 0
+        print(
+            f"  embedded {done}/{total_chunks} chunks "
+            f"(batch {batch_index}/{total_batches}) "
+            f"elapsed {elapsed:.0f}s, ETA {eta:.0f}s",
+            flush=True,
+        )
+
+    first_batch = chunks[:batch_size]
+
+    if qdrant_url:
+        vectorstore = QdrantVectorStore.from_documents(
+            first_batch,
+            embeddings,
+            url=qdrant_url,
+            api_key=qdrant_api_key,
+            collection_name=DATABASE_NAME_FAQ,
+        )
+    else:
+        vectorstore = QdrantVectorStore.from_documents(
+            first_batch,
+            embeddings,
+            path=str(faq_embedder_folder),
+            collection_name=DATABASE_NAME_FAQ,
+        )
+    log_embed_progress(min(batch_size, total_chunks), 1)
+
+    for i in range(batch_size, len(chunks), batch_size):
         batch = chunks[i:i + batch_size]
         vectorstore.add_documents(batch)
+        log_embed_progress(min(i + batch_size, total_chunks), i // batch_size + 1)
     end_time = time()
     execution_time = end_time - start_time
     print(f"Execution time: {execution_time}")
+
+    # Release the local Qdrant storage lock so the caller can reopen the same
+    # path (otherwise qdrant-client raises "already accessed by another instance").
+    if not qdrant_url:
+        try:
+            vectorstore.client.close()
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":

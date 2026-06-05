@@ -3,7 +3,7 @@ name = "experiments"
 version = "0.1.0"
 description = "Experiments for the paper \"Enhancing Trustworthy Text Generation in Digital Health\" for AIME 2025"
 readme = "README.md"
-requires-python = ">=3.12,<4"
+requires-python = ">=3.12,<3.13"
 license = { text = "Apache-2.0" }
 authors = [
 	{ name = "Matteo Magnini", email = "matteo.magnini@unibo.it" },
@@ -12,19 +12,29 @@ dependencies = [
 	"smac>=2.4.0,<3",
 	"configspace>=1.2.2,<2",
 	"fire>=0.7.1,<0.8",
-	"chromadb>=1.5.9,<2",
+	"qdrant-client>=1.8.0",
 	"pandas>=3.0.3,<4",
 	"langchain-text-splitters>=1.1.2,<2",
 	"langchain-ollama>=1.1.0,<2",
-	"langchain-chroma>=1.1.0,<2",
+	"langchain-qdrant>=0.2.0",
 	"matplotlib>=3.10.9,<4",
 	"langchain>=1.2.18,<2",
 	"langchain-classic>=1.0.7,<2",
-	"langchain-community>=0.4.1,<0.5",
+	"langchain-community>=0.3.0,<0.4",
 	"rank-bm25>=0.2.2,<0.3",
 	"llama-index>=0.14.21,<0.15",
 	"llama-index-embeddings-huggingface>=0.7.0,<0.8",
 	"transformers>=5.8.0,<6",
+	"ragas>=0.1.7",
+	"datasets",
+	"langchain-google-genai>=4.2.3",
+	"langchain-google-vertexai>=3.2.3",
+	# Generation-quality metrics (bert_f1_gold is a SMAC objective) and the
+	# backend needed to run the HuggingFace multilingual embedders on GPU.
+	"bert-score>=0.3.13",
+	"rouge-score>=0.1.2",
+	"sentence-transformers>=3.0.0",
+	"einops>=0.8.0",
 ]
 
 [build-system]
@@ -33,4 +43,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["chroma*", "data*", "documents*", "experiments*", "utils*"]
+include = ["qdrant*", "data*", "documents*", "experiments*", "utils*"]
