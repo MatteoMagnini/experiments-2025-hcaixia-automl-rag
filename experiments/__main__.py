@@ -9,10 +9,16 @@ The heavy lifting lives in focused modules:
 import os
 from functools import partial
 from random import seed
-
 import fire
 import pandas as pd
 from dotenv import load_dotenv
+from experiments import (
+    DEFAULT_WALLTIME_LIMIT,
+    MIN_CHUNK_TOKEN_SIZE,
+    MAX_CHUNK_TOKEN_SIZE,
+    MIN_OVERLAP_PERCENTAGE,
+    MAX_OVERLAP_PERCENTAGE
+)
 
 load_dotenv()
 
@@ -30,16 +36,30 @@ from smac.multi_objective.parego import ParEGO
 from results import save_incumbents
 from utils import DEFAULT_PROVIDER, ResultSingleton, get_supported_embedders
 
-from .constants import DEFAULT_EVAL_SAMPLE_SIZE, SMAC_OBJECTIVES
-from .results_recording import reset_results_cache
-from .runner import TRAINING_FILE, run_experiment
+from experiments.constants import DEFAULT_EVAL_SAMPLE_SIZE, SMAC_OBJECTIVES
+from experiments.results_recording import reset_results_cache
+from experiments.runner import TRAINING_FILE, run_experiment
 
 
-def main(provider: str = DEFAULT_PROVIDER, embedders: str | list[str] = None, walltime_limit: int = 10 * 60, gen_model: str = None, eval_sample_size: int = DEFAULT_EVAL_SAMPLE_SIZE):
+def main(
+        provider: str = DEFAULT_PROVIDER,
+        embedders: str | list[str] = None,
+        walltime_limit: int = DEFAULT_WALLTIME_LIMIT,
+        gen_model: str = None,
+        eval_sample_size: int = DEFAULT_EVAL_SAMPLE_SIZE
+):
     seed(0)
     cs = ConfigurationSpace()
-    chunk_token_length = Integer("chunk_token_length", (100, 500), default=100)
-    overlap_percentage = Float("overlap_percentage", (0.1, 0.5), default=0.1)
+    chunk_token_length = Integer(
+        "chunk_token_length",
+        (MIN_CHUNK_TOKEN_SIZE, MAX_CHUNK_TOKEN_SIZE),
+        default=MIN_CHUNK_TOKEN_SIZE
+    )
+    overlap_percentage = Float(
+        "overlap_percentage",
+        (MIN_OVERLAP_PERCENTAGE, MAX_OVERLAP_PERCENTAGE),
+        default=MIN_OVERLAP_PERCENTAGE
+    )
     retriever_choices = ["base", "ensemble", "bm25_only", "mmr"]
     retriever = Categorical("retriever", retriever_choices, default="base")
 
@@ -50,6 +70,7 @@ def main(provider: str = DEFAULT_PROVIDER, embedders: str | list[str] = None, wa
             embedder_list = list(embedders)
     else:
         embedder_list = get_supported_embedders(provider)
+        print(f"List of supported embedders:\n {'\n'.join(embedder_list)}")
 
     if not embedder_list:
         raise ValueError("No embedder models specified or found.")
