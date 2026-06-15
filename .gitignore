@@ -6,10 +6,10 @@ qdrant/faq
 results/cache/*.csv
 figures/*.png
 figures/*.eps
-results/incumbents.csv
-results/results.csv
+# results/incumbents.csv
+# results/results.csv
 # ResultSingleton dumps, e.g. incumbents.csv_results.csv
-results/*_results.csv
+# results/*_results.csv
 
 # --- Local caches & run artifacts (never commit) ---
 # Claude Code session/cache
