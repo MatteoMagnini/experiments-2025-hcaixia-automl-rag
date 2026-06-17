@@ -5,6 +5,21 @@
 
 ---
 
+## Important!
+
+### These are not the droids you are looking for...
+
+![image](figures/sw-meme.png)
+
+If you are looking for the experiments and results of the paper 
+
+"Automated Machine Learning for Optimized Knowledge Retrieval:
+Enhancing the Trustworthiness of Clinical RAG Pipelines", currently submitted in the journal Artificial Intelligence in Medicine
+
+you can find them in this repository at the branch `special-issue` or by clicking [here](https://github.com/MatteoMagnini/experiments-2025-hcaixia-automl-rag/tree/special-issue).
+
+---
+
 ## How to cite this paper
 
 ```bibtex
