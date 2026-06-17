@@ -6,8 +6,6 @@ chroma/faq
 results/cache/*.csv
 figures/*.png
 figures/*.eps
-results/incumbents.csv
-results/results.csv
 
 .idea
 
