@@ -1,0 +1,14 @@
+{
+    "response_message": "[\"Natural Language Processing\", \"Information Retrieval\", \"Health Informatics\"]",
+    "generation_probability": "unknown",
+    "generation_time": 0.51922607421875,
+    "generated_sequences": [
+        "[\"Natural Language Processing\", \"Information Retrieval\", \"Health Informatics\"]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Natural Language Processing",
+        "Information Retrieval",
+        "Health Informatics"
+    ]
+}

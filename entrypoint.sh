@@ -15,7 +15,7 @@ PROVIDER="${PROVIDER:-huggingface}"
 EMBEDDERS="${EMBEDDERS:-qwen3-embedding-0.6b,qwen3-embedding-4b,granite-embedding-278m,granite-embedding-107m,nomic-embed-text-v2-moe,bert-base-italian-xxl-cased}"
 
 GEN_MODEL="${GEN_MODEL:-}"
-WALLTIME_LIMIT="${WALLTIME_LIMIT:-60}"
+WALLTIME_LIMIT="${WALLTIME_LIMIT:-43200}"
 EVAL_SAMPLE_SIZE="${EVAL_SAMPLE_SIZE:-100}"
 
 # ---------------------------------------------------------------------------

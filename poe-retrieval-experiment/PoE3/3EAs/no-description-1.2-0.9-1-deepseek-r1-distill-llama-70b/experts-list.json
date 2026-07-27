@@ -1,0 +1,14 @@
+{
+    "response_message": "[\"Obstetrics and Gynecology\", \"Pediatrics\", \"Nutrition and Dietetics\"]",
+    "generation_probability": "unknown",
+    "generation_time": 6.448737859725952,
+    "generated_sequences": [
+        "[\"Obstetrics and Gynecology\", \"Pediatrics\", \"Nutrition and Dietetics\"]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Obstetrics and Gynecology",
+        "Pediatrics",
+        "Nutrition and Dietetics"
+    ]
+}

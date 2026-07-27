@@ -1,0 +1,14 @@
+{
+    "response_message": "[\n  \"Natural Language Processing\",\n  \"Information Retrieval\",\n  \"Medical Domain Knowledge\"\n]",
+    "generation_probability": "unknown",
+    "generation_time": 3.940239191055298,
+    "generated_sequences": [
+        "[\n  \"Natural Language Processing\",\n  \"Information Retrieval\",\n  \"Medical Domain Knowledge\"\n]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Natural Language Processing",
+        "Information Retrieval",
+        "Medical Domain Knowledge"
+    ]
+}

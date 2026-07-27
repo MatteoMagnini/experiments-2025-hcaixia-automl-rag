@@ -1,0 +1,14 @@
+{
+    "response_message": "[\"Obstetrics and Gynecology\", \"Pediatrics\", \"Psychology\"]",
+    "generation_probability": "unknown",
+    "generation_time": 10.99596118927002,
+    "generated_sequences": [
+        "[\"Obstetrics and Gynecology\", \"Pediatrics\", \"Psychology\"]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Obstetrics and Gynecology",
+        "Pediatrics",
+        "Psychology"
+    ]
+}

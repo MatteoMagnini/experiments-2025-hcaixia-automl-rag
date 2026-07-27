@@ -1,0 +1,14 @@
+{
+    "response_message": "[\"Natural Language Processing\", \"Information Retrieval\", \"Healthcare and Pregnancy Support\"]",
+    "generation_probability": "unknown",
+    "generation_time": 0.3961758613586426,
+    "generated_sequences": [
+        "[\"Natural Language Processing\", \"Information Retrieval\", \"Healthcare and Pregnancy Support\"]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Natural Language Processing",
+        "Information Retrieval",
+        "Healthcare and Pregnancy Support"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "response_message": "```json\n[\n  \"Natural Language Processing\",\n  \"Information Retrieval\",\n  \"User Experience Design\"\n]\n```",
+    "generation_probability": "unknown",
+    "generation_time": 0.9409399032592773,
+    "generated_sequences": [
+        "```json\n[\n  \"Natural Language Processing\",\n  \"Information Retrieval\",\n  \"User Experience Design\"\n]\n```"
+    ],
+    "probabilities": [],
+    "list": [
+        "Natural Language Processing",
+        "Information Retrieval",
+        "User Experience Design"
+    ]
+}

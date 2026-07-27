@@ -1,0 +1,14 @@
+{
+    "name": "dataset - retriever",
+    "task": "Given a user query and exactly 10 retrieved chunks, your task is to classify each chunk as either \"relevant\" or \"not relevant\".\n\nRelevance criteria:\n- Mark a chunk as \"relevant\" if it contains information that could help answer the specific user query.\n- Mark a chunk as \"relevant\" even if it answers only part of the query.\n- Mark a chunk as \"relevant\" if it provides useful background, definitions, recommendations, warnings, procedures, or contextual information needed to answer the query.\n- Mark a chunk as \"not relevant\" if it is unrelated to the query.\n- Mark a chunk as \"not relevant\" if it contains random text, corrupted text, generic filler, or information that cannot help answer the query.\n- Do not classify a chunk as relevant only because it belongs to the broad pregnancy, maternity, or baby-care domain. It must be useful for the specific user query.\n\nInput format:\n\nUser query:\n\"<USER_QUERY>\"\n\nCHUNK 1:\n\"<CHUNK_1>\"\n\nCHUNK 2:\n\"<CHUNK_2>\"\n\nCHUNK 3:\n\"<CHUNK_3>\"\n\nCHUNK 4:\n\"<CHUNK_4>\"\n\nCHUNK 5:\n\"<CHUNK_5>\"\n\nCHUNK 6:\n\"<CHUNK_6>\"\n\nCHUNK 7:\n\"<CHUNK_7>\"\n\nCHUNK 8:\n\"<CHUNK_8>\"\n\nCHUNK 9:\n\"<CHUNK_9>\"\n\nCHUNK 10:\n\"<CHUNK_10>\"\n\nOutput requirements:\n- Return only valid JSON.\n- Do not include explanations.\n- Do not include markdown.\n- Do not include comments.\n- The JSON must contain exactly 10 labels.\n- Each chunk must receive exactly one label.\n- Labels must be in the same order as the input chunks.\n- Each label must be exactly either \"relevant\" or \"not relevant\".\n- Do not omit any chunk.\n- Do not add labels for chunks that are not present.\n\nOutput JSON format:\n\n{\n  \"labels\": [\n    \"relevant\",\n    \"not relevant\",\n    \"relevant\",\n    \"not relevant\",\n    \"relevant\",\n    \"not relevant\",\n    \"relevant\",\n    \"not relevant\",\n    \"relevant\",\n    \"not relevant\"\n  ]\n}",
+    "context": "A supportive chatbot designed for pregnant women and new mothers, offering guidance from pregnancy through the baby\\u2019s first 1,000 days. It provides answers on health, baby care, nutrition, psychological support, and financial planning, as well as assistance with related questions like choosing the best hospital for delivery.",
+    "description_framework": "User Design Persona",
+    "model_name": "deepseek/deepseek-r1-distill-llama-70b",
+    "temperature": 1.2,
+    "nucleus": 0.9,
+    "alternatives": 1,
+    "resume": 1,
+    "experts-filename": "experts.json",
+    "final-decision-maker-filename": "final_decisor.json",
+    "openrouterfile": "openrouterconfig.json"
+}

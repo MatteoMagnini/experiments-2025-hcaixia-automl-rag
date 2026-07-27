@@ -1,0 +1,14 @@
+{
+    "response_message": "[\"Pregnancy and Maternity Health\", \"Baby Care and Development\", \"Nutrition and Dietetics\"]",
+    "generation_probability": "unknown",
+    "generation_time": 14.415316104888916,
+    "generated_sequences": [
+        "[\"Pregnancy and Maternity Health\", \"Baby Care and Development\", \"Nutrition and Dietetics\"]"
+    ],
+    "probabilities": [],
+    "list": [
+        "Pregnancy and Maternity Health",
+        "Baby Care and Development",
+        "Nutrition and Dietetics"
+    ]
+}

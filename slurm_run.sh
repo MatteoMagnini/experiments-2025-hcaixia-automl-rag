@@ -13,14 +13,13 @@
 #SBATCH --mem=32GB
 #SBATCH --time=24:00:00
 #SBATCH --partition=l40s
-#SBATCH --qos=normal
+#SBATCH --qos=normal                        # QoS name
+#SBATCH --nodelist=maryam                    # Node name
 #SBATCH --output=automl_rag_%j.log
 #SBATCH --error=automl_rag_%j.err
-#SBATCH --container-image=/storage/IDA/automl_rag.sqsh
-#SBATCH --container-mounts=/storage/IDA:/data
+#SBATCH --container-image=/storage/IDA/lsanna/experiments-2025-hcaixia-automl-rag/automl-experiments.sqsh
+#SBATCH --container-mounts=/storage/IDA:/data,/storage/IDA/lsanna/experiments-2025-hcaixia-automl-rag/entrypoint.sh:/app/entrypoint.sh
 #SBATCH --container-writable
-
-set -euo pipefail
 
 # ---------------------------------------------------------------------------
 # Required secret
@@ -51,4 +50,4 @@ export EVAL_SAMPLE_SIZE=100
 # export HF_TOKEN=hf_xxx
 
 # Already running inside the container with Pyxis.
-bash /app/entrypoint.sh
+srun bash /app/entrypoint.sh

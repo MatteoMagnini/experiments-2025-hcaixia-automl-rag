@@ -1,0 +1,26 @@
+{
+    "url": "https://openrouter.ai/api/v1/chat/completions",
+    "headers": {
+        "Authorization": "${OPENROUTER_API_KEY}",
+        "Content-Type": "application/json"
+    },
+    "dumps": {
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "logprobs": true,
+        "seed": 245,
+        "max_tokens": 1215,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "min_p": 0.1,
+        "top_a": 0.9,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Perchè il cielo è grigio sopra Torino?"
+            }
+        ],
+        "provider": {
+            "sort": "throughput"
+        }
+    }
+}

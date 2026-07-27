@@ -1,0 +1,25 @@
+[project]
+name = "rag-pipelines"
+version = "0.1.0"
+description = "RAG pipeline service + model server"
+requires-python = ">=3.12"
+
+dependencies = [
+    "httpx>=0.28.0",
+    "qdrant-client>=1.16.0",
+    "pydantic-settings>=2.13.1",
+    "fastembed-gpu",
+    "transformers>=4.41.0",
+    "torch>=2.3.0",
+    "einops>=0.7.0",
+    # torch must be installed from the CUDA 12.1 index to match driver 535 / CUDA 12.6
+    "fastapi>=0.135.1",
+    "uvicorn>=0.41.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["model_server", "retrievers"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

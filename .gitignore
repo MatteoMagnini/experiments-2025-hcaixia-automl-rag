@@ -17,6 +17,7 @@ figures/*.eps
 # HuggingFace model downloads
 .hf_cache/
 hf_cache/
+hf-cache/
 # Local smoke-test data mount (see README_DOCKER.md)
 _data/
 # Gold-standard CSV backups written by data/generate_gold_standards.py
@@ -198,3 +199,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#slurm
+*.err
