@@ -1,44 +1,75 @@
-"""Regenerate the paper figures from the AutoML-RAG experiment results.
+"""Figures for the AutoML (SMAC3) half of the paper.
 
-Inputs:
-  - incumbents.csv_results.csv : all configurations evaluated by SMAC3
-  - incumbents.csv             : the Pareto-front incumbents
+Input
+-----
+``results/incumbents.csv_results.csv``
+    One row per configuration SMAC3 evaluated.  ``status == "failed"`` marks a
+    trial that crashed before producing any metric; a missing ``bert_f1_gold``
+    marks one whose retrieval succeeded but whose generative evaluation did not.
+``results/incumbents.csv``
+    The Pareto-front incumbents.  A crashed generative evaluation is stored as
+    the placeholder loss ``1 - bert_f1_gold == 1.0`` (SMAC cannot take NaN
+    costs), which is restored to NA on load so it is never plotted as a score.
 
-Outputs (figures/):
-  - the original figures of the paper (Pareto front, accuracy boxplots, KDEs)
-    rebuilt on the new data, plus new figures for the generation model and
-    the BERTScore-F1 (gold) objective.
+Output
+------
+``figures/figures/`` — one vector PDF per figure, drawn at its final printed
+size in the shared style of ``figures/paper_style.py``.
+
+Two conventions hold across this file and its companion under
+``poe-retrieval-experiment/figures``, so a component keeps one identity
+throughout the paper:
+
+*One name, one colour, one position.*  ``RETRIEVER_COLOR`` pins ``ensemble`` to
+blue and ``mmr`` to orange, matching the retrieval figures where the same two
+strategies reappear; ``EMBEDDER_SHORT`` and ``GEN_MODEL_SHORT`` fix both the
+short names and the order they are listed in, which is the order used in the
+configuration-space table of the paper.
+
+*Figures are drawn at their final printed size.*  Every size comes from
+``ps.WIDE``/``ps.COLUMN``, so a figure included at ``width=\\linewidth`` is not
+rescaled and its labels land at body-text size.  This is why nothing here sets
+a font size by hand.
 """
 
+from __future__ import annotations
+
+import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from scipy import stats
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent
 DATA = ROOT.parent / "results"
 FIGURES = ROOT / "figures"
-FIGURES.mkdir(exist_ok=True)
 
-# large fonts so the figures stay readable when scaled to (half-)column width
-plt.rcParams.update({
-    "font.size": 16,
-    "axes.labelsize": 24,
-    "xtick.labelsize": 20,
-    "ytick.labelsize": 20,
-    "legend.fontsize": 15,
-})
+# every path is derived from this file's location, so the script runs the same
+# from any working directory
+sys.path.insert(0, str(ROOT))
+import paper_style as ps  # noqa: E402
 
+RESULTS_FILE = DATA / "incumbents.csv_results.csv"
+INCUMBENTS_FILE = DATA / "incumbents.csv"
+
+# ---------------------------------------------------------------------------
+# Naming, ordering and colour
+# ---------------------------------------------------------------------------
+
+#: Embedders, in the order the configuration-space table of the paper lists
+#: them.  Every categorical axis showing embedders uses this order.
 EMBEDDER_SHORT = {
+    "bert-base-italian-xxl-cased": "bert-xxl (it)",
+    "granite-embedding-107m": "granite-107m",
+    "granite-embedding-278m": "granite-278m",
     "nomic-embed-text-v2-moe": "nomic-v2-moe",
     "qwen3-embedding-0.6b": "qwen3-0.6b",
     "qwen3-embedding-4b": "qwen3-4b",
-    "granite-embedding-107m": "granite-107m",
-    "granite-embedding-278m": "granite-278m",
-    "bert-base-italian-xxl-cased": "bert-xxl (it)",
 }
 
+#: Generation models, ordered by family and then by scale.
 GEN_MODEL_SHORT = {
     "google/gemma-3-4b-it": "gemma-3-4b",
     "google/gemma-3-12b-it": "gemma-3-12b",
@@ -48,347 +79,258 @@ GEN_MODEL_SHORT = {
     "qwen/qwen3-32b": "qwen3-32b",
 }
 
+RETRIEVER_ORDER = ("base", "bm25_only", "ensemble", "mmr")
 
-def load_data():
-    df = pd.read_csv(DATA / "incumbents.csv_results.csv")
+#: Colour follows the retriever, not its rank.  ``ensemble`` and ``mmr`` keep
+#: the hues they carry in the downstream retrieval figures, so a reader who has
+#: learnt "blue is ensemble, orange is MMR" there reads these the same way.
+RETRIEVER_COLOR = {
+    "ensemble": ps.SERIES["blue"],
+    "mmr": ps.SERIES["orange"],
+    "base": ps.SERIES["yellow"],
+    "bm25_only": ps.SERIES["magenta"],
+}
+
+# Semantic roles for the objective-space figures, mapped onto the shared
+# palette once so the code below says what a colour *means*.
+EVALUATED = ps.SERIES["blue"]   # a configuration SMAC actually evaluated
+INCUMBENT = ps.SERIES["red"]    # a point on the Pareto front
+NEUTRAL = "0.72"                # no categorical meaning attached
+
+ACCURACY_LABEL = "Accuracy"
+BERT_LABEL = "BERTScore F1"
+DOCS_LABEL = "Number of documents"
+
+#: Objectives as SMAC minimises them, with the labels used on every axis.
+OBJECTIVES = ["1 - accuracy", "number of documents", "1 - bert_f1_gold"]
+OBJECTIVE_LABELS = ["1 - Accuracy", DOCS_LABEL, f"1 - {BERT_LABEL}"]
+
+
+# ---------------------------------------------------------------------------
+# Loading
+# ---------------------------------------------------------------------------
+
+def _require(frame: pd.DataFrame, columns, source: Path) -> None:
+    missing = [c for c in columns if c not in frame.columns]
+    if missing:
+        raise KeyError(f"{source.name} is missing column(s): {', '.join(missing)}")
+
+
+def _read_csv(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{path} not found — run the SMAC experiment first "
+            "(python -m experiments) so the results are written to results/."
+        )
+    frame = pd.read_csv(path)
+    if frame.empty:
+        raise ValueError(f"{path} is empty")
+    return frame
+
+
+def _short(frame: pd.DataFrame, column: str, mapping: dict[str, str]) -> pd.Series:
+    """Map a categorical column to its short names, refusing silent NaNs.
+
+    An unmapped value would otherwise disappear from every ordered plot — the
+    category simply would not be drawn — so it is worth an explicit failure.
+    """
+    unknown = sorted(set(frame[column].dropna()) - set(mapping))
+    if unknown:
+        raise KeyError(f"unknown {column} value(s): {', '.join(unknown)}; "
+                       f"add them to the short-name table in {Path(__file__).name}")
+    return frame[column].map(mapping)
+
+
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """The evaluated configurations and the Pareto-front incumbents.
+
+    Trials that crashed outright are dropped.  Trials whose generative
+    evaluation failed are kept with ``bert_f1_gold`` as NA: their retrieval
+    accuracy is real data and belongs in the accuracy figures, while every
+    BERTScore figure drops them explicitly.
+    """
+    df = _read_csv(RESULTS_FILE)
+    _require(df, ["status", "1 - accuracy", "number of documents", "bert_f1_gold",
+                  "embedder", "retriever", "gen_model", "chunk_token_length",
+                  "overlap_percentage"], RESULTS_FILE)
+    evaluated = len(df)
     df = df[df["status"] != "failed"].copy()
     df["accuracy"] = 1 - df["1 - accuracy"]
     df["number of documents"] = df["number of documents"].astype(int)
-    df["embedder_short"] = df["embedder"].map(EMBEDDER_SHORT)
-    df["gen_model_short"] = df["gen_model"].map(GEN_MODEL_SHORT)
+    df["embedder_short"] = _short(df, "embedder", EMBEDDER_SHORT)
+    df["gen_model_short"] = _short(df, "gen_model", GEN_MODEL_SHORT)
 
-    inc = pd.read_csv(DATA / "incumbents.csv")
-    # crashed evaluations get a placeholder loss of 1.0 in the incumbents file
+    inc = _read_csv(INCUMBENTS_FILE)
+    _require(inc, ["1 - accuracy", "number of documents", "1 - bert_f1_gold",
+                   "embedder", "retriever", "gen_model"], INCUMBENTS_FILE)
+    # a crashed generative evaluation is recorded as the worst possible loss
     inc.loc[inc["1 - bert_f1_gold"] >= 1.0, "1 - bert_f1_gold"] = pd.NA
     inc["accuracy"] = 1 - inc["1 - accuracy"]
     inc["bert_f1_gold"] = 1 - inc["1 - bert_f1_gold"]
     inc["number of documents"] = inc["number of documents"].astype(int)
-    inc = inc.sort_values("1 - accuracy").reset_index(drop=True)
+    # by retrieval depth: it is the objective the front is read along, and the
+    # ordering the accuracy discussion in the paper follows
+    inc = inc.sort_values("number of documents").reset_index(drop=True)
     inc["id"] = [f"I{i + 1}" for i in range(len(inc))]
-    inc["label"] = [
-        f"{i}: {EMBEDDER_SHORT[e]} | {r} | {GEN_MODEL_SHORT[g]} | {d} docs"
-        + ("" if pd.notna(b) else " (no BERT)")
-        for i, e, r, g, d, b in zip(inc["id"], inc["embedder"],
-                                    inc["retriever"], inc["gen_model"],
-                                    inc["number of documents"],
-                                    inc["bert_f1_gold"])
-    ]
+
+    print(f"{evaluated} configurations evaluated, {len(df)} completed retrieval, "
+          f"{int(df['bert_f1_gold'].notna().sum())} also scored by BERTScore; "
+          f"{len(inc)} incumbents "
+          f"({int(inc['bert_f1_gold'].notna().sum())} with a BERTScore)")
     return df, inc
 
 
-def save(fig, name, tight=True):
-    # the tight bbox crops mplot3d axis labels, so 3D figures skip it
-    fig.savefig(FIGURES / name, bbox_inches="tight" if tight else None)
-    plt.close(fig)
-    print(f"  wrote figures/{name}")
+def save(fig, name: str):
+    return ps.save(fig, FIGURES, name)
 
 
-def front_2d(points, x, y):
-    """Non-dominated subset (both objectives minimized) of a 2D projection."""
-    points = points.sort_values([x, y])
-    best = float("inf")
-    keep = []
-    for _, row in points.iterrows():
-        if row[y] < best:
-            keep.append(row)
-            best = row[y]
-    return pd.DataFrame(keep)
+# ---------------------------------------------------------------------------
+# Shared drawing helpers
+# ---------------------------------------------------------------------------
+
+def retriever_palette() -> dict[str, str]:
+    return {r: RETRIEVER_COLOR[r] for r in RETRIEVER_ORDER}
 
 
-def pareto_scatter(df, inc, x, y, xlabel, ylabel, name):
-    fig, ax = plt.subplots(figsize=(6.4, 4.8))
-    data = df.dropna(subset=[x, y])
-    ax.scatter(data[x], data[y], marker="x", color="tab:blue")
-    incumbents = inc.dropna(subset=[x, y])
-    # the incumbents are Pareto-optimal in 3D; connect only the ones that are
-    # also non-dominated in this 2D projection
-    front = front_2d(incumbents, x, y)
-    ax.plot(front[x], front[y], linestyle=":", color="tab:red", linewidth=1)
-    ax.scatter(incumbents[x], incumbents[y], marker="x", color="red", zorder=3)
-    ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    save(fig, name)
+def bin_labels(values: pd.Series, bins: int, fmt: str) -> tuple[pd.Series, list[str]]:
+    """Equal-width bins rendered as ``low-high`` labels, in order.
 
-
-def boxplot(df, x, y, xlabel, ylabel, name, hue=None, rotation=45,
-            order=None, tick_every=None, figsize=(6, 4), legend_top=False):
-    fig, ax = plt.subplots(figsize=figsize)
-    sns.boxplot(data=df, x=x, y=y, hue=hue, order=order, ax=ax)
-    if legend_top:
-        # one row above the axes, clear of the boxes
-        sns.move_legend(ax, "lower center", bbox_to_anchor=(0.5, 1.02),
-                        ncol=4, title=None, frameon=False)
-    ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    ax.tick_params(axis="x", rotation=rotation)
-    if tick_every is not None:
-        # with many categories the labels collide: keep one every tick_every
-        for i, label in enumerate(ax.get_xticklabels()):
-            if i != 0 and (i + 1) % tick_every:
-                label.set_visible(False)
-    save(fig, name)
-
-
-def paired_boxplots(df, y, ylabel, name, docs_order, emb_order):
-    """Number-of-documents and embedder/retriever boxplots as one figure, so
-    the two panels share height, font scale, and comparable box widths.
-
-    The width ratio matches the number of box slots per panel (20 document
-    categories vs. 6 embedders x 4 retrievers).
+    Interval notation is dropped: at tick-label size the brackets cost width
+    without telling the reader anything the ordering does not already say.
     """
-    fig, (ax1, ax2) = plt.subplots(
-        1, 2, figsize=(13, 4.5), sharey=True,
-        gridspec_kw=dict(width_ratios=[1, 1.2], wspace=0.05))
+    cut = pd.cut(values, bins=bins)
+    labels = {c: f"{fmt.format(c.left)}\N{EN DASH}{fmt.format(c.right)}"
+              for c in cut.cat.categories}
+    return cut.map(labels), list(labels.values())
 
-    # neutral gray: the retriever palette of the right panel does not apply
-    sns.boxplot(data=df, x="number of documents", y=y, order=docs_order,
-                color="0.75", ax=ax1)
-    ax1.set_xlabel("Number of Documents")
-    ax1.set_ylabel(ylabel)
-    for i, label in enumerate(ax1.get_xticklabels()):
-        if i != 0 and (i + 1) % 5:
+
+def rotate_ticks(ax, angle: int = 30) -> None:
+    """Rotate the x tick labels and right-align them under their tick."""
+    ax.tick_params(axis="x", rotation=angle)
+    for label in ax.get_xticklabels():
+        label.set_horizontalalignment("right")
+
+
+def sparse_ticks(ax, every: int) -> None:
+    """Keep one x tick label in ``every``; with 20 categories on a 5.5in axis
+    the full set collides whatever the point size."""
+    for i, label in enumerate(ax.get_xticklabels()):
+        if i != 0 and (i + 1) % every:
             label.set_visible(False)
 
-    sns.boxplot(data=df, x="embedder_short", y=y, hue="retriever",
-                order=emb_order, ax=ax2)
-    sns.move_legend(ax2, "lower center", bbox_to_anchor=(0.5, 1.02),
-                    ncol=4, title=None, frameon=False)
-    ax2.set_xlabel("Embedder")
-    ax2.set_ylabel("")
-    ax2.tick_params(axis="x", rotation=30)
-    save(fig, name)
+
+def style_boxes(ax) -> None:
+    """Hairline box outlines and median lines, in text ink.
+
+    seaborn draws boxes with a coloured edge of the same hue as the fill, which
+    at this size reads as a slightly darker fill rather than as an outline.
+    """
+    for patch in ax.patches:
+        patch.set_edgecolor(ps.INK["secondary"])
+        patch.set_linewidth(0.6)
+    for line in ax.lines:
+        line.set_linewidth(0.7)
 
 
-def paired_binned_boxplots(df, y, ylabel, name, bins=6):
-    """Chunk-length and overlap-percentage boxplots as one figure with a
-    shared y axis and uniform style, mirroring paired_boxplots."""
-    fig, axes = plt.subplots(1, 2, figsize=(13, 4.5), sharey=True,
-                             gridspec_kw=dict(wspace=0.05))
-    panels = [("chunk_token_length", "Chunk Length Bin", "{:.0f}"),
-              ("overlap_percentage", "Overlap Percentage Bin", "{:.2f}")]
-    for ax, (x, xlabel, fmt) in zip(axes, panels):
-        binned = df.copy()
-        cut = pd.cut(binned[x], bins=bins)
-        labels = {c: f"({fmt.format(c.left)}, {fmt.format(c.right)}]"
-                  for c in cut.cat.categories}
-        binned["bin"] = cut.map(labels)
-        order = list(labels.values())
-        sns.boxplot(data=binned, x="bin", y=y, order=order, color="0.75",
-                    ax=ax)
-        ax.set_xlabel(xlabel)
-        ax.tick_params(axis="x", rotation=30)
-    axes[0].set_ylabel(ylabel)
-    axes[1].set_ylabel("")
-    save(fig, name)
+# ---------------------------------------------------------------------------
+# Figures
+# ---------------------------------------------------------------------------
 
+def fig_pareto_front(df: pd.DataFrame, inc: pd.DataFrame, name: str) -> None:
+    """The objective space SMAC3 searched, with the Pareto front marked.
 
-def binned_boxplot(df, x, y, bins, xlabel, ylabel, name):
-    binned = df.copy()
-    cut = pd.cut(binned[x], bins=bins, precision=3)
-    binned["bin"] = cut.astype(str)
-    order = [str(c) for c in cut.cat.categories]
-    boxplot(binned, "bin", y, xlabel, ylabel, name, order=order)
-
-
-def kde(df, x, y, xlabel, ylabel, name):
-    fig, ax = plt.subplots(figsize=(8, 6))
-    sns.kdeplot(data=df, x=x, y=y, fill=True, levels=10, ax=ax)
-    sns.kdeplot(
-        data=df, x=x, y=y, levels=10, color="white",
-        linewidths=0.5, linestyles="--", ax=ax,
-    )
-    ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    save(fig, name)
-
-
-OBJECTIVES = ["1 - accuracy", "number of documents", "1 - bert_f1_gold"]
-OBJECTIVE_LABELS = ["1 - Accuracy", "Number of Documents", "1 - BERTScore F1"]
-
-
-def scatter_3d(df, inc, name):
-    """Static 3D view of the objective space with the incumbent surface."""
+    Two of the three objectives are the axes and the third is the colour, so
+    the front can be read as a front: points that look dominated in the plane
+    are the ones that pay for it on the colour axis.
+    """
     data = df.dropna(subset=OBJECTIVES)
     front = inc.dropna(subset=OBJECTIVES)
-    fig = plt.figure(figsize=(11, 6.5))
-    ax = fig.add_subplot(111, projection="3d")
-    ax.scatter(*(data[c] for c in OBJECTIVES), marker="x", s=35,
-               color="tab:blue", alpha=0.55, label="Evaluated",
-               depthshade=False)
-    # translucent Pareto surface through the incumbents
-    ax.plot_trisurf(front[OBJECTIVES[0]], front[OBJECTIVES[1]],
-                    front[OBJECTIVES[2]], color="red", alpha=0.18,
-                    edgecolor="darkred", linewidth=0.4)
-    ax.scatter(*(front[c] for c in OBJECTIVES), marker="x", s=90,
-               linewidths=2.5, color="red", label="Incumbents",
-               depthshade=False)
-    for _, row in front.iterrows():
-        ax.text(row[OBJECTIVES[0]], row[OBJECTIVES[1]],
-                row[OBJECTIVES[2]] + 0.003, row["id"], fontsize=13,
-                color="darkred", fontweight="bold")
-    # shadows on the floor to make depth readable
-    ax.scatter(data[OBJECTIVES[0]], data[OBJECTIVES[1]],
-               zs=data[OBJECTIVES[2]].min(), marker=".",
-               color="gray", alpha=0.25, s=8)
-    ax.set_xlabel(OBJECTIVE_LABELS[0], fontsize=16, labelpad=10)
-    ax.set_ylabel(OBJECTIVE_LABELS[1], fontsize=16, labelpad=10)
-    ax.set_zlabel("1 - BERT F1", fontsize=16, labelpad=10)
-    ax.tick_params(labelsize=12)
-    ax.view_init(elev=22, azim=40)
-    ax.legend(loc="upper left", fontsize=12)
-    fig.subplots_adjust(left=0.0, right=0.62)
-    fig.text(0.63, 0.5, "Incumbents\n" + "\n".join(inc["label"]),
-             va="center", fontsize=8, family="monospace")
-    save(fig, name, tight=False)
 
-
-def scatter_3d_interactive(df, inc, name):
-    """Rotatable plotly version of the 3D objective space with config hover."""
-    import plotly.graph_objects as go
-
-    def hover(d):
-        return [
-            f"embedder: {emb}<br>retriever: {ret}<br>gen model: {gen}"
-            f"<br>chunk: {chunk}<br>overlap: {over:.2f}"
-            f"<br>accuracy: {1 - acc:.2f}<br>BERT F1: {1 - bert:.3f}"
-            for emb, ret, gen, chunk, over, acc, bert in zip(
-                d["embedder"], d["retriever"], d["gen_model"],
-                d["chunk_token_length"], d["overlap_percentage"],
-                d["1 - accuracy"], d["1 - bert_f1_gold"])
-        ]
-
-    data = df.dropna(subset=OBJECTIVES)
-    front = inc.dropna(subset=OBJECTIVES)
-    fig = go.Figure([
-        go.Scatter3d(
-            x=data[OBJECTIVES[0]], y=data[OBJECTIVES[1]],
-            z=data[OBJECTIVES[2]], mode="markers", name="Evaluated",
-            marker=dict(size=4, symbol="x", color="steelblue", opacity=0.75),
-            text=hover(data), hoverinfo="text",
-        ),
-        go.Mesh3d(
-            x=front[OBJECTIVES[0]], y=front[OBJECTIVES[1]],
-            z=front[OBJECTIVES[2]], color="red", opacity=0.15,
-            alphahull=-1, name="Pareto surface", hoverinfo="skip",
-        ),
-        go.Scatter3d(
-            x=front[OBJECTIVES[0]], y=front[OBJECTIVES[1]],
-            z=front[OBJECTIVES[2]], mode="markers+text", name="Incumbents",
-            marker=dict(size=6, symbol="x", color="red"),
-            text=front["id"], textposition="top center",
-            textfont=dict(color="darkred", size=11),
-            hovertext=hover(front), hoverinfo="text",
-        ),
-    ])
-    fig.update_layout(
-        scene=dict(xaxis_title=OBJECTIVE_LABELS[0],
-                   yaxis_title=OBJECTIVE_LABELS[1],
-                   zaxis_title=OBJECTIVE_LABELS[2]),
-    )
-    fig.write_html(FIGURES / name, include_plotlyjs="cdn")
-    print(f"  wrote figures/{name}")
-
-
-def surface_grid(front, resolution=60):
-    """Smooth Pareto surface interpolated through the incumbents."""
-    import numpy as np
-    from scipy.interpolate import griddata
-
-    x, y, z = (front[c].to_numpy(dtype=float) for c in OBJECTIVES)
-    xi = np.linspace(x.min(), x.max(), resolution)
-    yi = np.linspace(y.min(), y.max(), resolution)
-    xg, yg = np.meshgrid(xi, yi)
-    zg = griddata((x, y), z, (xg, yg), method="linear")
-    return xg, yg, zg
-
-
-def pareto_surface_3d(df, inc, name):
-    """3D objective space with the incumbents rendered as a smooth surface."""
-    import numpy as np
-
-    data = df.dropna(subset=OBJECTIVES)
-    front = inc.dropna(subset=OBJECTIVES)
-    xg, yg, zg = surface_grid(front)
-
-    fig = plt.figure(figsize=(11, 6.5))
-    ax = fig.add_subplot(111, projection="3d")
-    surf = ax.plot_surface(xg, yg, np.ma.masked_invalid(zg), cmap="viridis",
-                           alpha=0.85, linewidth=0, antialiased=True)
-    ax.scatter(*(data[c] for c in OBJECTIVES), marker="x", s=30,
-               color="gray", alpha=0.45, label="Evaluated", depthshade=False)
-    ax.scatter(*(front[c] for c in OBJECTIVES), marker="o", s=55,
-               color="red", edgecolor="black", label="Incumbents",
-               depthshade=False, zorder=5)
-    for _, row in front.iterrows():
-        ax.text(row[OBJECTIVES[0]], row[OBJECTIVES[1]],
-                row[OBJECTIVES[2]] + 0.004, row["id"], fontsize=9,
-                color="darkred", fontweight="bold")
-    ax.set_xlabel(OBJECTIVE_LABELS[0])
-    ax.set_ylabel(OBJECTIVE_LABELS[1])
-    ax.set_zlabel("1 - BERT F1", labelpad=6)
-    ax.view_init(elev=24, azim=40)
-    ax.legend(loc="upper left")
-    fig.colorbar(surf, ax=ax, shrink=0.6, pad=0.1, label="1 - BERT F1")
-    fig.subplots_adjust(left=0.04, right=0.62)
-    fig.text(0.66, 0.5, "Incumbents\n" + "\n".join(inc["label"]),
-             va="center", fontsize=8, family="monospace")
-    save(fig, name, tight=False)
-
-
-def pareto_surface_3d_interactive(df, inc, name):
-    """Rotatable plotly version of the smooth incumbent surface."""
-    import plotly.graph_objects as go
-
-    data = df.dropna(subset=OBJECTIVES)
-    front = inc.dropna(subset=OBJECTIVES)
-    xg, yg, zg = surface_grid(front)
-
-    fig = go.Figure([
-        go.Surface(
-            x=xg, y=yg, z=zg, colorscale="Viridis", opacity=0.85,
-            name="Pareto surface", showscale=True,
-            colorbar=dict(title="1 - BERT F1", len=0.6),
-            hoverinfo="skip",
-        ),
-        go.Scatter3d(
-            x=data[OBJECTIVES[0]], y=data[OBJECTIVES[1]],
-            z=data[OBJECTIVES[2]], mode="markers", name="Evaluated",
-            marker=dict(size=3.5, symbol="x", color="gray", opacity=0.6),
-            hoverinfo="skip",
-        ),
-        go.Scatter3d(
-            x=front[OBJECTIVES[0]], y=front[OBJECTIVES[1]],
-            z=front[OBJECTIVES[2]], mode="markers+text", name="Incumbents",
-            marker=dict(size=6, color="red", line=dict(color="black", width=1)),
-            text=front["id"], textposition="top center",
-            textfont=dict(color="darkred", size=11),
-            hovertext=front["label"], hoverinfo="text",
-        ),
-    ])
-    fig.update_layout(
-        scene=dict(xaxis_title=OBJECTIVE_LABELS[0],
-                   yaxis_title=OBJECTIVE_LABELS[1],
-                   zaxis_title="1 - BERT F1"),
-    )
-    fig.write_html(FIGURES / name, include_plotlyjs="cdn")
-    print(f"  wrote figures/{name}")
-
-
-def pareto_colored_by_bert(df, inc, name):
-    """The original Pareto view with the third objective encoded as color."""
-    data = df.dropna(subset=OBJECTIVES)
-    fig, ax = plt.subplots(figsize=(6.4, 4.8))
-    sc = ax.scatter(data["1 - accuracy"], data["number of documents"],
-                    c=data["bert_f1_gold"], cmap="viridis", s=45,
-                    edgecolors="black", linewidths=0.3)
-    front = inc.dropna(subset=OBJECTIVES)
+    fig, ax = plt.subplots(figsize=(ps.WIDE, ps.WIDE * 0.46))
+    dots = ax.scatter(data["1 - accuracy"], data["number of documents"],
+                      c=data["bert_f1_gold"], cmap=ps.SEQUENTIAL, s=26,
+                      edgecolors=ps.INK["surface"], linewidths=0.4, zorder=2)
     ax.scatter(front["1 - accuracy"], front["number of documents"],
-               facecolors="none", edgecolors="red", s=140, linewidths=1.5,
-               label="Incumbents")
-    fig.colorbar(sc, ax=ax, label="BERTScore F1")
-    ax.set_xlabel("1 - Accuracy")
-    ax.set_ylabel("Number of Documents")
+               facecolors="none", edgecolors=INCUMBENT, s=95, linewidths=1.1,
+               label="Incumbents", zorder=3)
+    bar = fig.colorbar(dots, ax=ax, pad=0.02)
+    bar.set_label(BERT_LABEL, color=ps.INK["secondary"])
+    bar.outline.set_visible(False)
+    bar.ax.tick_params(length=2.5, color=ps.INK["axis"],
+                       labelcolor=ps.INK["muted"])
+
+    ax.set_xlabel(OBJECTIVE_LABELS[0])
+    ax.set_ylabel(DOCS_LABEL)
     ax.legend(loc="upper right")
+    ps.grid_axis(ax, "both")
+    fig.tight_layout()
+    save(fig, name)
+
+
+def fig_accuracy_drivers(df: pd.DataFrame, name: str) -> None:
+    """Retrieval depth and the embedder/retriever pair, against accuracy.
+
+    Stacked rather than side by side: the lower panel alone needs 24 box slots,
+    and at the 5.5in text width of the venue two such panels leave neither one
+    enough room for its category labels.
+    """
+    fig, (top, bottom) = plt.subplots(
+        2, 1, figsize=(ps.WIDE, 3.6), sharey=True,
+        gridspec_kw=dict(height_ratios=[1, 1.1]))
+
+    # neutral grey: the retriever palette of the lower panel does not apply here
+    sns.boxplot(data=df, x="number of documents", y="accuracy",
+                order=list(range(1, 21)), color=NEUTRAL, width=0.7,
+                fliersize=2.0, ax=top)
+    top.set_xlabel(DOCS_LABEL)
+    top.set_ylabel(ACCURACY_LABEL)
+    sparse_ticks(top, 5)
+    style_boxes(top)
+    ps.grid_axis(top, "y")
+    ps.panel_title(top, "a", "Retrieval depth")
+
+    sns.boxplot(data=df, x="embedder_short", y="accuracy", hue="retriever",
+                order=list(EMBEDDER_SHORT.values()), hue_order=RETRIEVER_ORDER,
+                palette=retriever_palette(), width=0.75, fliersize=2.0,
+                ax=bottom)
+    bottom.set_xlabel("Embedder")
+    bottom.set_ylabel(ACCURACY_LABEL)
+    rotate_ticks(bottom, 18)
+    style_boxes(bottom)
+    ps.grid_axis(bottom, "y")
+    ps.panel_title(bottom, "b", "Embedder and retriever")
+
+    # the retriever legend belongs to the figure, not to one panel: placed
+    # inside panel (b) it would sit on top of its title or its boxes
+    handles, labels = bottom.get_legend_handles_labels()
+    bottom.legend_.remove()
+    fig.tight_layout(h_pad=1.6)
+    fig.legend(handles, labels, loc="upper center", ncol=4,
+               bbox_to_anchor=(0.5, 0.0), frameon=False)
+    save(fig, name)
+
+
+def fig_chunking(df: pd.DataFrame, name: str) -> None:
+    """Accuracy against the two chunking hyperparameters, binned.
+
+    Both panels hold six bins, so they do fit side by side at the text width.
+    """
+    fig, axes = plt.subplots(1, 2, figsize=(ps.WIDE, 2.15), sharey=True,
+                             layout="constrained")
+    panels = [("chunk_token_length", "Chunk length (tokens)", "{:.0f}", "a"),
+              ("overlap_percentage", "Overlap percentage", "{:.2f}", "b")]
+    for ax, (column, xlabel, fmt, letter) in zip(axes, panels):
+        binned = df.copy()
+        binned["bin"], order = bin_labels(binned[column], 6, fmt)
+        sns.boxplot(data=binned, x="bin", y="accuracy", order=order,
+                    color=NEUTRAL, width=0.7, fliersize=2.0, ax=ax)
+        ax.set_xlabel(xlabel)
+        rotate_ticks(ax, 30)
+        style_boxes(ax)
+        ps.grid_axis(ax, "y")
+        ps.panel_title(ax, letter)
+    axes[0].set_ylabel(ACCURACY_LABEL)
+    axes[1].set_ylabel("")
     save(fig, name)
 
 
@@ -396,487 +338,279 @@ PC_AXES = [
     ("chunk_token_length", "Chunk\nlength", None),
     ("overlap_percentage", "Overlap", None),
     ("embedder", "Embedder", EMBEDDER_SHORT),
-    ("retriever", "Retriever",
-     {"base": "base", "ensemble": "ensemble", "bm25_only": "bm25", "mmr": "mmr"}),
+    ("retriever", "Retriever", {r: r.replace("_only", "") for r in RETRIEVER_ORDER}),
     ("gen_model", "Gen.\nmodel", GEN_MODEL_SHORT),
     ("number of documents", "Num.\ndocs", None),
+    ("bert_f1_gold", "BERT\nF1", None),
 ]
 
 
-def parallel_coordinates(df, inc, name, color=("accuracy", "Accuracy"),
-                         last_axis=("bert_f1_gold", "BERT F1", None)):
-    """All configurations across hyperparameters and objectives.
+def fig_parallel_coordinates(df: pd.DataFrame, name: str) -> None:
+    """Every evaluated configuration across all hyperparameters at once.
 
-    One objective colors the lines (``color``) while the other is the last
-    axis (``last_axis``). Every line is drawn with the same style; a slight
-    transparency keeps overlapping lines readable.
+    One objective is the colour and the other the last axis, so a line can be
+    followed from its settings to both of its quality scores.  Lines are drawn
+    with one style throughout — the colour already carries the only ranking
+    there is, and a second encoding would imply a second variable.
     """
-    color_col, color_label = color
-    axes = PC_AXES + [last_axis]
     data = df.dropna(subset=["bert_f1_gold"])
-    front = inc.dropna(subset=["bert_f1_gold"])
+    if data.empty:
+        raise ValueError("no configuration has a BERTScore; nothing to draw")
 
-    def normalize(frame, col, categories):
+    def normalise(column: str, categories) -> pd.Series:
         if categories is not None:
             keys = list(categories)
-            return frame[col].map({k: i / (len(keys) - 1)
-                                   for i, k in enumerate(keys)})
-        lo = min(data[col].min(), front[col].min())
-        hi = max(data[col].max(), front[col].max())
-        return (frame[col] - lo) / (hi - lo)
+            return data[column].map({k: i / (len(keys) - 1)
+                                     for i, k in enumerate(keys)})
+        lo, hi = data[column].min(), data[column].max()
+        return (data[column] - lo) / (hi - lo)
 
-    fig, ax = plt.subplots(figsize=(13, 6))
-    xs = list(range(len(axes)))
+    fig, ax = plt.subplots(figsize=(ps.WIDE, 3.0))
+    xs = list(range(len(PC_AXES)))
+    norm = plt.Normalize(data["accuracy"].min(), data["accuracy"].max())
+    coords = [normalise(column, categories) for column, _, categories in PC_AXES]
 
-    cmap = plt.get_cmap("viridis")
-    norm = plt.Normalize(min(data[color_col].min(), front[color_col].min()),
-                         max(data[color_col].max(), front[color_col].max()))
+    for index, row in data.iterrows():
+        ax.plot(xs, [c.loc[index] for c in coords],
+                color=ps.SEQUENTIAL(norm(row["accuracy"])), alpha=0.55,
+                linewidth=0.7, zorder=1)
 
-    coords = [normalize(data, col, cats) for col, _, cats in axes]
-    for _, row in data.iterrows():
-        ys = [c.loc[row.name] for c in coords]
-        ax.plot(xs, ys, color=cmap(norm(row[color_col])), alpha=0.6,
-                linewidth=1.2, zorder=1)
-
-    for x, (col, label, cats) in zip(xs, axes):
-        ax.axvline(x, color="black", linewidth=1, zorder=3)
-        if cats is not None:
-            for i, short in enumerate(cats.values()):
-                ax.text(x + 0.05, i / (len(cats) - 1), short, fontsize=14,
-                        va="center", zorder=4,
-                        bbox=dict(facecolor="white", alpha=0.85, pad=1,
-                                  edgecolor="lightgray"))
+    # the category names have to fit in the gap between two axes, which at the
+    # text width of the venue is about 45pt — hence the reduced size here, the
+    # only place in this file where a size is not taken straight from the style
+    label_size = plt.rcParams["xtick.labelsize"] * 0.78
+    for x, (column, _, categories) in zip(xs, PC_AXES):
+        ax.axvline(x, color=ps.INK["axis"], linewidth=0.8, zorder=3)
+        if categories is not None:
+            for i, short in enumerate(categories.values()):
+                ax.text(x + 0.05, i / (len(categories) - 1), short, zorder=4,
+                        va="center", fontsize=label_size,
+                        color=ps.INK["secondary"],
+                        bbox=dict(facecolor=ps.INK["surface"], alpha=0.85,
+                                  pad=0.8, edgecolor="none"))
         else:
-            lo = min(data[col].min(), front[col].min())
-            hi = max(data[col].max(), front[col].max())
-            ax.text(x, -0.04, f"{lo:.2g}", fontsize=14, ha="center",
-                    va="top", zorder=4)
-            ax.text(x, 1.04, f"{hi:.2g}", fontsize=14, ha="center",
-                    va="bottom", zorder=4)
-    ax.set_xticks(xs, [label for _, label, _ in axes], fontsize=18)
-    ax.tick_params(axis="x", pad=18)
+            lo, hi = data[column].min(), data[column].max()
+            for value, y, va in ((lo, -0.02, "top"), (hi, 1.02, "bottom")):
+                ax.text(x, y, f"{value:.3g}", ha="center", va=va, zorder=4,
+                        fontsize=label_size, color=ps.INK["muted"])
+
+    ax.set_xticks(xs, [label for _, label, _ in PC_AXES])
+    ax.tick_params(axis="x", pad=10, length=0, labelcolor=ps.INK["secondary"],
+                   labelsize=plt.rcParams["xtick.labelsize"] * 0.9)
     ax.set_yticks([])
-    ax.set_xlim(-0.3, len(axes) - 0.7)
+    ax.set_xlim(-0.3, len(PC_AXES) - 0.5)
     ax.set_ylim(-0.1, 1.1)
-    fig.colorbar(plt.cm.ScalarMappable(norm=norm, cmap=cmap), ax=ax,
-                 label=color_label, pad=0.02)
+    ax.grid(False)
     for spine in ax.spines.values():
         spine.set_visible(False)
+
+    bar = fig.colorbar(plt.cm.ScalarMappable(norm=norm, cmap=ps.SEQUENTIAL),
+                       ax=ax, pad=0.01, fraction=0.035)
+    bar.set_label(ACCURACY_LABEL, color=ps.INK["secondary"])
+    bar.outline.set_visible(False)
+    bar.ax.tick_params(length=2.5, color=ps.INK["axis"],
+                       labelcolor=ps.INK["muted"])
+    fig.tight_layout()
     save(fig, name)
 
 
-def optimization_progress(df, name):
-    """Best objective value reached so far, in file (evaluation) order."""
-    fig, ax = plt.subplots(figsize=(8, 4.5))
-    trials = range(1, len(df) + 1)
-    for col, label, color in (
-        ("1 - accuracy", "1 - Accuracy", "tab:blue"),
-        ("1 - bert_f1_gold", "1 - BERTScore F1", "tab:green"),
-    ):
-        ax.scatter(trials, df[col], color=color, alpha=0.3, s=15)
-        ax.step(trials, df[col].cummin().ffill(), where="post", color=color,
-                linewidth=2, label=f"best {label}")
-    ax.set_xlabel("Evaluation")
-    ax.set_ylabel("Objective value")
-    ax.legend()
-    save(fig, name)
+def fig_correlation(df: pd.DataFrame, name: str) -> None:
+    """The two quality objectives against each other, pooled and per model.
 
-
-def accuracy_vs_bert_by_genmodel(df, name):
-    """Trade-off between the two quality objectives, by generation model."""
-    data = df.dropna(subset=["bert_f1_gold"])
-    fig, ax = plt.subplots(figsize=(7, 5))
-    sns.scatterplot(
-        data=data, x="accuracy", y="bert_f1_gold", hue="gen_model_short",
-        hue_order=list(GEN_MODEL_SHORT.values()), style="retriever",
-        s=70, ax=ax,
-    )
-    ax.set_xlabel("Accuracy")
-    ax.set_ylabel("BERTScore F1")
-    ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5), fontsize=12)
-    save(fig, name)
-
-
-def correlation_accuracy_vs_bert(df, name, name_by_model):
-    """Accuracy vs. BERTScore F1, as two standalone half-column figures:
-    overall regression with correlation coefficients, and per-generation-model
-    regressions. Fonts are enlarged so they stay readable at half-column."""
-    from scipy import stats
-
-    label_size, tick_size = 24, 20
+    Both panels in one figure rather than two half-width includes: the panels
+    are then guaranteed the same height and type size, and the figure carries
+    a single caption for a single comparison.
+    """
     data = df.dropna(subset=["accuracy", "bert_f1_gold"])
     r, _ = stats.pearsonr(data["accuracy"], data["bert_f1_gold"])
     rho, _ = stats.spearmanr(data["accuracy"], data["bert_f1_gold"])
 
-    fig, ax = plt.subplots(figsize=(6, 4.8))
+    fig, (left, right) = plt.subplots(1, 2, figsize=(ps.WIDE, 2.5), sharey=True,
+                                      layout="constrained")
+
     sns.regplot(data=data, x="accuracy", y="bert_f1_gold",
-                scatter_kws=dict(s=40, alpha=0.6, color="tab:blue"),
-                line_kws=dict(color="tab:red", linewidth=1.5), ax=ax)
-    ax.annotate(
-        f"Pearson $r$ = {r:.2f}\nSpearman $\\rho$ = {rho:.2f}"
-        f"\n$n$ = {len(data)}",
-        xy=(0.96, 0.05), xycoords="axes fraction", ha="right", va="bottom",
-        fontsize=tick_size,
-        bbox=dict(boxstyle="round,pad=0.4", facecolor="white", alpha=0.9))
-    ax.set_xlabel("Accuracy", fontsize=label_size)
-    ax.set_ylabel("BERTScore F1", fontsize=label_size)
-    ax.tick_params(labelsize=tick_size)
-    save(fig, name)
+                scatter_kws=dict(s=16, alpha=0.65, color=EVALUATED),
+                line_kws=dict(color=INCUMBENT, linewidth=1.2), ax=left)
+    left.annotate(f"Pearson $r$ = {r:.2f}\nSpearman $\\rho$ = {rho:.2f}\n"
+                  f"$n$ = {len(data)}",
+                  xy=(0.04, 0.96), xycoords="axes fraction", ha="left",
+                  va="top", color=ps.INK["secondary"],
+                  fontsize=plt.rcParams["xtick.labelsize"])
+    left.set_ylabel(BERT_LABEL)
+    ps.panel_title(left, "a", "All configurations")
 
-    fig, ax = plt.subplots(figsize=(6, 4.8))
     models = [m for m in GEN_MODEL_SHORT.values()
-              if (data["gen_model_short"] == m).sum() >= 2]
-    palette = dict(zip(models, sns.color_palette("tab10", len(models))))
+              if (data["gen_model_short"] == m).sum() >= 3]
+    palette = dict(zip(models, ps.cycle(len(models))))
     for model in models:
-        sub = data[data["gen_model_short"] == model]
-        rm, _ = stats.pearsonr(sub["accuracy"], sub["bert_f1_gold"])
-        sns.regplot(data=sub, x="accuracy", y="bert_f1_gold", ci=None,
-                    scatter_kws=dict(s=40, alpha=0.75),
-                    line_kws=dict(linewidth=1.4),
-                    color=palette[model], ax=ax,
-                    label=f"{model} ($r$={rm:.2f})")
-    ax.legend(fontsize=15, loc="lower right", labelspacing=0.25,
-              handletextpad=0.4, borderaxespad=0.2, borderpad=0.3)
-    ax.set_xlabel("Accuracy", fontsize=label_size)
-    ax.set_ylabel("BERTScore F1", fontsize=label_size)
-    ax.tick_params(labelsize=tick_size)
-    save(fig, name_by_model)
+        subset = data[data["gen_model_short"] == model]
+        r_model, _ = stats.pearsonr(subset["accuracy"], subset["bert_f1_gold"])
+        sns.regplot(data=subset, x="accuracy", y="bert_f1_gold", ci=None,
+                    scatter_kws=dict(s=14, alpha=0.8),
+                    line_kws=dict(linewidth=1.0), color=palette[model],
+                    ax=right, label=f"{model} ($r$={r_model:.2f})")
+    right.set_ylabel("")
+    ps.panel_title(right, "b", "By generation model")
 
+    for ax in (left, right):
+        ax.set_xlabel(ACCURACY_LABEL)
+        ps.grid_axis(ax, "both")
 
-def incumbent_rows(inc):
-    rows = []
-    for _, r in inc.iterrows():
-        retriever = r["retriever"]
-        if pd.notna(r["mmr_fetch_k"]):
-            retriever += (f" ({int(r['mmr_fetch_k'])}, "
-                          f"{r['mmr_lambda_mult']:.2f})")
-        bert = f"{r['bert_f1_gold']:.3f}" if pd.notna(r["bert_f1_gold"]) else "—"
-        rows.append([
-            r["id"], EMBEDDER_SHORT[r["embedder"]], retriever,
-            GEN_MODEL_SHORT[r["gen_model"]], int(r["chunk_token_length"]),
-            f"{r['overlap_percentage']:.2f}", int(r["number of documents"]),
-            f"{r['accuracy']:.2f}", bert,
-        ])
-    return rows
-
-
-TABLE_HEADER = ["ID", "Embedder", "Retriever", "Gen. model", "Chunk",
-                "Overlap", "Docs", "Accuracy", "BERT F1"]
-
-
-def incumbents_table_pdf(inc, name):
-    rows = incumbent_rows(inc)
-    fig, ax = plt.subplots(figsize=(10, 0.4 * len(rows) + 1.2))
-    ax.axis("off")
-    table = ax.table(cellText=rows, colLabels=TABLE_HEADER, loc="center",
-                     cellLoc="center")
-    table.auto_set_font_size(False)
-    table.set_fontsize(12)
-    table.scale(1, 1.5)
-    table.auto_set_column_width(range(len(TABLE_HEADER)))
-    for (row, _), cell in table.get_celld().items():
-        if row == 0:
-            cell.set_facecolor("#3a5e8c")
-            cell.set_text_props(color="white", fontweight="bold")
-        elif row % 2 == 0:
-            cell.set_facecolor("#eef2f7")
-        cell.set_edgecolor("#cccccc")
+    # six model entries do not fit inside a half-width panel without covering
+    # the fits they label, so they go under the figure
+    handles, labels = right.get_legend_handles_labels()
+    fig.legend(handles, labels, loc="outside lower center", ncol=3,
+               frameon=False, columnspacing=1.0)
     save(fig, name)
 
 
-def incumbents_table_tex(inc, name):
-    rows = incumbent_rows(inc)
+KDE_COLUMNS = {
+    "number of documents": "Num. docs",
+    "chunk_token_length": "Chunk length",
+    "overlap_percentage": "Overlap",
+}
+
+
+def fig_search_density(df: pd.DataFrame, name: str) -> None:
+    """Where in the numeric part of the space SMAC3 actually spent its budget.
+
+    A corner plot: the diagonal is where each hyperparameter was sampled on its
+    own, the lower triangle where pairs of them were sampled together.  Built
+    from plain subplots rather than a seaborn ``PairGrid`` so the panel grid is
+    laid out at an exact printed size and the marginal densities keep their own
+    vertical scale instead of inheriting the shared one.
+    """
+    columns = list(KDE_COLUMNS)
+    n = len(columns)
+    fig, axes = plt.subplots(n, n, figsize=(ps.WIDE, ps.WIDE * 0.62),
+                             sharex="col")
+
+    for row in range(n):
+        for col in range(n):
+            ax = axes[row][col]
+            if col > row:
+                ax.set_visible(False)
+                continue
+            if row == col:
+                sns.kdeplot(x=df[columns[col]], fill=True, color=EVALUATED,
+                            linewidth=0.9, ax=ax)
+                # a density in absolute units means nothing next to the other
+                # panels; the shape is the whole message
+                ax.set_yticks([])
+                ax.set_ylabel("")
+                ps.despine(ax, left=True)
+            else:
+                sns.kdeplot(x=df[columns[col]], y=df[columns[row]], fill=True,
+                            levels=7, color=EVALUATED, ax=ax)
+            ps.grid_axis(ax, "both")
+            if col == 0 and row != 0:
+                ax.set_ylabel(KDE_COLUMNS[columns[row]])
+            else:
+                ax.set_ylabel("")
+            if row == n - 1:
+                ax.set_xlabel(KDE_COLUMNS[columns[col]])
+            else:
+                ax.set_xlabel("")
+            if col != 0 or row == 0:
+                ax.tick_params(labelleft=False)
+
+    fig.tight_layout(h_pad=0.8, w_pad=0.8)
+    save(fig, name)
+
+
+def fig_generation_model(df: pd.DataFrame, name: str) -> None:
+    """Answer quality by generation model.
+
+    Retrieval accuracy is not shown against the generation model on purpose:
+    accuracy is computed from the retrieved chunks alone, so it cannot depend
+    on which model wrote the answer, and any difference across models would be
+    an artefact of which configurations SMAC happened to pair them with.
+    """
+    data = df.dropna(subset=["bert_f1_gold"])
+    fig, ax = plt.subplots(figsize=(ps.WIDE, 2.2))
+    sns.boxplot(data=data, x="gen_model_short", y="bert_f1_gold",
+                order=list(GEN_MODEL_SHORT.values()), color=NEUTRAL,
+                width=0.6, fliersize=2.0, ax=ax)
+    ax.set_xlabel("Generation model")
+    ax.set_ylabel(BERT_LABEL)
+    style_boxes(ax)
+    ps.grid_axis(ax, "y")
+    fig.tight_layout()
+    save(fig, name)
+
+
+# ---------------------------------------------------------------------------
+# Incumbent table
+# ---------------------------------------------------------------------------
+
+TABLE_HEADER = ["Chunk", "Overlap", "Embedder", "Gen.\\ model", "Retriever",
+                "\\#Docs", "Acc.", "BERTScore F1"]
+
+
+def incumbents_table_tex(inc: pd.DataFrame, name: str) -> None:
+    """The Pareto front as the LaTeX table the paper includes.
+
+    Generated rather than hand-kept so the table cannot drift from the CSV.
+
+    Incumbents whose generative evaluation crashed are left out: every column of
+    the table except one would be real and the last would be a dash, which reads
+    as a poor score rather than as a missing measurement.  The caption names them
+    instead, and the count printed below says how many were dropped, so the
+    omission stays visible.  This matches the figures, which drop the same rows.
+    """
+    complete = inc[inc["bert_f1_gold"].notna()]
+    dropped = len(inc) - len(complete)
+
+    rows = []
+    for _, r in complete.iterrows():
+        retriever = r["retriever"].replace("_", "\\_")
+        if pd.notna(r.get("mmr_fetch_k")):
+            retriever += (f" ($k={int(r['mmr_fetch_k'])}$, "
+                          f"$\\lambda={r['mmr_lambda_mult']:.2f}$)")
+        bert = f"{r['bert_f1_gold']:.2f}"
+        rows.append(" & ".join([
+            f"{int(r['chunk_token_length'])}",
+            f"{r['overlap_percentage']:.2f}",
+            EMBEDDER_SHORT[r["embedder"]],
+            GEN_MODEL_SHORT[r["gen_model"]],
+            retriever,
+            f"{int(r['number of documents'])}",
+            f"{r['accuracy']:.2f}",
+            bert,
+        ]) + " \\\\")
+
     lines = [
-        "% Auto-generated by generate_figures.py — requires \\usepackage{booktabs}",
-        "\\begin{table}",
-        "    \\centering",
-        "    \\caption{Pareto-front incumbents found by SMAC3, sorted by accuracy.",
-        "    %",
-        "        For the \\emph{mmr} retriever, fetch-$k$ and $\\lambda$ are reported in parentheses next to the retriever name.",
-        "    %",
-        "        The BERTScore of I4 is missing because its evaluation crashed.}",
-        "    \\label{tab:incumbents}",
-        "    \\resizebox{\\linewidth}{!}{%",
-        "    \\begin{tabular}{llllrrrrr}",
-        "        \\toprule",
-        "        " + " & ".join(TABLE_HEADER) + " \\\\",
-        "        \\midrule",
-    ]
-    for r in rows:
-        cells = [str(c).replace("—", "---").replace("_", "\\_") for c in r]
-        lines.append("        " + " & ".join(cells) + " \\\\")
-    lines += [
-        "        \\bottomrule",
-        "    \\end{tabular}}",
-        "\\end{table}",
+        f"% Auto-generated by figures/{Path(__file__).name} — do not edit by hand.",
+        "% Requires \\usepackage{booktabs}.",
+        "\\begin{tabular}{rrlllrrr}",
+        "    \\toprule",
+        "    " + " & ".join(f"\\textbf{{{h}}}" for h in TABLE_HEADER) + " \\\\",
+        "    \\midrule",
+        *[f"    {row}" for row in rows],
+        "    \\bottomrule",
+        "\\end{tabular}",
         "",
     ]
+    FIGURES.mkdir(parents=True, exist_ok=True)
     (FIGURES / name).write_text("\n".join(lines))
-    print(f"  wrote figures/{name}")
+    note = f" ({dropped} incumbent(s) left out, no BERTScore)" if dropped else ""
+    print(f"  wrote {FIGURES.name}/{name}: {len(rows)} rows{note}")
 
 
-def heatmap(df, index, columns, values, fname, fmt=".2f"):
-    pivot = df.pivot_table(index=index, columns=columns, values=values,
-                           aggfunc="mean")
-    fig, ax = plt.subplots(figsize=(6, 4))
-    sns.heatmap(pivot, annot=True, fmt=fmt, cmap="viridis", ax=ax,
-                annot_kws={"size": 15})
-    # combinations that were never evaluated show as gray cells
-    ax.set_facecolor("0.85")
-    save(fig, fname)
+# ---------------------------------------------------------------------------
 
-
-def kde_corner(df, name):
-    """All pairwise KDEs of the numeric hyperparameters in one corner plot."""
-    cols = {
-        "number of documents": "Num. docs",
-        "chunk_token_length": "Chunk length",
-        "overlap_percentage": "Overlap",
-    }
-    data = df[list(cols)].rename(columns=cols)
-    grid = sns.pairplot(data, kind="kde", corner=True, height=3.2,
-                        plot_kws=dict(fill=True), diag_kws=dict(fill=True))
-    grid.figure.savefig(FIGURES / name, bbox_inches="tight")
-    plt.close(grid.figure)
-    print(f"  wrote figures/{name}")
-
-
-def kde_objective_space(df, inc, name):
-    """KDE of the objective space with marginals; incumbents overlaid."""
-    data = df.dropna(subset=["1 - accuracy", "number of documents"])
-    grid = sns.jointplot(
-        data=data, x="1 - accuracy", y="number of documents",
-        kind="kde", fill=True, height=6,
-    )
-    grid.ax_joint.scatter(data["1 - accuracy"], data["number of documents"],
-                          marker="x", color="tab:blue", alpha=0.6, s=25)
-    grid.ax_joint.scatter(inc["1 - accuracy"], inc["number of documents"],
-                          marker="x", color="red", s=70, linewidths=2,
-                          label="Incumbents")
-    grid.ax_joint.legend(loc="upper right")
-    grid.set_axis_labels("1 - Accuracy", "Number of Documents")
-    grid.figure.savefig(FIGURES / name, bbox_inches="tight")
-    plt.close(grid.figure)
-    print(f"  wrote figures/{name}")
-
-
-def kde_top_configurations(df, name):
-    """Where the explored vs. the best-performing configurations live."""
-    threshold = df["accuracy"].quantile(0.75)
-    top = df[df["accuracy"] >= threshold]
-    pairs = [
-        ("number of documents", "chunk_token_length",
-         "Number of Documents", "Chunk Length"),
-        ("chunk_token_length", "overlap_percentage",
-         "Chunk Length", "Overlap Percentage"),
-    ]
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    for ax, (x, y, xlabel, ylabel) in zip(axes, pairs):
-        sns.kdeplot(data=df, x=x, y=y, fill=True, levels=8, ax=ax)
-        sns.kdeplot(data=top, x=x, y=y, levels=5, color="crimson",
-                    linewidths=1.5, ax=ax)
-        ax.scatter(top[x], top[y], color="crimson", s=18, alpha=0.7)
-        ax.set_xlabel(xlabel)
-        ax.set_ylabel(ylabel)
-    save(fig, name)
-
-
-def kde_accuracy_by_retriever(df, name):
-    fig, ax = plt.subplots(figsize=(7, 4.5))
-    sns.kdeplot(data=df, x="accuracy", hue="retriever", fill=True,
-                alpha=0.25, common_norm=False, clip=(0, 1), ax=ax)
-    ax.set_xlabel("Accuracy")
-    save(fig, name)
-
-
-def kde_ridgeline(df, value, value_label, name, clip=None):
-    """Ridgeline of per-generation-model KDEs."""
-    import numpy as np
-    from scipy.stats import gaussian_kde
-
-    data = df.dropna(subset=[value])
-    order = [m for m in GEN_MODEL_SHORT.values()
-             if (data["gen_model_short"] == m).sum() >= 3]
-    lo, hi = data[value].min(), data[value].max()
-    pad = 0.05 * (hi - lo)
-    xs = np.linspace(lo - pad, hi + pad, 300)
-    if clip is not None:
-        xs = np.clip(xs, *clip)
-    cmap = plt.get_cmap("viridis")
-    fig, ax = plt.subplots(figsize=(7, 5))
-    for i, model in enumerate(reversed(order)):
-        vals = data.loc[data["gen_model_short"] == model, value]
-        ys = gaussian_kde(vals)(xs)
-        ys = ys / ys.max() * 0.85
-        color = cmap(i / max(len(order) - 1, 1))
-        ax.fill_between(xs, i, i + ys, color=color, alpha=0.7, zorder=2)
-        ax.plot(xs, i + ys, color="black", linewidth=0.8, zorder=3)
-        ax.scatter(vals, [i] * len(vals), marker="|", color="black", s=40,
-                   zorder=4)
-    ax.set_yticks(range(len(order)), list(reversed(order)))
-    ax.set_xlabel(value_label)
-    save(fig, name)
-
-
-def main():
+def main() -> None:
+    ps.use_paper_style()
     df, inc = load_data()
-    print(f"{len(df)} evaluated configurations, {len(inc)} incumbents")
 
-    docs_order = list(range(1, 21))
-    gen_order = list(GEN_MODEL_SHORT.values())
-    emb_order = list(EMBEDDER_SHORT.values())
-
-    # --- Pareto front scatter plots (objective space) ---
-    pareto_scatter(
-        df, inc, "1 - accuracy", "number of documents",
-        "1 - Accuracy", "Number of Documents", "result.pdf",
-    )
-    pareto_scatter(
-        df, inc, "1 - bert_f1_gold", "number of documents",
-        "1 - BERTScore F1", "Number of Documents",
-        "result-bert.pdf",
-    )
-    pareto_scatter(
-        df, inc, "1 - accuracy", "1 - bert_f1_gold",
-        "1 - Accuracy", "1 - BERTScore F1",
-        "result-accuracy-vs-bert.pdf",
-    )
-
-    # --- Accuracy boxplots ---
-    boxplot(
-        df, "number of documents", "accuracy", "", "Accuracy",
-        "boxplot-accuracy-number-of-documents.pdf", order=docs_order,
-        rotation=0, tick_every=5,
-    )
-    boxplot(
-        df, "embedder_short", "accuracy", "Embedder", "Accuracy",
-        "boxplot-accuracy-embedder-and-retriever.pdf",
-        hue="retriever", rotation=30, order=emb_order,
-        figsize=(9, 4.5), legend_top=True,
-    )
-    boxplot(
-        df, "gen_model_short", "accuracy", "Generation Model", "Accuracy",
-        "boxplot-accuracy-gen-model.pdf", rotation=30, order=gen_order,
-    )
-    paired_boxplots(
-        df, "accuracy", "Accuracy",
-        "boxplot-accuracy-number-of-documents-and-embedder.pdf",
-        docs_order, emb_order,
-    )
-    binned_boxplot(
-        df, "chunk_token_length", "accuracy", 6,
-        "Chunk Length Bin", "Accuracy",
-        "boxplot-accuracy-chunk-length.pdf",
-    )
-    binned_boxplot(
-        df, "overlap_percentage", "accuracy", 6,
-        "Overlap Percentage Bin", "Accuracy",
-        "boxplot-accuracy-overlap-percentage.pdf",
-    )
-    paired_binned_boxplots(
-        df, "accuracy", "Accuracy",
-        "boxplot-accuracy-chunk-length-and-overlap.pdf",
-    )
-
-    # --- BERTScore boxplots (generation quality vs. gold answer) ---
-    bert = df.dropna(subset=["bert_f1_gold"])
-    boxplot(
-        bert, "number of documents", "bert_f1_gold", "",
-        "BERTScore F1",
-        "boxplot-bert-number-of-documents.pdf", order=docs_order,
-        rotation=0, tick_every=5,
-    )
-    boxplot(
-        bert, "embedder_short", "bert_f1_gold", "Embedder",
-        "BERTScore F1",
-        "boxplot-bert-embedder-and-retriever.pdf",
-        hue="retriever", rotation=30, order=emb_order,
-        figsize=(9, 4.5), legend_top=True,
-    )
-    boxplot(
-        bert, "gen_model_short", "bert_f1_gold", "Generation Model",
-        "BERTScore F1",
-        "boxplot-bert-gen-model.pdf", rotation=30, order=gen_order,
-    )
-    paired_boxplots(
-        bert, "bert_f1_gold", "BERTScore F1",
-        "boxplot-bert-number-of-documents-and-embedder.pdf",
-        docs_order, emb_order,
-    )
-    binned_boxplot(
-        bert, "chunk_token_length", "bert_f1_gold", 6,
-        "Chunk Length Bin",
-        "BERTScore F1", "boxplot-bert-chunk-length.pdf",
-    )
-    binned_boxplot(
-        bert, "overlap_percentage", "bert_f1_gold", 6,
-        "Overlap Percentage Bin",
-        "BERTScore F1", "boxplot-bert-overlap-percentage.pdf",
-    )
-    paired_binned_boxplots(
-        bert, "bert_f1_gold", "BERTScore F1",
-        "boxplot-bert-chunk-length-and-overlap.pdf",
-    )
-
-    # --- Insightful renderings: 3D objective space and aggregate views ---
-    scatter_3d(df, inc, "result-3d.pdf")
-    scatter_3d_interactive(df, inc, "result-3d.html")
-    pareto_surface_3d(df, inc, "result-3d-surface.pdf")
-    pareto_surface_3d_interactive(df, inc, "result-3d-surface.html")
-    incumbents_table_pdf(inc, "incumbents-table.pdf")
+    fig_pareto_front(df, inc, "pareto-front.pdf")
+    fig_accuracy_drivers(df, "accuracy-depth-embedder-retriever.pdf")
+    fig_chunking(df, "accuracy-chunking.pdf")
+    fig_parallel_coordinates(df, "parallel-coordinates.pdf")
+    fig_correlation(df, "accuracy-vs-bert-f1.pdf")
+    fig_search_density(df, "search-density.pdf")
+    fig_generation_model(df, "bert-f1-by-generation-model.pdf")
     incumbents_table_tex(inc, "incumbents-table.tex")
-    pareto_colored_by_bert(df, inc, "result-colored-by-bert.pdf")
-    parallel_coordinates(df, inc, "parallel-coordinates.pdf")
-    parallel_coordinates(
-        df, inc, "parallel-coordinates-colored-by-bert.pdf",
-        color=("bert_f1_gold", "BERTScore F1"),
-        last_axis=("accuracy", "Accuracy", None),
-    )
-    optimization_progress(df, "optimization-progress.pdf")
-    accuracy_vs_bert_by_genmodel(df, "scatter-accuracy-vs-bert-by-gen-model.pdf")
-    correlation_accuracy_vs_bert(
-        df, "correlation-accuracy-vs-bert-f1.pdf",
-        "correlation-accuracy-vs-bert-f1-by-gen-model.pdf",
-    )
-    heatmap(
-        df, "embedder_short", "retriever", "accuracy",
-        "heatmap-accuracy-embedder-retriever.pdf",
-    )
-    heatmap(
-        df, "gen_model_short", "retriever", "bert_f1_gold",
-        "heatmap-bert-gen-model-retriever.pdf", fmt=".3f",
-    )
-
-    # --- KDE plots of the explored configuration space ---
-    kde(
-        df, "number of documents", "chunk_token_length",
-        "Number of Documents", "Chunk Length",
-        "kde-number-of-documents-and-chunk-length.pdf",
-    )
-    kde(
-        df, "number of documents", "overlap_percentage",
-        "Number of Documents", "Overlap Percentage",
-        "kde-number-of-documents-and-overlap-percentage.pdf",
-    )
-    kde(
-        df, "chunk_token_length", "overlap_percentage",
-        "Chunk Length", "Overlap Percentage",
-        "kde-chunk-length-and-overlap-percentage.pdf",
-    )
-    mmr = df[df["retriever"] == "mmr"]
-    kde(
-        mmr, "mmr_fetch_k", "mmr_lambda_mult",
-        "MMR fetch-k", "MMR lambda",
-        "kde-mmr-fetch-k-and-lambda.pdf",
-    )
-    kde_corner(df, "kde-pairs.pdf")
-    kde_objective_space(df, inc, "kde-objective-space.pdf")
-    kde_top_configurations(df, "kde-top-configurations.pdf")
-    kde_accuracy_by_retriever(df, "kde-accuracy-by-retriever.pdf")
-    kde_ridgeline(df, "accuracy", "Accuracy",
-                  "kde-ridgeline-accuracy-by-gen-model.pdf", clip=(0, 1))
-    kde_ridgeline(df, "bert_f1_gold", "BERTScore F1",
-                  "kde-ridgeline-bert-by-gen-model.pdf")
 
 
 if __name__ == "__main__":
